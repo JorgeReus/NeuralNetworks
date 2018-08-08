@@ -39,3 +39,11 @@ Neural Networks:
 
 	Mala Interpolación:
 		Se le llama sobrentendimiento
+
+	LA RED EN MODO REGRESIÓN FUNCIONA COMO UN INTERPOLADOR
+
+	Extrapolar:
+		Pronosticar o predecir, se requieren RNA recurrentes
+
+	Digrama General:
+		Aquí va una imágen
