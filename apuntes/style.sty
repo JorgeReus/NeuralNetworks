@@ -1,0 +1,60 @@
+\usepackage{fancyhdr} % Required for custom headers
+\usepackage{lastpage} % Required to determine the last page for the footer
+\usepackage{extramarks} % Required for headers and footers
+\usepackage{bera}% optional: just to have a nice mono-spaced font
+\usepackage{xcolor}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{hyperref}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{tabu}
+\usepackage{graphicx}
+\usepackage{schemata}
+
+\newcommand\diagram[2]{\schema{\schemabox{#1}}{\schemabox{#2}}}
+\colorlet{punct}{red!60!black}
+\definecolor{background}{HTML}{FFFFF0}
+\definecolor{delim}{RGB}{20,105,176}
+\colorlet{numb}{magenta!60!black}
+% Margins
+\topmargin=-0.45in
+\evensidemargin=0in
+\oddsidemargin=0in
+\textwidth=6.5in
+\textheight=9.0in
+\headsep=0.25in
+
+\linespread{1.1} % Line spacing
+
+% Set up the header and footer
+\pagestyle{fancy}
+\lhead{\documentTitle} % Top left header
+\chead{\hspace{10em}} % Top center head
+\rhead{\firstxmark} % Top right header
+\lfoot{\lastxmark} % Bottom left footer
+\cfoot{} % Bottom center footer
+\rfoot{Página\ \thepage\ de\ \protect\pageref{LastPage}} % Bottom right footer
+\renewcommand\headrulewidth{0.4pt} % Size of the header rule
+\renewcommand\footrulewidth{0.4pt} % Size of the footer rule
+
+\setlength\parindent{0pt} % Removes all indentation from paragraphs
+\graphicspath{ {img/} }
+
+%----------------------------------------------------------------------------------------
+%	COMMAND DEFINITION
+%----------------------------------------------------------------------------------------
+% Titles
+\newcommand{\documentTitle}{Apuntes Neural Networks}
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\title{
+	\vspace{1px}
+	\textmd{\textbf{\documentTitle}}\\ % Title
+	\vspace{1px}
+}
+
+\author{Jorge Gómez Reus}
+\date{}
