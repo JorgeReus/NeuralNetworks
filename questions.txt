@@ -1,0 +1,43 @@
+QUé tipos de redes se soportan para su interconxiín en el modelo TMN:
+	Redes analógicas, redes digitales de banda ancha y redes digitales de banda estrecha
+
+Cuál es la aqruitectura que define la estructura y entidades de red usadas en el modelo TMN:
+	Arquitectura Física
+
+Cual es el modelo que se encargade definir los niveles de gestión dentro del modelo TMN:
+	Modelo Organizativo
+
+Cual es el modelo que se encarga de definir los servicios, componentes y las funciones de gestión:
+	Modelo FUncional
+
+Cual es modelo que define los recursos gestionados:
+	MOdelo de información
+
+3 requisitos para implementar el modelo de red TMN:
+	Todos los sistemas de operación deberań usar el mismo método para acceder a los recursos
+	Se debe respetar la heterogeniedad y capacidad de los recursos de telecomuncicaciones
+	Se de poder realizar interconxicón con otros dominios de gestión y estaciones de trabajo de operadores
+
+Con base en las siguientes caracterśiticas elige un módulo lógico de TMN :
+	Gestión de elementos de red:
+		Control y Coordinación de un subconjutno de elementos de red
+		Mantenimiento de datos estadisticos, registros y otros datos acerca de un conjutno de elementos de red
+
+	Gestión de red:
+		COntrol y coordinación  desde un punto de vista de la red
+		Sumnistro, cese o modificación de capacidades de red
+		Mantenimiento de capacidades de red
+	Gestión de servicios:
+		Relaciones con el cliente o interfaz con otras administraciones
+		Interacción con proveedores de servicio
+		Mantenimiento de datos estadśiticos
+		Interacción entre servicios
+	Gestión Empresarial (GEstión de negocio):
+		Soporte para proceso de toma de desiciones de inversión y utlización óptima
+		Soporte de gestión de presupuesto de telecomunicaciones
+		Soporte de suministro y demanda de mano de obra
+		Mantenimiento de datos agregados sobre la empresa
+
+Que modelo dentro de TMN se encarga de definir la organización de TMN:
+	Modelo de capas lógicas
+
