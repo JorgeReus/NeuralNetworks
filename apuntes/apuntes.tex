@@ -46,4 +46,46 @@ Pronosticar o predecir, se requieren RNA's recurrentes.
 	\includegraphics[scale=0.6]{modeloGeneralRn}
 \end{figure}
 
+\section{Tipos de Aprendizaje}
+\subsection{Aprendizaje Supervisado}
+Es aquel en el que se cuenta con ejemplos que contienen valores deseados(target) para llevar a cabo el ajuste de los parámetros de la RNA. En este caso se cuenta con un conjunto de datos$(p, t)$;
+
+\subsection{Aprendizaje no Supervisado}
+No se cuenta con ejemplos que contengan valores deseados. Sin embargo, existen diversos algoritmos en esta clasificación que se usan para analizar y extraer información valiosa de una fenómeno, por ejemplo, el algoritmo $k-medias$ recibe como entrada un conjunto de datos y un valor $k$ que representa el número de clases en los que se desea separar a dicho conjunto. Dependiendo del valor de $k$ el usuario podrá analizar de diferentes maneras el fenómeno.
+
+\section{Predicción de Series de tiempo}
+Dada una serie de tiempo que representa un fenómeno físico, existe un tiempo especial de RNA que es capaz de pronosticar valores futuros, es decir, realiza la correcta extrapolación de datos. Para esta tarea se hace uso de las RNA's recurrrentes.
+\begin{figure}
+	\centering
+	\caption{Ejemplo de extrapolación}
+	\includegraphics[scale=.4]{exampleTime}	
+\end{figure}
+
+\begin{figure}
+	\centering
+	\caption{Red Feed Foward}
+	\includegraphics[scale=.5]{feedFowardExample}	
+\end{figure}
+
+\begin{figure}
+	\centering
+	\caption{Red Recurrente}
+	\includegraphics[scale=.8]{recurrentExample}	
+\end{figure}
+
+\begin{figure}
+	\centering
+	\caption{Red Recurrente con bloques recurrentes}
+	\includegraphics[scale=.37]{recurrentExample2}	
+\end{figure}
+
+\section{Control de Sistemas}
+Dado un sistema $f(t)$ se requiere modificar su comportamiento para que sea estable. En esta aplicación se usa una RNA para aproximar a $f(t)$ y una RNA para diseñar un controlador.
+
+\begin{figure}
+	\centering
+	\caption{System Control Example}
+	\includegraphics[scale=.37]{systemControlExample1}	
+\end{figure}
+
 \end{document}
