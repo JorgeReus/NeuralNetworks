@@ -13,12 +13,12 @@ Propiedades:
 	\item Aditividad:\\
 	\begin{figure}[h!]
 		\centering
-		\includegraphics[scale=.8]{img/aditivity}
+		\includegraphics[scale=.65]{img/aditivity}
 	\end{figure} 
 	\item Escalamiento u Homogeniedad
 	\begin{figure}[h!]
 		\centering
-		\includegraphics[scale=.8]{img/proportionality}
+		\includegraphics[scale=.65]{img/proportionality}
 	\end{figure} 
 \end{enumerate}
 Las dos propiedades que definen un sistema lineal combinadas se conocen como superposición:
@@ -44,13 +44,19 @@ Sea $x_3(t)$ una combinación lineal de $x_1(t)$ y $x_2(t).$ Esto es:\\
 \begin{align}
 	x_3(t) = ax_1(t) + bx_2(t)
 \end{align}
+
+Sea $y_s(t)$ una combinación lineal de $y_1(t)$ y $y_2(t).$ Esto es:\\
+\begin{align}
+	y_s(t) &= at^2 + atx_1(t) + bt^2 + btx_2(t)\\
+		   &= t^2(a+b) + t(ax_1 + bx_2)
+\end{align}
 Donde a y b son escalares arbitrarios. Si $x_3(t) $ es la entrada a $S$, entonces la salida correspondiente se expresa como\\
 \begin{align}
-	y_3(t) &= a(t^2 + tx_1(t)) + b(t^2 + tx_2(t))\\
+	y_3(t) &= a(t² + tx_1(t)) + b(t^2 + tx_2(t))\\
 		   &= at^2 + atx_1(t) + bt^2 + btx_2(t)\\
-		   &= (a+b)t^2 + atx_1(t) + btx_2(t)
+		   &= t^2(a+b) + t(ax_1(t) + bx_2(t))
 \end{align}
-Se concluye que el sistema no es lineal
+Ya que $y_s = y_3$, se concluye que el sistema es lineal
 \setcounter{equation}{0}
 \subsection{Determinar si el sistema es lineal}
 \begin{align}
@@ -66,18 +72,15 @@ Sea $x_3(t)$ una combinación lineal de $x_1(t)$ y $x_2(t).$ Esto es:\\
 \begin{align}
 x_3(t) = ax_1(t) + bx_2(t)
 \end{align}
+Sea $y_s(t)$ una combinación lineal de $y_1(t)$ y $y_2(t).$ Esto es:\\
+\begin{align}
+y_s(t) &= ax_1^2(t) + atx_1(t) + bx_2^2(t) + btx_2(t)
+\end{align}
 Donde a y b son escalares arbitrarios. Si $x_3(t) $ es la entrada a $S$, entonces la salida correspondiente se expresa como\\
 \begin{align}
 x_3(t) \rightarrow y_3(t) &= x_3^2(t) + tx_3(t)\\ 
 						  &= (ax_1(t) + bx_2(t))^2 + t(ax_1(t) + bx_2(t))\\
 						  &= a^2x_1^2(t) + b^2x_2^2(t) + 2abx_1(t)x_2(t) + atx_1(t) + btx_2(t)
 \end{align}
-
-y
-\begin{align}
-y_3(t) &= a_y1(t) + b_y2(t)\\ 
-       &= a(x_1^2(t) + tx_1(t)) + b(x_2^2(t) + tx_2(t))\\
-       &= ax_1^2(t) + atx_1(t) + bx_2^2(t) + btx_2(t)
-\end{align} 
 Claramente el sistema no es lineal
 \end{document}
