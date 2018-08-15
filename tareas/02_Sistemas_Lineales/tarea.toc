@@ -1,0 +1,3 @@
+\babel@toc {spanish}{}
+\contentsline {section}{\numberline {1}Sistema Lineal}{1}{section.1}
+\contentsline {section}{\numberline {2}Ejemplos}{2}{section.2}
