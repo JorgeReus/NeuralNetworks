@@ -88,4 +88,52 @@ Dado un sistema $f(t)$ se requiere modificar su comportamiento para que sea esta
 	\includegraphics[scale=.37]{systemControlExample1}	
 \end{figure}
 
+\part{Aplicaciones de la RNA}
+\section{Reporte de Práctica}
+\begin{enumerate}
+	\item Intro
+	\item Metodología
+	\item Pseudo código
+	\item Resultados(Discusión)
+	\item Conclusiones
+	\item Referencias(mínimo 2)
+\end{enumerate}
+\section{Clasificación de Objetos}
+Consiste en tener una adecuada separación de un conjunto de objetos mediante una función de semejanza.
+\begin{enumerate}
+	\item Clasificación supervisada:\\
+	Aquí se cuenta con un conjunto de objetos y se conoce a que clase pertenence cada uno de ellos.\\
+	Una RNA en modo clasificador puede usar una o más salidas para represtnar a que calse considera que un dato de entrada pertenece.\\
+	Aquí tenemos targets ya que tenemos un conjunto de clases a las que este se puede etiquetar.\\
+	Las redes pueden ser entrenadad no supervisadamente y supervisadamente\\
+	Ejemplos:
+	\begin{itemize}
+		\item \begin{figure}[h!]
+			\includegraphics[scale=.2]{appEx1}
+		\end{figure}
+		\item \begin{figure}[h!]
+			\includegraphics[scale=.2]{appEx2}
+		\end{figure}
+	\end{itemize}
+
+\end{enumerate}
+\section{Neurona Biológica}
+Los sistemas biolgcos son tan complejos que se han convertido en una excelente fuente de inspiración para diseñar sistemas artificiales, que emulen algunas de sus características, entre ellas se encuentras las siguientes
+\begin{enumerate}
+	\item No siempre requieren de módulos de referencia (targets)
+	\item Se desempeñan exitosamente ante incertidumbres
+	\item Se adaptan fácilmente a nuevos ambientes
+	\item Pueden Procesar información de diversas fuentes en forma simultánea
+\end{enumerate}
+Dado que las RNA nacieron de los elementos básicos de una neurona biológica, es bioinspirada.\\
+Los componentes básicos de una neurona biológica son:\\
+\begin{figure}[h!]
+	\includegraphics[scale=.20]{bioNeuron}
+\end{figure}\\
+donde:\\
+$P_1,\ldots,P_r$: Son Entradas\\
+$W_1, \ldots, W_r$: Son los pesos sinápticos\\
+Los pesos sinápticos se usan para indicar el nivel de importancia de cada una de las conexiones para una tarea particular.\\
+El soma se encarga de acumular energía y determinar cuando se generará una señal de salida.\\
+\textbf{Nota: Para un target o tarea deseada, aprendizaje es buescar un conjutno de $W_1$ a $W_r$ tales que la salida de la red desea igual al target, para todos los datos del conjutno de entramiento}
 \end{document}
