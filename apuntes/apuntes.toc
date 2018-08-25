@@ -1,0 +1,15 @@
+\select@language {spanish}
+\contentsline {part}{I\hspace {1em}List of Figures}{2}{part.1}
+\contentsline {part}{II\hspace {1em}List of Tables}{2}{part.2}
+\contentsline {part}{III\hspace {1em}Introduction}{2}{part.3}
+\contentsline {part}{IV\hspace {1em}Methods}{3}{part.4}
+\contentsline {part}{V\hspace {1em}Results}{4}{part.5}
+\contentsline {section}{\numberline {1}Note: Results vs. Discussion Sections}{4}{section.1}
+\contentsline {subsection}{\numberline {1.1}How do you do this?}{5}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Why?}{5}{subsection.1.2}
+\contentsline {part}{VI\hspace {1em}Discussion}{5}{part.6}
+\contentsline {part}{VII\hspace {1em}Conclusions}{6}{part.7}
+\contentsline {part}{VIII\hspace {1em}Recommendations}{6}{part.8}
+\contentsline {part}{IX\hspace {1em}Acknowledgments}{6}{part.9}
+\contentsline {part}{X\hspace {1em}References}{6}{part.10}
+\contentsline {part}{XI\hspace {1em}Appendices}{8}{part.11}
