@@ -1,5 +1,6 @@
 \documentclass{article}
 \usepackage{style}
+\usepackage{amsmath}
 \begin{document}
 \maketitle
 \part{Introducción}
@@ -136,4 +137,79 @@ $W_1, \ldots, W_r$: Son los pesos sinápticos\\
 Los pesos sinápticos se usan para indicar el nivel de importancia de cada una de las conexiones para una tarea particular.\\
 El soma se encarga de acumular energía y determinar cuando se generará una señal de salida.\\
 \textbf{Nota: Para un target o tarea deseada, aprendizaje es buescar un conjutno de $W_1$ a $W_r$ tales que la salida de la red desea igual al target, para todos los datos del conjutno de entramiento}
+\part{Arquitecturas de Redes}
+\section{Notación}
+\begin{itemize}
+	\item Valores escalaras: minúsculas
+	\item Valores vectoriales: Mayúsculas
+\end{itemize}
+\section{Modelo de neurona con una entrada}
+\begin{figure}[h!]
+	\includegraphics[scale=.3]{mculloc1}
+\end{figure}
+El bias es una entrada artificial que por definición tendrá siempre un peso sináptico de 1.\\
+El bias como parámetro extra, le permite a la red resolver problemas más complejos, aunque existen RNA sin bias.\\
+\newpage
+Ejemplo:\\
+Siendo p=2, w=3 y b=-1.5, sustituya en el modelo de la neurona con 1 entrada.\\
+$a = f(4.5)$
+\section{Neurona con múltiples entradas}
+Típicamente, para resolver un problema, una neurona tiene más de una entrada. Estas se representan como $p_1, p_2, p_3, \ldots p_r$ y a cada una le corresponde un peso sináptico $w_{11}, w_{12}, \ldots, w_{1r}$\\
+\begin{figure}[h!]
+	\includegraphics[scale=.3]{nneuron}
+\end{figure}\\
+En forma matricial, se puede expresar:\\
+$n = W*P + b$\\
+Donde n es un escalar\\
+W es una matriz de [1Xr]\\
+P es una matriz de [rx1]\\
+b es una escalar\\
+R es el número de entradas\\
+1 es el número de neuronas\\
+
+Finalmente, la salida de la red es:\\
+$a = f(WP + b)$\\
+Nota:\\
+Para este caso particular, la matriz de pesos W es un vecotr fila, ya que representa el número de neuronas en cada capa de la RNA
+\subsection{Índices de la matriz W}
+Durante el curso, se utilizó la siguiente convención para los índices de la matriz de pesos:\\
+\begin{enumerate}
+	\item El primer índice, se refiere a la Neurona a la que llega a la conexión.
+	\item El segundo índice indica el número  de la \textbf{Fuente} de la que proviene el dato
+\end{enumerate}
+\subsection{Representación Gráfica matricial}
+\begin{figure}[h!]
+	\includegraphics[scale=.3]{matrixgrep}
+\end{figure}
+\newpage
+\section{Múltiples neuronas en Paralelo con múltiples entradas}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale=.3]{layersmodel}
+	\caption{Arquitectura  ``Capa de neuronas''}
+\end{figure}
+$a = f(w*p+b)$\\
+donde las dimensiones de w son: SxR\\
+las dimensiones de P son: RxS\\
+las dimensiones de b son Sx1
+\newpage
+\subsection{Diagrama Simplificado}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale=.3]{simpdiagram}
+	\caption{Arquitectura  ``Capa de neuronas'' en diagrama simplificado}
+\end{figure}
+\subsection{Ejemplo con s = 1}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale=.3]{matrixejpar}
+	\caption{Matriz de pesos $W_i$}
+\end{figure}
+\subsubsection{Nota acerca de las capas}
+Algunos autores llaman al vector de entrada P ``Capa de entrada''.\\
+Sin embargo, como en ella no se llevan a cabo operaciones, durante el curso \textbf{NO LO HAREMOS}
+\begin{itemize}
+	\item Capas Ocultas: Se les llama así porque no tiene contacto con el exterior(Hidden Layers)
+	\item Capa de Salida: Es aquella que entrega el resultado
+\end{itemize}
 \end{document}
