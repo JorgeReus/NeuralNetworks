@@ -39,12 +39,33 @@ Matemáticamente podemos representar esta célula con las siguientes expresiones
 	\caption{Diagrama de Flujo}
 \end{figure}
 \section{Fórmula general para las compuertas AND y OR}
+Debido a que trabajamos con valores lógicos se propone que los pesos sinápticos siempre sean unos.
+\subsection{AND}
+La única forma de que la salida de esta sea ``1'' es que todas las entradas sean ``1's', entonces $n=w_1*p_1 + w_2*p_2 + \ldots + w_n*p_n$ se puede simplificar a $n = tam(w)$, por lo tanto, n tiene que ser mayor al umbral solo en ese caso, entonces, el umbral sería $\theta = tam(w) - 1$.\\
+Explicado matemáticamente para cuando la salida de AND es 1:\\
+$ p = (p_1, p_2, \ldots, p_r) = (1, 1, \ldots, 1)$\\
+$ w = (w_1, w_2, \ldots, w_r) = (1, 1, \ldots, 1)$\\
+$ r > 0$\\
+$ n = w_1*p_1 + w_2*p2, + \ldots +w_r*p_r = tam(w)$\\
+$ f(n) = 1 \rightarrow (n > \theta)$\\
+$ \therefore \theta = tam(w) - 1$
+\subsection{OR}
+La única forma en que la salida sea '0' es que todas las entradas sean '0', entonces $ n=w_1*p_1 + w_2*p_2 + \ldots + w_n*p_n$ se puede simplificar a $ n = 0$. n tiene que ser mayor al umbral para todos los demás casos, entonces el umbral sería 0.\\
+Explicado matemáticamente para cuando la salida de OR es 0:\\
+$ p = (p_1, p_2, \ldots, p_r) = (0, 0, \ldots, 0)$\\
+$ w = (w_1, w_2, \ldots, w_r) = (1, 1, \ldots, 1)$\\
+$ r > 0$\\
+$ n = w_1*p_1 + w_2*p2, + \ldots +w_r*p_r = 0$\\
+$ f(n) = 0 \rightarrow (n \leq \theta)$\\
+Dejando a un lado a los enteros negativos: $\theta = 0$
 \section{Resultados}
 \subsection{Compuerta NOT}
 \subsection{Compueta AND}
 \subsection{Compuerta OR}
 \section{Discusión de Resultados}
 \section{Referencias}
+D. Michie, D.J. Spiegelhalter, C.C. Taylor (eds). Machine Learning, Neural and Statistical Classification, 1994.\\
+Apuntes de Doctor Marco Antonio Moreno Armendáriz
 \section{Apéndice}
 \begin{lstlisting}[
 style=Matlab-editor,
@@ -131,17 +152,4 @@ function [table] = logicalModel(i, gate)
 	end  
 end
 \end{lstlisting}
-%\begin{lstlisting}[escapeinside={(*}{*)}]
-%%%
-%	S:'a'AB'e'
-%	 ;
-%	A:'b'
-%	 ;
-%	B:'d'
-%	 ;
-%%%
-%\end{lstlisting}
-\ref{D. Michie, D.J. Spiegelhalter, C.C. Taylor (eds). Machine Learning, Neural and Statistical Classification, 1994. [1]}
-
-
 \end{document}
