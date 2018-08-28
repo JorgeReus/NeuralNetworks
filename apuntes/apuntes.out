@@ -18,3 +18,13 @@
 \BOOKMARK [1][-]{section.5}{Reporte de Pr\341ctica}{part.2}% 18
 \BOOKMARK [1][-]{section.6}{Clasificaci\363n de Objetos}{part.2}% 19
 \BOOKMARK [1][-]{section.7}{Neurona Biol\363gica}{part.2}% 20
+\BOOKMARK [0][-]{part.3}{III Arquitecturas de Redes}{}% 21
+\BOOKMARK [1][-]{section.8}{Notaci\363n}{part.3}% 22
+\BOOKMARK [1][-]{section.9}{Modelo de neurona con una entrada}{part.3}% 23
+\BOOKMARK [1][-]{section.10}{Neurona con m\372ltiples entradas}{part.3}% 24
+\BOOKMARK [2][-]{subsection.10.1}{\315ndices de la matriz W}{section.10}% 25
+\BOOKMARK [2][-]{subsection.10.2}{Representaci\363n Gr\341fica matricial}{section.10}% 26
+\BOOKMARK [1][-]{section.11}{M\372ltiples neuronas en Paralelo con m\372ltiples entradas}{part.3}% 27
+\BOOKMARK [2][-]{subsection.11.1}{Diagrama Simplificado}{section.11}% 28
+\BOOKMARK [2][-]{subsection.11.2}{Ejemplo con s = 1}{section.11}% 29
+\BOOKMARK [3][-]{subsubsection.11.2.1}{Nota acerca de las capas}{subsection.11.2}% 30

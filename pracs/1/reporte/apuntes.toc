@@ -1,9 +1,0 @@
-\select@language {spanish}
-\contentsline {section}{\numberline {1}Introducci\IeC {\'o}n}{1}{section.1}
-\contentsline {subsection}{\numberline {1.1}Modelo}{1}{subsection.1.1}
-\contentsline {section}{\numberline {2}Diagrama de Flujo}{2}{section.2}
-\contentsline {section}{\numberline {3}F\IeC {\'o}rmula general para las compuertas AND y OR}{3}{section.3}
-\contentsline {section}{\numberline {4}Resultados}{3}{section.4}
-\contentsline {section}{\numberline {5}Discusi\IeC {\'o}n de Resultados}{3}{section.5}
-\contentsline {section}{\numberline {6}Referencias}{3}{section.6}
-\contentsline {section}{\numberline {7}Ap\IeC {\'e}ndice}{3}{section.7}
