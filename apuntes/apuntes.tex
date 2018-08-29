@@ -182,7 +182,7 @@ Durante el curso, se utilizó la siguiente convención para los índices de la m
 	\includegraphics[scale=.3]{matrixgrep}
 \end{figure}
 \newpage
-\section{Múltiples neuronas en Paralelo con múltiples entradas}
+\section{Múltiples neuronas en Paralelo con múltiples entradas(Una capa)}
 \begin{figure}[h!]
 	\centering
 	\includegraphics[scale=.3]{layersmodel}
@@ -211,5 +211,53 @@ Sin embargo, como en ella no se llevan a cabo operaciones, durante el curso \tex
 \begin{itemize}
 	\item Capas Ocultas: Se les llama así porque no tiene contacto con el exterior(Hidden Layers)
 	\item Capa de Salida: Es aquella que entrega el resultado
+\end{itemize}
+
+\section{Multiples Capas de Neuronas}
+Ahora se considerará una RNA con varias entradas y múltiples capas. Cada capa tiene su propia matriz de pesos $w$, vector de bias $b$ y vector de salida $a$. Para distinguir entre cada capa, agregamos un superíndice o la variable.
+$$ a^1 = f^1(w_s^1p_r^1b_s^1)$$ $$a^2=f^2(w^2a^1+b_s^2)$$
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale=1]{rainbowmodel}
+	\caption{Modelo Arcoiris}
+\end{figure}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale=.4]{rainbowsingle}
+	\caption{Capa del modelo arcoiris}
+\end{figure}
+\newpage
+\section{Arquitectura totalmente conectada (O densa)}
+$$ a^2 = f^2[w^2f^1(w^1p+b^1)+b^2] $$
+Para representar una arquitectura multicapa, (MLP-Multilayer-Perceptron) se utiliza notación:$$ [R\ S^1\ S^2 \ S^3 \dots\ S^m]$$
+Donde:\\
+R: Es el número de entradas\\
+M: Es el número de capas.\\
+$S^1 \dots\ S^m$: El número de neuronas en cada capa
+\subsection{Ejemplo}
+[4 2 5 1]\newline
+[$P$] = 4x1\newline
+[$w^1$] = 2x4\newline
+[$w^2$] = 5x2\newline
+[$w^3$] = 1x5\newline
+[$b^1$] = 2x1\newline
+[$b^2$] = 5x1\newline
+[$b^3$] = 1x1
+\section{Multilayer Perceptron (MLP)}
+La arquitectura mínima de un MLP es [$R$ $S^1$ $S^2$], pero ¿Cómo seleccionas la arquitectura?\\
+Debemos partir de las especificaciones del problema, ello nos permite definir lo siguiente:
+\begin{enumerate}
+	\item El número de entradas (R) al MLP es igual al número de rasgos o variables usados en el problema
+	\item El número de neuronas en la capa de salida es igual al número de clases definida en el problema
+	\item El tipo de función de activación depende de las consideraciones del problema
+	\item En cuanto al número de capas ocultas y al número de neuronas en cada una de ellas, sigue siendo un problema abierto
+\end{enumerate}
+\subsection{Ejemplo}
+Determinemos la arquitectura que clasifique los siguientes objetos en 2 clases\\
+\diagram{$O_1=$}{$R_1$\\$R_2$\\$R_3$} \diagram{$O_2=$}{$R_1$\\$R_2$\\$R_3$} \diagram{$O_3=$}{$R_1$\\$R_2$\\$R_3$} \diagram{$O_4=$}{$R_1$\\$R_2$\\$R_3$}\newline
+[3 \hspace{10px} 2]
+\subsection{Uso del MLP}
+\begin{itemize}
+	\item Para problemas de aproximación de señales, es común pensar que la dimensión de la señal de entrada Sea R=1. Se usan 1 o 2 capas ocultas y una neurona de la capa de salida
 \end{itemize}
 \end{document}

@@ -24,7 +24,13 @@
 \BOOKMARK [1][-]{section.10}{Neurona con m\372ltiples entradas}{part.3}% 24
 \BOOKMARK [2][-]{subsection.10.1}{\315ndices de la matriz W}{section.10}% 25
 \BOOKMARK [2][-]{subsection.10.2}{Representaci\363n Gr\341fica matricial}{section.10}% 26
-\BOOKMARK [1][-]{section.11}{M\372ltiples neuronas en Paralelo con m\372ltiples entradas}{part.3}% 27
+\BOOKMARK [1][-]{section.11}{M\372ltiples neuronas en Paralelo con m\372ltiples entradas\(Una capa\)}{part.3}% 27
 \BOOKMARK [2][-]{subsection.11.1}{Diagrama Simplificado}{section.11}% 28
 \BOOKMARK [2][-]{subsection.11.2}{Ejemplo con s = 1}{section.11}% 29
 \BOOKMARK [3][-]{subsubsection.11.2.1}{Nota acerca de las capas}{subsection.11.2}% 30
+\BOOKMARK [1][-]{section.12}{Multiples Capas de Neuronas}{part.3}% 31
+\BOOKMARK [1][-]{section.13}{Arquitectura totalmente conectada \(O densa\)}{part.3}% 32
+\BOOKMARK [2][-]{subsection.13.1}{Ejemplo}{section.13}% 33
+\BOOKMARK [1][-]{section.14}{Multilayer Perceptron \(MLP\)}{part.3}% 34
+\BOOKMARK [2][-]{subsection.14.1}{Ejemplo}{section.14}% 35
+\BOOKMARK [2][-]{subsection.14.2}{Uso del MLP}{section.14}% 36
