@@ -260,4 +260,42 @@ Determinemos la arquitectura que clasifique los siguientes objetos en 2 clases\\
 \begin{itemize}
 	\item Para problemas de aproximación de señales, es común pensar que la dimensión de la señal de entrada Sea R=1. Se usan 1 o 2 capas ocultas y una neurona de la capa de salida
 \end{itemize}
+\section{Funciones de transferencia}
+\subsection{Función Hardlim}
+Esta función genera un cero como salida si n es menor a cero y uno si el valor de n es mayor o igual a cero($n \ge 0$).\\
+Esta función se usa para crear neuronas capaces de clasificarlas entradas en dos clases.
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale=.2]{hardlim}
+	\caption{Función HardLim}
+\end{figure}
+\newpage
+\subsection{Función Lineal}
+En esta función la salida es igual a la entrada
+$$a = n$$\\
+Este tipo de función se usa para trareas de regresión(aproximación de señales), por ejemplo la red ADALINE
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale=.2]{purelim}
+	\caption{Función PureLim}
+\end{figure}
+\subsubsection{Ejemplo}
+Aproximación de señales\\
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale=.2]{purelimexample}
+	\caption{Ejemplo de aproximación de señales}
+\end{figure}
+Conjuntos: entrenamiento, aprendizaje, validación y prueba\\
+Si logra interpolar bien, se dice que logró la generalización del conocimiento ya que error=t-a$\rightarrow$ 0
+\subsection{Función logsigmoid}
+Esta función toma como entrada n que puede tener valores entre $-\inf$ y $+\inf$; y la reduce a una salida en el rando de 0 a 1, de acuerdo a la siguiente expresión
+$$a = \frac{1}{1 + e^{-n}}$$
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale=.2]{logsig}
+	\caption{Función logsig}
+\end{figure}
+Esta función es usada comúnmente en redes neuronales multicapa que son entrenadas mediante el algoritmo backpropagation debdo a que esta técnica requiere que las funciones de transferencia de las capas ocultas sean no lineales, continuas y diferenciables.\\
+\textbf{La linea que separa las clases se llama frontera de desición}
 \end{document}

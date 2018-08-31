@@ -34,3 +34,8 @@
 \BOOKMARK [1][-]{section.14}{Multilayer Perceptron \(MLP\)}{part.3}% 34
 \BOOKMARK [2][-]{subsection.14.1}{Ejemplo}{section.14}% 35
 \BOOKMARK [2][-]{subsection.14.2}{Uso del MLP}{section.14}% 36
+\BOOKMARK [1][-]{section.15}{Funciones de transferencia}{part.3}% 37
+\BOOKMARK [2][-]{subsection.15.1}{Funci\363n Hardlim}{section.15}% 38
+\BOOKMARK [2][-]{subsection.15.2}{Funci\363n Lineal}{section.15}% 39
+\BOOKMARK [3][-]{subsubsection.15.2.1}{Ejemplo}{subsection.15.2}% 40
+\BOOKMARK [2][-]{subsection.15.3}{Funci\363n logsigmoid}{section.15}% 41
