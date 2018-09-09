@@ -1,0 +1,83 @@
+\documentclass{article}
+\usepackage{style}
+
+\author{Jorge Gómez Reus}
+\date{}
+\begin{document}
+\maketitle
+\tableofcontents
+\section{¿Qué es la red de Hopfield?}
+Es una forma de red neuronal artificial recurrente inventada por John Hopfield en 1982. Consiste de una sola capa, la cual contiene una o más neuronas recurrentes conectadas totalmente entre si.
+\section{Orígenes}
+Este modelo fue introducido previamente por Little en 1974, pero en este hubo menos énfasis la descripción basada en la energía, al igual que usó extensivamente formalismo de mecánica cuántica, lo que provocó que su trabajo fuera menos accesible a sus lectores. No fue si no hasta 1982 que Hopfield introdujo su modelo, el cual sirve para entender la memoria humana.
+\section{Principales Capacidades}
+\begin{itemize}
+	\item Las redes neuronales de hopfield sirven como sistemas de memoria asociativa con nodos límite binarios
+	\item Convergen a un mínimo local
+	\item Los estados de cada unidad son binarios, su valor es determinado con base en si el valor de la entrada sobrepasa el límite de la unidad.
+	\item Los valores de cada unidad se pueden actualizar con la regla:\\
+	\begin{align}
+		s_i & = 
+		\begin{cases}
+		+1 &  \text{si}\ \ \sum_{j}w_{ij}s{j} \ge \theta_i,\\
+		-1 & \text{en cualquier otro caso}
+		\end{cases}
+	\end{align} 
+	Dónde:
+	\begin{itemize}
+		\item $w_{ij}$ es la fuerza del peso conectado de la unidad $j$ a la unidad $i$
+		\item $s_j$ es el estado de la unidad $j$
+		\item $\theta_i$ es el límite de la unidad $i$
+	\end{itemize}	
+	\item Las actualizaciones en la red de Hopfield puede ser:
+	\begin{itemize}
+		\item Asíncrona
+		\item Síncrona
+	\end{itemize}
+	\item Las neuronas se repelen o se atraen dependiendo del peso de la conexión entre ellas
+\end{itemize}
+\section{Aplicaciones}
+Generalmente se usan para el reconocimiento de patrones: Se guardan estos en la red y esta puede reconocer dichos patrones con solo una parte o si hay corrupción parcial del patrón.
+\begin{itemize}
+	\item Memorias Asociativas: La red puede memorizar patrones, estados
+	\item Optimización Combinacional: Si el problema es modelado correctamente, la red puede generar un mínimo y una solución, pero raramente puede generar la solución óptima
+	\item Detección y reconocimiento de imágenes
+	\item Amplificación de imágenes de Rayos-X
+	\item Restauración de imágenes médicas
+\end{itemize}
+\section{Variantes}
+\begin{itemize}
+	\item Red Discreta de Hopfield
+	\item Red Continua de Hopfiled
+	\item El modelo de little fue un precursor del modelo de Hopfiled
+	\item La máquina de Boltzmann es como una red de Hopfield pero un muestreo de Gibbs en lugar del descenso en gradiente.
+	\item La red de Hopfield se puede describir formalmente como un completo grafo no dirigido $G = \langle (V, f) \rangle$, donde $V$ es un conjunto de células de McChulloc-Pitts y $f : V^2 \rightarrow \mathbb{R}$  es una función que enlaza pares de unidades de valor real (el peso de conexión).
+\end{itemize}
+\section{Algoritmos de Aprendizaje}
+El entrenar a las redes de Hopfield se logra disminuyendo el valor de la energía de los estados que la red debe ``recordar''. Esto convierte a la red en un sistema de memoria direccionable, es decir, la red "recordará" un estado si se le da solo parte de dicho estado.
+\subsection{Patrones Binarios}
+Para un conjunto de patrones binarios $s(p)$, $p=1$ a $P$\\
+Donde $s(p) = s_1(p), s_2(p), s_3(p), \dots, s_i(p),\dots, s_n(p)$\\
+La matriz de pesos está data por: 
+\begin{align}
+	w_{ij} = \sum_{p=1}^{P}[2s_i(p) - 1][2s_j(p) - 1]\ \  \text{para}\ \  i \ne j
+\end{align}
+
+\subsection{Patrones Bipolares}
+Para un conjunto de patrones bipolares $s(p)$, $p=1$ a $P$\\
+Donde $s(p) = s_1(p), s_2(p), s_3(p), \dots, s_i(p),\dots, s_n(p)$\\
+La matriz de pesos está data por: 
+\begin{align}
+w_{ij} = \sum_{p=1}^{P}[s_i(p)][s_j(p)]\ \  \text{para}\ \  i \ne j
+\end{align}
+
+\section{Implementación en Software y Hardware}
+\begin{itemize}
+	\item Implementación en python \url{https://github.com/yosukekatada/Hopfield_network}
+	\item Implementación en java \url{https://github.com/AhmedHani/HopfieldNetwork}
+	\item Implementación en FPGA's \url{https://www.sciencedirect.com/science/article/pii/S0925231215008760}
+\end{itemize}
+
+\section{Referencias}
+\printbibliography[heading=none] 
+\end{document}

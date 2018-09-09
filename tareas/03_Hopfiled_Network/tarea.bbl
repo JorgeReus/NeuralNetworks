@@ -1,0 +1,128 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.8 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{none/global/}
+    \entry{hopfiledArticle}{article}{}
+      \name{author}{1}{}{%
+        {{hash=29484e27015b61abf07e2087b5e6eeb0}{%
+           family={Hopfield},
+           familyi={H\bibinitperiod},
+           given={J.\bibnamedelimi J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{29484e27015b61abf07e2087b5e6eeb0}
+      \strng{fullhash}{29484e27015b61abf07e2087b5e6eeb0}
+      \strng{authornamehash}{29484e27015b61abf07e2087b5e6eeb0}
+      \strng{authorfullhash}{29484e27015b61abf07e2087b5e6eeb0}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences of the USA}
+      \field{title}{{Neural networks and physical systems with emergent collective computational abilities}.}
+      \field{year}{1982}
+      \keyw{hopfield,neural networks}
+    \endentry
+    \entry{introductionNeural}{book}{}
+      \name{author}{1}{}{%
+        {{hash=c1877dc945cc34c8614fc465f3667c5b}{%
+           family={Rojas},
+           familyi={R\bibinitperiod},
+           given={Raul},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {En Springer}%
+      }
+      \strng{namehash}{c1877dc945cc34c8614fc465f3667c5b}
+      \strng{fullhash}{c1877dc945cc34c8614fc465f3667c5b}
+      \strng{authornamehash}{c1877dc945cc34c8614fc465f3667c5b}
+      \strng{authorfullhash}{c1877dc945cc34c8614fc465f3667c5b}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-3540605058}
+      \field{title}{An introduction to neural networks}
+      \field{year}{1996}
+      \keyw{neural networks}
+    \endentry
+    \entry{raulResource}{book}{}
+      \name{author}{1}{}{%
+        {{hash=5fd79101950d60c82fe4d9f0111f6e91}{%
+           family={Gurney},
+           familyi={G\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {CRC Press}%
+      }
+      \strng{namehash}{5fd79101950d60c82fe4d9f0111f6e91}
+      \strng{fullhash}{5fd79101950d60c82fe4d9f0111f6e91}
+      \strng{authornamehash}{5fd79101950d60c82fe4d9f0111f6e91}
+      \strng{authorfullhash}{5fd79101950d60c82fe4d9f0111f6e91}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{1857285034}
+      \field{title}{Neural Networks - A Systematic Introduction}
+      \field{year}{1997}
+      \keyw{neural networks}
+    \endentry
+    \entry{aliceResource}{online}{}
+      \name{author}{1}{}{%
+        {{hash=8ab29a6e5f70c0cea2181a8b80bfc895}{%
+           family={Julien-Laferreire},
+           familyi={J\bibinithyphendelim L\bibinitperiod},
+           given={Alice},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{8ab29a6e5f70c0cea2181a8b80bfc895}
+      \strng{fullhash}{8ab29a6e5f70c0cea2181a8b80bfc895}
+      \strng{authornamehash}{8ab29a6e5f70c0cea2181a8b80bfc895}
+      \strng{authorfullhash}{8ab29a6e5f70c0cea2181a8b80bfc895}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{(accessed: 09.09.2018)}
+      \field{title}{Hopfield Network}
+      \verb{url}
+      \verb http://perso.ens-lyon.fr/eric.thierry/Graphes2010/alice-julien-laferriere.pdf
+      \endverb
+      \keyw{hopfield,neural networks}
+    \endentry
+    \entry{redHopField}{online}{}
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{labeltitlesource}{title}
+      \field{addendum}{(accessed: 09.09.2018)}
+      \field{title}{La red de Hopfield}
+      \verb{url}
+      \verb https://web.archive.org/web/20100128050308/http://www.redes-neuronales.netfirms.com/tutorial-redes-neuronales/red-de-hopfield.htm
+      \endverb
+      \keyw{hopfield,neural networks}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
