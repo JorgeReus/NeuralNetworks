@@ -39,3 +39,8 @@
 \BOOKMARK [2][-]{subsection.15.2}{Funci\363n Lineal}{section.15}% 39
 \BOOKMARK [3][-]{subsubsection.15.2.1}{Ejemplo}{subsection.15.2}% 40
 \BOOKMARK [2][-]{subsection.15.3}{Funci\363n logsigmoid}{section.15}% 41
+\BOOKMARK [1][-]{section.16}{Red Hamming}{part.3}% 42
+\BOOKMARK [2][-]{subsection.16.1}{Observaciones}{section.16}% 43
+\BOOKMARK [2][-]{subsection.16.2}{Capa FeedForward}{section.16}% 44
+\BOOKMARK [2][-]{subsection.16.3}{Capa Recurrente}{section.16}% 45
+\BOOKMARK [2][-]{subsection.16.4}{Soluci\363n al problema de clasificaci\363n}{section.16}% 46

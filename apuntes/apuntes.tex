@@ -298,4 +298,112 @@ $$a = \frac{1}{1 + e^{-n}}$$
 \end{figure}
 Esta función es usada comúnmente en redes neuronales multicapa que son entrenadas mediante el algoritmo backpropagation debdo a que esta técnica requiere que las funciones de transferencia de las capas ocultas sean no lineales, continuas y diferenciables.\\
 \textbf{La linea que separa las clases se llama frontera de desición}
+
+\section{Red Hamming}
+Esta RNA fue diseñada explicitamente para resolver problemas de reconocimiento de patrones binarios (+1 o -1). Esta RNA es interesante, debido a que usa dos tipos de capas, una feed foward y otra recurrente. En hamming el mismo número de neuronas \textbf{AQUI VA UNA FOTO}\\
+
+\subsection{Observaciones}
+\begin{enumerate}
+	\item El número de neuronas en ambas capas, es el mismo, s
+	\item La capa recurrente no tiene bias
+	\item La recurrencia se lleva a cabo usando la señal de salida $a^2(t)$ como entrada a los pesos $W^2$
+\end{enumerate}
+
+\subsection{Capa FeedForward}
+Esta capa calcula la correlación o producto interno entre cada unos de los vecgores protitipo y e patrón de entrada. Con este objetivo, as filas de la matriz de pesos $W_1$, serán cada uno de los patrones prototipo.\\
+Para el ejemplo de clasificar una fruta en manzanas y naranjas, la matriz queda como:
+
+\[
+W^1 = 
+\begin{bmatrix}
+	p_1^t\\
+	p_2^t
+\end{bmatrix}
+=
+\begin{bmatrix}
++1 & -1 &- 1 \\
++1 & +1 & -1
+\end{bmatrix}
+\]
+\textbf{Nota: Naraja es el primer renglón y manzana el segundo}\\
+El valor del bias,$b^1$ es igual a R. Para nuestro ejemplo:\\
+donde $S = 2$, ya que es igual al número de patrones prototipo. \textbf{Nota: Al agregar el valor R, se garantiza que las salidas de esta capa no sean negativas, lo cual es necesario para el correcto funcionamiento de la capa recurrente}
+
+\subsection{Capa Recurrente}
+Las neuronas de esta capa se inicializan con las salidas de la capa feed foward. En esta capa las neuronas compiten entre ellas para determinar a la ganadora.\\ Al final de la competencia, solo una neuronas de esta capa tendrás un valor diferente de cero.\\\\
+La neurona ganadora indica a que clase pertence el vector de entrada. Las ecuaciones que describen esta capa son:
+$$ a^2(0) = a^1$$
+$$ a^2(t + 1) = poslin(W^2a^2(t)) $$
+La matriz de pesos tiene la siguiente forma para el ejemplo:
+\[
+W^2 = 
+\begin{bmatrix}
+1 & - \epsilon\\
+-\epsilon & 1
+\end{bmatrix}
+\]
+
+donde:\\
+$\epsilon$ es un valor menor a $\frac{1}{S - 1}$\\
+S: es el número de neuronas en la capa recurrente\\
+
+Para nuestro ejemplo, una iteración de la capa recurrente, se lleva a cabo con la siguiente ecuación:\\
+
+\[
+a^2(t + 1) = poslin
+(\begin{bmatrix}
+1 & - \epsilon\\
+-\epsilon & 1
+\end{bmatrix}
+\begin{bmatrix}
+a_1^2(t)\\
+a_2^2(t)
+\end{bmatrix})
+\]
+
+Esta capa seguirá realizando iteraciones hasta que converja a una solución donde una sola de las neuronas tenga un valor diferente de cero y se reputa en dos iteraciones consecutivas.\\
+
+\subsection{Solución al problema de clasificación}
+Indique a que clase pertenece el siguiente vector de entrada usando la red de hamming\\
+
+\[
+p =
+\begin{bmatrix}
+-1 \\
+-1\\
+-1
+\end{bmatrix}
+\]
+Comenzamos calculando la capa feed foward esto se hace sollo una vez:\\
+$$ a^1 = W^1p + b^1 $$\\
+
+\[
+a^1 =
+\begin{bmatrix}
++1 &  - 1& -1\\
++1 &  + 1& -1
+\end{bmatrix}
+\begin{bmatrix}
+-1 \\
+-1 \\
+-1
+\end{bmatrix}
++
+\begin{bmatrix}
+3 \\
+3 
+\end{bmatrix}
+=
+\begin{bmatrix}
+4 \\
+2 
+\end{bmatrix}
+\]
+
+Ahora se pasa a la capa de recurrente
+
+$$ 0 < \epsilon < \frac{1}{S - 1} = 1 $$\\
+Se propone $\epsilon$ = 0.5\\
+Se realza la primera iteración
+t = 0 $\rightarrow a^2(0) = a^1 = $  
 \end{document}
