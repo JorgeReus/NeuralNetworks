@@ -47,14 +47,15 @@ if (has_converged)
     for proto = 1:length(a2)
         if (a2(proto) > 0)
             fprintf('El vector de entrada pertenece a la clase: %d\n', proto);
+            fprintf('Vector final:\n');
+            disp(a2);
             break;
         end
     end
+    plot(0:i + 1, h_values');
 else
     fprintf("La red no convergió\n");
 end
-
-plot(0:i + 1, h_values');
 
 % Función para encontrar las neuronas encendiades en el vector a
 function [is_winner] = find_winner(vector)

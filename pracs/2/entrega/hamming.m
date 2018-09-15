@@ -19,7 +19,7 @@ W2(1:n+1:end)=1;
 
 % Condiciones Iniciales
 a2 = a1;
-h_values = zeros(1, n)
+h_values = zeros(1, n);
 h_values = [h_values;a1'];
 a2 = poslin(W2*a2);
 % Valores Extra
@@ -47,14 +47,15 @@ if (has_converged)
     for proto = 1:length(a2)
         if (a2(proto) > 0)
             fprintf('El vector de entrada pertenece a la clase: %d\n', proto);
+            fprintf('Vector final:\n');
+            disp(a2);
             break;
         end
     end
+    plot(0:i + 1, h_values');
 else
     fprintf("La red no convergió\n");
 end
-
-plot(h_values', 0:i + 1);
 
 % Función para encontrar las neuronas encendiades en el vector a
 function [is_winner] = find_winner(vector)
