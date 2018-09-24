@@ -533,4 +533,89 @@ a_3(2)
 )
 \]
 \textbf{Converge al patrón prototipo de la naranja}
+
+\part{Capítulo 4}
+\section{Regla de Aprendizaje del perceptrón}
+Una regla de aprendizaje es un procedimiento que de manera automática modifica los valores de los pesos y bias de una RNA. A este procedimiento también se conoce como algoritmo de entrenamiento.\\
+Tomamos el caso de un aprendizaje supervisado por lo que se cuenta con un conjunto de entrenamiento qe indica cuál debe ser el comportamiento correcto de la RNA:
+$$ \{P_1,T_1\}, \{P_2,T_2\}, \dots, \{P_q,T_q\} $$
+\newpage
+\section{Arquitectura del perceptrón}
+La forma general de un perceptrón es:\\
+\begin{figure}[h!]
+	\caption{Arquitectura del perceptrón}
+	\centering
+	\includegraphics[scale=.5]{perceptron}
+\end{figure}\\
+\textbf{Nota: el función de trasnferencia tambien puede ser HARDLIM()}\\
+Será útil paa el desarrollo de la regla de aprendizaje del perceptrón tener una referencia individual a cada uno de los elementos de la RNA. Primero, consideremos la matriz de pesos:\\
+\[W=
+	\begin{bmatrix}
+	w_{1,1} & w_{1,2}& \dots & w_{1,R}\\
+	w_{2,1} & w_{2,2}& \dots & w_{2,R}\\
+	\vdots  & \vdots & \vdots & \vdots\\
+	w_{S,1} & w_{S,2}& \dots & w_{S,R}
+	\end{bmatrix}
+\]\\
+Las filas son las neuronas y las columnas las entradas, por lo tanto los elementos son los pesos entre ellas.\\
+Se puede definir los elementos de un vector compuesto de los elementos de la i-ésima fila de W:
+\[_iW=
+\begin{bmatrix}
+w_{i,1}\\
+w_{i,2}\\
+\vdots\\
+w_{i,R}
+\end{bmatrix}
+\]\\
+Ahora se pueden representar la matriz de pesos de la siguiente manera:
+\[W=
+\begin{bmatrix}
+	_1W^T\\
+	_2W^T\\
+	\vdots\\
+	_SW^T
+	\end{bmatrix}
+\]\\
+Esto nos permite escribir el i-ésimo elemento del  vector de salida, como:\\
+$$ a_i = hardlim(_iW^Tp + b_i) $$
+Recuerde que cada neurona de la RNA divide el espacio de entrada en dos regiones. Es valioso investigar las fornteras entre estas regiones. Comenzaremos con el sencillo caso de una sola neurona de dos entradas.\\
+\begin{figure}[h!]
+	\caption{Arquitectura del perceptrón para este ejemplo}
+	\centering
+	\includegraphics[scale=.2]{perceptronModelExample}
+\end{figure}\\
+El modelo matemático es:
+$$a = hardlim(n)$$
+$$a = hardlim(Wp + b)$$
+$$a = hardlim(_1W^Tp + b)$$
+$$a = hardlim(W_{1,1}P1 + W_{1,2}P2 + b)$$
+\section{Análisis de frontera de desición}
+Ésta frontera se determina por os vectores de entrada para los cuáles la señal n es igual a 0:
+$$ n = W_{1,1}P_1 + W_{1,2}P_2 + b = 0 $$
+\subsection{Ejemplo}
+$$ W_{1,1} = W_{1,2} = 1, b=-1$$
+Sustituyendo en la fórmula:
+$$ n = P_1 + P_2 -1 = 0 $$
+La ecuación anterior define una linea en el espacio. En un lado de la linea de salida de la RNA será cero y en otro lado será 1. Para dibujar la línea, se obtiene los puntos donde esta intersecta los ejes $P_1$ y $P_2$ 
+\begin{enumerate}
+	\item Para encontrar el putno donde intersecta con $P_2$, se toma $P_1 = 0$:\\
+	$$ P_2 = -\frac{b}{W_{1,2}} = -\frac{-1}{+1} = 1, \text{con } P_1=0$$
+	\newpage
+	\item Para encontrar el punto donde se intersecta con $P_1$ se toma $P_2 = 0$
+	$$ P_1 = -\frac{b}{W_{1,1}}=-\frac{-1}{1}=1 \text{ con } P_2 = 0$$
+	Con estos puntos podemos dibujar la frontera de desición
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[scale=.2]{graphExample}
+	\end{figure}\\
+\end{enumerate}
+Para encontrar de que lado de la frontera corresponde a la salida 1, solo es necesario aplicar una entrada a la RNA, por ejemplo, $p=[2 \ 0]^T$:
+\[W=
+	[1\ 1]
+	\begin{bmatrix}
+	2\\
+	0
+	\end{bmatrix} -1 = 1
+\]\\
+\textbf{Nota: El vector de pesos es perpendicular a la frontera de desición y apunta a la clase +1}
 \end{document}
