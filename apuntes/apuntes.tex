@@ -618,4 +618,155 @@ Para encontrar de que lado de la frontera corresponde a la salida 1, solo es nec
 	\end{bmatrix} -1 = 1
 \]\\
 \textbf{Nota: El vector de pesos es perpendicular a la frontera de desición y apunta a la clase +1}
+\part{Capítulo 4}
+Ejercicio: Dado el siguiente problema de clasificación con cuatro clases, diseñe un perceptron que resuelve este problema.
+\[Clase 1 = \{ P1 =
+\begin{bmatrix}
+1\\
+1
+\end{bmatrix};
+P2 = 
+\begin{bmatrix}
+1\\
+2
+\end{bmatrix}
+\}
+\]\\
+
+\[Clase 2 = \{ P3 =
+\begin{bmatrix}
+2\\
+-1
+\end{bmatrix};
+P4 = 
+\begin{bmatrix}
+2\\
+0
+\end{bmatrix}
+\}
+\]\\
+
+\[Clase 3 = \{ P5 =
+\begin{bmatrix}
+-1\\
+2
+\end{bmatrix};
+P6 = 
+\begin{bmatrix}
+-2\\
+1
+\end{bmatrix}
+\}
+\]\\
+
+\[Clase 4= \{ P1 =
+\begin{bmatrix}
+-1\\
+-1
+\end{bmatrix};
+P2 = 
+\begin{bmatrix}
+-2\\
+-2
+\end{bmatrix}
+\}
+\]\\
+Solución:
+Recordando, un perceptron con S neuronas, puede clasificar los datos en $2^S$. En este caso se usa S=2\\
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale=.2]{cap4ExampleArchi}
+\end{figure}\\
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale=.2]{cap4Ex1R1}
+\end{figure}
+
+Una vez que se dibujan las fronteras de desición, se elije de que cada frontera de desición tendrá la clase +1. Así, ya es posible definir el valor de los valores deseadas para cada clase:\\
+\[Clase 1 = \{ t1 =
+\begin{bmatrix}
+0\\
+0
+\end{bmatrix};
+t2 = 
+\begin{bmatrix}
+0\\
+0
+\end{bmatrix}
+\}
+\]\\
+
+\[Clase 2 = \{ t3 =
+\begin{bmatrix}
+0\\
+1
+\end{bmatrix};
+t4 = 
+\begin{bmatrix}
+0\\
+1
+\end{bmatrix}
+\}
+\]\\
+
+\[Clase 3 = \{ t5 =
+\begin{bmatrix}
+1\\
+0
+\end{bmatrix};
+t6 = 
+\begin{bmatrix}
+1\\
+0
+\end{bmatrix}
+\}
+\]\\
+
+\[Clase 4= \{ t7 =
+\begin{bmatrix}
+1\\
+1
+\end{bmatrix};
+t8 = 
+\begin{bmatrix}
+1\\
+1
+\end{bmatrix}
+\}
+\]\\
+
+Ahora se proponene los vectores de pesos que cumplan las propiedades antes mecionadas, por ejemplo:\\
+\[_1W= 
+\begin{bmatrix}
+-3\\
+-11
+\end{bmatrix}
+\]
+ y 
+ \[_1W= 
+\begin{bmatrix}
+1\\
+-2
+\end{bmatrix}
+\]\\
+
+Finalmente, se obtiene el valor de los bías:
+\[_1b= -_1W^Tp=[-3 -1] 
+\begin{bmatrix}
+0\\
+1
+\end{bmatrix}=1
+\]\\
+
+\[_2b= -_2W^Tp=[1 -2] 
+\begin{bmatrix}
+0\\
+0
+\end{bmatrix}=0
+\]
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale=.2]{cap4Ex1R2}
+\end{figure}
 \end{document}
