@@ -19,7 +19,7 @@ W2(1:n+1:end)=1;
 
 % Condiciones Iniciales
 a2 = a1;
-h_values = zeros(1, n);
+h_values = [];
 h_values = [h_values;a1'];
 a2 = poslin(W2*a2);
 % Valores Extra
@@ -52,7 +52,7 @@ if (has_converged)
             break;
         end
     end
-    plot(0:i + 1, h_values');
+    plot(0:i, h_values');
 else
     fprintf("La red no convergió\n");
 end
