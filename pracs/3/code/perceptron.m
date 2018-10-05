@@ -1,8 +1,32 @@
-% Datos ingresados por el usuario
-p = str2num(input('Ingrese el vector de entrada. Los valores separados por espacios (e.g. 1 2 3)\n', 's'))';
-b = str2num(input('Ingrese el vector de bias. Los valores separados por espacios (e.g. 1 2 3)\n', 's'))';
-W = dlmread('matrix.txt')
-% Capa Feed Foward
+targets = importdata('targets.txt');
+inputs = importdata('inputs.txt');
+mode = input('Elija un modo: 1-Gráfico, 2-Regla de Aprendizaje', 's');
+if(mode=='1')
+    figure
+            ax = gca;                        % gets the current axes
+ax.XAxisLocation = 'origin';     % sets them to zero
+ax.YAxisLocation = 'origin'; 
+    hold on
+    x = 1:10;
+    y = 1:10;
 
-n = W*p + b;
-a = poslin(n);
+    plot(x, y);
+
+    r = .2;
+    for row = inputs.'
+        %circle(row(1), row(2), r);
+    end
+elseif(mode=='2')
+    
+else
+    
+end
+    
+function h = circle(x,y,r)
+hold on
+th = 0:pi/50:2*pi;
+xunit = r * cos(th) + x;
+yunit = r * sin(th) + y;
+h = plot(xunit, yunit);
+hold off
+end
