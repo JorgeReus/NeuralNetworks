@@ -9,11 +9,11 @@ min_random_range = -1;
 W = rand(1, size(inputs, 2))*(2*max_random_range) + min_random_range;
 b = rand;
 Wevo = [];
-bevo = [];
-% For plotting the evolution of the parameters
 Wevo = [Wevo; W];
+bevo = [];
 bevo = [bevo; b];
-mode = input('Elija un modo: 1->Gráfico, 2->Regla de Aprendizaje\n', 's');
+% mode = input('Elija un modo: 1->Gráfico, 2->Regla de Aprendizaje\n', 's');
+mode = '2';
 if(mode=='1')
     if (size(inputs, 2) == 2)
         plotPerceptron(total_matrix, W, b);
@@ -23,7 +23,6 @@ if(mode=='1')
 elseif(mode=='2')
     W = [ 0.5 -1];
     b = 0.5;
-    % For convergence checking
     Waux = W;
     baux = b;
     % Begin the iterations
@@ -80,14 +79,13 @@ function h = circle(x ,y, r, color)
 end
 
 function h = plotPerceptron(matrix, W, b)
-    % Plot the perceptron desicion boundary and the inputs
+    % Plot the values
     figure
     ax = gca;                        % gets the current axes
     ax.XAxisLocation = 'origin';     % sets t1hem to zero
     ax.YAxisLocation = 'origin'; 
     hold on
-    grid on
-    % plot the desicion boundary
+    % plot the desición boundary
     x = -10:10;
     slope = -b/W(2) / W(1);
     intercept = -b / W(2);
@@ -99,33 +97,22 @@ function h = plotPerceptron(matrix, W, b)
     for row = matrix.'
         p = row(1:size(matrix, 2));
         target = row(size(matrix, 2));
-        % Plot the input
+        % Plot the target
         if (target == 1)
             h = circle(p(1), p(2), r, 'black');
         else
             h = circle(p(1), p(2), r, 'white');
         end
     end
-    legend('Frontera de Desición', 'Entrada con target 0', 'Entrada con target 1');
 end
 
 function plotHistory(Wevo, bevo)
     % Plot the values
     hold on
-    grid on
-    title('Evolución de Parámetros');
-    legends = [];
-    x = 1:size(Wevo, 1);
+    x = 1:length(colW);
     for i = 1:size(Wevo, 2)
         colW = Wevo(:, i);
         plot(x, colW);
-        legends = [legends, sprintf("w%d", i)];
     end
-    plot(x, bevo);
-    legends = [legends, "bias"];
-    legends = mat2cell(legends,1, ones(1,numel(legends)));
-    legend(legends{:});
-    xlabel('Épocas') 
-    ylabel('Valor') 
     hold off
 end
