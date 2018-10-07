@@ -1,0 +1,81 @@
+\usepackage{fancyhdr} % Required for custom headers
+\usepackage{lastpage} % Required to determine the last page for the footer
+\usepackage{extramarks} % Required for headers and footers
+\usepackage{bera}% just to have a nice mono-spaced font
+\usepackage{xcolor} % for color definition
+\usepackage[utf8]{inputenc}% For utf-8 input encoding
+\usepackage[spanish]{babel}% Spanish Package
+\usepackage{hyperref}% Hyperlinks, url's and referencies
+\usepackage{tabularx}% Tabular and array package
+\usepackage{longtable}% Tables of multiple pages
+\usepackage{tabu}% Flexible tabular package
+\usepackage{graphicx}% Include graphics
+\usepackage{schemata}% Synaptic Maps
+\usepackage{listings}% Code listings
+\usepackage{qtree}% Trees
+\usepackage{amsmath,amsfonts,amsthm, amssymb} % Math packages
+\usepackage{svg}% Include svg
+\usepackage[numbered,framed]{matlab-prettifier}% For matlab code
+
+\newcommand\diagram[2]{\schema{\schemabox{#1}}{\schemabox{#2}}}
+\colorlet{punct}{red!60!black}
+\definecolor{background}{HTML}{FFFFF0}
+\definecolor{delim}{RGB}{20,105,176}
+\colorlet{numb}{magenta!60!black}
+% Margins
+\topmargin=-0.45in
+\evensidemargin=0in
+\oddsidemargin=0in
+\textwidth=6.5in
+\textheight=9.0in
+\headsep=0.25in
+
+\lstset{
+	literate={á}{{\'a}}1
+	{ã}{{\~a}}1
+	{é}{{\'e}}1
+	{ó}{{\'o}}1
+	{í}{{\'i}}1
+	{ñ}{{\~n}}1
+	{¡}{{!`}}1
+	{¿}{{?`}}1
+	{ú}{{\'u}}1
+	{Í}{{\'I}}1
+	{Ó}{{\'O}}1
+	{É}{{\'E}}1
+}
+
+\svgpath{./img}
+\linespread{1.1} % Line spacing
+
+% Set up the header and footer
+\pagestyle{fancy}
+\lhead{\documentTitle} % Top left header
+\chead{\hspace{10em}} % Top center head
+\rhead{\firstxmark} % Top right header
+\lfoot{\lastxmark} % Bottom left footer
+\cfoot{} % Bottom center footer
+\rfoot{Página\ \thepage\ de\ \protect\pageref{LastPage}} % Bottom right footer
+\renewcommand\headrulewidth{0.4pt} % Size of the header rule
+\renewcommand\footrulewidth{0.4pt} % Size of the footer rule
+
+\setlength\parindent{0pt} % Removes all indentation from paragraphs
+\graphicspath{ {img/} }
+
+%----------------------------------------------------------------------------------------
+%	COMMAND DEFINITION
+%----------------------------------------------------------------------------------------
+% Titles
+\newcommand{\documentTitle}{Práctica \#3 Red perceptrón (método gráfico y con aprendizaje)}
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\title{
+	\vspace{1px}
+	\textmd{\textbf{\documentTitle}}\\ % Title
+	\vspace{1px}
+}
+
+\author{Jorge Gómez Reus}
+\date{}

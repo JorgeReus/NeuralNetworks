@@ -6,8 +6,8 @@ total_matrix = [ inputs targets];
 max_random_range = 1;
 min_random_range = -1;
 % Weight and bias initialization
-W = rand(1, size(inputs, 2))*(2*max_random_range) + min_random_range;
-b = rand;
+W = rand(1, size(inputs, 2))*(2*max_random_range) + min_random_range
+b = rand
 Wevo = [];
 bevo = [];
 % For plotting the evolution of the parameters
@@ -21,50 +21,37 @@ if(mode=='1')
         fprintf("Solo impresiones en 2 dimensiones soportada");
     end   
 elseif(mode=='2')
-    W = [ 0.5 -1];
-    b = 0.5;
     % For convergence checking
     Waux = W;
     baux = b;
     % Begin the iterations
-    has_converged = false;
     for i = 1:max_it
-        if (~has_converged)
-            for row = total_matrix.'
-                % Array Indexing
-                p = row(1:size(inputs, 2));
-                target = row(size(inputs, 2) + 1);
-                a = hardlim(W*p + b);
-                % Calculate the error
-                e = target - a;
-                % Convergence Checking
-                Waux = W;
-                baux = b;
-                % Weight update
-                W = W + e*p';
-                % Bias update
-                b = b + e;
-                % Save the values
-                Wevo = [Wevo; W];
-                bevo = [bevo; b];
-            end
-             if (isequal(Waux, W) && baux == b)
-                has_converged = true;
-                fprintf("Convergió en %d iteraciones\n", i);
-                W
-                b
-                plotHistory(Wevo, bevo);
-                if (size(inputs, 2) == 2)
-                    plotPerceptron(total_matrix, W, b);
-                else
-                    fprintf("Solo impresiones en 2 dimensiones soportada");
-                end
-                break;
-             end
-        end  
+        for row = total_matrix.'
+            % Array Indexing
+            p = row(1:size(inputs, 2));
+            target = row(size(inputs, 2) + 1);
+            a = hardlim(W*p + b);
+            % Calculate the error
+            e = target - a;
+            % Convergence Checking
+            Waux = W;
+            baux = b;
+            % Weight update
+            W = W + e*p';
+            % Bias update
+            b = b + e;
+            % Save the values
+            Wevo = [Wevo; W];
+            bevo = [bevo; b];
+        end
     end
-    if (~has_converged)
-        fprintf("No Convergió en %d iteraciones\n", max_it);
+    W
+    b
+    plotHistory(Wevo, bevo);
+    if (size(inputs, 2) == 2)
+        plotPerceptron(total_matrix, W, b);
+    else
+        fprintf("Solo impresiones en 2 dimensiones soportada");
     end
 else
     fprintf("Opción no reconocida\n");
@@ -89,7 +76,7 @@ function h = plotPerceptron(matrix, W, b)
     grid on
     % plot the desicion boundary
     x = -10:10;
-    slope = -b/W(2) / W(1);
+    slope = -(b / W(2)) / (b / W(1));
     intercept = -b / W(2);
     y = slope * x + intercept; 
     plot(x, y);
