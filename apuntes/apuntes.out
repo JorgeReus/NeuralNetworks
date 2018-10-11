@@ -51,3 +51,8 @@
 \BOOKMARK [1][-]{section.20}{An\341lisis de frontera de desici\363n}{part.4}% 51
 \BOOKMARK [2][-]{subsection.20.1}{Ejemplo}{section.20}% 52
 \BOOKMARK [0][-]{part.5}{V Cap\355tulo 4}{}% 53
+\BOOKMARK [1][-]{section.21}{Red Adaline}{part.5}% 54
+\BOOKMARK [2][-]{subsection.21.1}{Pesos sin\341pticos}{section.21}% 55
+\BOOKMARK [2][-]{subsection.21.2}{Bias}{section.21}% 56
+\BOOKMARK [2][-]{subsection.21.3}{Regla las reglas de aprendizaje}{section.21}% 57
+\BOOKMARK [2][-]{subsection.21.4}{Proceso de aprendizaje}{section.21}% 58

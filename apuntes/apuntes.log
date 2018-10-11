@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.12)  4 OCT 2018 13:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.12)  11 OCT 2018 13:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1128,7 +1128,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 44.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 44.
-<img/modeloGeneralRn.JPG, id=231, 756.57657pt x 383.18156pt>
+<img/modeloGeneralRn.JPG, id=251, 756.57657pt x 383.18156pt>
 File: img/modeloGeneralRn.JPG Graphic file (type jpg)
 <use img/modeloGeneralRn.JPG>
 Package pdftex.def Info: img/modeloGeneralRn.JPG  used on input line 47.
@@ -1181,7 +1181,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 57.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 57.
-<img/exampleTime.jpg, id=232, 1284.8pt x 963.6pt>
+<img/exampleTime.jpg, id=252, 1284.8pt x 963.6pt>
 File: img/exampleTime.jpg Graphic file (type jpg)
 <use img/exampleTime.jpg>
 Package pdftex.def Info: img/exampleTime.jpg  used on input line 62.
@@ -1216,17 +1216,17 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 64.
 [2 <./img/modeloGeneralRn.JPG>]
-<img/feedFowardExample.png, id=241, 853.1875pt x 457.71pt>
+<img/feedFowardExample.png, id=261, 853.1875pt x 457.71pt>
 File: img/feedFowardExample.png Graphic file (type png)
 <use img/feedFowardExample.png>
 Package pdftex.def Info: img/feedFowardExample.png  used on input line 68.
 (pdftex.def)             Requested size: 426.59271pt x 228.85445pt.
-<img/recurrentExample.png, id=243, 478.78876pt x 207.77625pt>
+<img/recurrentExample.png, id=263, 478.78876pt x 207.77625pt>
 File: img/recurrentExample.png Graphic file (type png)
 <use img/recurrentExample.png>
 Package pdftex.def Info: img/recurrentExample.png  used on input line 74.
 (pdftex.def)             Requested size: 383.03152pt x 166.2212pt.
-<img/recurrentExample2.jpg, id=244, 1284.8pt x 963.6pt>
+<img/recurrentExample2.jpg, id=264, 1284.8pt x 963.6pt>
 File: img/recurrentExample2.jpg Graphic file (type jpg)
 <use img/recurrentExample2.jpg>
 Package pdftex.def Info: img/recurrentExample2.jpg  used on input line 80.
@@ -1248,7 +1248,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 83.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 83.
-<img/systemControlExample1.jpg, id=245, 1284.8pt x 963.6pt>
+<img/systemControlExample1.jpg, id=265, 1284.8pt x 963.6pt>
 File: img/systemControlExample1.jpg Graphic file (type jpg)
 <use img/systemControlExample1.jpg>
 Package pdftex.def Info: img/systemControlExample1.jpg  used on input line 89.
@@ -1394,12 +1394,12 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 102.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 102.
-<img/appEx1.jpg, id=272, 1284.8pt x 963.6pt>
+<img/appEx1.jpg, id=292, 1284.8pt x 963.6pt>
 File: img/appEx1.jpg Graphic file (type jpg)
 <use img/appEx1.jpg>
 Package pdftex.def Info: img/appEx1.jpg  used on input line 113.
 (pdftex.def)             Requested size: 256.95544pt x 192.71658pt.
-<img/appEx2.jpg, id=273, 1284.8pt x 963.6pt>
+<img/appEx2.jpg, id=293, 1284.8pt x 963.6pt>
 File: img/appEx2.jpg Graphic file (type jpg)
 <use img/appEx2.jpg>
 Package pdftex.def Info: img/appEx2.jpg  used on input line 116.
@@ -1445,7 +1445,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 123.
 [7 <./img/appEx1.jpg>]
-<img/bioNeuron.jpg, id=287, 1284.8pt x 963.6pt>
+<img/bioNeuron.jpg, id=307, 1284.8pt x 963.6pt>
 File: img/bioNeuron.jpg Graphic file (type jpg)
 <use img/bioNeuron.jpg>
 Package pdftex.def Info: img/bioNeuron.jpg  used on input line 132.
@@ -1511,7 +1511,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 146.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 146.
-<img/mculloc1.jpg, id=298, 1284.8pt x 963.6pt>
+<img/mculloc1.jpg, id=318, 1284.8pt x 963.6pt>
 File: img/mculloc1.jpg Graphic file (type jpg)
 <use img/mculloc1.jpg>
 Package pdftex.def Info: img/mculloc1.jpg  used on input line 148.
@@ -1558,7 +1558,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 156.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 156.
-<img/nneuron.jpg, id=304, 1284.8pt x 963.6pt>
+<img/nneuron.jpg, id=324, 1284.8pt x 963.6pt>
 File: img/nneuron.jpg Graphic file (type jpg)
 <use img/nneuron.jpg>
 Package pdftex.def Info: img/nneuron.jpg  used on input line 159.
@@ -1622,7 +1622,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 180.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 180.
-<img/matrixgrep.jpg, id=310, 1284.8pt x 963.6pt>
+<img/matrixgrep.jpg, id=331, 1284.8pt x 963.6pt>
 File: img/matrixgrep.jpg Graphic file (type jpg)
 <use img/matrixgrep.jpg>
 Package pdftex.def Info: img/matrixgrep.jpg  used on input line 182.
@@ -1664,7 +1664,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 185.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 185.
-<img/layersmodel.jpg, id=319, 1284.8pt x 963.6pt>
+<img/layersmodel.jpg, id=339, 1284.8pt x 963.6pt>
 File: img/layersmodel.jpg Graphic file (type jpg)
 <use img/layersmodel.jpg>
 Package pdftex.def Info: img/layersmodel.jpg  used on input line 188.
@@ -1706,7 +1706,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 196.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 196.
-<img/simpdiagram.jpg, id=326, 803.0pt x 602.25pt>
+<img/simpdiagram.jpg, id=346, 803.0pt x 602.25pt>
 File: img/simpdiagram.jpg Graphic file (type jpg)
 <use img/simpdiagram.jpg>
 Package pdftex.def Info: img/simpdiagram.jpg  used on input line 199.
@@ -1723,7 +1723,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 202.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 202.
-<img/matrixejpar.jpg, id=327, 803.0pt x 602.25pt>
+<img/matrixejpar.jpg, id=347, 803.0pt x 602.25pt>
 File: img/matrixejpar.jpg Graphic file (type jpg)
 <use img/matrixejpar.jpg>
 Package pdftex.def Info: img/matrixejpar.jpg  used on input line 205.
@@ -1777,12 +1777,12 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 218.
  [13 <./img/simpdiagram.jpg> <./img/matrixejpar.jpg>]
-<img/rainbowmodel.jpeg, id=336, 321.2pt x 240.9pt>
+<img/rainbowmodel.jpeg, id=356, 321.2pt x 240.9pt>
 File: img/rainbowmodel.jpeg Graphic file (type jpg)
 <use img/rainbowmodel.jpeg>
 Package pdftex.def Info: img/rainbowmodel.jpeg  used on input line 221.
 (pdftex.def)             Requested size: 321.19922pt x 240.8994pt.
-<img/rainbowsingle.jpeg, id=337, 803.0pt x 602.25pt>
+<img/rainbowsingle.jpeg, id=357, 803.0pt x 602.25pt>
 File: img/rainbowsingle.jpeg Graphic file (type jpg)
 <use img/rainbowsingle.jpeg>
 Package pdftex.def Info: img/rainbowsingle.jpeg  used on input line 226.
@@ -1925,7 +1925,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 264.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 264.
-<img/hardlim.jpg, id=350, 1284.8pt x 963.6pt>
+<img/hardlim.jpg, id=370, 1284.8pt x 963.6pt>
 File: img/hardlim.jpg Graphic file (type jpg)
 <use img/hardlim.jpg>
 Package pdftex.def Info: img/hardlim.jpg  used on input line 269.
@@ -1967,7 +1967,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 273.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 273.
-<img/purelim.jpg, id=362, 1284.8pt x 963.6pt>
+<img/purelim.jpg, id=382, 1284.8pt x 963.6pt>
 File: img/purelim.jpg Graphic file (type jpg)
 <use img/purelim.jpg>
 Package pdftex.def Info: img/purelim.jpg  used on input line 279.
@@ -1984,7 +1984,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 282.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 282.
-<img/purelimexample.jpg, id=363, 1284.8pt x 963.6pt>
+<img/purelimexample.jpg, id=383, 1284.8pt x 963.6pt>
 File: img/purelimexample.jpg Graphic file (type jpg)
 <use img/purelimexample.jpg>
 Package pdftex.def Info: img/purelimexample.jpg  used on input line 286.
@@ -2026,7 +2026,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 293.
  [17 <./img/purelim.jpg> <./img/purelimexample.jpg>]
-<img/logsig.jpg, id=371, 1284.8pt x 963.6pt>
+<img/logsig.jpg, id=391, 1284.8pt x 963.6pt>
 File: img/logsig.jpg Graphic file (type jpg)
 <use img/logsig.jpg>
 Package pdftex.def Info: img/logsig.jpg  used on input line 296.
@@ -2193,7 +2193,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 410.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 410.
-<img/hopfieldArchitecture.jpg, id=388, 1284.8pt x 963.6pt>
+<img/hopfieldArchitecture.jpg, id=408, 1284.8pt x 963.6pt>
 File: img/hopfieldArchitecture.jpg Graphic file (type jpg)
 <use img/hopfieldArchitecture.jpg>
 Package pdftex.def Info: img/hopfieldArchitecture.jpg  used on input line 416.
@@ -2298,7 +2298,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 543.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 543.
-<img/perceptron.png, id=400, 403.5075pt x 289.08pt>
+<img/perceptron.png, id=420, 403.5075pt x 289.08pt>
 File: img/perceptron.png Graphic file (type png)
 <use img/perceptron.png>
 Package pdftex.def Info: img/perceptron.png  used on input line 548.
@@ -2313,7 +2313,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 578--580
 
  []
 
-<img/perceptronModelExample.jpg, id=401, 1284.8pt x 963.6pt>
+<img/perceptronModelExample.jpg, id=421, 1284.8pt x 963.6pt>
 File: img/perceptronModelExample.jpg Graphic file (type jpg)
 <use img/perceptronModelExample.jpg>
 Package pdftex.def Info: img/perceptronModelExample.jpg  used on input line 585
@@ -2405,7 +2405,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 603.
 [23 <./img/perceptronModelExample.jpg>]
-<img/graphExample.jpeg, id=416, 803.0pt x 602.25pt>
+<img/graphExample.jpeg, id=437, 803.0pt x 602.25pt>
 File: img/graphExample.jpeg Graphic file (type jpg)
 <use img/graphExample.jpeg>
 Package pdftex.def Info: img/graphExample.jpeg  used on input line 609.
@@ -2442,7 +2442,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 660--661
 
  []
 
-<img/cap4ExampleArchi.jpg, id=417, 1284.8pt x 722.7pt>
+<img/cap4ExampleArchi.jpg, id=438, 1284.8pt x 722.7pt>
 File: img/cap4ExampleArchi.jpg Graphic file (type jpg)
 <use img/cap4ExampleArchi.jpg>
 Package pdftex.def Info: img/cap4ExampleArchi.jpg  used on input line 678.
@@ -2477,7 +2477,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 680.
 [24 <./img/graphExample.jpeg>]
-<img/cap4Ex1R1.jpg, id=425, 722.7pt x 1284.8pt>
+<img/cap4Ex1R1.jpg, id=445, 722.7pt x 1284.8pt>
 File: img/cap4Ex1R1.jpg Graphic file (type jpg)
 <use img/cap4Ex1R1.jpg>
 Package pdftex.def Info: img/cap4Ex1R1.jpg  used on input line 683.
@@ -2546,70 +2546,183 @@ Underfull \hbox (badness 10000) in paragraph at lines 760--761
 
  []
 
-<img/cap4Ex1R2.jpg, id=432, 1284.8pt x 722.7pt>
+<img/cap4Ex1R2.jpg, id=452, 1284.8pt x 722.7pt>
 File: img/cap4Ex1R2.jpg Graphic file (type jpg)
 <use img/cap4Ex1R2.jpg>
 Package pdftex.def Info: img/cap4Ex1R2.jpg  used on input line 770.
 (pdftex.def)             Requested size: 256.95544pt x 144.53743pt.
-
-AED: lastpage setting LastPage
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 772.
+(babel)             in language  on input line 773.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 772.
+(babel)             in language  on input line 773.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 772.
+(babel)             in language  on input line 773.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 772.
+(babel)             in language  on input line 773.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 772.
+(babel)             in language  on input line 773.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 772.
+(babel)             in language  on input line 773.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 772.
+(babel)             in language  on input line 777.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 772.
+(babel)             in language  on input line 777.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 772.
+(babel)             in language  on input line 777.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 772.
+(babel)             in language  on input line 777.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 772.
+(babel)             in language  on input line 777.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 772.
+(babel)             in language  on input line 777.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 777.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 777.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 777.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 777.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 777.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 777.
 [26 <./img/cap4Ex1R2.jpg>]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 772.
+(babel)             in language  on input line 783.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 772.
+(babel)             in language  on input line 783.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 772.
+(babel)             in language  on input line 783.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 772.
+(babel)             in language  on input line 783.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 772.
+(babel)             in language  on input line 783.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 772.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 772.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 772.
+(babel)             in language  on input line 783.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 787.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 787.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 787.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 787.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 787.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 787.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 791.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 791.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 791.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 791.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 791.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 791.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 795.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 795.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 795.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 795.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 795.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 795.
+LaTeX Font Info:    Font shape `T1/fve/m/it' in size <10> not available
+(Font)              Font shape `T1/fve/m/sl' tried instead on input line 801.
+LaTeX Font Info:    Font shape `T1/fve/m/sl' will be
+(Font)              scaled to size 8.99994pt on input line 801.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 810.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 810.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 810.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 810.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 810.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 810.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 810.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 810.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 810.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 810.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 810.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 810.
+ [27] 
+AED: lastpage setting LastPage
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 824.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 824.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 824.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 824.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 824.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 824.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 824.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 824.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 824.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 824.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 824.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 824.
+[28]
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 824.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 824.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 824.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 824.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 824.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 824.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 824.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 824.
  (./apuntes.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 772.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 772.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 824.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 824.
 Package rerunfilecheck Info: File `apuntes.out' has not changed.
-(rerunfilecheck)             Checksum: 8915E84EF88F96DBA123AA28C6C61C5F;3664.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 772.
+(rerunfilecheck)             Checksum: 09E207F8AC26EAF332EDEF6858B7C0D7;4002.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 824.
  ) 
 Here is how much of TeX's memory you used:
- 9401 strings out of 492982
- 130661 string characters out of 6134896
+ 9429 strings out of 492982
+ 130951 string characters out of 6134896
  234647 words of memory out of 5000000
- 12667 multiletter control sequences out of 15000+600000
- 39116 words of font info for 47 fonts, out of 8000000 for 9000
+ 12674 multiletter control sequences out of 15000+600000
+ 42426 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,12n,45p,485b,444s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,12n,45p,485b,522s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
@@ -2618,11 +2731,12 @@ type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/bera/fveb8a.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/bera/fver8a.pfb>
-Output written on apuntes.pdf (26 pages, 1338124 bytes).
+></usr/share/texlive/texmf-dist/fonts/type1/public/bera/fver8a.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/bera/fver8a.pfb>
+Output written on apuntes.pdf (28 pages, 1347769 bytes).
 PDF statistics:
- 497 PDF objects out of 1000 (max. 8388607)
- 425 compressed objects within 5 object streams
- 124 named destinations out of 1000 (max. 500000)
- 565 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 546 PDF objects out of 1000 (max. 8388607)
+ 471 compressed objects within 5 object streams
+ 143 named destinations out of 1000 (max. 500000)
+ 605 words of extra memory for PDF output out of 10000 (max. 10000000)
 

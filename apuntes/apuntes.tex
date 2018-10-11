@@ -769,4 +769,61 @@ Finalmente, se obtiene el valor de los bías:
 	\centering
 	\includegraphics[scale=.2]{cap4Ex1R2}
 \end{figure}
+
+\section{Red Adaline}
+Para este caso de esta RNA, el $\Delta W_i$ se calcula con:
+$$ \Delta w_i = \alpha \frac{\delta e}{\delta w_i} $$
+Para obtener de manera explícita esta ecuación, se parte de las siguientes expresiones:
+$$ e = (t - a)^2 $$
+$$ a=f(Wp + b) $$
+donde f es $purelin()$\\
+Para resolver la ecuación se usa la regla de la cadena:
+$$ \frac{\delta e}{\delta w_i} = \frac{\delta e}{\delta a} \cdot  \frac{\delta a}{\delta f} \cdot \frac{\delta f}{\delta w_i}$$ 
+Ahora se calcula por separada cada una de las siguientes derivadas paciales resultantes:
+\subsection{Pesos sinápticos}
+$$ \frac{\delta e}{\delta a} = -2(t-a)$$
+$$ \frac{\delta a}{\delta f} = 1$$
+$$ \frac{\delta f}{\delta w_i} = p$$ 
+\subsection{Bias}
+$$ \frac{\delta e}{\delta a} = -2(t-a)$$
+$$ \frac{\delta a}{\delta f} = 1$$
+$$ \frac{\delta f}{\delta w_i} = 1$$
+\subsection{Regla las reglas de aprendizaje}
+$$ W_i(k+1) = W_i(k) + 2\alpha(t-a)*p $$
+$$ b_i(k+1) = b_i(k) + 2\alpha(t-a) $$
+\textbf{Nota: Dado que adaline usa purelin como función de transferencia puede ser usada para modo regresor y modo clasificador} 
+\subsection{Proceso de aprendizaje}
+\begin{enumerate}
+	\item Dado un conjunto de entrenamiento (es un subconjunto del data set, para la práctica se usa al 100\%).\\
+	Se define la arquitectura y el modelo matemático de la RNA a usar.
+	\textbf{Notas:}
+	\begin{enumerate}
+		\item Ya que se cuenta con el dataset, ya conocemos el número de entrada y salidas de la RNA
+		\item Para estos ejemplos sencillos, podemos también determinar el número de neuronas(hasta ahora solo hemos visto, RNA de una sola capa)
+		\begin{enumerate}
+			\item Para el modo clasificador, como ya se sabe el número de clases, simplemente se cumple con la expresión $2^S$.\textsl{}
+		\end{enumerate}
+	\end{enumerate}
+	\item Se pide al usuario, los siguientes valores:
+	\begin{enumerate}
+		\item epochmax: Se refiere al número máximo de epocas a realizar
+		\item $e_{epoch}$: Es un valor pequeño al cuál se desea que llegue la señal del error
+		\item El valor del factor de aprendizaje 
+	\end{enumerate}
+	\item Se inicializan aleatoriamente entre -1 y +1 los valores de W y b
+	\item Se inicia una época de aprendizaje en la cual se propaga hacia adelante cada uno de los datos del conjunto de entrenamiento, se calcula su valor del error y se aplican las reglas de aprendizaje.
+	\item Una vez terminada la época del paso 4, se calcula el error de época con la siguiente expresión:
+	$$ E_{epoch} = \frac{1}{N}\sum_{j=1}^{N}e_j$$
+	donde:
+	\begin{itemize}
+		\item N: Es el número de datos del conjunto de entrenamiento
+		\item $e_j$: Es el valor del error para cada dato por separado
+	\end{itemize}
+	\item Se verifica si se cumple con alguno de los siguientes criterios de finalización, si no, se regresa al paso 4
+	\begin{enumerate}
+		\item $E_{epoch}$ = 0. Todos los datos están bien clasificados.
+		\item Cuando $E_{epoch} < e_{epoch}$ 
+		\item Cuando se llegue al valor epochmax
+	\end{enumerate}
+\end{enumerate}
 \end{document}
