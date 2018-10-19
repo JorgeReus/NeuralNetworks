@@ -1,10 +1,6 @@
-%epoch_max = input('Ingrese epochmax: ');
-%e_epoch = input('Ingrese E epoch: ');
- %alpha = input('Ingrese el factor de aprendizaje: ');
- 
-epoch_max = 30;
-e_epoch = .01;
-alpha = .180;
+epoch_max = input('Ingrese epochmax: ');
+e_epoch = input('Ingrese E epoch: ');
+alpha = input('Ingrese el factor de aprendizaje: ');
 inputs = importdata('inputs.txt');
 targets = importdata('targets.txt');
 max_it = epoch_max;
@@ -13,21 +9,20 @@ total_matrix = [ inputs targets];
 max_random_range = 1;
 min_random_range = -1;
 % Weight and bias initialization
-W = rand(size(targets, 2), size(inputs, 2))*(2*max_random_range) + min_random_range
-b = rand(size(targets, 2), 1) * (2*max_random_range) + min_random_range
+W = rand(1, size(inputs, 2))*(2*max_random_range) + min_random_range
+b = rand() * (2*max_random_range) + min_random_range
 Wevo = [];
 bevo = [];
 % For plotting the evolution of the parameters
 Wevo = [Wevo; W];
 bevo = [bevo; b];
-%mode = input('Elija un modo: 1->Gráfico, 2->Regla de Aprendizaje\n', 's');
-mode = '2';
+mode = input('Elija un modo: 1->Gráfico, 2->Regla de Aprendizaje\n', 's');
 if(mode=='1')
     if (size(inputs, 2) == 2)
         num_tries = 10;
         for i = 1:num_tries
-            W = rand(size(targets, 2), size(inputs, 2))*(2*max_random_range) + min_random_range
-            b = rand(size(targets, 2), 1) * (2*max_random_range) + min_random_range
+            W = rand(1, size(inputs, 2))*(2*max_random_range) + min_random_range
+            b = rand
             convergence_counter = 0;
             for row = total_matrix.'
                 p = row(1:size(inputs, 2));
@@ -48,6 +43,7 @@ if(mode=='1')
         fprintf("Solo impresiones en 2 dimensiones soportada");
     end   
 elseif(mode=='2')
+    % For convergence checking
     Waux = W;
     baux = b;
     % Begin the iterations
@@ -56,7 +52,7 @@ elseif(mode=='2')
         for row = total_matrix.'
             % Array Indexing
             p = row(1:size(inputs, 2));
-            target = row(size(inputs, 2) + 1: end);
+            target = row(size(inputs, 2) + 1);
             a = purelin(W*p + b);
             % Calculate the error
             e = (target - a);
@@ -72,7 +68,7 @@ elseif(mode=='2')
             bevo = [bevo; b];
             Eepoch_values = [Eepoch_values; e];
         end
-        Eepoch = sum(Eepoch_values)/ size(total_matrix, 1)
+        Eepoch = sum(Eepoch_values)/ size(total_matrix, 1);
         if(Eepoch == 0 || Eepoch < e_epoch)
             fprintf("La red convergió");
             break;
@@ -82,7 +78,7 @@ elseif(mode=='2')
     b
     plotHistory(Wevo, bevo);
     if (size(inputs, 2) == 2)
-       plotPerceptron(total_matrix, W, b);
+        plotPerceptron(total_matrix, W, b);
     else
         fprintf("Solo impresiones en 2 dimensiones soportada");
     end
@@ -110,12 +106,10 @@ function h = plotPerceptron(matrix, W, b)
     grid on
     % plot the desicion boundary
     x = -10:10;
-    for i=1:size(W, 1)
-        slope = -(b(i) / W(i, 2)) / (b(i) / W(i, 1));
-        intercept = -b(i) / W(i, 2);
-        y = slope * x + intercept; 
-        plot(x, y); 
-    end
+    slope = -(b / W(2)) / (b / W(1));
+    intercept = -b / W(2);
+    y = slope * x + intercept; 
+    plot(x, y);
     ylim([-10 10])
     xlim([-10 10])
     r = 5;
