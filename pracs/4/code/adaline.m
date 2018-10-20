@@ -2,7 +2,7 @@
 %e_epoch = input('Ingrese E epoch: ');
  %alpha = input('Ingrese el factor de aprendizaje: ');
  
-epoch_max = 30;
+epoch_max = 50;
 e_epoch = .01;
 alpha = .180;
 inputs = importdata('inputs.txt');
@@ -72,7 +72,7 @@ elseif(mode=='2')
             bevo = [bevo; b];
             Eepoch_values = [Eepoch_values; e];
         end
-        Eepoch = sum(Eepoch_values)/ size(total_matrix, 1)
+        Eepoch = sum(Eepoch_values)/ size(total_matrix, 1);
         if(Eepoch == 0 || Eepoch < e_epoch)
             fprintf("La red convergió");
             break;
@@ -80,9 +80,13 @@ elseif(mode=='2')
     end
     W
     b
+    dlmwrite('parametrosFinales.txt','Pesos', 'delimiter', '');
+    dlmwrite('parametrosFinales.txt',W,'delimiter',' ', '-append');
+    dlmwrite('parametrosFinales.txt','Bias', '-append',  'roffset', 1, 'delimiter', '');
+    dlmwrite('parametrosFinales.txt',b,'-append', 'delimiter', ' ');
     plotHistory(Wevo, bevo);
     if (size(inputs, 2) == 2)
-       plotPerceptron(total_matrix, W, b);
+       plotAdaline(total_matrix, W, b);
     else
         fprintf("Solo impresiones en 2 dimensiones soportada");
     end
@@ -100,7 +104,7 @@ function h = circle(x ,y, r, color)
     hold off
 end
 
-function h = plotPerceptron(matrix, W, b)
+function h = plotAdaline(matrix, W, b)
     % Plot the perceptron desicion boundary and the inputs
     figure
     ax = gca;                        % gets the current axes
@@ -119,15 +123,18 @@ function h = plotPerceptron(matrix, W, b)
     ylim([-10 10])
     xlim([-10 10])
     r = 5;
+    colors = 'ymcrgbwk';
+    i = 1;
+    M = containers.Map('KeyType','char','ValueType','char');
     for row = matrix.'
-        p = row(1:size(matrix, 2));
-        target = row(size(matrix, 2));
-        % Plot the input
-        if (target == 1)
-            h = circle(p(1), p(2), r, 'black');
-        else
-            h = circle(p(1), p(2), r, 'white');
-        end
+        target = row(size(W, 2) + 1:end);
+        M(mat2str(target)) = colors(i);
+        i = i + 1;
+    end
+    for row = matrix.'
+        p = row(1:size(W, 2));
+        target = row(size(W, 2) + 1:end);
+        h = circle(p(1), p(2), r, M(mat2str(target)));
     end
     hold off
 end
