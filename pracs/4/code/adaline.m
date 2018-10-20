@@ -1,8 +1,7 @@
 %epoch_max = input('Ingrese epochmax: ');
 %e_epoch = input('Ingrese E epoch: ');
  %alpha = input('Ingrese el factor de aprendizaje: ');
- 
-epoch_max = 50;
+epoch_max = 100;
 e_epoch = .01;
 alpha = .180;
 inputs = importdata('inputs.txt');
@@ -24,24 +23,22 @@ bevo = [bevo; b];
 mode = '2';
 if(mode=='1')
     if (size(inputs, 2) == 2)
-        num_tries = 10;
-        for i = 1:num_tries
-            W = rand(size(targets, 2), size(inputs, 2))*(2*max_random_range) + min_random_range
-            b = rand(size(targets, 2), 1) * (2*max_random_range) + min_random_range
-            convergence_counter = 0;
-            for row = total_matrix.'
-                p = row(1:size(inputs, 2));
-                target = row(size(inputs, 2) + 1);
-                a = W*p + b;
-                e = target - a;
-                if (e == 0)
-                    convergence_counter = convergence_counter + 1;
-                end
-            end
-            if(convergence_counter == size(total_matrix, 1))
-                fprintf("Convergió en %d iteraciones\n", i);
-                break;
-            end
+        W = rand(size(targets, 2), size(inputs, 2))*(2*max_random_range) + min_random_range
+        for row = total_matrix.'
+            % Array Indexing
+            p = row(1:size(inputs, 2));
+            target = row(size(inputs, 2) + 1: end);
+            a = purelin(W*p);
+            % Calculate the error
+            e = (target - a);
+            % Convergence Checking
+            Waux = W;
+            baux = b;
+            % Weight update
+            W = W + 2*alpha*e*p';
+            % Save the values
+            Wevo = [Wevo; W];
+            Eepoch_values = [Eepoch_values; e];
         end
         plotPerceptron(total_matrix, W, b);
     else
@@ -158,4 +155,37 @@ function plotHistory(Wevo, bevo)
     xlabel('Épocas') 
     ylabel('Valor') 
     hold off
+end
+
+
+function [table] = logicalModel(i)
+    % logicalModel(I, gate) returns a matrix representing a truth table and
+    % the last column represents the oupot base on all the previous columns
+    % based on the (gate) parameter
+    % INPUT: (I) shall be an integer >= 1
+    % INPUT: (gate) shall be 'and' or 'or'
+    % OUTPUT: logicalModel is a binary matrix of size [2^I,I + 1]
+    % Heavily inspired in Paul Metcalf's CONDVECTS
+    % Acknowledgements: Paul Metcalf
+    
+    g = 2;
+    i2 = 2^i;
+    table = false(i2,i + 1);
+    for m = 1 : 1 : i
+        m2 = 2^m;
+        m3 = (m2/2)-1;
+        i3 = i-m+1;
+        for g = g : m2 : i2
+            for k = 0 : 1 : m3
+                table(g+k,i3) = true;
+            end
+        end
+        g = m2+1;
+    end
+    table = table * 1;
+    for row_index = 1:size(table, 1)
+      row = table(row_index,:);
+      res = row(1);     
+      table(row_index, end) = row_index - 1; 
+    end  
 end
