@@ -140,30 +140,30 @@
       >8</text
     ></g
     ><g style="stroke-linecap:butt; fill:rgb(0,114,189); text-rendering:geometricPrecision; color-rendering:optimizeQuality; image-rendering:optimizeQuality; stroke-linejoin:round; color-interpolation:linearRGB; stroke:rgb(0,114,189); stroke-width:0.6667;"
-    ><path d="M73 338.6393 L94.7 326.8922 L116.4 315.145 L138.1 303.3979 L159.8 291.6507 L181.5 279.9036 L203.2 268.1564 L224.9 256.4093 L246.6 244.6621 L268.3 232.915 L290 221.1678 L311.7 209.4207 L333.4 197.6735 L355.1 185.9264 L376.8 174.1792 L398.5 162.4321 L420.2 150.6849 L441.9 138.9378 L463.6 127.1906 L485.3 115.4435 L507 103.6963" style="fill:none; fill-rule:evenodd;"
+    ><path d="M73 33.5883 L94.7 47.8581 L116.4 62.1279 L138.1 76.3977 L159.8 90.6675 L181.5 104.9373 L203.2 119.2071 L224.9 133.4769 L246.6 147.7467 L268.3 162.0166 L290 176.2864 L311.7 190.5562 L333.4 204.826 L355.1 219.0958 L376.8 233.3656 L398.5 247.6354 L420.2 261.9052 L441.9 276.175 L463.6 290.4448 L485.3 304.7147 L507 318.9845" style="fill:none; fill-rule:evenodd;"
     /></g
-    ><g style="text-rendering:geometricPrecision; color-interpolation:linearRGB; color-rendering:optimizeQuality; image-rendering:optimizeQuality;" transform="translate(290,168.2)"
+    ><g transform="translate(311.7,185.35)" style="fill:yellow; text-rendering:geometricPrecision; color-rendering:optimizeQuality; image-rendering:optimizeQuality; color-interpolation:linearRGB; stroke:yellow;"
     ><circle r="3.3333" style="stroke:none;" cx="-0.5" cy="-0.5"
     /></g
-    ><g transform="translate(290,168.2)" style="text-rendering:geometricPrecision; color-interpolation:linearRGB; color-rendering:optimizeQuality; stroke-linecap:butt; image-rendering:optimizeQuality;"
+    ><g transform="translate(311.7,185.35)" style="text-rendering:geometricPrecision; color-interpolation:linearRGB; color-rendering:optimizeQuality; stroke-linecap:butt; image-rendering:optimizeQuality;"
     ><circle r="3.3333" style="fill:none;" cx="-0.5" cy="-0.5"
     /></g
-    ><g style="text-rendering:geometricPrecision; color-interpolation:linearRGB; color-rendering:optimizeQuality; image-rendering:optimizeQuality;" transform="translate(311.7,202.5)"
+    ><g transform="translate(311.7,202.5)" style="fill:red; text-rendering:geometricPrecision; color-rendering:optimizeQuality; image-rendering:optimizeQuality; color-interpolation:linearRGB; stroke:red;"
     ><circle r="3.3333" style="stroke:none;" cx="-0.5" cy="-0.5"
     /></g
     ><g transform="translate(311.7,202.5)" style="text-rendering:geometricPrecision; color-interpolation:linearRGB; color-rendering:optimizeQuality; stroke-linecap:butt; image-rendering:optimizeQuality;"
     ><circle r="3.3333" style="fill:none;" cx="-0.5" cy="-0.5"
     /></g
-    ><g transform="translate(290,236.8)" style="fill:white; text-rendering:geometricPrecision; color-rendering:optimizeQuality; image-rendering:optimizeQuality; color-interpolation:linearRGB; stroke:white;"
+    ><g transform="translate(290,185.35)" style="fill:red; text-rendering:geometricPrecision; color-rendering:optimizeQuality; image-rendering:optimizeQuality; color-interpolation:linearRGB; stroke:red;"
     ><circle r="3.3333" style="stroke:none;" cx="-0.5" cy="-0.5"
     /></g
-    ><g transform="translate(290,236.8)" style="text-rendering:geometricPrecision; color-interpolation:linearRGB; color-rendering:optimizeQuality; stroke-linecap:butt; image-rendering:optimizeQuality;"
+    ><g transform="translate(290,185.35)" style="text-rendering:geometricPrecision; color-interpolation:linearRGB; color-rendering:optimizeQuality; stroke-linecap:butt; image-rendering:optimizeQuality;"
     ><circle r="3.3333" style="fill:none;" cx="-0.5" cy="-0.5"
     /></g
-    ><g transform="translate(333.4,202.5)" style="fill:white; text-rendering:geometricPrecision; color-rendering:optimizeQuality; image-rendering:optimizeQuality; color-interpolation:linearRGB; stroke:white;"
+    ><g transform="translate(290,202.5)" style="fill:red; text-rendering:geometricPrecision; color-rendering:optimizeQuality; image-rendering:optimizeQuality; color-interpolation:linearRGB; stroke:red;"
     ><circle r="3.3333" style="stroke:none;" cx="-0.5" cy="-0.5"
     /></g
-    ><g transform="translate(333.4,202.5)" style="text-rendering:geometricPrecision; color-interpolation:linearRGB; color-rendering:optimizeQuality; stroke-linecap:butt; image-rendering:optimizeQuality;"
+    ><g transform="translate(290,202.5)" style="text-rendering:geometricPrecision; color-interpolation:linearRGB; color-rendering:optimizeQuality; stroke-linecap:butt; image-rendering:optimizeQuality;"
     ><circle r="3.3333" style="fill:none;" cx="-0.5" cy="-0.5"
     /></g
   ></g
