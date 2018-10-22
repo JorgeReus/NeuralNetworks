@@ -1,0 +1,84 @@
+%% Creator: Inkscape inkscape 0.92.3, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'er1v_svg-tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{420bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.75)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{er1v_svg-tex.pdf}}%
+    \put(0.12321429,0.04761911){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1\end{tabular}}}}%
+    \put(0.19089286,0.04761911){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1.2\end{tabular}}}}%
+    \put(0.26839286,0.04761911){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1.4\end{tabular}}}}%
+    \put(0.34589286,0.04761911){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1.6\end{tabular}}}}%
+    \put(0.42339286,0.04761911){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1.8\end{tabular}}}}%
+    \put(0.51071429,0.04761911){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2\end{tabular}}}}%
+    \put(0.57839286,0.04761911){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2.2\end{tabular}}}}%
+    \put(0.65589286,0.04761911){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2.4\end{tabular}}}}%
+    \put(0.73339286,0.04761911){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2.6\end{tabular}}}}%
+    \put(0.81089286,0.04761911){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2.8\end{tabular}}}}%
+    \put(0.89821429,0.04761911){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}3\end{tabular}}}}%
+    \put(0.47232179,0.01130946){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Épocas\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{er1v_svg-tex.pdf}}%
+    \put(0.09940482,0.07232143){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-1\end{tabular}}}}%
+    \put(0.07976196,0.27648804){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-0.5\end{tabular}}}}%
+    \put(0.10654768,0.48065482){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0\end{tabular}}}}%
+    \put(0.08690482,0.68482143){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0.5\end{tabular}}}}%
+    \put(0.06547625,0.35625036){\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Valor\end{tabular}}}}}%
+    \put(0.35625036,0.70669643){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{Evolución de Parámetros}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{er1v_svg-tex.pdf}}%
+    \put(0.83392857,0.64464286){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}w1\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{er1v_svg-tex.pdf}}%
+    \put(0.83392857,0.61517857){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}w2\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{er1v_svg-tex.pdf}}%
+    \put(0.83392857,0.58571429){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}bias\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{er1v_svg-tex.pdf}}%
+  \end{picture}%
+\endgroup%
