@@ -826,4 +826,55 @@ $$ b_i(k+1) = b_i(k) + 2\alpha(t-a) $$
 		\item Cuando se llegue al valor epochmax
 	\end{enumerate}
 \end{enumerate}
+\section{Capítulo 11 BackPropagation}
+\textbf{Solo funciona con funciones de transferencia continuas y diferenciables en las capas ocultas}
+Esta es una RNA con múltiples capas y múltiples neuronas y es completamente conectada.
+La forma de representar su arquitectura es con dos vectores:
+\begin{itemize}
+	\item vector 1 : $ [R\ S^1\ S^2\ S^3\ \dots\ S^m] $
+	\item vector 2 : $ [2 \ 3\ \dots\ 3\ 1] $
+\end{itemize}
+donde :
+\begin{enumerate}
+	\item purelin()
+	\item logsig()
+	\item tansig()
+\end{enumerate}
+\textbf{Notas: Para propagación hacia atrás}
+\begin{enumerate}
+	\item Las funciones de transferencia deben ser continuas, diferenciables y no lineales
+	\item La función purelin() solo se usa en la capa de salida para usar al MLP en modo regresor
+\end{enumerate}
+\subsection{Ejemplo}
+Considere el siguiente dataset y diseñe una RNA que haga la correcta clasificación.
+\[p_1= 
+\begin{bmatrix}
+0\\
+0
+\end{bmatrix}, t_1=0
+\]
+
+\[p_2= 
+\begin{bmatrix}
+0\\
+1
+\end{bmatrix}, t_2=1
+\]
+
+\[p_3= 
+\begin{bmatrix}
+1\\
+0
+\end{bmatrix}, t_3=1
+\]
+
+\[p_4= 
+\begin{bmatrix}
+1\\
+1
+\end{bmatrix}, t_4=0
+\]
+
+No se puede por que no es linealmente separable\\
+Inicialmente un algoritmo para entrenar un MLP fue propuesto por Papul Werbos en 1974. El aŕea continuó en desarrollo hasta llegar al back propagation. A continuación, se resuelve el problema xor usadno un método gráfico y un MLP
 \end{document}
