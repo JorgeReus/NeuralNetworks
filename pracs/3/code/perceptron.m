@@ -13,7 +13,7 @@ bevo = [];
 % For plotting the evolution of the parameters
 Wevo = [Wevo; W];
 bevo = [bevo; b];
-mode = input('Elija un modo: 1->Gráfico, 2->Regla de Aprendizaje\n', 's');
+mode = input('Elija un modo: 1->GrÃ¡fico, 2->Regla de Aprendizaje\n', 's');
 if(mode=='1')
     if (size(inputs, 2) == 2)
         plotPerceptron(total_matrix, W, b);
@@ -36,7 +36,7 @@ elseif(mode=='2')
             % Convergence Checking
             Waux = W;
             baux = b;
-            % Weight update
+            % Weightwaa update
             W = W + e*p';
             % Bias update
             b = b + e;
@@ -54,7 +54,7 @@ elseif(mode=='2')
         fprintf("Solo impresiones en 2 dimensiones soportada");
     end
 else
-    fprintf("Opción no reconocida\n");
+    fprintf("OpciÃ³n no reconocida\n");
 end
     
 function h = circle(x ,y, r, color)
@@ -93,14 +93,14 @@ function h = plotPerceptron(matrix, W, b)
             h = circle(p(1), p(2), r, 'white');
         end
     end
-    legend('Frontera de Desición', 'Entrada con target 0', 'Entrada con target 1');
+    legend('Frontera de DesiciÃ³n', 'Entrada con target 0', 'Entrada con target 1');
 end
 
 function plotHistory(Wevo, bevo)
     % Plot the values
     hold on
     grid on
-    title('Evolución de Parámetros');
+    title('EvoluciÃ³n de ParÃ¡metros');
     legends = [];
     x = 1:size(Wevo, 1);
     for i = 1:size(Wevo, 2)
@@ -112,7 +112,7 @@ function plotHistory(Wevo, bevo)
     legends = [legends, "bias"];
     legends = mat2cell(legends,1, ones(1,numel(legends)));
     legend(legends{:});
-    xlabel('Épocas') 
+    xlabel('Ã‰pocas') 
     ylabel('Valor') 
     hold off
 end

@@ -43,7 +43,7 @@ if(mode=='1')
         end
         Eepoch = abs(sum(Eepoch_values)/ size(total_matrix, 1));
         if(Eepoch == 0 || Eepoch < e_epoch)
-            fprintf("La red convergió");       
+            fprintf("La red convergiÃ³");       
             break;
         end
     end
@@ -64,7 +64,7 @@ elseif(mode=='2')
             e = (target - a);
             % Weight update
             W = W + 2*alpha*e*p';
-            % Bias update
+            % Bias update                       
             b = b + 2*alpha*e;
             % Save the values
             Wevo = [Wevo; W];
@@ -73,7 +73,7 @@ elseif(mode=='2')
         end
         Eepoch = abs(sum(Eepoch_values) / size(Eepoch_values, 1));
         if(all(Eepoch == 0) || all(Eepoch < e_epoch))
-            fprintf("La red convergió\n");
+            fprintf("La red convergiÃ³\n");
             break;
         end
     end
@@ -90,7 +90,7 @@ elseif(mode=='2')
         fprintf("Solo impresiones en 2 dimensiones soportada");
     end
 else
-    fprintf("Opción no reconocida\n");
+    fprintf("OpciÃ³n no reconocida\n");
 end
     
 function h = circle(x ,y, r, color)
@@ -142,7 +142,7 @@ function plotHistory(Wevo, bevo)
     % Plot the values
     hold on
     grid on
-    title('Evolución de Parámetros');
+    title('EvoluciÃ³n de ParÃ¡metros');
     legends = [];
     x = 1:size(Wevo, 1);
     for i = 1:size(Wevo, 2)
@@ -154,7 +154,7 @@ function plotHistory(Wevo, bevo)
     legends = [legends, "bias"];
     legends = mat2cell(legends,1, ones(1,numel(legends)));
     legend(legends{:});
-    xlabel('Épocas') 
+    xlabel('Ã‰pocas') 
     ylabel('Valor') 
     hold off
 end
@@ -163,7 +163,7 @@ function plotHistoryNoBias(Wevo)
     % Plot the values
     hold on
     grid on
-    title('Evolución de Parámetros');
+    title('EvoluciÃ³n de ParÃ¡metros');
     legends = [];
     x = 1:size(Wevo, 1);
     for i = 1:size(Wevo, 2)
@@ -173,7 +173,7 @@ function plotHistoryNoBias(Wevo)
     end
     legends = mat2cell(legends,1, ones(1,numel(legends)));
     legend(legends{:});
-    xlabel('Épocas') 
+    xlabel('Ã‰pocas') 
     ylabel('Valor') 
     hold off
 end
