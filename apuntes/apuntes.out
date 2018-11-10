@@ -58,3 +58,7 @@
 \BOOKMARK [2][-]{subsection.21.4}{Proceso de aprendizaje}{section.21}% 58
 \BOOKMARK [1][-]{section.22}{Cap\355tulo 11 BackPropagation}{part.5}% 59
 \BOOKMARK [2][-]{subsection.22.1}{Ejemplo}{section.22}% 60
+\BOOKMARK [1][-]{section.23}{Back-propagation}{part.5}% 61
+\BOOKMARK [2][-]{subsection.23.1}{Foward Propagation}{section.23}% 62
+\BOOKMARK [2][-]{subsection.23.2}{BackPropagation \(aprendizaje\)}{section.23}% 63
+\BOOKMARK [2][-]{subsection.23.3}{Pasos a seguir para realizar el programa MLP}{section.23}% 64

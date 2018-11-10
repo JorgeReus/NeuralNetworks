@@ -877,4 +877,100 @@ Considere el siguiente dataset y diseñe una RNA que haga la correcta clasificac
 
 No se puede por que no es linealmente separable\\
 Inicialmente un algoritmo para entrenar un MLP fue propuesto por Papul Werbos en 1974. El aŕea continuó en desarrollo hasta llegar al back propagation. A continuación, se resuelve el problema xor usadno un método gráfico y un MLP
+\section{Back-propagation}
+\subsection{Foward Propagation}
+$$ a^0 = P $$
+$$ a^{m+1} = f^{m+1}(W^{m+1} a^{m} + b^{m+1}) $$ para m =0,1,$\dots$,(M-1)
+$$ a = a^M $$ donde M es el número de capas
+\subsection{BackPropagation (aprendizaje)}
+EN resumen, se usan las siguientes ecuaciones:
+\begin{itemize}
+	\item Sensitividades
+	$$ S^M = -2\dot{F}^M (n^M)(t-a) $$
+	$$ S^m = \dot{F}^m (n^m)(W^{m + 1})^T\cdot S^{m + 1} $$
+	para m = (M-1), ..., 2, 1\\
+	\textbf{Not: Se debe obtener una ecuación de sensitividad por cada capa del MLP}\\
+	donde:
+	\[\dot{F}^m(n^m)= 
+	\begin{bmatrix}
+	\dot{f}^m(n_{1}^m) & 0 & \dots & 0\\
+	\vdots & \dot{f}^m(n_{2}^m) &\ddots & \vdots\\
+	0 & 0 & \dots &\dot{f}^m(n_{s^m}^m)
+	\end{bmatrix}
+	\]
+	\textbf{Notas:}
+	\begin{enumerate}
+		\item Se obtiene una matriz $\dot{F}(\cdot) $
+		\item Solo hay valores en la diagonal principal
+		\item Es una matriz cuadrada cuya dimensión está dada por el número de neuronas en esa capa
+	\end{enumerate}
+	$$ \dot{f}^m(n_{j}^m) = \frac{\partial f^m (n_j^m)}{\partial n^m_j} $$ 
+	\textbf{Nota: Indica que se debe obtener la derivada de la función de transferencia correspondiente}\\
+	Finalmente, las reglas de aprendizaje son:
+	$$ W^m(k + 1) = W^m(k) - \alpha S^m(a^{m-1})^T $$
+	$$ b^m(k + 1) = b^m(k) - \alpha S^m $$
+\end{itemize}
+\subsection{Pasos a seguir para realizar el programa MLP}
+\begin{enumerate}
+	\item Se solicita al usuario los siguientes datos
+	\begin{enumerate}
+		\item El archivo con los datos de entrada(vector p): input\_1.txt
+		\item El archivo con los valores deseados(t): target\_1.txt
+		\item Se va a realizar sólo ejemplos de modo regresor. Así que el usuario debe indicar el rando de la señal. ejemplo[-2, 2]
+		\item La arquitectura de la MLP que desea usar, en dos vectores:
+		\[v_1: 
+		\begin{bmatrix}
+		1 & S^1 & S^2 & S^3 & 1
+		\end{bmatrix}
+		\]
+		\textbf{Nota: Máximo 3 capas ocultas}
+		\[v_2: 
+		\begin{bmatrix}
+		2 & 3 & 2 & 1
+		\end{bmatrix}
+		\]
+		\textbf{Nota: funciones de transferencia no lineales}\\
+		\textbf{Recordando}:
+		\begin{enumerate}
+			\item purelin()
+			\item logsig()
+			\item tansing()
+		\end{enumerate}
+	\item Valor del factor de aprendizaje ($\alpha$)
+	\[v_1: 
+	\begin{bmatrix}
+	0.00001 & 0.0001 & 0.001 & 0.1 & .12 & \dots & 1
+	\end{bmatrix}
+	\]
+	\item Valores de las condiciones de finalización del aprendizaje :
+	\begin{itemize}
+		\item Número de epocas: epochmax \textbf{No asegura el aprendizaje}
+		\item Que el valor del error de entrenamiento en una época, sea menor al valor:\\ error\_epoch\_train > $\frac{1}{N}\sum_{j=1}^{N}| e_j|$ \textbf{Si asegura el aprendizaje}\\
+		donde N: Es el número de datos en el conjunto de entrenamiento
+		\item El usuario va a dar los siguientes valores:
+		\begin{enumerate}
+			\item epochval: Este valor indica cada cuantas iteraciones se llevará a cabo una época de validación
+			\item numval: El número máximo de incrementos consecutivos del error\_epoch\_validation.\textbf{No asegura el aprendizaje}\\
+			error\_epoch\_validation > $\frac{1}{N}\sum_{j=1}^{N}| e_j|$\\
+			\textbf{Nota: aquí se usa el conjutno de validación}
+		\end{enumerate}
+		\item Si se sobrepasa el valor numval se finaliza el aprendizaje del MLP\\
+		\textbf{Early Stopping: Evitar sobre entrenamiento}
+	\end{itemize}
+	\item En este momento se lleva acabo la división del dataset en tres conjutnos: entrenamiento, validación y prueba. los primeros dos se usan durante el aprendizaje y el último para validar la calidad de generalización de conocimiento que obtuvo el MLP.\\
+	El usuario podra usar una de las siguientes configuraciones:
+	\begin{enumerate}
+		\item 80\%-10\%-10\%
+		\item 70\%-15\%-15\%
+	\end{enumerate}
+	\end{enumerate}
+	\item Se inicializan con valores aleatorios, entre -1 y +1, los parámetros del MLP
+	\item Se inicia la fase del aprendizaje
+	\begin{enumerate}
+		\item Dado un valor de época(epoch), se verifica si es igual ó múltiplo de epochval, si es así se hace una época de validaciónn y si no se hace una época de entrenamiento
+		\item Época de entrenamiento consiste en propagar hacia adelante cada uno de los datos del conjunto de entrenamiento, aplicar las reglas de aprendizaje y al final obtener el valor de error de epoca
+		\item Época de validación, se usa el algoritmo Early stopping.
+		\item Se repiten los pasos desde este enumerate, hasta que se cumpla uno de los criterios de finalización
+	\end{enumerate}
+\end{enumerate}
 \end{document}
