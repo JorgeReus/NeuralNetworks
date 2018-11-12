@@ -1,0 +1,80 @@
+Leer archivo de entradas
+Leer archivo de targets
+Calcular rangos y número de datos
+Solicitar la arquitectura del MLP
+arq = input('Ingresar la arquitectura del MLP: ','s');
+fns = input('Ingresar las funciones de activacion: ','s');
+Abrir los archivos para graficación
+
+for número de capas
+    archivos_pesos += 1;
+    archivos_bias +=1;
+    crear/abrir archivo pesos
+    creaar/abrir archivo bias
+end
+Solicitar el valor del factor de aprendizaje y los otros parametros RNA, (etapa de validacion, error de epoca, itmax, etc)
+Solicitar la configuracion para dividir subconjuntos (80-10-10, 70-15-15)
+Formar los subconjuntos
+Se inicializan la matriz de pesos y el vector bias con valores aleatorios entre -1 y 1
+W = cell(número capas, 1);
+b = cell(número capas, 1);
+salidas de cada capa
+a = cell(número capas, 1); %
+sensitividades
+S = cell(número capas, 1);
+F_m = cell(número capas, 1);
+for numero capas
+    W{i} = rand() % (1) -1;
+    b{i} = rand() % (1) -1;
+    guardar en archivo    
+end
+Comienzar el aprendizaje
+
+early_stopping = false;
+error_val = 0;
+error_apr = 0;
+Numero de iteraciones de validacion realizadas
+num_itval = 0;
+for it_max
+    Verificar error en validación
+    if (it % itval ~=0)
+        for datos enttenamiento
+            Propagar datos de entrenamiento
+            for número capas
+                propaga cada dato
+            end
+            Calcular errores
+            Calcular las sensitividades y se propagan backpropagation
+            Obtener función de activación para la capa
+            Aplicar reglas de aprendizaje      
+        end
+        Calcular error de aprendizaje y guardarlo
+    else
+        for datos validación
+            Propagar hacia adelante los elementos del conjunto de validación
+            for número capas
+                propagar cada dato
+            end
+            Calcular error validación
+        end
+        verificar errores para early stopping    
+    end
+    Comprobar condiciones de finalización
+end
+
+if early_stopping == true
+    Se imprimen a archivo los ultimos valores de pesos y bias de cada capa
+    for número capas
+        imprimir dato de pesos
+        imprimir dato de bías
+    end
+end
+
+Propagar el conjunto de prueba
+for número elemntos de prueba
+    for número capas
+        propagar cada dato
+    end
+end
+
+Graficar el conjunto de prueba y targets contra resultados de la red
