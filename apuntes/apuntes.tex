@@ -972,5 +972,44 @@ EN resumen, se usan las siguientes ecuaciones:
 		\item Época de validación, se usa el algoritmo Early stopping.
 		\item Se repiten los pasos desde este enumerate, hasta que se cumpla uno de los criterios de finalización
 	\end{enumerate}
+	\item Una vez terminada la fase de aprendizaje, se realiza la validación del resultado.\\
+	La validación consiste en tomar todos los valores finales de los pesos y bias del MLP y realizar la propagación hacia adelante de todos los datos del conjutno de prueba(no hay aprendizaje) y calcular el error. Este error se el llamará error de prueba.
+	Para evaluar objetivamente el aprendizaje del MLP este rror debe ser realmente pequeño, de $1x10^{-3}$ ó menor y el MLP debe presentar valores muy crecanos a los valores deseados(target) en todo el rango de la señal.
+	\textbf{Early Stopping}\\
+	En el MLP en muchas ocasiones se puede presentar un fenómeno llamado sobreentrenamiento, que consiste en un sobreajuste del MLP a la señal.\\
+	Es uno de los métodos para determinar sobrentrenamiento de la MLP. El early stopping se aplica durante una época de validación(epochval).
+	En este momento, se toman los valores de pesos y bías obtenidos en la epoca anterior de entrenamiento y se fijan estos valores en la rquitectura de MLP, luego se propaga hacia adelante todos los datos del conjunto de validación y se calcula el error promedio, que se llamará error de validación. Terminando este cálculo, se regresa a las epocas de aprendizaje hasta que se vuelva a presentar un valor de época que se múltiplo de epochval y se repite el procedimiento anteriormente descrito. Finalmente selleva un contador que registre el incremento consecutivo del error de valiación y cuando se igual a numval se detiene el aprendizaje
+	\textbf{algoritmo}\\
 \end{enumerate}
+\subsubsection{Funcionalidad}
+\begin{enumerate}
+	\item Cada vez que el programa finalice su ejecución se deben guardar los W's y los b's del MLP en un archivo *.txt
+	\item El programa debe permitir al usuario cargar dese un archivo valores inciales de W's y b's
+	\item guardar en uno o más archivos la configuración completa que usó el usuario para uqe solamente indique cuantas epocas adicionales desea realizar
+\end{enumerate}
+\subsubsection{Presentación de resultados}
+\begin{enumerate}
+	\item En la pantalla deberá aparecer los valores finales de los errores de entrenamiento y validación y el error de prueba
+	\item Las siguientes gráficas:
+	\begin{enumerate}
+		\item Por cada capa del MLP una gráfca de la evoluciión de los W's y b's (de 1 a 3)
+		\item Una gráfica de la evoluciń de los errores de entrenamiento y validación
+		\item Una gráfica que dibuje con círculos los valores del conjunto de prueba y con una cruz los valores de salida del MLP al propagar hacia adelante el conjutno de prueba con el MLP entrenado
+		\item Se debe guardar en un archivo txt los valores finales de W's y b's
+	\end{enumerate}
+\end{enumerate}
+La elección de la arquitectura de un MLP. En general, no podemos decir cuantas neuronas son necesarias para obtener un adecuado comportamiento del MLP para un problema dado. Sin embargo es bueno graficar la señal a aproximar para visualizar su complejidad.
+Para un primer ejemplo se desea usar un MLP para aproximar las siguientes funciones:
+ $$ g(p) = 1 + sin(\frac{i \pi}{4} * p) $$
+ para $-2 \le p \le 2$, tomando a i = 1, 2, 4, 8
+ ¿Cómo obtengo un dataset a partir de esta información?
+ \begin{enumerate}
+ 	\item Se genera un vector p con una frecuencia de muestreo a elegir. p=-2:0,04:2; 100 muestras
+ 	\item Para un valor i dado, se plica el vector p como entrada y se obtiene g(p) que serán los valores deseados
+ 	\item  Se deben guardar en un archvo txt los valores finales W's y b's.
+ \end{enumerate}
+ Sabemos que a medida que el valor de i aumenta se tendrá mayor número de periodos de la señal en el rángo dado.\\
+ 
+ Si tomamos una MLP de tamaño fijo, analizemos su comportamiento. Por ejemplo:
+ $$ V_1: [1 3 1], V_2: [2 1] $$
 \end{document}
