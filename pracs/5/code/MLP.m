@@ -34,8 +34,7 @@ targets = dlmread('test_functions/g_p/targets.txt');
 configuration = input ('Elija la configuración de distribución del dataset.\n 1. 80 - 10 - 10 \n 2. 70 - 15 - 15\n\n');
 data_size = size(inputs, 2);
 % Random positions
-shuffled_values = randperm (data_size);
-[training_ds, shuffled_values] = datos_entrenamiento (configuration, shuffled_values, inputs, targets)
+[training_ds, test_ds, validation_ds] = dataset_slices (configuration, inputs, targets);
 % [validacion, prueba] = datos_validacion_prueba (valores, p, target);
 
 % %Obtenemos el numero de elementos de cada subconjunto
