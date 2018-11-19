@@ -1,7 +1,7 @@
 %Clean screen and variables
 clear
 clc
-generar_g_p(3);
+generar_g_p(1);
 %%% User Inputs %%%
 %Enter the inputs file
 % inputs = dlmread(input('Ingresa el archivo de entradas: ', 's'));
@@ -13,360 +13,354 @@ targets = dlmread('test_functions/g_p/targets.txt');
 
 %Enter the signal range
 % range = str2num(input ('Ingresa el rango de la señal: ', 's'));
+range = [-2 2];
 
 %Enter the MLP architecture (Max 3 hidden layers)
-% arq = str2num(input('Ingresa el vector de  arquitectura: ', 's'));
+% arq = str2num(input('Ingresa el vector de  arq: ', 's'));
+arq = [1 3 1];
 
 %Enter the activation Function
-% act_functions = str2num(input ('Ingresa el vector las funciones de activacion, donde:\n1. Purelin    2. Logsig    3. Tansig\n', 's'));
+% act_functions = str2num(input ('Ingresa el vector las get_activation_functiones de activacion, donde:\n1. Purelin    2. Logsig    3. Tansig\n', 's'));
+act_functions = [2 1];
 
 %Enter the learning factor
 % alpha = input ('Ingresa el de factor de aprendizaje : ');
+alpha = 0.01;
  
 %Enter the the stopping conditions
 % epochmax = input ('Ingresa el numero máximo de epocas: ');
+epochmax = 1000;
 % error_epoch_max = input ('Ingresa el valor mínimo del error de aprendizaje por época: ');
-% epochval = input ('Ingresa cuantas épocas se realizará una época de validación: ');
-% numval = input ('Ingresa el valor máximo de incrementos consecutivos en el error de validación: ');
+error_epoch_max = 0.000001;
+% epoch_val = input ('Ingresa cuantas épocas se realizará una época de validación: ');
+epoch_val = 500;
+% num_val = input ('Ingresa el valor máximo de incrementos consecutivos en el error de validación: ');
+num_val = 5;
 % error_epoch_validation = input ('Ingresa el valor mínimo del error por época: ');
 
 %%% Data set slicing %%%
-configuration = input ('Elija la configuración de distribución del dataset.\n 1. 80 - 10 - 10 \n 2. 70 - 15 - 15\n\n');
+% configuration = input ('Elija la configuración de distribución del dataset.\n 1. 80 - 10 - 10 \n 2. 70 - 15 - 15\n\n');
+configuration = 1;
 data_size = size(inputs, 2);
-% Random positions
+% Get the dataset slices
 [training_ds, test_ds, validation_ds] = dataset_slices (configuration, inputs, targets);
-% [validacion, prueba] = datos_validacion_prueba (valores, p, target);
+training_size = size (training_ds, 1);
+validation_size = size (validation_ds, 1);
+test_size = size (test_ds, 1)
 
-% %Obtenemos el numero de elementos de cada subconjunto
-% numero_datos_entrenamiento = size (entrenamiento);
-% numero_datos_entrenamiento = numero_datos_entrenamiento (1, 1);
-% numero_datos_validacion = size (validacion);
-% numero_datos_validacion = numero_datos_validacion (1, 1);
-% numero_datos_prueba = size (prueba);
-% numero_datos_prueba = numero_datos_prueba (1, 1);
-% 
-% %Tamaño del vector de entrada p
-% R = arquitectura (1, 1);
-% %Calculamos el numero de capas que tendra el MLP
-% num_capas = size (act_functions);
-% num_capas = num_capas (1, 2);
-% 
-% %Asignamos espacio a las matrices de pesos y bias
-% W = cell (num_capas, 1);
-% b = cell (num_capas, 1);
-% 
-% %________________________ARCHIVOS PARA GRAFICACIÓN_________________________
-% total_archivos_pesos = 0;
-% total_archivos_bias = 0;
-% for i = 1:num_capas
-%     for j = 1:(arquitectura (i+1))
-%         for l = 1:(arquitectura (i))
-%             total_archivos_pesos = (total_archivos_pesos + 1);
-%         end
-%     end
-%     total_archivos_bias = (total_archivos_bias + 1);
-% end
-% 
-% archivos_W = zeros (total_archivos_pesos, 1);
-% archivos_b = zeros (total_archivos_bias, 1);
-% 
-% %Abrir archivos de pesos
-% archivo_i = 1;
-% for i = 1:num_capas
-%     path = strcat (pwd, '/Capa ', num2str(i), '/Pesos/');
-%     if ~exist (path, 'dir')
-%         mkdir (path);
-%     end
-%     for j = 1:(arquitectura (i + 1))
-%         for k = 1:(arquitectura (i))
-%             archivo = strcat (path, '/Pesos', num2str (j), '_', num2str (k), '.txt');
-%             archivos_W (archivo_i) = fopen (archivo, 'w');
-%             archivo_i = (archivo_i + 1);
-%         end
-%     end
-% end
-% 
-% %Abrir archivos de bias
-% archivo_i = 1;
-% for i = 1:num_capas
-%     path = strcat (pwd, '/Capa ', num2str(i), '/Bias/');
-%     if ~exist (path, 'dir')
-%         mkdir (path);
-%     end
-%     for j = 1:(arquitectura (i + 1))
-%         archivo = strcat (path, '/Bias', num2str (j), '.txt');
-%         archivos_b (archivo_i) = fopen (archivo, 'w');
-%         archivo_i = (archivo_i + 1);
-%     end
-% end
-% 
-% %Asignar valores entre -1 y 1 a los pesos y bias
-% archivo_Wi = 1;
-% archivo_bi = 1;
-% for i = 1:num_capas
-%     W {i} = -1 + 2 * rand (arquitectura (i + 1), arquitectura (i));
-%     b {i} = -1 + 2 * rand (arquitectura (i + 1), 1);
-%     
-%     %Valores iniciales de pesos y bias en los archivos correspondientes
-%     for j = 1:(arquitectura (i + 1))
-%         for k = 1:(arquitectura (i))
-%             fprintf (archivos_W (archivo_Wi), '%.4f\r\n', W {i} (j, k));
-%             archivo_Wi = (archivo_Wi + 1);
-%         end
-%     end
-%     for j = 1:(arquitectura (i + 1))
-%         fprintf (archivos_b (archivo_bi), '%.4f\r\n', b {i} (j, 1));
-%         archivo_bi = (archivo_bi + 1);
-%     end
-% end
-% 
-% %Para guardar salidas, sensitividades y derivadas de cada capa
-% a = cell (num_capas + 1, 1);
-% S = cell (num_capas, 1);
-% F_m = cell (num_capas, 1);
-% 
-% %Se inicializan los errores de validacion
-% flag = 0;
-% error_validacion_anterior = 0;
-% error_final_aprendizaje = 0;
-% incrementos_consecutivos = 0;
-% 
-% %Se inicializan matrices para errores
-% grafica_error_aprendizaje = zeros (epochmax, 1);
-% grafica_error_validacion = zeros (ceil (epochmax / epochval), 1);
-% total_iteraciones_validacion = 0;
+%%% Parameter calculation %%%
+%Rows of the input vector
+R = arq (1, 1);
 
-% _________________________ALGORITMO DE APRENDIZAJE_________________________
-% for iteracion = 1:itmax
-%     Se resetea el valor del archivo W y b
-%     archivo_bi = 1;
-%     archivo_Wi = 1;
-%     
-%     Se resetea el valor del error de aprendizaje
-%     error_aprendizaje = 0;
-%     
-%     Si es iteracion de validacion, debe ser multiplo de itval
-%     if mod (iteracion, itval) == 0
-%         total_iteraciones_validacion = (total_iteraciones_validacion + 1);
-%         error_validacion_actual = 0;
-%         Propagacion de los datos
-%         for dato = 1:numero_datos_validacion
-%             
-%             Dato a propagar hacia adelante
-%             a {1} = validacion (dato, 1);
-%             
-%             Propagacion hacia adelante del dato
-%             for i = 1:num_capas
-%                 a {i + 1} = funcion (W {i, 1}, a {i, 1}, b {i, 1}, funciones_activacion (1, i));
-%             end
-%             
-%             Se calcula el error de validacion para el dato i
-%             error_dato = (validacion (dato, 2) - a {num_capas + 1, 1});
-%             error_dato = abs (error_dato);
-%             Se suma el error de validacion de cada dato
-%             error_validacion_actual = (error_validacion_actual + error_dato);
-%         end
-%         error_validacion_actual = (error_validacion_actual / numero_datos_validacion);
-%         
-%         grafica_error_validacion (iteracion) = error_validacion_actual;
-%         
-%         Si ya hubo un incremento en el error de validacion
-%         if (error_validacion_actual > error_validacion_anterior)
-%             incrementos_consecutivos = incrementos_consecutivos + 1;
-%             if incrementos_consecutivos < numval
-%                 Actualizacion del error anterior
-%                 error_validacion_anterior = error_validacion_actual;
-%                 error_validacion_actual = 0;
-%             else
-%                 fprintf ('No se obtuvo un aprendizaje correcto de la red\n');
-%                 flag = 1;
-%                 fprintf ('\nEarly Stopping en la iteración %d\n', iteracion);
-%                 break;
-%             end
-%         else
-%             error_validacion_anterior = error_validacion_actual;
-%             incrementos_consecutivos = 0;
-%         end
-%     else
-%         for dato = 1:numero_datos_entrenamiento
-%             Dato a propagar hacia adelante
-%             a {1} = entrenamiento (dato, 1);
-%             
-%             Propagacion hacia adelante del dato
-%             for i = 1:num_capas
-%                 a {i + 1} = funcion (W {i, 1}, a {i, 1}, b {i, 1}, funciones_activacion (1, i));
-%             end
-%             
-%             Se calcula el error de validacion para el dato i
-%             error_dato = (entrenamiento (dato, 2) - a {num_capas + 1, 1});
-%             error_dato = abs (error_dato);
-%             Se suma el error de validacion de cada dato
-%             error_aprendizaje = (error_aprendizaje + error_dato);
-%             error_aprendizaje = (error_aprendizaje / numero_datos_entrenamiento);
-%             
-%             Calculo de sensitividades
-%             F_m {num_capas} = matriz_F (funciones_activacion (1, num_capas), arquitectura (1, num_capas + 1), a {num_capas + 1, 1});
-%             S {num_capas} = (-2 * F_m {num_capas} * error_dato);
-%             
-%             Algoritmo Back Propagation
-%             for i = (num_capas - 1):-1:1
-%                 F_m {i} = matriz_F (funciones_activacion (1, i), arquitectura (1, i + 1), a {i + 1, 1});
-%                 S {i} = F_m {i, 1} * (W {i+1, 1})' * S {i + 1, 1};
-%             end
-%             
-%             Actualizacion de pesos y bias
-%             for i = num_capas:-1:1
-%                 W {i, 1} = (W {i, 1} - (alpha * S {i, 1} * (a {i, 1})'));
-%                 b {i, 1} = (b {i, 1} - (alpha * S {i, 1}));
-%             end
-%         end
-%         error_final_aprendizaje = error_aprendizaje;
-%         
-%         grafica_error_aprendizaje (iteracion) = error_aprendizaje;
-%     end
-%     
-%     Imprimir valores de pesos y bias en archivo correspondiente
-%     archivo_Wi = 1;
-%     archivo_bi = 1;
-%     for k = num_capas:-1:1
-%         for j = 1:(arquitectura (k + 1))
-%             for l = 1:(arquitectura (k))
-%                 fprintf (archivos_W (archivo_Wi), '%.4f\r\n', W {k}(j, l));
-%                 archivo_Wi = (archivo_Wi + 1);
-%             end
-%         end
-%         for j = 1:(arquitectura (k + 1))
-%             fprintf (archivos_b (archivo_bi), '%.4f\r\n', b {k}(j, 1));
-%             archivo_bi = (archivo_bi + 1);
-%         end
-%     end
-%     
-%     Condiciones de finalización por iteración
-%     if error_aprendizaje < Eit && error_aprendizaje > 0
-%         fprintf ('Se obtuvo un aprendizaje exitoso en la iteracion: %d\n', iteracion);
-%         break;
-%     end
-% end
-% 
-% if flag == 1
-%     archivo_Wi = 1;
-%     archivo_bi = 1;
-%     for k = num_capas:-1:1
-%         for j = 1:(arquitectura (k + 1))
-%             for l = 1:(arquitectura (k))
-%                 fprintf (archivos_W (archivo_Wi), '%.4f\r\n', W {k}(j, l));
-%                 archivo_Wi = (archivo_Wi + 1);
-%             end
-%         end
-%         for j = 1:(arquitectura (k + 1))
-%             fprintf (archivos_b (archivo_bi), '%.4f\r\n', b {k}(j, 1));
-%             archivo_bi = (archivo_bi + 1);
-%         end
-%     end
-% end
-% 
-% ______________________CERRAR ARCHIVOS DE PESOS Y BIAS_____________________
-% for i = 1:total_archivos_pesos
-%     fclose (archivos_W (i));
-% end
-% 
-% for i = 1:total_archivos_bias
-%     fclose (archivos_b (i));
-% end
-% 
-% ______________________PROPAGACION CONJUNTO DE PRUEBA______________________
-% error_prueba = 0;
-% salida = ones (numero_datos_prueba, 1);
-% for i = 1:numero_datos_prueba
-%     a {1} = prueba (i, 1);
-%     for k = 1:num_capas
-%         a {k + 1} = funcion (W {k, 1}, a {k, 1}, b {k, 1}, funciones_activacion (1, k));
-%     end
-%     aux = (prueba (i, 2) - a {num_capas + 1, 1});
-%     aux = abs (aux);
-%     error_prueba = error_prueba + (aux / numero_datos_prueba);
-%     salida (i) = a {num_capas + 1, 1};
-% end
-% 
-% Impresion final de valores de los errores
-% fprintf ('Error final de aprendizaje = %.4f\n', error_final_aprendizaje);
-% fprintf ('Error final de validacion = %.4f\n', error_validacion_anterior);
-% fprintf ('Error final de prueba = %.4f\n', error_prueba);
-% 
-% ________________________________GRAFICACIÓN_______________________________
-% ERRORES DE APRENDIZAJE Y VALIDACIÓN
-% Prueba_Errores = figure ('Name', 'Errores de aprendizaje y validación');
-% figure (Prueba_Errores);
-% grid on;
-% rango = 1:1:iteracion;
-% rango_aux = itval:itval:(itval * total_iteraciones_validacion);
+%MLP layer calculation
+num_layers = size (act_functions, 2);
+
+%Preallocation of cells
+W = cell (num_layers, 1);
+b = cell (num_layers, 1);
+
+%Number of files
+num_weight_files = 0;
+num_bias_files = 0;
+for i = 1:num_layers
+    for j = 1:(arq (i+1))
+        for last_validation_error = 1:(arq (i))
+            num_weight_files = num_weight_files + 1;
+        end
+    end
+    num_bias_files = num_bias_files + 1;
+end
+%Preallocation for files
+W_files = zeros (num_weight_files, 1);
+b_files = zeros (num_bias_files, 1);
+
+%Open weight files
+current_file = 1;
+for i = 1:num_layers
+    path = strcat (pwd, '/Capa ', num2str(i), '/Pesos/');
+    if ~exist (path, 'dir')
+        mkdir (path);
+    end
+    for j = 1:(arq (i + 1))
+        for k = 1:(arq (i))
+            file = strcat (path, '/Pesos', num2str (j), '_', num2str (k), '.txt');
+            W_files (current_file) = fopen (file, 'w');
+            current_file = (current_file + 1);
+        end
+    end
+end
+
+%Open bias Files
+current_file = 1;
+for i = 1:num_layers
+    path = strcat (pwd, '/Capa ', num2str(i), '/Bias/');
+    if ~exist (path, 'dir')
+        mkdir (path);
+    end
+    for j = 1:(arq (i + 1))
+        file = strcat (path, '/Bias', num2str (j), '.txt');
+        b_files (current_file) = fopen (file, 'w');
+        current_file = (current_file + 1);
+    end
+end
+
+%%% Data initialization %%%
+flag = 0;
+last_validation_error = 0;
+final_validation_error = 0;
+consecutive_increments = 0;
+
+learning_error_plot = zeros (epochmax, 1);
+validation_error_plot = zeros (ceil (epochmax / epoch_val), 1);
+total_validation_epochs = 0;
+
+%Initialize bias and weights from -1 to 1 randomly
+Wi_file = 1;
+bi_file = 1;
+for i = 1:num_layers
+    W {i} = -1 + 2 * rand (arq (i + 1), arq (i));
+    b {i} = -1 + 2 * rand (arq (i + 1), 1);
+    % Write it to the files
+    for j = 1:(arq (i + 1))
+        for k = 1:(arq (i))
+            fprintf (W_files (Wi_file), '%.4f\r\n', W {i} (j, k));
+            Wi_file = (Wi_file + 1);
+        end
+    end
+    for j = 1:(arq (i + 1))
+        fprintf (b_files (bi_file), '%.4f\r\n', b {i} (j, 1));
+        bi_file = (bi_file + 1);
+    end
+end
+
+% Preallocate for outputs, sensitivities and derivative of each layer
+a = cell (num_layers + 1, 1);
+S = cell (num_layers, 1);
+F_m = cell (num_layers, 1);
+
+%%% MLP larning algorithm %%%
+for epoch = 1:epochmax
+    % Reset values
+    training_error = 0;
+    bi_file = 1;
+    Wi_file = 1;
+    
+    % Validate if this epoch is a validation epoch
+    if mod (epoch, epoch_val) == 0
+        total_validation_epochs = (total_validation_epochs + 1);
+        current_validation_error = 0;
+        % Data Propagation
+        for data = 1:validation_size            
+            a {1} = validation_ds (data, 1);
+            for i = 1:num_layers
+                a {i + 1} = get_activation_function (W {i, 1}, a {i, 1}, b {i, 1}, act_functions (1, i));
+            end
+            
+            %Calculate the epoch validation error
+            data_error = abs(validation_ds (data, 2) - a {num_layers + 1, 1});
+            %Cumulative sum of each error
+            current_validation_error = (current_validation_error + data_error);
+        end
+        current_validation_error = (current_validation_error / validation_size);
+        
+        validation_error_plot (epoch) = current_validation_error;
+        
+       % If the current error ys greater than the last
+        if (current_validation_error > last_validation_error)
+            consecutive_increments = consecutive_increments + 1;
+            if consecutive_increments < num_val
+                % Error update
+                last_validation_error = current_validation_error;
+                current_validation_error = 0;
+            else
+                fprintf ('No se obtuvo un aprendizaje correcto de la red\n');
+                flag = 1;
+                fprintf ('\nEarly Stopping en la iteración %d\n', epoch);
+                break;
+            end
+        else
+            last_validation_error = current_validation_error;
+            consecutive_increments = 0;
+        end
+    else
+        % This epoch isn't a validation one
+        for data = 1:training_size
+            % Data propagation
+            a {1} = training_ds (data, 1);
+            
+            for i = 1:num_layers
+                a {i + 1} = get_activation_function (W {i, 1}, a {i, 1}, b {i, 1}, act_functions (1, i))
+            end
+            
+            % Calculate the validation error      
+            data_error = (training_ds (data, 2) - a {num_layers + 1, 1});
+            data_error = abs (data_error);
+            % Cumulative sum of errors
+            training_error = (training_error + data_error);
+            training_error = (training_error / training_size);
+            
+            % Sensitivities calculation
+            F_m {num_layers} = F_matrix (act_functions (1, num_layers), arq (1, num_layers + 1), a {num_layers + 1, 1});
+            S {num_layers} = (-2 * F_m {num_layers} * data_error);
+            
+            % Back propagation algorithm
+            for i = (num_layers - 1):-1:1
+                F_m {i} = F_matrix (act_functions (1, i), arq (1, i + 1), a {i + 1, 1});
+                S {i} = F_m {i, 1} * (W {i+1, 1})' * S {i + 1, 1};
+            end
+            
+            % Weight and bias update
+            for i = num_layers:-1:1
+                W {i, 1} = (W {i, 1} - (alpha * S {i, 1} * (a {i, 1})'));
+                b {i, 1} = (b {i, 1} - (alpha * S {i, 1}));
+            end
+        end
+        final_validation_error = training_error;
+        
+        learning_error_plot (epoch) = training_error;
+    end
+    
+    %Plot the values
+    Wi_file = 1;
+    bi_file = 1;
+    for k = num_layers:-1:1
+        for j = 1:(arq (k + 1))
+            for last_validation_error = 1:(arq (k))
+                fprintf (W_files (Wi_file), '%.4f\r\n', W {k}(j, last_validation_error));
+                Wi_file = (Wi_file + 1);
+            end
+        end
+        for j = 1:(arq (k + 1))
+            fprintf (b_files (bi_file), '%.4f\r\n', b {k}(j, 1));
+            bi_file = (bi_file + 1);
+        end
+    end
+    
+    % Stopping conditions
+    if training_error < error_epoch_max && training_error > 0
+        fprintf ('Se obtuvo un aprendizaje exitoso en la epoch: %d\n', epoch);
+        break;
+    end
+end
+
+if flag == 1
+    Wi_file = 1;
+    bi_file = 1;
+    for k = num_layers:-1:1
+        for j = 1:(arq (k + 1))
+            for last_validation_error = 1:(arq (k))
+                fprintf (W_files (Wi_file), '%.4f\r\n', W {k}(j, last_validation_error));
+                Wi_file = (Wi_file + 1);
+            end
+        end
+        for j = 1:(arq (k + 1))
+            fprintf (b_files (bi_file), '%.4f\r\n', b {k}(j, 1));
+            bi_file = (bi_file + 1);
+        end
+    end
+end
+
+%%% Close files %%%
+for i = 1:num_weight_files
+    fclose (W_files (i));
+end
+
+for i = 1:num_bias_files
+    fclose (b_files (i));
+end
+
+%%% Test Dataset propagation %%%
+error_test_ds = 0;
+output = ones (test_size, 1);
+for i = 1:test_size
+    a {1} = test_ds (i, 1);
+    for k = 1:num_layers
+        a {k + 1} = get_activation_function (W {k, 1}, a {k, 1}, b {k, 1}, act_functions (1, k));
+    end
+    aux = (test_ds (i, 2) - a {num_layers + 1, 1});
+    aux = abs (aux);
+    error_test_ds = error_test_ds + (aux / test_size);
+    output (i) = a {num_layers + 1, 1};
+end
+
+% Final plot of the errors
+fprintf ('Error final de aprendizaje = %.4f\n', final_validation_error);
+fprintf ('Error final de validation_ds = %.4f\n', last_validation_error);
+fprintf ('Error final de test_ds = %.4f\n', error_test_ds);
+
+%%% PLoting %%%
+test_ds_Errores = figure ('Name', 'Errores de aprendizaje y validación');
+figure (test_ds_Errores);
+grid on;
+rango = 1:1:epoch;
+rango_aux = epoch_val:epoch_val:(epoch_val * total_validation_epochs);
 % Verde oscuro
-% contorno_validacion = [0 0.4980 0];
+contorno_validation_ds = [0 0.4980 0];
 % Verde claro
-% relleno_validacion = [0 1 0];
-% scatter (rango_aux, grafica_error_validacion (itval:itval:total_iteraciones_validacion*itval,1), 'MarkerEdgeColor',contorno_validacion, 'MarkerFaceColor', relleno_validacion, 'LineWidth',1.5);
-% hold on;
+relleno_validation_ds = [0 1 0];
+scatter (rango_aux, validation_error_plot (epoch_val:epoch_val:total_validation_epochs*epoch_val,1), 'MarkerEdgeColor',contorno_validation_ds, 'MarkerFaceColor', relleno_validation_ds, 'LineWidth',1.5);
+hold on;
 % Azul oscuro
-% contorno_aprendizaje = [0.0784 0.1686 0.5490];
+contorno_aprendizaje = [0.0784 0.1686 0.5490];
 % Azul claro
-% relleno_aprendizaje = [0 0.7490 0.7490];
-% scatter (rango, grafica_error_aprendizaje (1:iteracion,1), 'MarkerEdgeColor',contorno_aprendizaje, 'MarkerFaceColor', relleno_aprendizaje, 'LineWidth',1.5);
-% title ('Errores de aprendizaje y validacion');
-% xlabel ('Iteracion');
-% ylabel ('Valor del error');
-% legend ('Error validacion', 'Error aprendizaje');
-% 
-% CONJUNTO DE PRUEBA CON TARGET
-% Prueba_Graph = figure ('Name', 'Conjunto de prueba');
-% figure (Prueba_Graph);
-% grid on;
-% rango = prueba (:, 1);
+relleno_aprendizaje = [0 0.7490 0.7490];
+scatter (rango, learning_error_plot (1:epoch,1), 'MarkerEdgeColor',contorno_aprendizaje, 'MarkerFaceColor', relleno_aprendizaje, 'LineWidth',1.5);
+title ('Errores de aprendizaje y validation_ds');
+xlabel ('epoch');
+ylabel ('Valor del error');
+legend ('Error validation_ds', 'Error aprendizaje');
+
+% CONJUNTO DE test_ds CON TARGET
+test_ds_Graph = figure ('Name', 'Conjunto de test_ds');
+figure (test_ds_Graph);
+grid on;
+rango = test_ds (:, 1);
 % Verde oscuro
-% contorno_salida = [0 0.4980 0];
+contorno_salida = [0 0.4980 0];
 % Verde claro
-% relleno_salida = [0 1 0];
-% scatter (rango, salida, 'MarkerEdgeColor',contorno_salida, 'MarkerFaceColor', relleno_salida, 'LineWidth',1.5);
-% hold on;
+relleno_salida = [0 1 0];
+scatter (rango, output, 'MarkerEdgeColor',contorno_salida, 'MarkerFaceColor', relleno_salida, 'LineWidth',1.5);
+hold on;
 % Azul oscuro
-% contorno_target = [0.0784 0.1686 0.5490];
+contorno_target = [0.0784 0.1686 0.5490];
 % Azul claro
-% relleno_target = [0 0.7490 0.7490];
-% scatter (rango, prueba (:, 2), 'MarkerEdgeColor',contorno_target, 'MarkerFaceColor', relleno_target, 'LineWidth',1.5);
-% title ('Conjunto de prueba');
-% xlabel ('p');
-% ylabel ('f (p)');
-% legend ('Salida del MLP', 'Target');
-% 
+relleno_target = [0 0.7490 0.7490];
+scatter (rango, test_ds (:, 2), 'MarkerEdgeColor',contorno_target, 'MarkerFaceColor', relleno_target, 'LineWidth',1.5);
+title ('Conjunto de test_ds');
+xlabel ('p');
+ylabel ('f (p)');
+legend ('Salida del MLP', 'Target');
+
 % PESOS
-% Pesos_Graph = figure ('Name', 'Evolución de los pesos');
-% grid on;
-% for i = 1:num_capas
-%     figure (Pesos_Graph);
-%     path = strcat (pwd, '/Capa ', num2str(i), '/Pesos/');
-%     for j = 1:(arquitectura (i + 1))
-%         for k = 1:(arquitectura (i))
-%             archivo = strcat (path, '/Pesos', num2str (j), '_', num2str (k), '.txt');
-%             simb = strcat('W(',num2str(j),',',num2str(k),')');
-%             evolucion_pesos = importdata(archivo);
-%             plot(evolucion_pesos','DisplayName',simb);
-%             hold on;
-%         end
-%     end
-%     titulo = strcat('Pesos - capa',{' '},num2str(i));
-%     title(titulo);
-%     ylabel('W');
-%     xlabel('Iteracion');
-%     hold off
-% end
-% 
-% BIAS
-% rango = 0:1:iteracion;
+Pesos_Graph = figure ('Name', 'Evolución de los pesos');
+grid on;
+for i = 1:num_layers
+    figure (Pesos_Graph);
+    path = strcat (pwd, '/Capa ', num2str(i), '/Pesos/');
+    for j = 1:(arq (i + 1))
+        for k = 1:(arq (i))
+            file = strcat (path, '/Pesos', num2str (j), '_', num2str (k), '.txt');
+            simb = strcat('W(',num2str(j),',',num2str(k),')');
+            evolucion_pesos = importdata(file);
+            plot(evolucion_pesos','DisplayName',simb);
+            hold on;
+        end
+    end
+    titulo = strcat('Pesos - capa',{' '},num2str(i));
+    title(titulo);
+    ylabel('W');
+    xlabel('epoch');
+    hold off
+end
+
+% % BIAS
+% rango = 0:1:epoch;
 % Bias_Graph = figure ('Name', 'Evolución de los bias');
 % grid on
-% for i = 1:num_capas
+% for i = 1:num_layers
 %     figure (Bias_Graph);
 %     path = strcat (pwd, '/Capa ', num2str(i), '/Bias/');
-%     for j = 1:(arquitectura (i+1))
+%     for j = 1:(arq (i+1))
 %         archivo_bias = strcat (path, '/Bias', num2str (j), '.txt');
 %         simb = strcat('b(',num2str(j),')');
 %         evolucion_bias = importdata (archivo_bias); % Identificador para la grafica
@@ -376,28 +370,27 @@ data_size = size(inputs, 2);
 %     titulo = strcat('Bias - capa',{' '},num2str(i));
 %     title(titulo);
 %     ylabel('b');
-%     xlabel('Iteracion');
+%     xlabel('epoch');
 %     hold off
 % end
-% 
-% ENTRENAMIENTO
-% figure
-% rango = entrenamiento(:,1);
+
+figure
+rango = training_ds(:,1);
 % Verde oscuro
-% contorno_salida = [0 0.4980 0];
+contorno_salida = [0 0.4980 0];
 % Verde claro
-% relleno_salida = [0 1 0];
-% plot(salida,'MarkerEdgeColor',contorno_salida, 'MarkerFaceColor', relleno_salida, 'LineWidth',1.5);
-% grid on
-% hold on
+relleno_salida = [0 1 0];
+plot(output,'MarkerEdgeColor',contorno_salida, 'MarkerFaceColor', relleno_salida, 'LineWidth',1.5);
+grid on
+hold on
 % Azul oscuro
-% contorno_target = [0.0784 0.1686 0.5490];
+contorno_target = [0.0784 0.1686 0.5490];
 % Azul claro
-% relleno_target = [0 0.7490 0.7490];
-% plot(entrenamiento(:,2),'MarkerEdgeColor',contorno_target, 'MarkerFaceColor', relleno_target, 'LineWidth',1.5);
-% title('Conjunto de entrenamiento');
-% ylabel('f(p)');
-% xlabel('p');
-% legend('Salida del MLP','Targets');
-% hold off
+relleno_target = [0 0.7490 0.7490];
+plot(training_ds(:,2),'MarkerEdgeColor',contorno_target, 'MarkerFaceColor', relleno_target, 'LineWidth',1.5);
+title('Conjunto de training_ds');
+ylabel('f(p)');
+xlabel('p');
+legend('Salida del MLP','Targets');
+hold off
 

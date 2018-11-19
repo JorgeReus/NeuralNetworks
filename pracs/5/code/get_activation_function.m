@@ -1,11 +1,12 @@
-function a = funcion (W, a, b, funcion)
-    if funcion == 1
+function a = get_activation_function (W, a, b, f)
+    if f == 1
         %Purelin
         a = purelin ((W * a) + b);
-    elseif funcion == 2
+    elseif f == 2
         %Logsig
         a = logsig ((W * a) + b);
     else
+        % Tansing
         a = tansig ((W * a) + b);
     end
 end
