@@ -19,8 +19,8 @@ data_size = size(inputs, 1);
 architecture = str2num('1 3 1');
 num_layers = length(architecture) - 1;
 R = architecture(1);
-% fun_capa = str2num(input('Ingrese el vector de las funciones de activaciÛn: 1) purelin()\n2) logsig()\n3) tansig()\n\n: ','s'));
-fun_capa = str2num('2 1');
+% functions_vector = str2num(input('Ingrese el vector de las funciones de activaciÛn: 1) purelin()\n2) logsig()\n3) tansig()\n\n: ','s'));
+functions_vector = str2num('2 1');
 
 % Enter the learning factor
 % alpha = input('Ingresa el valor del factor de aprendizaje(alpha): ');
@@ -28,7 +28,7 @@ alpha = .0703;
 
 % epochmax = input('Ingresa el n˙mero m·ximo de Èpocas: ');
 epochmax = 2000;
-validation_iter = 20;
+validation_iter = 100;
 numval = 7;
 error_epoch_validation = .000000000000001;
 % numval = input('Numero maximo de incrementos consecutivos del error de validacion (numval): ');
@@ -97,204 +97,195 @@ for i=1:num_layers
     end
 end
 
-% Initialize MLP parameters
+% Initialize MLP parameters and Print them
 
-num_archivos_pesos = 1;
-num_archivos_bias = 1;
+num_w_files = 1;
+num_b_files = 1;
 W = cell(num_layers,1);
 b = cell(num_layers,1);
-disp('Valores iniciales de las matrices:');
+% Output of each layer
+a = cell(num_layers + 1, 1);
+% Sentitivities
+S = cell(num_layers, 1);
+% Derivatives of each layer
+F_m = cell(num_layers, 1);
+
+% For each layer
 for i=1:num_layers
-    temp_W = -1 + 2*rand(architecture(i+1),architecture(i));
-    W{i} = temp_W;
-    fprintf('W_%d = \n',i);
-    disp(W{i});
-    temp_b = -1 + (2)*rand(architecture(i+1),1);
-    b{i} = temp_b;
-    fprintf('b_%d = \n',i);
-    disp(b{i});
-    
-    % Se imprimen los valores iniciales en los archivos
-    for j=1:architecture(i+1)
+    % Random value
+    W_r_value = 2 * rand(architecture(i + 1), architecture(i)) - 1;
+    b_r_value = 2* rand(architecture(i + 1), 1) - i;
+    W{i} = W_r_value
+    b{i} = b_r_value
+    % For each neuron
+    for j=1:architecture(i + 1)
+        %For each weight
         for k=1:architecture(i)
-            fprintf(W_files(num_archivos_pesos),'%f\r\n',temp_W(j,k));
-            num_archivos_pesos = num_archivos_pesos +1;
+            % Print wights value
+            fprintf(W_files(num_w_files), '%f\r\n', W_r_value(j, k));
+            num_w_files = num_w_files + 1;
         end
     end
-    for j=1:architecture(i+1)
-        fprintf(b_files(num_archivos_bias),'%f\r\n',temp_b(j));
-        num_archivos_bias = num_archivos_bias + 1;
+    % For each neuron
+    for j=1:architecture(i + 1)
+        % print bias value
+        fprintf(b_files(num_b_files), '%f\r\n', b_r_value(j));
+        num_b_files = num_b_files + 1;
     end
-    
 end
 
-% Se utiliza una cell para guardar las salidas de cada capa
-a = cell(num_layers+1,1);
+% Learning algorithm
+num_validation_epoch = 0;
+early_stopping_increment = 0;
+validation_error = 0;
+learning_error = 0;
+early_s_counter = 0;
 
-% Se utiliza una cell para guardas las sensitividades de cada capa y las
-% matrices de derivadas.
-S = cell(num_layers,1);
-F_m = cell(num_layers,1);
-X = input('Presiona ENTER para comenzar el aprendizaje...');
-
-% Comienza el aprendizaje
-early_stopping = 0;
-Err_val = 0;
-Err_ap = 0;
-valores_graficacion_eap = zeros(epochmax,1);
-valores_graficacion_eval = zeros(ceil(epochmax/validation_iter),1);
-count_val = 0;
-num_it_val = 0; % Numero de iteraciones de validacion realizadas
-for it=1:epochmax
-    num_archivos_pesos = 1;
-    num_archivos_bias = 1;
-    Eap = 0; % Error de aprendizaje
-    % Si no es una iteracion de validacion
-    if(mod(it,validation_iter)~=0)
-        for dato=1:training_ds_size
-            
-            a{1} = training_ds(dato,1); % Condicion inicial
-            
-            % Se propaga hacia adelante el elemento del cto. de
-            % entrenamiento
-            for k=1:num_layers
-                W_temp = cell2mat(W(k));
-                a_temp = cell2mat(a(k));
-                b_temp = cell2mat(b(k));
-                a{k+1} = funcionDeActivacion(W_temp*a_temp+b_temp,fun_capa(k));
+% initialize vectors for printing errors
+learning_err_values = zeros(epochmax, 1);
+evaluation_err_values = zeros(ceil(epochmax / validation_iter), 1);
+for epoch=1:epochmax
+    l_error = 0;
+    % Reset the values
+    num_w_files = 1;
+    num_b_files = 1;
+    % if isn't a validation epoch
+    if(mod(epoch ,validation_iter) ~= 0)
+        for t_data=1:training_ds_size    
+            % initial condition
+            a{1} = training_ds(t_data, 1); 
+            % Foward propagation
+            for t_p=1:num_layers
+                W_aux = cell2mat(W(t_p));
+                b_aux = cell2mat(b(t_p));
+                a_aux = cell2mat(a(t_p));
+                n_f = W_aux * a_aux + b_aux;
+                a{t_p + 1} = get_activation_function(n_f, functions_vector(t_p));
             end
-            a_temp = cell2mat(a(num_layers+1));
-            ej = training_ds(dato,2)-a_temp;
-            Eap = Eap+(ej/data_size);
-            
-            % Se calculan las sensitividades y se propagan hacia atras,
-            % es decir, inicia el backpropagation.
-            F_m{num_layers} = obtenerF(fun_capa(num_layers),architecture(num_layers+1),a_temp);
+            a_aux = cell2mat(a(num_layers + 1));
+            t_error = training_ds(t_data, 2) - a_aux;
+            l_error = l_error + (t_error / data_size);
+            % Sensitivities calculation
+            F_m{num_layers} = get_F_matrix(functions_vector(num_layers), architecture(num_layers + 1), a_aux);
             F_m_temp = cell2mat(F_m(num_layers));
-            S{num_layers} = -2*F_m_temp*(ej);
+            S{num_layers} = F_m_temp * (t_error)*(-2);
+            % Backpropagation
             for m = num_layers-1:-1:1
-                W_temp = cell2mat(W(m+1));
-                a_temp = cell2mat(a(m+1));
-                S_temp = cell2mat(S(m+1));
-                F_m{m} = obtenerF(fun_capa(m),architecture(m+1),a_temp);
+                W_aux = cell2mat(W(m+1));
+                s_aux = cell2mat(S(m+1));
+                a_aux = cell2mat(a(m+1));
+                F_m{m} = get_F_matrix(functions_vector(m),architecture(m+1),a_aux);
                 F_m_temp = cell2mat(F_m(m));
-                S{m} = F_m_temp*(W_temp')*S_temp;
+                S{m} = F_m_temp * (W_aux')*s_aux;
             end
-            
-            % Se aplican las reglas de aprendizaje
-            for k=num_layers:-1:1
-                W_temp = cell2mat(W(k));
-                b_temp = cell2mat(b(k));
-                a_temp = cell2mat(a(k));
-                S_temp = cell2mat(S(k));
-                W{k} = W_temp-(alpha*S_temp*(a_temp'));
-                b{k} = b_temp-(alpha*S_temp);
-                W_temp = cell2mat(W(k));
-                b_temp = cell2mat(b(k));
+            % Learning Rules
+            for k = num_layers:-1:1
+                W_aux = cell2mat(W(k));
+                b_aux = cell2mat(b(k));
+                s_aux = cell2mat(S(k));
+                a_aux = cell2mat(a(k));
+                W{k} = W_aux - (alpha * s_aux * a_aux');
+                b{k} = b_aux - (alpha * s_aux);
+                W_aux = cell2mat(W(k));
+                b_aux = cell2mat(b(k));
             end
-            
         end
-        Err_ap = Eap;
-        
-        % Se guarda el valor de graficaci√≥n de Eap
-        valores_graficacion_eap(it) = Eap;
-        
-    % Si es una iteracion de validacion    
+        learning_error = l_error;
+        learning_err_values(epoch) = l_error;      
+    % This epoch is a validation one
     else
-        E_val = 0;
-        num_it_val = num_it_val + 1;
-        for dato=1:validation_ds_size
-            a{1} = validation_ds(dato,1); % Condicion inicial
-            % Se propaga hacia adelante el elemento del cto. de
-            % validacion.
+        val_error = 0;
+        num_validation_epoch = num_validation_epoch + 1;
+        for t_data = 1:validation_ds_size
+            % Initial Condition
+            a{1} = validation_ds(t_data, 1);
+            % Foward propagation
             for k=1:num_layers
-                W_temp = cell2mat(W(k));
-                a_temp = cell2mat(a(k));
-                b_temp = cell2mat(b(k));
-                a{k+1} = funcionDeActivacion(W_temp*a_temp+b_temp,fun_capa(k));
+                W_aux = cell2mat(W(k));
+                a_aux = cell2mat(a(k));
+                b_aux = cell2mat(b(k));
+                n_f = W_aux * a_aux + b_aux;
+                a{k + 1} = get_activation_function(n_f, functions_vector(k));
             end
-            a_temp = cell2mat(a(num_layers+1));
-            e_val = validation_ds(dato,2)-a_temp;
-            E_val = E_val+(e_val/validation_ds_size);
+            a_aux = cell2mat(a(num_layers+1));
+            val_error = validation_ds(t_data,2)-a_aux;
+            val_error = val_error+(val_error/validation_ds_size);
         end
-        
-        % Se guarda el valor para graficacion
-        valores_graficacion_eval(it) = E_val;
-        
-        if count_val == 0
-            Err_val = E_val;
-            count_val = count_val+1;
-            fprintf('Count val = %d\n',count_val);
+        evaluation_err_values(epoch) = val_error;
+        if early_stopping_increment == 0
+            validation_error = val_error;
+            early_stopping_increment = early_stopping_increment+1;
+            fprintf('Incremento actual para early stopping = %d\n', early_stopping_increment);
         else
-            if E_val > Err_val
-                Err_val = E_val;
-                count_val = count_val+1;
-                fprintf('Count val = %d\n',count_val);
-                if count_val == numval
-                    early_stopping = 1;
-                    fprintf('Early stopping en iteracion %d\n',it);
+            if val_error > validation_error
+                validation_error = val_error;
+                early_stopping_increment = early_stopping_increment+1;
+                fprintf('Incremento actual para early stopping = %d\n', early_stopping_increment);
+                if early_stopping_increment == numval
+                    % Reset the counter
+                    early_s_counter = 1;
+                    fprintf('Early stopping en la Època:  %d\n', epoch);
                     break;
                 end
             else
-                Err_val = 0;
-                count_val = 0;
-                fprintf('Count val = %d\n',count_val);
+                validation_error = 0;
+                early_stopping_increment = 0;
+                fprintf('Incremento actual para early stopping = %d\n', early_stopping_increment);
             end
         end
     end
-    
-    % Se imprimen los valores de pesos y bias modificados a archivo
-    num_archivos_pesos = 1;
-    num_archivos_bias = 1;
-    for k=num_layers:-1:1
-        W_temp = cell2mat(W(k));
-        b_temp = cell2mat(b(k));
+  
+    % Print the values on console
+    num_w_files = 1;
+    num_b_files = 1;
+    for k = num_layers:-1:1
+        W_aux = cell2mat(W(k));
+        b_aux = cell2mat(b(k));
         for j=1:architecture(k+1)
             for l=1:architecture(k)
-                fprintf(W_files(num_archivos_pesos),'%f\r\n',W_temp(j,l));
-                num_archivos_pesos = num_archivos_pesos +1;
+                fprintf(W_files(num_w_files), '%f\r\n', W_aux(j,l));
+                num_w_files = num_w_files +1;
             end
         end
-        for j=1:architecture(k+1)
-            fprintf(b_files(num_archivos_bias),'%f\r\n',b_temp(j));
-            num_archivos_bias = num_archivos_bias + 1;
+        for j=1:architecture(k + 1)
+            fprintf(b_files(num_b_files), '%f\r\n', b_aux(j));
+            num_b_files = num_b_files + 1;
         end
     end
     
-    % Se comprueban las condiciones de finalizacion
-    if Eap <= error_epoch_validation && Eap >= 0 && mod(it,validation_iter) ~= 0
-        Err_ap = Eap;
-        fprintf('Aprendizaje exitoso en la iteracion %d\n',it);
+    % Check stopping calculations
+    if mod(epoch,validation_iter) ~= 0 && l_error <= error_epoch_validation && l_error >= 0
+        learning_error = l_error;
+        fprintf('Aprendizaje exitoso en la Època %d\n', epoch);
         break;
     end
 end
 
-if it == epochmax
-    disp('Se llego a epochmax.');
+if epoch == epochmax
+    disp('Se llego a epochmax');
 end
 
-% Se imprimen a archivo los ultimos valores de pesos y bias de cada capa
-if early_stopping == 1
-% Se imprimen los valores de pesos y bias modificados a archivo
-    num_archivos_pesos = 1;
-    num_archivos_bias = 1;
-    for k=num_layers:-1:1
-        W_temp = cell2mat(W(k));
-        b_temp = cell2mat(b(k));
-        for j=1:architecture(k+1)
+% Print the las final values 
+if early_s_counter == 1
+    num_w_files = 1;
+    num_b_files = 1;
+    for k = num_layers:-1:1
+        W_aux = cell2mat(W(k));
+        b_aux = cell2mat(b(k));
+        for j = 1:architecture(k + 1)
             for l=1:architecture(k)
-                fprintf(W_files(num_archivos_pesos),'%f\r\n',W_temp(j,l));
-                num_archivos_pesos = num_archivos_pesos +1;
+                fprintf(W_files(num_w_files), '%f\r\n', W_aux(j, l));
+                num_w_files = num_w_files + 1;
             end
         end
-        for j=1:architecture(k+1)
-            fprintf(b_files(num_archivos_bias),'%f\r\n',b_temp(j));
-            num_archivos_bias = num_archivos_bias + 1;
+        for j=1:architecture(k + 1)
+            fprintf(b_files(num_b_files), '%f\r\n', b_aux(j));
+            num_b_files = num_b_files + 1;
         end
     end
 end
 
-% Se cierran los archivos de valores de graficacion de pesos y bias
+% Close all files
 for i=1:total_weight_files
     fclose(W_files(i));
 end
@@ -302,163 +293,50 @@ for i=1:total_bias_files
     fclose(b_files(i));
 end
 
-% Se propaga el conjunto de prueba
-Ep = 0; % Error de prueba
-salida_red = zeros(test_ds_size,1);
+% Propagate the test dataset
+test_error = 0;
+output = zeros(test_ds_size,1);
 for i=1:test_ds_size
-    a{1} = test_ds(i,1); % Condicion inicial
-    % Se propaga hacia adelante el elemento del cto. de prueba
+    % Initial condition
+    a{1} = test_ds(i,1);
     for k=1:num_layers
-        W_temp = cell2mat(W(k));
-        a_temp = cell2mat(a(k));
-        b_temp = cell2mat(b(k));
-        a{k+1} = funcionDeActivacion(W_temp*a_temp+b_temp,fun_capa(k));
+        W_aux = cell2mat(W(k));
+        a_aux = cell2mat(a(k));
+        b_aux = cell2mat(b(k));
+        n_f = W_aux*a_aux+b_aux;
+        a{k+1} = get_activation_function(n_f, functions_vector(k));
     end
-    dato_entrada = cell2mat(a(1));
-    a_temp = cell2mat(a(num_layers+1));
-    Ep = Ep+(1/test_ds_size)*(test_ds(i,2)-a_temp);
-    salida_red(i) = a_temp;
+    test_data = cell2mat(a(1));
+    a_aux = cell2mat(a(num_layers + 1));
+    test_error = test_error + (1 / test_ds_size) * (test_ds(i,2) - a_aux);
+    output(i) = a_aux;
 end
 
-% Se imprimen los valores finales de Eap, Ep y Eval
-fprintf('Eap = %f\n',Err_ap);
-fprintf('Eval = %f\n',Err_val);
-fprintf('Ep = %f\n',Ep);
+% Print last errors
+fprintf('Error de aprendizaje = %f\n', learning_error);
+fprintf('Error de validaciÛn = %f\n', validation_error);
+fprintf('Error de prueba = %f\n', test_error);
 
-% Graficacion del conjunto de prueba, se muestran los targets contra los
-% resultados de la red.
-figure
-rango = test_ds(:,1);
-s1 = scatter(rango,salida_red,'d');
-s1.MarkerFaceColor = [0 0 1];
-s1.MarkerEdgeColor = 'b';
-grid on
-hold on
-s2 = scatter(rango,test_ds(:,2));
-s2.MarkerFaceColor = [1 0 1];
-s2.MarkerEdgeColor = 'm';
-title('Target v.s. Salida de la red (Cto. Prueba)');
-ylabel('f(p)');
-xlabel('p');
-lgd = legend('Salida de la red','Target','Location','northeastoutside');
-title(lgd,'Simbolog√≠a');
-hold off
 
-% Se propaga el conjunto de entrenamiento
-salida_red = zeros(training_ds_size,1);
+% Output vs test
+scatter_output_vs_test(test_ds, output);
+% Propagate the training size for ploting
+
+output = zeros(training_ds_size,1);
 for i=1:training_ds_size
-    a{1} = training_ds(i,1); % Condicion inicial
-    % Se propaga hacia adelante el elemento del cto. de
-    % entrenamiento
+    % Initial Condition
+    a{1} = training_ds(i, 1);
     for k=1:num_layers
-        W_temp = cell2mat(W(k));
-        a_temp = cell2mat(a(k));
-        b_temp = cell2mat(b(k));
-        a{k+1} = funcionDeActivacion(W_temp*a_temp+b_temp,fun_capa(k));
+        W_aux = cell2mat(W(k));
+        a_aux = cell2mat(a(k));
+        b_aux = cell2mat(b(k));
+        a{k+1} = get_activation_function(W_aux*a_aux+b_aux,functions_vector(k));
     end
-    dato_entrada = cell2mat(a(1));
-    a_temp = cell2mat(a(num_layers+1));
-    Ep = Ep+(1/training_ds_size)*(training_ds(i,2)-a_temp);
-    salida_red(i) = a_temp;
+    a_aux = cell2mat(a(num_layers + 1));
+    test_error = test_error + (1 / training_ds_size) * (training_ds(i,2) - a_aux);
+    output(i) = a_aux;
 end
 
-% Graficacion del conjunto de entrenamiento, se muestran los targets contra
-% los resultados de la red.
-figure
-rango = training_ds(:,1);
-plot(rango,salida_red);
-grid on
-hold on
-plot(rango,training_ds(:,2));
-title('Target v.s. Salida de la red (Cto. Entrenamiento)');
-ylabel('f(p)');
-xlabel('p');
-lgd = legend('Salida de la red','Target','Location','northeastoutside');
-title(lgd,'Simbolog√≠a');
-hold off
+scatter_output_vs_training(training_ds, output);
 
-% Se grafica la evolucion de los errores de aprendizaje y validacion por
-% epoca.
-figure
-rango = 1:1:it;
-rango2 = validation_iter:validation_iter:num_it_val*validation_iter;
-s1 = scatter(rango,valores_graficacion_eap(1:it,1));
-s1.MarkerFaceColor = [0 1 0];
-s1.MarkerEdgeColor = 'g';
-grid on
-hold on
-s2 = scatter(rango2,valores_graficacion_eval(validation_iter:validation_iter:num_it_val*validation_iter,1),'d');
-s2.MarkerFaceColor = [1 0 0];
-s2.MarkerEdgeColor = 'r';
-title('Error de aprendizaje y Error de validacion');
-ylabel('Valor del error');
-xlabel('Iteracion');
-lgd = legend('Eap','Eval','Location','northeastoutside');
-title(lgd,'Simbolog√≠a');
-hold off
 
-%Se grafica la evolucion de los pesos
-rango = 0:1:it;
-for i=1:num_layers
-    figure
-    path = strcat(pwd,'/historico/capa_',num2str(i),'/pesos/');
-    for j=1:architecture(i+1)
-        for k=1:architecture(i)
-            archivo_pesos = strcat(path,'/pesos',num2str(j),'_',num2str(k),'.txt');
-            simb = strcat('W(',num2str(j),',',num2str(k),')');
-            evolucion_pesos = importdata(archivo_pesos); % Identificador para la grafica
-            plot(rango,evolucion_pesos','DisplayName',simb);
-            hold on
-            grid on
-        end
-    end
-    titulo = strcat('Evolucion de los pesos de la capa',{' '},num2str(i));
-    title(titulo);
-    ylabel('Valor de los pesos');
-    xlabel('Iteracion');
-    lgd = legend('show','Location','northeastoutside');
-    title(lgd,'Simbolog√≠a');
-    hold off
-end
-
-%Se grafica la evolucion de los bias
-rango = 0:1:it;
-for i=1:num_layers
-    figure
-    path = strcat(pwd,'/historico/capa_',num2str(i),'/bias/');
-    for j=1:architecture(i+1)
-        archivo_bias = strcat(path,'/bias',num2str(j),'.txt');
-        simb = strcat('b(',num2str(j),')');
-        evolucion_bias = importdata(archivo_bias); % Identificador para la grafica
-        plot(rango,evolucion_bias','DisplayName',simb);
-        hold on
-        grid on
-    end
-    titulo = strcat('Evolucion de los bias de la capa',{' '},num2str(i));
-    title(titulo);
-    ylabel('Valor de los bias');
-    xlabel('Iteracion');
-    lgd = legend('show','Location','northeastoutside');
-    title(lgd,'Simbolog√≠a');
-    hold off
-end
-
-for i=1:num_layers
-    path = strcat(pwd,'/Resultados-finales/capa_',num2str(i),'/');
-    if ~exist(path, 'dir')
-        mkdir(path);
-    end
-    W_temp = cell2mat(W(i));
-    res_pesos = strcat(path,'/pesos.txt');
-    dlmwrite(res_pesos,W_temp,';');
-end
-
-for i=1:num_layers
-    path = strcat(pwd,'/Resultados-finales/capa_',num2str(i),'/');
-    if ~exist(path, 'dir')
-        mkdir(path);
-    end
-    b_temp = cell2mat(b(i));
-    res_bias = strcat(path,'/bias.txt');
-    dlmwrite(res_bias,b_temp,';');
-end
