@@ -38,31 +38,17 @@ error_epoch_validation = .000000000000001;
 % Dataset Slicing
 % config_option = input('Elija una configuración de distribución de datasets: \n1: 80-10-10\n2: 70-15-15\n');
 config_option = 2;
-switch(config_option)
-    case 1
-        num_elem_val = round(data_size*.2); % Numero de elementos del conjunto de validacion
-        num_elem_prueba = num_elem_val; % Numero de elementos del conjunto de prueba
-        num_elem_ent = data_size - 2*num_elem_val; % Numero de elementos del conjunto de entrenamiento
-    case 2
-        num_elem_val = round(data_size*.15);
-        num_elem_prueba = num_elem_val;
-        num_elem_ent = data_size - 2*num_elem_val;
-end
-disp('Se usaran los siguientes tamanios en los subconjuntos:');
-fprintf('Conjunto de entrenamiento: %d elementos\n',num_elem_ent);
-fprintf('Conjunto de validacion: %d elementos\n',num_elem_val);
-fprintf('Conjunto de prueba: %d elementos\n',num_elem_prueba);
-% cto_val = obtenerConjuntoDeValidacion(p,targets,data_size,num_elem_val)
-% cto_prueba = obtenerConjuntoDePrueba(p,targets,data_size,num_elem_prueba)
-% cto_ent = obtenerConjuntoDeEntrenamiento(p,targets,data_size,num_elem_ent,cto_val,cto_prueba);
-[cto_ent, cto_prueba, cto_val] = dataset_slices(config_option, inputs, targets);
-disp('Conjunto de validacion:');
-disp(cto_val);
-disp('Conjunto de prueba:');
-disp(cto_prueba);
-disp('Conjunto de entrenamiento:');
-disp(cto_ent);
+[training_ds, test_ds, validation_ds] = dataset_slices(config_option, inputs, targets);
+validation_ds_size = size(validation_ds, 1);
+test_ds_size = size(test_ds, 1);
+training_ds_size = size(training_ds, 1);
 
+disp('Dataset de entrenamiento:');
+disp(training_ds);
+disp('Dataset de validacion:');
+disp(validation_ds);
+disp('Dataset de prueba:');
+disp(test_ds);
 
 % Open the files for weights and bias
 total_weight_files = 0;
@@ -111,10 +97,7 @@ for i=1:num_layers
     end
 end
 
-% Se terminan de abrir los archivos
-
-% Se inicializan la matriz de pesos y el vector bias con valores aleatorios
-% entre -1 y 1
+% Initialize MLP parameters
 
 num_archivos_pesos = 1;
 num_archivos_bias = 1;
@@ -168,9 +151,9 @@ for it=1:epochmax
     Eap = 0; % Error de aprendizaje
     % Si no es una iteracion de validacion
     if(mod(it,validation_iter)~=0)
-        for dato=1:num_elem_ent
+        for dato=1:training_ds_size
             
-            a{1} = cto_ent(dato,1); % Condicion inicial
+            a{1} = training_ds(dato,1); % Condicion inicial
             
             % Se propaga hacia adelante el elemento del cto. de
             % entrenamiento
@@ -181,7 +164,7 @@ for it=1:epochmax
                 a{k+1} = funcionDeActivacion(W_temp*a_temp+b_temp,fun_capa(k));
             end
             a_temp = cell2mat(a(num_layers+1));
-            ej = cto_ent(dato,2)-a_temp;
+            ej = training_ds(dato,2)-a_temp;
             Eap = Eap+(ej/data_size);
             
             % Se calculan las sensitividades y se propagan hacia atras,
@@ -220,8 +203,8 @@ for it=1:epochmax
     else
         E_val = 0;
         num_it_val = num_it_val + 1;
-        for dato=1:num_elem_val
-            a{1} = cto_val(dato,1); % Condicion inicial
+        for dato=1:validation_ds_size
+            a{1} = validation_ds(dato,1); % Condicion inicial
             % Se propaga hacia adelante el elemento del cto. de
             % validacion.
             for k=1:num_layers
@@ -231,8 +214,8 @@ for it=1:epochmax
                 a{k+1} = funcionDeActivacion(W_temp*a_temp+b_temp,fun_capa(k));
             end
             a_temp = cell2mat(a(num_layers+1));
-            e_val = cto_val(dato,2)-a_temp;
-            E_val = E_val+(e_val/num_elem_val);
+            e_val = validation_ds(dato,2)-a_temp;
+            E_val = E_val+(e_val/validation_ds_size);
         end
         
         % Se guarda el valor para graficacion
@@ -321,9 +304,9 @@ end
 
 % Se propaga el conjunto de prueba
 Ep = 0; % Error de prueba
-salida_red = zeros(num_elem_prueba,1);
-for i=1:num_elem_prueba
-    a{1} = cto_prueba(i,1); % Condicion inicial
+salida_red = zeros(test_ds_size,1);
+for i=1:test_ds_size
+    a{1} = test_ds(i,1); % Condicion inicial
     % Se propaga hacia adelante el elemento del cto. de prueba
     for k=1:num_layers
         W_temp = cell2mat(W(k));
@@ -333,7 +316,7 @@ for i=1:num_elem_prueba
     end
     dato_entrada = cell2mat(a(1));
     a_temp = cell2mat(a(num_layers+1));
-    Ep = Ep+(1/num_elem_prueba)*(cto_prueba(i,2)-a_temp);
+    Ep = Ep+(1/test_ds_size)*(test_ds(i,2)-a_temp);
     salida_red(i) = a_temp;
 end
 
@@ -345,13 +328,13 @@ fprintf('Ep = %f\n',Ep);
 % Graficacion del conjunto de prueba, se muestran los targets contra los
 % resultados de la red.
 figure
-rango = cto_prueba(:,1);
+rango = test_ds(:,1);
 s1 = scatter(rango,salida_red,'d');
 s1.MarkerFaceColor = [0 0 1];
 s1.MarkerEdgeColor = 'b';
 grid on
 hold on
-s2 = scatter(rango,cto_prueba(:,2));
+s2 = scatter(rango,test_ds(:,2));
 s2.MarkerFaceColor = [1 0 1];
 s2.MarkerEdgeColor = 'm';
 title('Target v.s. Salida de la red (Cto. Prueba)');
@@ -362,9 +345,9 @@ title(lgd,'SimbologÃ­a');
 hold off
 
 % Se propaga el conjunto de entrenamiento
-salida_red = zeros(num_elem_ent,1);
-for i=1:num_elem_ent
-    a{1} = cto_ent(i,1); % Condicion inicial
+salida_red = zeros(training_ds_size,1);
+for i=1:training_ds_size
+    a{1} = training_ds(i,1); % Condicion inicial
     % Se propaga hacia adelante el elemento del cto. de
     % entrenamiento
     for k=1:num_layers
@@ -375,18 +358,18 @@ for i=1:num_elem_ent
     end
     dato_entrada = cell2mat(a(1));
     a_temp = cell2mat(a(num_layers+1));
-    Ep = Ep+(1/num_elem_ent)*(cto_ent(i,2)-a_temp);
+    Ep = Ep+(1/training_ds_size)*(training_ds(i,2)-a_temp);
     salida_red(i) = a_temp;
 end
 
 % Graficacion del conjunto de entrenamiento, se muestran los targets contra
 % los resultados de la red.
 figure
-rango = cto_ent(:,1);
+rango = training_ds(:,1);
 plot(rango,salida_red);
 grid on
 hold on
-plot(rango,cto_ent(:,2));
+plot(rango,training_ds(:,2));
 title('Target v.s. Salida de la red (Cto. Entrenamiento)');
 ylabel('f(p)');
 xlabel('p');
