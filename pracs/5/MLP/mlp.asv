@@ -22,23 +22,28 @@ R = architecture(1);
 % fun_capa = str2num(input('Ingrese el vector de las funciones de activación: 1) purelin()\n2) logsig()\n3) tansig()\n\n: ','s'));
 fun_capa = str2num('2 1');
 
-% Enter the learning factor
-% alpha = input('Ingresa el valor del factor de aprendizaje(alpha): ');
-alpha = .0703;
+% Enter 
+% alfa = input('Ingresa el valor del factor de aprendizaje(alfa): ');
+alfa = .0703;
 
-% epochmax = input('Ingresa el número máximo de épocas: ');
+% Se solicitan los valores de usuario error_epoch_validation,epochmax, validation_iter, numval
+% epochmax = input('Ingresa el numero de iteraciones maximas de la red(epochmax): ');
 epochmax = 2000;
 validation_iter = 20;
 numval = 7;
 error_epoch_validation = .000000000000001;
 % numval = input('Numero maximo de incrementos consecutivos del error de validacion (numval): ');
-% error_epoch_validation = input('Ingrese el valor minimo del error de epoca (error_epoch_validation): ');
-% validation_iter = input('Ingrese el múltiplo de épocas para realizar una época de validación  (validation_iter): ');
+% error_epoch_validation = input('Ingrese l valor minimo del error en una epoca (error_epoch_validation): ');
+% validation_iter = input('Â¿Cada cuanto se hara una iteracion de validacion? (validation_iter): ');
 
-% Dataset Slicing
-% config_option = input('Elija una configuración de distribución de datasets: \n1: 80-10-10\n2: 70-15-15\n');
-config_option = 2;
-switch(config_option)
+% Se solicita la configuracion para dividir en subconjuntos
+fprintf('Seleccione una de las siguientes configuraciones a trabajar:\n');
+fprintf('1) 80-10-10\n');
+fprintf('2) 70-15-15\n');
+% config = input('Ingrese su seleccion: ');
+config = 2;
+% Se forman los subconjutnos de acuerdo al tipo de configuracion
+switch(config)
     case 1
         num_elem_val = round(data_size*.2); % Numero de elementos del conjunto de validacion
         num_elem_prueba = num_elem_val; % Numero de elementos del conjunto de prueba
@@ -55,7 +60,7 @@ fprintf('Conjunto de prueba: %d elementos\n',num_elem_prueba);
 % cto_val = obtenerConjuntoDeValidacion(p,targets,data_size,num_elem_val)
 % cto_prueba = obtenerConjuntoDePrueba(p,targets,data_size,num_elem_prueba)
 % cto_ent = obtenerConjuntoDeEntrenamiento(p,targets,data_size,num_elem_ent,cto_val,cto_prueba);
-[cto_ent, cto_prueba, cto_val] = dataset_slices(config_option, inputs, targets);
+[cto_ent, cto_prueba, cto_val] = dataset_slices(config, inputs, targets);
 disp('Conjunto de validacion:');
 disp(cto_val);
 disp('Conjunto de prueba:');
@@ -204,8 +209,8 @@ for it=1:epochmax
                 b_temp = cell2mat(b(k));
                 a_temp = cell2mat(a(k));
                 S_temp = cell2mat(S(k));
-                W{k} = W_temp-(alpha*S_temp*(a_temp'));
-                b{k} = b_temp-(alpha*S_temp);
+                W{k} = W_temp-(alfa*S_temp*(a_temp'));
+                b{k} = b_temp-(alfa*S_temp);
                 W_temp = cell2mat(W(k));
                 b_temp = cell2mat(b(k));
             end
