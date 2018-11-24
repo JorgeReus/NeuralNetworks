@@ -339,4 +339,32 @@ end
 
 scatter_output_vs_training(training_ds, output);
 
+% Plot the error evolution
+error_plot(validation_iter, num_validation_epoch, learning_err_values, epoch, evaluation_err_values);
+% Plot weight evolution
+weight_evolution_plot(architecture, num_layers, epoch);
+% Plot bias evolution
+bias_evolution_plot(architecture, num_layers, epoch);
+
+% Write final values
+for i=1:num_layers
+    path = strcat(pwd, '/Valores_finales/capa_', num2str(i), '/');
+    if ~exist(path, 'dir')
+        mkdir(path);
+    end
+    W_aux = cell2mat(W(i));
+    res_pesos = strcat(path, '/pesos.txt');
+    dlmwrite(res_pesos, W_aux, ';');
+end
+
+for i=1:num_layers
+    path = strcat(pwd,'/Valores_finales/capa_', num2str(i), '/');
+    if ~exist(path, 'dir')
+        mkdir(path);
+    end
+    b_aux = cell2mat(b(i));
+    res_bias = strcat(path, '/bias.txt');
+    dlmwrite(res_bias, b_aux, ';');
+end
+
 
