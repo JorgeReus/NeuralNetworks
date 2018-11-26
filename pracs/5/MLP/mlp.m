@@ -16,21 +16,21 @@ data_size = size(inputs, 1);
 % Enter MLP architecture
 % architecture = str2num(input('Ingrese el vector de la arquitectura: ','s'));
 % Calculate layer parameters
-architecture = str2num('1 3 5 3 1');
+architecture = str2num('1 16 10 1');
 num_layers = length(architecture) - 1;
 R = architecture(1);
 % functions_vector = str2num(input('Ingrese el vector de las funciones de activación: 1) purelin()\n2) logsig()\n3) tansig()\n\n: ','s'));
-functions_vector = str2num('2 2 2 1');
+functions_vector = str2num('3 2 1');
 
 % Enter the learning factor
 % alpha = input('Ingresa el valor del factor de aprendizaje(alpha): ');
-alpha = .0703;
+alpha = .01;
 
 % epochmax = input('Ingresa el número máximo de épocas: ');
-epochmax = 2000;
-validation_iter = 100;
+epochmax = 10000;
+validation_iter = 500;
 numval = 7;
-error_epoch_validation = .00001;
+error_epoch_validation = .0000000000000001;
 % numval = input('Numero maximo de incrementos consecutivos del error de validacion (numval): ');
 % error_epoch_validation = input('Ingrese el valor minimo del error de epoca (error_epoch_validation): ');
 % validation_iter = input('Ingrese el múltiplo de épocas para realizar una época de validación  (validation_iter): ');
