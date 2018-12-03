@@ -1,0 +1,109 @@
+%% Creator: Inkscape inkscape 0.92.1, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file '4_svg-tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{420bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.75)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{4_svg-tex.pdf}}%
+    \put(0.35357143,0.04761911){\makebox(0,0)[lb]{\smash{0}}}%
+    \put(0.42976196,0.04761911){\makebox(0,0)[lb]{\smash{1000}}}%
+    \put(0.52470232,0.04761911){\makebox(0,0)[lb]{\smash{2000}}}%
+    \put(0.61964286,0.04761911){\makebox(0,0)[lb]{\smash{3000}}}%
+    \put(0.71458339,0.04761911){\makebox(0,0)[lb]{\smash{4000}}}%
+    \put(0.80952375,0.04761911){\makebox(0,0)[lb]{\smash{5000}}}%
+    \put(0.90446429,0.04761911){\makebox(0,0)[lb]{\smash{6000}}}%
+    \put(0.60714321,0.01130946){\makebox(0,0)[lb]{\smash{Epoch}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{4_svg-tex.pdf}}%
+    \put(0.32976196,0.07232143){\makebox(0,0)[lb]{\smash{-4}}}%
+    \put(0.32976196,0.14888393){\makebox(0,0)[lb]{\smash{-3}}}%
+    \put(0.32976196,0.22544643){\makebox(0,0)[lb]{\smash{-2}}}%
+    \put(0.32976196,0.30200893){\makebox(0,0)[lb]{\smash{-1}}}%
+    \put(0.33690482,0.37857143){\makebox(0,0)[lb]{\smash{0}}}%
+    \put(0.33690482,0.45513393){\makebox(0,0)[lb]{\smash{1}}}%
+    \put(0.33690482,0.53169643){\makebox(0,0)[lb]{\smash{2}}}%
+    \put(0.33690482,0.60825893){\makebox(0,0)[lb]{\smash{3}}}%
+    \put(0.33690482,0.68482143){\makebox(0,0)[lb]{\smash{4}}}%
+    \put(0.31547625,0.35625036){\rotatebox{90}{\makebox(0,0)[lb]{\smash{Valor}}}}%
+    \put(0.47410768,0.70669643){\makebox(0,0)[lb]{\smash{\textbf{Evolución de pesos capa 1}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{4_svg-tex.pdf}}%
+    \put(0.17857143,0.63223607){\makebox(0,0)[lb]{\smash{W(1,1)}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{4_svg-tex.pdf}}%
+    \put(0.17857143,0.60282304){\makebox(0,0)[lb]{\smash{W(2,1)}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{4_svg-tex.pdf}}%
+    \put(0.17857143,0.57341){\makebox(0,0)[lb]{\smash{W(3,1)}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{4_svg-tex.pdf}}%
+    \put(0.17857143,0.54399696){\makebox(0,0)[lb]{\smash{W(4,1)}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{4_svg-tex.pdf}}%
+    \put(0.17857143,0.51458393){\makebox(0,0)[lb]{\smash{W(5,1)}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{4_svg-tex.pdf}}%
+    \put(0.17857143,0.48517071){\makebox(0,0)[lb]{\smash{W(6,1)}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{4_svg-tex.pdf}}%
+    \put(0.17857143,0.45575768){\makebox(0,0)[lb]{\smash{W(7,1)}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{4_svg-tex.pdf}}%
+    \put(0.17857143,0.42634482){\makebox(0,0)[lb]{\smash{W(8,1)}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{4_svg-tex.pdf}}%
+    \put(0.17857143,0.39693161){\makebox(0,0)[lb]{\smash{W(9,1)}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{4_svg-tex.pdf}}%
+    \put(0.17857143,0.36751857){\makebox(0,0)[lb]{\smash{W(10,1)}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{4_svg-tex.pdf}}%
+    \put(0.17857143,0.33810554){\makebox(0,0)[lb]{\smash{W(11,1)}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{4_svg-tex.pdf}}%
+    \put(0.17857143,0.3086925){\makebox(0,0)[lb]{\smash{W(12,1)}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{4_svg-tex.pdf}}%
+    \put(0.17857143,0.27927946){\makebox(0,0)[lb]{\smash{W(13,1)}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=16]{4_svg-tex.pdf}}%
+    \put(0.17857143,0.24986643){\makebox(0,0)[lb]{\smash{W(14,1)}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=17]{4_svg-tex.pdf}}%
+    \put(0.17857143,0.22045339){\makebox(0,0)[lb]{\smash{W(15,1)}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=18]{4_svg-tex.pdf}}%
+    \put(0.17857143,0.19104036){\makebox(0,0)[lb]{\smash{W(16,1)}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=19]{4_svg-tex.pdf}}%
+    \put(0.13482143,0.66788821){\makebox(0,0)[lb]{\smash{\textbf{Leyenda}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=20]{4_svg-tex.pdf}}%
+  \end{picture}%
+\endgroup%

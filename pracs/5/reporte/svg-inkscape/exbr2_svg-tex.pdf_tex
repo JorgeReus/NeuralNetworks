@@ -1,0 +1,81 @@
+%% Creator: Inkscape inkscape 0.92.1, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'exbr2_svg-tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{420bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.75)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{exbr2_svg-tex.pdf}}%
+    \put(0.12321429,0.04761911){\makebox(0,0)[lb]{\smash{0}}}%
+    \put(0.22767857,0.04761911){\makebox(0,0)[lb]{\smash{10}}}%
+    \put(0.33839286,0.04761911){\makebox(0,0)[lb]{\smash{20}}}%
+    \put(0.44910714,0.04761911){\makebox(0,0)[lb]{\smash{30}}}%
+    \put(0.55982143,0.04761911){\makebox(0,0)[lb]{\smash{40}}}%
+    \put(0.67053571,0.04761911){\makebox(0,0)[lb]{\smash{50}}}%
+    \put(0.78125,0.04761911){\makebox(0,0)[lb]{\smash{60}}}%
+    \put(0.89196429,0.04761911){\makebox(0,0)[lb]{\smash{70}}}%
+    \put(0.47232179,0.01130946){\makebox(0,0)[lb]{\smash{Épocas}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{exbr2_svg-tex.pdf}}%
+    \put(0.09940482,0.07232143){\makebox(0,0)[lb]{\smash{-2}}}%
+    \put(0.07976196,0.15982143){\makebox(0,0)[lb]{\smash{-1.5}}}%
+    \put(0.09940482,0.24732143){\makebox(0,0)[lb]{\smash{-1}}}%
+    \put(0.07976196,0.33482143){\makebox(0,0)[lb]{\smash{-0.5}}}%
+    \put(0.10654768,0.42232143){\makebox(0,0)[lb]{\smash{0}}}%
+    \put(0.08690482,0.50982143){\makebox(0,0)[lb]{\smash{0.5}}}%
+    \put(0.10654768,0.59732143){\makebox(0,0)[lb]{\smash{1}}}%
+    \put(0.08690482,0.68482143){\makebox(0,0)[lb]{\smash{1.5}}}%
+    \put(0.06547625,0.35625036){\rotatebox{90}{\makebox(0,0)[lb]{\smash{Valor}}}}%
+    \put(0.35625054,0.70669643){\makebox(0,0)[lb]{\smash{\textbf{Evolución de Parámetros}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{exbr2_svg-tex.pdf}}%
+    \put(0.83392857,0.64464286){\makebox(0,0)[lb]{\smash{w1}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{exbr2_svg-tex.pdf}}%
+    \put(0.83392857,0.61517857){\makebox(0,0)[lb]{\smash{w2}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{exbr2_svg-tex.pdf}}%
+    \put(0.83392857,0.58571429){\makebox(0,0)[lb]{\smash{bias}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{exbr2_svg-tex.pdf}}%
+  \end{picture}%
+\endgroup%

@@ -2,42 +2,42 @@ clc
 clear
 
 % Read the inputs file
-% inputs_path = strcat(input('Ingrese el nombre del archivo de inputs sin la extensión: ','s'), '.txt');
-inputs_path = 'inputs.txt';
+inputs_path = strcat(input('Ingrese el nombre del archivo de inputs sin la extensión: ','s'), '.txt');
+%inputs_path = 'inputs.txt';
 inputs = importdata(inputs_path);
 
 % Read the targets
-%targets_file = strcat(input('Ingrese el nombre del archivo de targets sin la extensión: ','s'), '.txt');
-targets_path = 'targets.txt';
+targets_file = strcat(input('Ingrese el nombre del archivo de targets sin la extensión: ','s'), '.txt');
+%targets_path = 'targets.txt';
 targets = importdata(targets_path);
 
 data_size = size(inputs, 1);
 
 % Enter MLP architecture
-% architecture = str2num(input('Ingrese el vector de la arquitectura: ','s'));
+architecture = str2num(input('Ingrese el vector de la arquitectura: ','s'));
 % Calculate layer parameters
-architecture = str2num('1 16 10 1');
+%architecture = str2num('1 16 10 1');
 num_layers = length(architecture) - 1;
 R = architecture(1);
-% functions_vector = str2num(input('Ingrese el vector de las funciones de activación: 1) purelin()\n2) logsig()\n3) tansig()\n\n: ','s'));
-functions_vector = str2num('3 2 1');
+functions_vector = str2num(input('Ingrese el vector de las funciones de activación: 1) purelin()\n2) logsig()\n3) tansig()\n\n: ','s'));
+%functions_vector = str2num('3 2 1');
 
 % Enter the learning factor
-% alpha = input('Ingresa el valor del factor de aprendizaje(alpha): ');
-alpha = .01;
+alpha = input('Ingresa el valor del factor de aprendizaje(alpha): ');
+%alpha = .01;
 
-% epochmax = input('Ingresa el número máximo de épocas: ');
-epochmax = 10000;
-validation_iter = 500;
-numval = 7;
-error_epoch_validation = .0000000000000001;
-% numval = input('Numero maximo de incrementos consecutivos del error de validacion (numval): ');
-% error_epoch_validation = input('Ingrese el valor minimo del error de epoca (error_epoch_validation): ');
-% validation_iter = input('Ingrese el múltiplo de épocas para realizar una época de validación  (validation_iter): ');
+epochmax = input('Ingresa el número máximo de épocas: ');
+% epochmax = 10000;
+%validation_iter = 500;
+%numval = 7;
+%error_epoch_validation = .0000000000000001;
+numval = input('Numero maximo de incrementos consecutivos del error de validacion (numval): ');
+error_epoch_validation = input('Ingrese el valor minimo del error de epoca (error_epoch_validation): ');
+validation_iter = input('Ingrese el múltiplo de épocas para realizar una época de validación  (validation_iter): ');
 
 % Dataset Slicing
-% config_option = input('Elija una configuración de distribución de datasets: \n1: 80-10-10\n2: 70-15-15\n');
-config_option = 2;
+config_option = input('Elija una configuración de distribución de datasets: \n1: 80-10-10\n2: 70-15-15\n');
+%config_option = 2;
 [training_ds, test_ds, validation_ds] = dataset_slices(config_option, inputs, targets);
 validation_ds_size = size(validation_ds, 1);
 test_ds_size = size(test_ds, 1);
