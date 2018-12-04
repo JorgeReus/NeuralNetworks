@@ -1,8 +1,8 @@
-\select@language {spanish}
+\babel@toc {spanish}{}
 \contentsline {section}{\numberline {1}Introducci\IeC {\'o}n}{1}{section.1}
-\contentsline {subsection}{\numberline {1.1}Modelo}{2}{subsection.1.1}
-\contentsline {subsubsection}{\numberline {1.1.1}Foward Propagation}{2}{subsubsection.1.1.1}
-\contentsline {subsubsection}{\numberline {1.1.2}Foward Propagation}{2}{subsubsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1}Modelo}{3}{subsection.1.1}
+\contentsline {subsubsection}{\numberline {1.1.1}Foward Propagation}{3}{subsubsection.1.1.1}
+\contentsline {subsubsection}{\numberline {1.1.2}Foward Propagation}{3}{subsubsection.1.1.2}
 \contentsline {section}{\numberline {2}Diagrama de Flujo}{4}{section.2}
 \contentsline {section}{\numberline {3}Resultados}{5}{section.3}
 \contentsline {subsection}{\numberline {3.1}Polinomio 1}{5}{subsection.3.1}
@@ -17,7 +17,13 @@
 \contentsline {subsubsection}{\numberline {3.8.1}Datos}{20}{subsubsection.3.8.1}
 \contentsline {subsection}{\numberline {3.9}Resultado}{20}{subsection.3.9}
 \contentsline {subsection}{\numberline {3.10}Im\IeC {\'a}genes}{20}{subsection.3.10}
-\contentsline {section}{\numberline {4}Discusi\IeC {\'o}n de Resultados}{30}{section.4}
-\contentsline {section}{\numberline {5}Conclusiones}{30}{section.5}
-\contentsline {section}{\numberline {6}Referencias}{30}{section.6}
-\contentsline {section}{\numberline {7}Ap\IeC {\'e}ndice}{30}{section.7}
+\contentsline {subsection}{\numberline {3.11}Polinomio 3}{30}{subsection.3.11}
+\contentsline {subsection}{\numberline {3.12}Inputs}{30}{subsection.3.12}
+\contentsline {subsection}{\numberline {3.13}Targets}{35}{subsection.3.13}
+\contentsline {subsubsection}{\numberline {3.13.1}Datos}{41}{subsubsection.3.13.1}
+\contentsline {subsection}{\numberline {3.14}Resultado}{41}{subsection.3.14}
+\contentsline {subsection}{\numberline {3.15}Im\IeC {\'a}genes}{41}{subsection.3.15}
+\contentsline {section}{\numberline {4}Discusi\IeC {\'o}n de Resultados}{51}{section.4}
+\contentsline {section}{\numberline {5}Conclusiones}{51}{section.5}
+\contentsline {section}{\numberline {6}Referencias}{51}{section.6}
+\contentsline {section}{\numberline {7}Ap\IeC {\'e}ndice}{51}{section.7}
