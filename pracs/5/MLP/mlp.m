@@ -7,7 +7,7 @@ inputs_path = strcat(input('Ingrese el nombre del archivo de inputs sin la exten
 inputs = importdata(inputs_path);
 
 % Read the targets
-targets_file = strcat(input('Ingrese el nombre del archivo de targets sin la extensión: ','s'), '.txt');
+targets_path = strcat(input('Ingrese el nombre del archivo de targets sin la extensión: ','s'), '.txt');
 %targets_path = 'targets.txt';
 targets = importdata(targets_path);
 
