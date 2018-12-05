@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.9.13)  4 DEC 2018 22:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.9.13)  4 DEC 2018 23:31
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1275,7 +1275,63 @@ Overfull \hbox (2.19592pt too wide) detected at line 25
 \T1/fve/m/n/10 3.15. 
  []
 
-)
+
+Overfull \hbox (2.19592pt too wide) detected at line 26
+\T1/fve/m/n/10 3.16. 
+ []
+
+
+Overfull \hbox (2.19592pt too wide) detected at line 27
+\T1/fve/m/n/10 3.17. 
+ []
+
+
+Overfull \hbox (2.19592pt too wide) detected at line 28
+\T1/fve/m/n/10 3.18. 
+ []
+
+
+Overfull \hbox (2.68195pt too wide) detected at line 29
+\T1/fve/m/n/10 3.18.1. 
+ []
+
+
+Overfull \hbox (2.19592pt too wide) detected at line 30
+\T1/fve/m/n/10 3.19. 
+ []
+
+
+Overfull \hbox (2.19592pt too wide) detected at line 31
+\T1/fve/m/n/10 3.20. 
+ []
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 35.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 35.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 35.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 35.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 35.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 35.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 35.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 35.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 35.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 35.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 35.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 35.
+[1
+
+{d:/Programs/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
 \tf@toc=\write4
 \openout4 = `p5.toc'.
 
@@ -1291,39 +1347,12 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 8.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 8.
-<img/xor.png, id=144, 266.6763pt x 179.2296pt>
+<img/xor.png, id=183, 266.6763pt x 179.2296pt>
 File: img/xor.png Graphic file (type png)
 <use img/xor.png>
 Package pdftex.def Info: img/xor.png  used on input line 13. on input line 13.
 Package pdftex.def Info: Requested size: 266.67564pt x 179.22914pt on input lin
 e 13.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 17.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 17.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 17.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 17.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 17.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 17.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 17.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 17.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 17.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 17.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 17.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 17.
- [1
-
-{d:/Programs/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 17.
 Package babel Info: Redefining spanish shorthand >>
@@ -1362,7 +1391,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 18.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 18.
-<img/mlp.png, id=162, 335.00156pt x 176.91093pt>
+<img/mlp.png, id=193, 335.00156pt x 176.91093pt>
 File: img/mlp.png Graphic file (type png)
 <use img/mlp.png>
 Package pdftex.def Info: img/mlp.png  used on input line 22. on input line 22.
@@ -1441,7 +1470,7 @@ Package babel Info: Redefining spanish shorthand "?
 Package svg Info: Last page of `./svg-inkscape/diagram_svg-tex.pdf' is 1 on inp
 ut line 45.
  (./svg-inkscape/diagram_svg-tex.pdf_tex
-<./svg-inkscape/diagram_svg-tex.pdf, id=178, page=1, pagebox=cropbox, 1023.825p
+<./svg-inkscape/diagram_svg-tex.pdf, id=208, page=1, pagebox=cropbox, 1023.825p
 t x 1324.95pt>
 File: ./svg-inkscape/diagram_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/diagram_svg-tex.pdf, page 1>
@@ -1612,7 +1641,7 @@ Package babel Info: Redefining spanish shorthand "?
 Package svg Info: Last page of `./svg-inkscape/1_svg-tex.pdf' is 6 on input lin
 e 283.
  (./svg-inkscape/1_svg-tex.pdf_tex
-<./svg-inkscape/1_svg-tex.pdf, id=455, page=1, pagebox=cropbox, 421.575pt x 316
+<./svg-inkscape/1_svg-tex.pdf, id=485, page=1, pagebox=cropbox, 421.575pt x 316
 .18124pt>
 File: ./svg-inkscape/1_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/1_svg-tex.pdf, page 1>
@@ -1620,7 +1649,7 @@ Package pdftex.def Info: ./svg-inkscape/1_svg-tex.pdf , page1 used on input lin
 e 52. on input line 52.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 52
 .
-<./svg-inkscape/1_svg-tex.pdf, id=456, page=2, pagebox=cropbox, 421.575pt x 316
+<./svg-inkscape/1_svg-tex.pdf, id=486, page=2, pagebox=cropbox, 421.575pt x 316
 .18124pt>
 File: ./svg-inkscape/1_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/1_svg-tex.pdf, page 2>
@@ -1628,7 +1657,7 @@ Package pdftex.def Info: ./svg-inkscape/1_svg-tex.pdf , page2 used on input lin
 e 59. on input line 59.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 59
 .
-<./svg-inkscape/1_svg-tex.pdf, id=457, page=3, pagebox=cropbox, 421.575pt x 316
+<./svg-inkscape/1_svg-tex.pdf, id=487, page=3, pagebox=cropbox, 421.575pt x 316
 .18124pt>
 File: ./svg-inkscape/1_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/1_svg-tex.pdf, page 3>
@@ -1636,7 +1665,7 @@ Package pdftex.def Info: ./svg-inkscape/1_svg-tex.pdf , page3 used on input lin
 e 68. on input line 68.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 68
 .
-<./svg-inkscape/1_svg-tex.pdf, id=458, page=4, pagebox=cropbox, 421.575pt x 316
+<./svg-inkscape/1_svg-tex.pdf, id=488, page=4, pagebox=cropbox, 421.575pt x 316
 .18124pt>
 File: ./svg-inkscape/1_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/1_svg-tex.pdf, page 4>
@@ -1644,7 +1673,7 @@ Package pdftex.def Info: ./svg-inkscape/1_svg-tex.pdf , page4 used on input lin
 e 70. on input line 70.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 70
 .
-<./svg-inkscape/1_svg-tex.pdf, id=459, page=5, pagebox=cropbox, 421.575pt x 316
+<./svg-inkscape/1_svg-tex.pdf, id=489, page=5, pagebox=cropbox, 421.575pt x 316
 .18124pt>
 File: ./svg-inkscape/1_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/1_svg-tex.pdf, page 5>
@@ -1652,7 +1681,7 @@ Package pdftex.def Info: ./svg-inkscape/1_svg-tex.pdf , page5 used on input lin
 e 72. on input line 72.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 72
 .
-<./svg-inkscape/1_svg-tex.pdf, id=460, page=6, pagebox=cropbox, 421.575pt x 316
+<./svg-inkscape/1_svg-tex.pdf, id=490, page=6, pagebox=cropbox, 421.575pt x 316
 .18124pt>
 File: ./svg-inkscape/1_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/1_svg-tex.pdf, page 6>
@@ -1668,7 +1697,7 @@ Overfull \hbox (30.24501pt too wide) in paragraph at lines 75--284
 Package svg Info: Last page of `./svg-inkscape/2_svg-tex.pdf' is 6 on input lin
 e 289.
 (./svg-inkscape/2_svg-tex.pdf_tex
-<./svg-inkscape/2_svg-tex.pdf, id=462, page=1, pagebox=cropbox, 450.00565pt x 3
+<./svg-inkscape/2_svg-tex.pdf, id=492, page=1, pagebox=cropbox, 450.00565pt x 3
 16.18124pt>
 File: ./svg-inkscape/2_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/2_svg-tex.pdf, page 1>
@@ -1676,7 +1705,7 @@ Package pdftex.def Info: ./svg-inkscape/2_svg-tex.pdf , page1 used on input lin
 e 52. on input line 52.
 Package pdftex.def Info: Requested size: 500.0pt x 351.30786pt on input line 52
 .
-<./svg-inkscape/2_svg-tex.pdf, id=463, page=2, pagebox=cropbox, 450.00565pt x 3
+<./svg-inkscape/2_svg-tex.pdf, id=493, page=2, pagebox=cropbox, 450.00565pt x 3
 16.18124pt>
 File: ./svg-inkscape/2_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/2_svg-tex.pdf, page 2>
@@ -1684,7 +1713,7 @@ Package pdftex.def Info: ./svg-inkscape/2_svg-tex.pdf , page2 used on input lin
 e 59. on input line 59.
 Package pdftex.def Info: Requested size: 500.0pt x 351.30786pt on input line 59
 .
-<./svg-inkscape/2_svg-tex.pdf, id=464, page=3, pagebox=cropbox, 450.00565pt x 3
+<./svg-inkscape/2_svg-tex.pdf, id=494, page=3, pagebox=cropbox, 450.00565pt x 3
 16.18124pt>
 File: ./svg-inkscape/2_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/2_svg-tex.pdf, page 3>
@@ -1692,7 +1721,7 @@ Package pdftex.def Info: ./svg-inkscape/2_svg-tex.pdf , page3 used on input lin
 e 68. on input line 68.
 Package pdftex.def Info: Requested size: 500.0pt x 351.30786pt on input line 68
 .
-<./svg-inkscape/2_svg-tex.pdf, id=465, page=4, pagebox=cropbox, 450.00565pt x 3
+<./svg-inkscape/2_svg-tex.pdf, id=495, page=4, pagebox=cropbox, 450.00565pt x 3
 16.18124pt>
 File: ./svg-inkscape/2_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/2_svg-tex.pdf, page 4>
@@ -1700,7 +1729,7 @@ Package pdftex.def Info: ./svg-inkscape/2_svg-tex.pdf , page4 used on input lin
 e 70. on input line 70.
 Package pdftex.def Info: Requested size: 500.0pt x 351.30786pt on input line 70
 .
-<./svg-inkscape/2_svg-tex.pdf, id=466, page=5, pagebox=cropbox, 450.00565pt x 3
+<./svg-inkscape/2_svg-tex.pdf, id=496, page=5, pagebox=cropbox, 450.00565pt x 3
 16.18124pt>
 File: ./svg-inkscape/2_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/2_svg-tex.pdf, page 5>
@@ -1708,7 +1737,7 @@ Package pdftex.def Info: ./svg-inkscape/2_svg-tex.pdf , page5 used on input lin
 e 72. on input line 72.
 Package pdftex.def Info: Requested size: 500.0pt x 351.30786pt on input line 72
 .
-<./svg-inkscape/2_svg-tex.pdf, id=467, page=6, pagebox=cropbox, 450.00565pt x 3
+<./svg-inkscape/2_svg-tex.pdf, id=497, page=6, pagebox=cropbox, 450.00565pt x 3
 16.18124pt>
 File: ./svg-inkscape/2_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/2_svg-tex.pdf, page 6>
@@ -1724,7 +1753,7 @@ Overfull \hbox (30.24501pt too wide) in paragraph at lines 75--290
 Package svg Info: Last page of `./svg-inkscape/3_svg-tex.pdf' is 6 on input lin
 e 295.
 (./svg-inkscape/3_svg-tex.pdf_tex
-<./svg-inkscape/3_svg-tex.pdf, id=469, page=1, pagebox=cropbox, 480.53654pt x 3
+<./svg-inkscape/3_svg-tex.pdf, id=499, page=1, pagebox=cropbox, 480.53654pt x 3
 16.18124pt>
 File: ./svg-inkscape/3_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/3_svg-tex.pdf, page 1>
@@ -1732,7 +1761,7 @@ Package pdftex.def Info: ./svg-inkscape/3_svg-tex.pdf , page1 used on input lin
 e 52. on input line 52.
 Package pdftex.def Info: Requested size: 500.0pt x 328.9896pt on input line 52.
 
-<./svg-inkscape/3_svg-tex.pdf, id=470, page=2, pagebox=cropbox, 480.53654pt x 3
+<./svg-inkscape/3_svg-tex.pdf, id=500, page=2, pagebox=cropbox, 480.53654pt x 3
 16.18124pt>
 File: ./svg-inkscape/3_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/3_svg-tex.pdf, page 2>
@@ -1740,7 +1769,7 @@ Package pdftex.def Info: ./svg-inkscape/3_svg-tex.pdf , page2 used on input lin
 e 61. on input line 61.
 Package pdftex.def Info: Requested size: 500.0pt x 328.9896pt on input line 61.
 
-<./svg-inkscape/3_svg-tex.pdf, id=471, page=3, pagebox=cropbox, 480.53654pt x 3
+<./svg-inkscape/3_svg-tex.pdf, id=501, page=3, pagebox=cropbox, 480.53654pt x 3
 16.18124pt>
 File: ./svg-inkscape/3_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/3_svg-tex.pdf, page 3>
@@ -1748,7 +1777,7 @@ Package pdftex.def Info: ./svg-inkscape/3_svg-tex.pdf , page3 used on input lin
 e 75. on input line 75.
 Package pdftex.def Info: Requested size: 500.0pt x 328.9896pt on input line 75.
 
-<./svg-inkscape/3_svg-tex.pdf, id=472, page=4, pagebox=cropbox, 480.53654pt x 3
+<./svg-inkscape/3_svg-tex.pdf, id=502, page=4, pagebox=cropbox, 480.53654pt x 3
 16.18124pt>
 File: ./svg-inkscape/3_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/3_svg-tex.pdf, page 4>
@@ -1756,7 +1785,7 @@ Package pdftex.def Info: ./svg-inkscape/3_svg-tex.pdf , page4 used on input lin
 e 77. on input line 77.
 Package pdftex.def Info: Requested size: 500.0pt x 328.9896pt on input line 77.
 
-<./svg-inkscape/3_svg-tex.pdf, id=473, page=5, pagebox=cropbox, 480.53654pt x 3
+<./svg-inkscape/3_svg-tex.pdf, id=503, page=5, pagebox=cropbox, 480.53654pt x 3
 16.18124pt>
 File: ./svg-inkscape/3_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/3_svg-tex.pdf, page 5>
@@ -1764,7 +1793,7 @@ Package pdftex.def Info: ./svg-inkscape/3_svg-tex.pdf , page5 used on input lin
 e 79. on input line 79.
 Package pdftex.def Info: Requested size: 500.0pt x 328.9896pt on input line 79.
 
-<./svg-inkscape/3_svg-tex.pdf, id=474, page=6, pagebox=cropbox, 480.53654pt x 3
+<./svg-inkscape/3_svg-tex.pdf, id=504, page=6, pagebox=cropbox, 480.53654pt x 3
 16.18124pt>
 File: ./svg-inkscape/3_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/3_svg-tex.pdf, page 6>
@@ -1780,7 +1809,7 @@ Overfull \hbox (30.24501pt too wide) in paragraph at lines 82--296
 Package svg Info: Last page of `./svg-inkscape/4_svg-tex.pdf' is 20 on input li
 ne 301.
 (./svg-inkscape/4_svg-tex.pdf_tex
-<./svg-inkscape/4_svg-tex.pdf, id=476, page=1, pagebox=cropbox, 421.575pt x 316
+<./svg-inkscape/4_svg-tex.pdf, id=506, page=1, pagebox=cropbox, 421.575pt x 316
 .18124pt>
 File: ./svg-inkscape/4_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/4_svg-tex.pdf, page 1>
@@ -1788,7 +1817,7 @@ Package pdftex.def Info: ./svg-inkscape/4_svg-tex.pdf , page1 used on input lin
 e 52. on input line 52.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 52
 .
-<./svg-inkscape/4_svg-tex.pdf, id=477, page=2, pagebox=cropbox, 421.575pt x 316
+<./svg-inkscape/4_svg-tex.pdf, id=507, page=2, pagebox=cropbox, 421.575pt x 316
 .18124pt>
 File: ./svg-inkscape/4_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/4_svg-tex.pdf, page 2>
@@ -1796,7 +1825,7 @@ Package pdftex.def Info: ./svg-inkscape/4_svg-tex.pdf , page2 used on input lin
 e 61. on input line 61.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 61
 .
-<./svg-inkscape/4_svg-tex.pdf, id=478, page=3, pagebox=cropbox, 421.575pt x 316
+<./svg-inkscape/4_svg-tex.pdf, id=508, page=3, pagebox=cropbox, 421.575pt x 316
 .18124pt>
 File: ./svg-inkscape/4_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/4_svg-tex.pdf, page 3>
@@ -1804,7 +1833,7 @@ Package pdftex.def Info: ./svg-inkscape/4_svg-tex.pdf , page3 used on input lin
 e 73. on input line 73.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 73
 .
-<./svg-inkscape/4_svg-tex.pdf, id=479, page=4, pagebox=cropbox, 421.575pt x 316
+<./svg-inkscape/4_svg-tex.pdf, id=509, page=4, pagebox=cropbox, 421.575pt x 316
 .18124pt>
 File: ./svg-inkscape/4_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/4_svg-tex.pdf, page 4>
@@ -1812,7 +1841,7 @@ Package pdftex.def Info: ./svg-inkscape/4_svg-tex.pdf , page4 used on input lin
 e 75. on input line 75.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 75
 .
-<./svg-inkscape/4_svg-tex.pdf, id=480, page=5, pagebox=cropbox, 421.575pt x 316
+<./svg-inkscape/4_svg-tex.pdf, id=510, page=5, pagebox=cropbox, 421.575pt x 316
 .18124pt>
 File: ./svg-inkscape/4_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/4_svg-tex.pdf, page 5>
@@ -1820,7 +1849,7 @@ Package pdftex.def Info: ./svg-inkscape/4_svg-tex.pdf , page5 used on input lin
 e 77. on input line 77.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 77
 .
-<./svg-inkscape/4_svg-tex.pdf, id=481, page=6, pagebox=cropbox, 421.575pt x 316
+<./svg-inkscape/4_svg-tex.pdf, id=511, page=6, pagebox=cropbox, 421.575pt x 316
 .18124pt>
 File: ./svg-inkscape/4_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/4_svg-tex.pdf, page 6>
@@ -1828,7 +1857,7 @@ Package pdftex.def Info: ./svg-inkscape/4_svg-tex.pdf , page6 used on input lin
 e 79. on input line 79.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 79
 .
-<./svg-inkscape/4_svg-tex.pdf, id=482, page=7, pagebox=cropbox, 421.575pt x 316
+<./svg-inkscape/4_svg-tex.pdf, id=512, page=7, pagebox=cropbox, 421.575pt x 316
 .18124pt>
 File: ./svg-inkscape/4_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/4_svg-tex.pdf, page 7>
@@ -1836,7 +1865,7 @@ Package pdftex.def Info: ./svg-inkscape/4_svg-tex.pdf , page7 used on input lin
 e 81. on input line 81.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 81
 .
-<./svg-inkscape/4_svg-tex.pdf, id=483, page=8, pagebox=cropbox, 421.575pt x 316
+<./svg-inkscape/4_svg-tex.pdf, id=513, page=8, pagebox=cropbox, 421.575pt x 316
 .18124pt>
 File: ./svg-inkscape/4_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/4_svg-tex.pdf, page 8>
@@ -1844,7 +1873,7 @@ Package pdftex.def Info: ./svg-inkscape/4_svg-tex.pdf , page8 used on input lin
 e 83. on input line 83.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 83
 .
-<./svg-inkscape/4_svg-tex.pdf, id=484, page=9, pagebox=cropbox, 421.575pt x 316
+<./svg-inkscape/4_svg-tex.pdf, id=514, page=9, pagebox=cropbox, 421.575pt x 316
 .18124pt>
 File: ./svg-inkscape/4_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/4_svg-tex.pdf, page 9>
@@ -1852,7 +1881,7 @@ Package pdftex.def Info: ./svg-inkscape/4_svg-tex.pdf , page9 used on input lin
 e 85. on input line 85.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 85
 .
-<./svg-inkscape/4_svg-tex.pdf, id=485, page=10, pagebox=cropbox, 421.575pt x 31
+<./svg-inkscape/4_svg-tex.pdf, id=515, page=10, pagebox=cropbox, 421.575pt x 31
 6.18124pt>
 File: ./svg-inkscape/4_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/4_svg-tex.pdf, page 10>
@@ -1860,7 +1889,7 @@ Package pdftex.def Info: ./svg-inkscape/4_svg-tex.pdf , page10 used on input li
 ne 87. on input line 87.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 87
 .
-<./svg-inkscape/4_svg-tex.pdf, id=486, page=11, pagebox=cropbox, 421.575pt x 31
+<./svg-inkscape/4_svg-tex.pdf, id=516, page=11, pagebox=cropbox, 421.575pt x 31
 6.18124pt>
 File: ./svg-inkscape/4_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/4_svg-tex.pdf, page 11>
@@ -1868,7 +1897,7 @@ Package pdftex.def Info: ./svg-inkscape/4_svg-tex.pdf , page11 used on input li
 ne 89. on input line 89.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 89
 .
-<./svg-inkscape/4_svg-tex.pdf, id=487, page=12, pagebox=cropbox, 421.575pt x 31
+<./svg-inkscape/4_svg-tex.pdf, id=517, page=12, pagebox=cropbox, 421.575pt x 31
 6.18124pt>
 File: ./svg-inkscape/4_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/4_svg-tex.pdf, page 12>
@@ -1876,7 +1905,7 @@ Package pdftex.def Info: ./svg-inkscape/4_svg-tex.pdf , page12 used on input li
 ne 91. on input line 91.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 91
 .
-<./svg-inkscape/4_svg-tex.pdf, id=488, page=13, pagebox=cropbox, 421.575pt x 31
+<./svg-inkscape/4_svg-tex.pdf, id=518, page=13, pagebox=cropbox, 421.575pt x 31
 6.18124pt>
 File: ./svg-inkscape/4_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/4_svg-tex.pdf, page 13>
@@ -1884,7 +1913,7 @@ Package pdftex.def Info: ./svg-inkscape/4_svg-tex.pdf , page13 used on input li
 ne 93. on input line 93.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 93
 .
-<./svg-inkscape/4_svg-tex.pdf, id=489, page=14, pagebox=cropbox, 421.575pt x 31
+<./svg-inkscape/4_svg-tex.pdf, id=519, page=14, pagebox=cropbox, 421.575pt x 31
 6.18124pt>
 File: ./svg-inkscape/4_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/4_svg-tex.pdf, page 14>
@@ -1892,7 +1921,7 @@ Package pdftex.def Info: ./svg-inkscape/4_svg-tex.pdf , page14 used on input li
 ne 95. on input line 95.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 95
 .
-<./svg-inkscape/4_svg-tex.pdf, id=490, page=15, pagebox=cropbox, 421.575pt x 31
+<./svg-inkscape/4_svg-tex.pdf, id=520, page=15, pagebox=cropbox, 421.575pt x 31
 6.18124pt>
 File: ./svg-inkscape/4_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/4_svg-tex.pdf, page 15>
@@ -1900,7 +1929,7 @@ Package pdftex.def Info: ./svg-inkscape/4_svg-tex.pdf , page15 used on input li
 ne 97. on input line 97.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 97
 .
-<./svg-inkscape/4_svg-tex.pdf, id=491, page=16, pagebox=cropbox, 421.575pt x 31
+<./svg-inkscape/4_svg-tex.pdf, id=521, page=16, pagebox=cropbox, 421.575pt x 31
 6.18124pt>
 File: ./svg-inkscape/4_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/4_svg-tex.pdf, page 16>
@@ -1908,7 +1937,7 @@ Package pdftex.def Info: ./svg-inkscape/4_svg-tex.pdf , page16 used on input li
 ne 99. on input line 99.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 99
 .
-<./svg-inkscape/4_svg-tex.pdf, id=492, page=17, pagebox=cropbox, 421.575pt x 31
+<./svg-inkscape/4_svg-tex.pdf, id=522, page=17, pagebox=cropbox, 421.575pt x 31
 6.18124pt>
 File: ./svg-inkscape/4_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/4_svg-tex.pdf, page 17>
@@ -1916,7 +1945,7 @@ Package pdftex.def Info: ./svg-inkscape/4_svg-tex.pdf , page17 used on input li
 ne 101. on input line 101.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 10
 1.
-<./svg-inkscape/4_svg-tex.pdf, id=493, page=18, pagebox=cropbox, 421.575pt x 31
+<./svg-inkscape/4_svg-tex.pdf, id=523, page=18, pagebox=cropbox, 421.575pt x 31
 6.18124pt>
 File: ./svg-inkscape/4_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/4_svg-tex.pdf, page 18>
@@ -1924,7 +1953,7 @@ Package pdftex.def Info: ./svg-inkscape/4_svg-tex.pdf , page18 used on input li
 ne 103. on input line 103.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 10
 3.
-<./svg-inkscape/4_svg-tex.pdf, id=494, page=19, pagebox=cropbox, 421.575pt x 31
+<./svg-inkscape/4_svg-tex.pdf, id=524, page=19, pagebox=cropbox, 421.575pt x 31
 6.18124pt>
 File: ./svg-inkscape/4_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/4_svg-tex.pdf, page 19>
@@ -1932,7 +1961,7 @@ Package pdftex.def Info: ./svg-inkscape/4_svg-tex.pdf , page19 used on input li
 ne 105. on input line 105.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 10
 5.
-<./svg-inkscape/4_svg-tex.pdf, id=495, page=20, pagebox=cropbox, 421.575pt x 31
+<./svg-inkscape/4_svg-tex.pdf, id=525, page=20, pagebox=cropbox, 421.575pt x 31
 6.18124pt>
 File: ./svg-inkscape/4_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/4_svg-tex.pdf, page 20>
@@ -1948,7 +1977,7 @@ Overfull \hbox (30.24501pt too wide) in paragraph at lines 108--302
 Package svg Info: Last page of `./svg-inkscape/5_svg-tex.pdf' is 1 on input lin
 e 307.
 (./svg-inkscape/5_svg-tex.pdf_tex
-<./svg-inkscape/5_svg-tex.pdf, id=497, page=1, pagebox=cropbox, 421.575pt x 316
+<./svg-inkscape/5_svg-tex.pdf, id=527, page=1, pagebox=cropbox, 421.575pt x 316
 .18124pt>
 File: ./svg-inkscape/5_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/5_svg-tex.pdf, page 1>
@@ -1964,7 +1993,7 @@ Overfull \hbox (30.24501pt too wide) in paragraph at lines 53--308
 Package svg Info: Last page of `./svg-inkscape/6_svg-tex.pdf' is 14 on input li
 ne 313.
 (./svg-inkscape/6_svg-tex.pdf_tex
-<./svg-inkscape/6_svg-tex.pdf, id=499, page=1, pagebox=cropbox, 421.575pt x 316
+<./svg-inkscape/6_svg-tex.pdf, id=529, page=1, pagebox=cropbox, 421.575pt x 316
 .18124pt>
 File: ./svg-inkscape/6_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/6_svg-tex.pdf, page 1>
@@ -1972,7 +2001,7 @@ Package pdftex.def Info: ./svg-inkscape/6_svg-tex.pdf , page1 used on input lin
 e 52. on input line 52.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 52
 .
-<./svg-inkscape/6_svg-tex.pdf, id=500, page=2, pagebox=cropbox, 421.575pt x 316
+<./svg-inkscape/6_svg-tex.pdf, id=530, page=2, pagebox=cropbox, 421.575pt x 316
 .18124pt>
 File: ./svg-inkscape/6_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/6_svg-tex.pdf, page 2>
@@ -1980,7 +2009,7 @@ Package pdftex.def Info: ./svg-inkscape/6_svg-tex.pdf , page2 used on input lin
 e 61. on input line 61.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 61
 .
-<./svg-inkscape/6_svg-tex.pdf, id=501, page=3, pagebox=cropbox, 421.575pt x 316
+<./svg-inkscape/6_svg-tex.pdf, id=531, page=3, pagebox=cropbox, 421.575pt x 316
 .18124pt>
 File: ./svg-inkscape/6_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/6_svg-tex.pdf, page 3>
@@ -1988,7 +2017,7 @@ Package pdftex.def Info: ./svg-inkscape/6_svg-tex.pdf , page3 used on input lin
 e 72. on input line 72.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 72
 .
-<./svg-inkscape/6_svg-tex.pdf, id=502, page=4, pagebox=cropbox, 421.575pt x 316
+<./svg-inkscape/6_svg-tex.pdf, id=532, page=4, pagebox=cropbox, 421.575pt x 316
 .18124pt>
 File: ./svg-inkscape/6_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/6_svg-tex.pdf, page 4>
@@ -1996,7 +2025,7 @@ Package pdftex.def Info: ./svg-inkscape/6_svg-tex.pdf , page4 used on input lin
 e 74. on input line 74.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 74
 .
-<./svg-inkscape/6_svg-tex.pdf, id=503, page=5, pagebox=cropbox, 421.575pt x 316
+<./svg-inkscape/6_svg-tex.pdf, id=533, page=5, pagebox=cropbox, 421.575pt x 316
 .18124pt>
 File: ./svg-inkscape/6_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/6_svg-tex.pdf, page 5>
@@ -2004,7 +2033,7 @@ Package pdftex.def Info: ./svg-inkscape/6_svg-tex.pdf , page5 used on input lin
 e 76. on input line 76.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 76
 .
-<./svg-inkscape/6_svg-tex.pdf, id=504, page=6, pagebox=cropbox, 421.575pt x 316
+<./svg-inkscape/6_svg-tex.pdf, id=534, page=6, pagebox=cropbox, 421.575pt x 316
 .18124pt>
 File: ./svg-inkscape/6_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/6_svg-tex.pdf, page 6>
@@ -2012,7 +2041,7 @@ Package pdftex.def Info: ./svg-inkscape/6_svg-tex.pdf , page6 used on input lin
 e 78. on input line 78.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 78
 .
-<./svg-inkscape/6_svg-tex.pdf, id=505, page=7, pagebox=cropbox, 421.575pt x 316
+<./svg-inkscape/6_svg-tex.pdf, id=535, page=7, pagebox=cropbox, 421.575pt x 316
 .18124pt>
 File: ./svg-inkscape/6_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/6_svg-tex.pdf, page 7>
@@ -2020,7 +2049,7 @@ Package pdftex.def Info: ./svg-inkscape/6_svg-tex.pdf , page7 used on input lin
 e 80. on input line 80.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 80
 .
-<./svg-inkscape/6_svg-tex.pdf, id=506, page=8, pagebox=cropbox, 421.575pt x 316
+<./svg-inkscape/6_svg-tex.pdf, id=536, page=8, pagebox=cropbox, 421.575pt x 316
 .18124pt>
 File: ./svg-inkscape/6_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/6_svg-tex.pdf, page 8>
@@ -2028,7 +2057,7 @@ Package pdftex.def Info: ./svg-inkscape/6_svg-tex.pdf , page8 used on input lin
 e 82. on input line 82.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 82
 .
-<./svg-inkscape/6_svg-tex.pdf, id=507, page=9, pagebox=cropbox, 421.575pt x 316
+<./svg-inkscape/6_svg-tex.pdf, id=537, page=9, pagebox=cropbox, 421.575pt x 316
 .18124pt>
 File: ./svg-inkscape/6_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/6_svg-tex.pdf, page 9>
@@ -2036,7 +2065,7 @@ Package pdftex.def Info: ./svg-inkscape/6_svg-tex.pdf , page9 used on input lin
 e 84. on input line 84.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 84
 .
-<./svg-inkscape/6_svg-tex.pdf, id=508, page=10, pagebox=cropbox, 421.575pt x 31
+<./svg-inkscape/6_svg-tex.pdf, id=538, page=10, pagebox=cropbox, 421.575pt x 31
 6.18124pt>
 File: ./svg-inkscape/6_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/6_svg-tex.pdf, page 10>
@@ -2044,7 +2073,7 @@ Package pdftex.def Info: ./svg-inkscape/6_svg-tex.pdf , page10 used on input li
 ne 86. on input line 86.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 86
 .
-<./svg-inkscape/6_svg-tex.pdf, id=509, page=11, pagebox=cropbox, 421.575pt x 31
+<./svg-inkscape/6_svg-tex.pdf, id=539, page=11, pagebox=cropbox, 421.575pt x 31
 6.18124pt>
 File: ./svg-inkscape/6_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/6_svg-tex.pdf, page 11>
@@ -2052,7 +2081,7 @@ Package pdftex.def Info: ./svg-inkscape/6_svg-tex.pdf , page11 used on input li
 ne 88. on input line 88.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 88
 .
-<./svg-inkscape/6_svg-tex.pdf, id=510, page=12, pagebox=cropbox, 421.575pt x 31
+<./svg-inkscape/6_svg-tex.pdf, id=540, page=12, pagebox=cropbox, 421.575pt x 31
 6.18124pt>
 File: ./svg-inkscape/6_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/6_svg-tex.pdf, page 12>
@@ -2060,7 +2089,7 @@ Package pdftex.def Info: ./svg-inkscape/6_svg-tex.pdf , page12 used on input li
 ne 90. on input line 90.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 90
 .
-<./svg-inkscape/6_svg-tex.pdf, id=511, page=13, pagebox=cropbox, 421.575pt x 31
+<./svg-inkscape/6_svg-tex.pdf, id=541, page=13, pagebox=cropbox, 421.575pt x 31
 6.18124pt>
 File: ./svg-inkscape/6_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/6_svg-tex.pdf, page 13>
@@ -2068,7 +2097,7 @@ Package pdftex.def Info: ./svg-inkscape/6_svg-tex.pdf , page13 used on input li
 ne 92. on input line 92.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 92
 .
-<./svg-inkscape/6_svg-tex.pdf, id=512, page=14, pagebox=cropbox, 421.575pt x 31
+<./svg-inkscape/6_svg-tex.pdf, id=542, page=14, pagebox=cropbox, 421.575pt x 31
 6.18124pt>
 File: ./svg-inkscape/6_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/6_svg-tex.pdf, page 14>
@@ -2084,7 +2113,7 @@ Overfull \hbox (30.24501pt too wide) in paragraph at lines 95--314
 Package svg Info: Last page of `./svg-inkscape/7_svg-tex.pdf' is 20 on input li
 ne 319.
 (./svg-inkscape/7_svg-tex.pdf_tex
-<./svg-inkscape/7_svg-tex.pdf, id=514, page=1, pagebox=cropbox, 421.575pt x 316
+<./svg-inkscape/7_svg-tex.pdf, id=544, page=1, pagebox=cropbox, 421.575pt x 316
 .18124pt>
 File: ./svg-inkscape/7_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/7_svg-tex.pdf, page 1>
@@ -2092,7 +2121,7 @@ Package pdftex.def Info: ./svg-inkscape/7_svg-tex.pdf , page1 used on input lin
 e 52. on input line 52.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 52
 .
-<./svg-inkscape/7_svg-tex.pdf, id=515, page=2, pagebox=cropbox, 421.575pt x 316
+<./svg-inkscape/7_svg-tex.pdf, id=545, page=2, pagebox=cropbox, 421.575pt x 316
 .18124pt>
 File: ./svg-inkscape/7_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/7_svg-tex.pdf, page 2>
@@ -2100,7 +2129,7 @@ Package pdftex.def Info: ./svg-inkscape/7_svg-tex.pdf , page2 used on input lin
 e 61. on input line 61.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 61
 .
-<./svg-inkscape/7_svg-tex.pdf, id=516, page=3, pagebox=cropbox, 421.575pt x 316
+<./svg-inkscape/7_svg-tex.pdf, id=546, page=3, pagebox=cropbox, 421.575pt x 316
 .18124pt>
 File: ./svg-inkscape/7_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/7_svg-tex.pdf, page 3>
@@ -2108,7 +2137,7 @@ Package pdftex.def Info: ./svg-inkscape/7_svg-tex.pdf , page3 used on input lin
 e 72. on input line 72.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 72
 .
-<./svg-inkscape/7_svg-tex.pdf, id=517, page=4, pagebox=cropbox, 421.575pt x 316
+<./svg-inkscape/7_svg-tex.pdf, id=547, page=4, pagebox=cropbox, 421.575pt x 316
 .18124pt>
 File: ./svg-inkscape/7_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/7_svg-tex.pdf, page 4>
@@ -2116,7 +2145,7 @@ Package pdftex.def Info: ./svg-inkscape/7_svg-tex.pdf , page4 used on input lin
 e 74. on input line 74.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 74
 .
-<./svg-inkscape/7_svg-tex.pdf, id=518, page=5, pagebox=cropbox, 421.575pt x 316
+<./svg-inkscape/7_svg-tex.pdf, id=548, page=5, pagebox=cropbox, 421.575pt x 316
 .18124pt>
 File: ./svg-inkscape/7_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/7_svg-tex.pdf, page 5>
@@ -2124,7 +2153,7 @@ Package pdftex.def Info: ./svg-inkscape/7_svg-tex.pdf , page5 used on input lin
 e 76. on input line 76.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 76
 .
-<./svg-inkscape/7_svg-tex.pdf, id=519, page=6, pagebox=cropbox, 421.575pt x 316
+<./svg-inkscape/7_svg-tex.pdf, id=549, page=6, pagebox=cropbox, 421.575pt x 316
 .18124pt>
 File: ./svg-inkscape/7_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/7_svg-tex.pdf, page 6>
@@ -2132,7 +2161,7 @@ Package pdftex.def Info: ./svg-inkscape/7_svg-tex.pdf , page6 used on input lin
 e 78. on input line 78.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 78
 .
-<./svg-inkscape/7_svg-tex.pdf, id=520, page=7, pagebox=cropbox, 421.575pt x 316
+<./svg-inkscape/7_svg-tex.pdf, id=550, page=7, pagebox=cropbox, 421.575pt x 316
 .18124pt>
 File: ./svg-inkscape/7_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/7_svg-tex.pdf, page 7>
@@ -2140,7 +2169,7 @@ Package pdftex.def Info: ./svg-inkscape/7_svg-tex.pdf , page7 used on input lin
 e 80. on input line 80.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 80
 .
-<./svg-inkscape/7_svg-tex.pdf, id=521, page=8, pagebox=cropbox, 421.575pt x 316
+<./svg-inkscape/7_svg-tex.pdf, id=551, page=8, pagebox=cropbox, 421.575pt x 316
 .18124pt>
 File: ./svg-inkscape/7_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/7_svg-tex.pdf, page 8>
@@ -2148,7 +2177,7 @@ Package pdftex.def Info: ./svg-inkscape/7_svg-tex.pdf , page8 used on input lin
 e 82. on input line 82.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 82
 .
-<./svg-inkscape/7_svg-tex.pdf, id=522, page=9, pagebox=cropbox, 421.575pt x 316
+<./svg-inkscape/7_svg-tex.pdf, id=552, page=9, pagebox=cropbox, 421.575pt x 316
 .18124pt>
 File: ./svg-inkscape/7_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/7_svg-tex.pdf, page 9>
@@ -2156,7 +2185,7 @@ Package pdftex.def Info: ./svg-inkscape/7_svg-tex.pdf , page9 used on input lin
 e 84. on input line 84.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 84
 .
-<./svg-inkscape/7_svg-tex.pdf, id=523, page=10, pagebox=cropbox, 421.575pt x 31
+<./svg-inkscape/7_svg-tex.pdf, id=553, page=10, pagebox=cropbox, 421.575pt x 31
 6.18124pt>
 File: ./svg-inkscape/7_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/7_svg-tex.pdf, page 10>
@@ -2164,7 +2193,7 @@ Package pdftex.def Info: ./svg-inkscape/7_svg-tex.pdf , page10 used on input li
 ne 86. on input line 86.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 86
 .
-<./svg-inkscape/7_svg-tex.pdf, id=524, page=11, pagebox=cropbox, 421.575pt x 31
+<./svg-inkscape/7_svg-tex.pdf, id=554, page=11, pagebox=cropbox, 421.575pt x 31
 6.18124pt>
 File: ./svg-inkscape/7_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/7_svg-tex.pdf, page 11>
@@ -2172,7 +2201,7 @@ Package pdftex.def Info: ./svg-inkscape/7_svg-tex.pdf , page11 used on input li
 ne 88. on input line 88.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 88
 .
-<./svg-inkscape/7_svg-tex.pdf, id=525, page=12, pagebox=cropbox, 421.575pt x 31
+<./svg-inkscape/7_svg-tex.pdf, id=555, page=12, pagebox=cropbox, 421.575pt x 31
 6.18124pt>
 File: ./svg-inkscape/7_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/7_svg-tex.pdf, page 12>
@@ -2180,7 +2209,7 @@ Package pdftex.def Info: ./svg-inkscape/7_svg-tex.pdf , page12 used on input li
 ne 90. on input line 90.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 90
 .
-<./svg-inkscape/7_svg-tex.pdf, id=526, page=13, pagebox=cropbox, 421.575pt x 31
+<./svg-inkscape/7_svg-tex.pdf, id=556, page=13, pagebox=cropbox, 421.575pt x 31
 6.18124pt>
 File: ./svg-inkscape/7_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/7_svg-tex.pdf, page 13>
@@ -2188,7 +2217,7 @@ Package pdftex.def Info: ./svg-inkscape/7_svg-tex.pdf , page13 used on input li
 ne 92. on input line 92.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 92
 .
-<./svg-inkscape/7_svg-tex.pdf, id=527, page=14, pagebox=cropbox, 421.575pt x 31
+<./svg-inkscape/7_svg-tex.pdf, id=557, page=14, pagebox=cropbox, 421.575pt x 31
 6.18124pt>
 File: ./svg-inkscape/7_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/7_svg-tex.pdf, page 14>
@@ -2196,7 +2225,7 @@ Package pdftex.def Info: ./svg-inkscape/7_svg-tex.pdf , page14 used on input li
 ne 94. on input line 94.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 94
 .
-<./svg-inkscape/7_svg-tex.pdf, id=528, page=15, pagebox=cropbox, 421.575pt x 31
+<./svg-inkscape/7_svg-tex.pdf, id=558, page=15, pagebox=cropbox, 421.575pt x 31
 6.18124pt>
 File: ./svg-inkscape/7_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/7_svg-tex.pdf, page 15>
@@ -2204,7 +2233,7 @@ Package pdftex.def Info: ./svg-inkscape/7_svg-tex.pdf , page15 used on input li
 ne 96. on input line 96.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 96
 .
-<./svg-inkscape/7_svg-tex.pdf, id=529, page=16, pagebox=cropbox, 421.575pt x 31
+<./svg-inkscape/7_svg-tex.pdf, id=559, page=16, pagebox=cropbox, 421.575pt x 31
 6.18124pt>
 File: ./svg-inkscape/7_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/7_svg-tex.pdf, page 16>
@@ -2212,7 +2241,7 @@ Package pdftex.def Info: ./svg-inkscape/7_svg-tex.pdf , page16 used on input li
 ne 98. on input line 98.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 98
 .
-<./svg-inkscape/7_svg-tex.pdf, id=530, page=17, pagebox=cropbox, 421.575pt x 31
+<./svg-inkscape/7_svg-tex.pdf, id=560, page=17, pagebox=cropbox, 421.575pt x 31
 6.18124pt>
 File: ./svg-inkscape/7_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/7_svg-tex.pdf, page 17>
@@ -2220,7 +2249,7 @@ Package pdftex.def Info: ./svg-inkscape/7_svg-tex.pdf , page17 used on input li
 ne 100. on input line 100.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 10
 0.
-<./svg-inkscape/7_svg-tex.pdf, id=531, page=18, pagebox=cropbox, 421.575pt x 31
+<./svg-inkscape/7_svg-tex.pdf, id=561, page=18, pagebox=cropbox, 421.575pt x 31
 6.18124pt>
 File: ./svg-inkscape/7_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/7_svg-tex.pdf, page 18>
@@ -2228,7 +2257,7 @@ Package pdftex.def Info: ./svg-inkscape/7_svg-tex.pdf , page18 used on input li
 ne 102. on input line 102.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 10
 2.
-<./svg-inkscape/7_svg-tex.pdf, id=532, page=19, pagebox=cropbox, 421.575pt x 31
+<./svg-inkscape/7_svg-tex.pdf, id=562, page=19, pagebox=cropbox, 421.575pt x 31
 6.18124pt>
 File: ./svg-inkscape/7_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/7_svg-tex.pdf, page 19>
@@ -2236,7 +2265,7 @@ Package pdftex.def Info: ./svg-inkscape/7_svg-tex.pdf , page19 used on input li
 ne 104. on input line 104.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 10
 4.
-<./svg-inkscape/7_svg-tex.pdf, id=533, page=20, pagebox=cropbox, 421.575pt x 31
+<./svg-inkscape/7_svg-tex.pdf, id=563, page=20, pagebox=cropbox, 421.575pt x 31
 6.18124pt>
 File: ./svg-inkscape/7_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/7_svg-tex.pdf, page 20>
@@ -2252,7 +2281,7 @@ Overfull \hbox (30.24501pt too wide) in paragraph at lines 107--320
 Package svg Info: Last page of `./svg-inkscape/8_svg-tex.pdf' is 14 on input li
 ne 325.
 (./svg-inkscape/8_svg-tex.pdf_tex
-<./svg-inkscape/8_svg-tex.pdf, id=535, page=1, pagebox=cropbox, 421.575pt x 316
+<./svg-inkscape/8_svg-tex.pdf, id=565, page=1, pagebox=cropbox, 421.575pt x 316
 .18124pt>
 File: ./svg-inkscape/8_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/8_svg-tex.pdf, page 1>
@@ -2260,7 +2289,7 @@ Package pdftex.def Info: ./svg-inkscape/8_svg-tex.pdf , page1 used on input lin
 e 52. on input line 52.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 52
 .
-<./svg-inkscape/8_svg-tex.pdf, id=536, page=2, pagebox=cropbox, 421.575pt x 316
+<./svg-inkscape/8_svg-tex.pdf, id=566, page=2, pagebox=cropbox, 421.575pt x 316
 .18124pt>
 File: ./svg-inkscape/8_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/8_svg-tex.pdf, page 2>
@@ -2268,7 +2297,7 @@ Package pdftex.def Info: ./svg-inkscape/8_svg-tex.pdf , page2 used on input lin
 e 61. on input line 61.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 61
 .
-<./svg-inkscape/8_svg-tex.pdf, id=537, page=3, pagebox=cropbox, 421.575pt x 316
+<./svg-inkscape/8_svg-tex.pdf, id=567, page=3, pagebox=cropbox, 421.575pt x 316
 .18124pt>
 File: ./svg-inkscape/8_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/8_svg-tex.pdf, page 3>
@@ -2276,7 +2305,7 @@ Package pdftex.def Info: ./svg-inkscape/8_svg-tex.pdf , page3 used on input lin
 e 74. on input line 74.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 74
 .
-<./svg-inkscape/8_svg-tex.pdf, id=538, page=4, pagebox=cropbox, 421.575pt x 316
+<./svg-inkscape/8_svg-tex.pdf, id=568, page=4, pagebox=cropbox, 421.575pt x 316
 .18124pt>
 File: ./svg-inkscape/8_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/8_svg-tex.pdf, page 4>
@@ -2284,7 +2313,7 @@ Package pdftex.def Info: ./svg-inkscape/8_svg-tex.pdf , page4 used on input lin
 e 76. on input line 76.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 76
 .
-<./svg-inkscape/8_svg-tex.pdf, id=539, page=5, pagebox=cropbox, 421.575pt x 316
+<./svg-inkscape/8_svg-tex.pdf, id=569, page=5, pagebox=cropbox, 421.575pt x 316
 .18124pt>
 File: ./svg-inkscape/8_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/8_svg-tex.pdf, page 5>
@@ -2292,7 +2321,7 @@ Package pdftex.def Info: ./svg-inkscape/8_svg-tex.pdf , page5 used on input lin
 e 78. on input line 78.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 78
 .
-<./svg-inkscape/8_svg-tex.pdf, id=540, page=6, pagebox=cropbox, 421.575pt x 316
+<./svg-inkscape/8_svg-tex.pdf, id=570, page=6, pagebox=cropbox, 421.575pt x 316
 .18124pt>
 File: ./svg-inkscape/8_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/8_svg-tex.pdf, page 6>
@@ -2300,7 +2329,7 @@ Package pdftex.def Info: ./svg-inkscape/8_svg-tex.pdf , page6 used on input lin
 e 80. on input line 80.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 80
 .
-<./svg-inkscape/8_svg-tex.pdf, id=541, page=7, pagebox=cropbox, 421.575pt x 316
+<./svg-inkscape/8_svg-tex.pdf, id=571, page=7, pagebox=cropbox, 421.575pt x 316
 .18124pt>
 File: ./svg-inkscape/8_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/8_svg-tex.pdf, page 7>
@@ -2308,7 +2337,7 @@ Package pdftex.def Info: ./svg-inkscape/8_svg-tex.pdf , page7 used on input lin
 e 82. on input line 82.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 82
 .
-<./svg-inkscape/8_svg-tex.pdf, id=542, page=8, pagebox=cropbox, 421.575pt x 316
+<./svg-inkscape/8_svg-tex.pdf, id=572, page=8, pagebox=cropbox, 421.575pt x 316
 .18124pt>
 File: ./svg-inkscape/8_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/8_svg-tex.pdf, page 8>
@@ -2316,7 +2345,7 @@ Package pdftex.def Info: ./svg-inkscape/8_svg-tex.pdf , page8 used on input lin
 e 84. on input line 84.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 84
 .
-<./svg-inkscape/8_svg-tex.pdf, id=543, page=9, pagebox=cropbox, 421.575pt x 316
+<./svg-inkscape/8_svg-tex.pdf, id=573, page=9, pagebox=cropbox, 421.575pt x 316
 .18124pt>
 File: ./svg-inkscape/8_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/8_svg-tex.pdf, page 9>
@@ -2324,7 +2353,7 @@ Package pdftex.def Info: ./svg-inkscape/8_svg-tex.pdf , page9 used on input lin
 e 86. on input line 86.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 86
 .
-<./svg-inkscape/8_svg-tex.pdf, id=544, page=10, pagebox=cropbox, 421.575pt x 31
+<./svg-inkscape/8_svg-tex.pdf, id=574, page=10, pagebox=cropbox, 421.575pt x 31
 6.18124pt>
 File: ./svg-inkscape/8_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/8_svg-tex.pdf, page 10>
@@ -2332,7 +2361,7 @@ Package pdftex.def Info: ./svg-inkscape/8_svg-tex.pdf , page10 used on input li
 ne 88. on input line 88.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 88
 .
-<./svg-inkscape/8_svg-tex.pdf, id=545, page=11, pagebox=cropbox, 421.575pt x 31
+<./svg-inkscape/8_svg-tex.pdf, id=575, page=11, pagebox=cropbox, 421.575pt x 31
 6.18124pt>
 File: ./svg-inkscape/8_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/8_svg-tex.pdf, page 11>
@@ -2340,7 +2369,7 @@ Package pdftex.def Info: ./svg-inkscape/8_svg-tex.pdf , page11 used on input li
 ne 90. on input line 90.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 90
 .
-<./svg-inkscape/8_svg-tex.pdf, id=546, page=12, pagebox=cropbox, 421.575pt x 31
+<./svg-inkscape/8_svg-tex.pdf, id=576, page=12, pagebox=cropbox, 421.575pt x 31
 6.18124pt>
 File: ./svg-inkscape/8_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/8_svg-tex.pdf, page 12>
@@ -2348,7 +2377,7 @@ Package pdftex.def Info: ./svg-inkscape/8_svg-tex.pdf , page12 used on input li
 ne 92. on input line 92.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 92
 .
-<./svg-inkscape/8_svg-tex.pdf, id=547, page=13, pagebox=cropbox, 421.575pt x 31
+<./svg-inkscape/8_svg-tex.pdf, id=577, page=13, pagebox=cropbox, 421.575pt x 31
 6.18124pt>
 File: ./svg-inkscape/8_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/8_svg-tex.pdf, page 13>
@@ -2356,7 +2385,7 @@ Package pdftex.def Info: ./svg-inkscape/8_svg-tex.pdf , page13 used on input li
 ne 94. on input line 94.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 94
 .
-<./svg-inkscape/8_svg-tex.pdf, id=548, page=14, pagebox=cropbox, 421.575pt x 31
+<./svg-inkscape/8_svg-tex.pdf, id=578, page=14, pagebox=cropbox, 421.575pt x 31
 6.18124pt>
 File: ./svg-inkscape/8_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/8_svg-tex.pdf, page 14>
@@ -2372,7 +2401,7 @@ Overfull \hbox (30.24501pt too wide) in paragraph at lines 97--326
 Package svg Info: Last page of `./svg-inkscape/9_svg-tex.pdf' is 5 on input lin
 e 331.
 (./svg-inkscape/9_svg-tex.pdf_tex
-<./svg-inkscape/9_svg-tex.pdf, id=550, page=1, pagebox=cropbox, 421.575pt x 316
+<./svg-inkscape/9_svg-tex.pdf, id=580, page=1, pagebox=cropbox, 421.575pt x 316
 .18124pt>
 File: ./svg-inkscape/9_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/9_svg-tex.pdf, page 1>
@@ -2380,7 +2409,7 @@ Package pdftex.def Info: ./svg-inkscape/9_svg-tex.pdf , page1 used on input lin
 e 52. on input line 52.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 52
 .
-<./svg-inkscape/9_svg-tex.pdf, id=551, page=2, pagebox=cropbox, 421.575pt x 316
+<./svg-inkscape/9_svg-tex.pdf, id=581, page=2, pagebox=cropbox, 421.575pt x 316
 .18124pt>
 File: ./svg-inkscape/9_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/9_svg-tex.pdf, page 2>
@@ -2388,7 +2417,7 @@ Package pdftex.def Info: ./svg-inkscape/9_svg-tex.pdf , page2 used on input lin
 e 61. on input line 61.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 61
 .
-<./svg-inkscape/9_svg-tex.pdf, id=552, page=3, pagebox=cropbox, 421.575pt x 316
+<./svg-inkscape/9_svg-tex.pdf, id=582, page=3, pagebox=cropbox, 421.575pt x 316
 .18124pt>
 File: ./svg-inkscape/9_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/9_svg-tex.pdf, page 3>
@@ -2396,7 +2425,7 @@ Package pdftex.def Info: ./svg-inkscape/9_svg-tex.pdf , page3 used on input lin
 e 72. on input line 72.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 72
 .
-<./svg-inkscape/9_svg-tex.pdf, id=553, page=4, pagebox=cropbox, 421.575pt x 316
+<./svg-inkscape/9_svg-tex.pdf, id=583, page=4, pagebox=cropbox, 421.575pt x 316
 .18124pt>
 File: ./svg-inkscape/9_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/9_svg-tex.pdf, page 4>
@@ -2404,7 +2433,7 @@ Package pdftex.def Info: ./svg-inkscape/9_svg-tex.pdf , page4 used on input lin
 e 74. on input line 74.
 Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 74
 .
-<./svg-inkscape/9_svg-tex.pdf, id=554, page=5, pagebox=cropbox, 421.575pt x 316
+<./svg-inkscape/9_svg-tex.pdf, id=584, page=5, pagebox=cropbox, 421.575pt x 316
 .18124pt>
 File: ./svg-inkscape/9_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/9_svg-tex.pdf, page 5>
@@ -3146,7 +3175,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 845.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 845.
-<img/pol2/1.png, id=1152, 674.52pt x 607.26875pt>
+<img/pol2/1.png, id=1182, 674.52pt x 607.26875pt>
 File: img/pol2/1.png Graphic file (type png)
 <use img/pol2/1.png>
 Package pdftex.def Info: img/pol2/1.png  used on input line 848. on input line 
@@ -3158,7 +3187,7 @@ Overfull \hbox (30.25685pt too wide) in paragraph at lines 848--849
  [][] 
  []
 
-<img/pol2/2.png, id=1153, 674.52pt x 607.26875pt>
+<img/pol2/2.png, id=1183, 674.52pt x 607.26875pt>
 File: img/pol2/2.png Graphic file (type png)
 <use img/pol2/2.png>
 Package pdftex.def Info: img/pol2/2.png  used on input line 854. on input line 
@@ -3170,7 +3199,7 @@ Overfull \hbox (30.25685pt too wide) in paragraph at lines 854--855
  [][] 
  []
 
-<img/pol2/3.png, id=1154, 674.52pt x 607.26875pt>
+<img/pol2/3.png, id=1184, 674.52pt x 607.26875pt>
 File: img/pol2/3.png Graphic file (type png)
 <use img/pol2/3.png>
 Package pdftex.def Info: img/pol2/3.png  used on input line 860. on input line 
@@ -3182,7 +3211,7 @@ Overfull \hbox (30.25685pt too wide) in paragraph at lines 860--861
  [][] 
  []
 
-<img/pol2/4.png, id=1155, 674.52pt x 607.26875pt>
+<img/pol2/4.png, id=1185, 674.52pt x 607.26875pt>
 File: img/pol2/4.png Graphic file (type png)
 <use img/pol2/4.png>
 Package pdftex.def Info: img/pol2/4.png  used on input line 866. on input line 
@@ -3194,7 +3223,7 @@ Overfull \hbox (30.25685pt too wide) in paragraph at lines 866--867
  [][] 
  []
 
-<img/pol2/5.png, id=1156, 674.52pt x 607.26875pt>
+<img/pol2/5.png, id=1186, 674.52pt x 607.26875pt>
 File: img/pol2/5.png Graphic file (type png)
 <use img/pol2/5.png>
 Package pdftex.def Info: img/pol2/5.png  used on input line 872. on input line 
@@ -3206,7 +3235,7 @@ Overfull \hbox (30.25685pt too wide) in paragraph at lines 872--873
  [][] 
  []
 
-<img/pol2/6.png, id=1157, 674.52pt x 607.26875pt>
+<img/pol2/6.png, id=1187, 674.52pt x 607.26875pt>
 File: img/pol2/6.png Graphic file (type png)
 <use img/pol2/6.png>
 Package pdftex.def Info: img/pol2/6.png  used on input line 878. on input line 
@@ -3218,7 +3247,7 @@ Overfull \hbox (30.25685pt too wide) in paragraph at lines 878--879
  [][] 
  []
 
-<img/pol2/7.png, id=1158, 674.52pt x 607.26875pt>
+<img/pol2/7.png, id=1188, 674.52pt x 607.26875pt>
 File: img/pol2/7.png Graphic file (type png)
 <use img/pol2/7.png>
 Package pdftex.def Info: img/pol2/7.png  used on input line 884. on input line 
@@ -3230,7 +3259,7 @@ Overfull \hbox (30.25685pt too wide) in paragraph at lines 884--885
  [][] 
  []
 
-<img/pol2/8.png, id=1159, 674.52pt x 607.26875pt>
+<img/pol2/8.png, id=1189, 674.52pt x 607.26875pt>
 File: img/pol2/8.png Graphic file (type png)
 <use img/pol2/8.png>
 Package pdftex.def Info: img/pol2/8.png  used on input line 890. on input line 
@@ -3242,7 +3271,7 @@ Overfull \hbox (30.25685pt too wide) in paragraph at lines 890--891
  [][] 
  []
 
-<img/pol1/9.png, id=1160, 421.575pt x 316.18124pt>
+<img/pol1/9.png, id=1190, 421.575pt x 316.18124pt>
 File: img/pol1/9.png Graphic file (type png)
 <use img/pol1/9.png>
 Package pdftex.def Info: img/pol1/9.png  used on input line 896. on input line 
@@ -3853,7 +3882,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 2330.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 2330.
-<img/pol3/1.png, id=2649, 421.575pt x 316.18124pt>
+<img/pol3/1.png, id=2679, 421.575pt x 316.18124pt>
 File: img/pol3/1.png Graphic file (type png)
 <use img/pol3/1.png>
 Package pdftex.def Info: img/pol3/1.png  used on input line 2333. on input line
@@ -3865,7 +3894,7 @@ Overfull \hbox (30.25298pt too wide) in paragraph at lines 2333--2334
  [][] 
  []
 
-<img/pol3/2.png, id=2650, 1028.34187pt x 520.19344pt>
+<img/pol3/2.png, id=2680, 1028.34187pt x 520.19344pt>
 File: img/pol3/2.png Graphic file (type png)
 <use img/pol3/2.png>
 Package pdftex.def Info: img/pol3/2.png  used on input line 2339. on input line
@@ -3877,7 +3906,7 @@ Overfull \hbox (30.24553pt too wide) in paragraph at lines 2339--2340
  [][] 
  []
 
-<img/pol3/3.png, id=2651, 421.575pt x 316.18124pt>
+<img/pol3/3.png, id=2681, 421.575pt x 316.18124pt>
 File: img/pol3/3.png Graphic file (type png)
 <use img/pol3/3.png>
 Package pdftex.def Info: img/pol3/3.png  used on input line 2345. on input line
@@ -3889,7 +3918,7 @@ Overfull \hbox (30.25298pt too wide) in paragraph at lines 2345--2346
  [][] 
  []
 
-<img/pol3/4.png, id=2652, 421.575pt x 316.18124pt>
+<img/pol3/4.png, id=2682, 421.575pt x 316.18124pt>
 File: img/pol3/4.png Graphic file (type png)
 <use img/pol3/4.png>
 Package pdftex.def Info: img/pol3/4.png  used on input line 2351. on input line
@@ -3901,7 +3930,7 @@ Overfull \hbox (30.25298pt too wide) in paragraph at lines 2351--2352
  [][] 
  []
 
-<img/pol3/5.png, id=2653, 421.575pt x 316.18124pt>
+<img/pol3/5.png, id=2683, 421.575pt x 316.18124pt>
 File: img/pol3/5.png Graphic file (type png)
 <use img/pol3/5.png>
 Package pdftex.def Info: img/pol3/5.png  used on input line 2357. on input line
@@ -3913,7 +3942,7 @@ Overfull \hbox (30.25298pt too wide) in paragraph at lines 2357--2358
  [][] 
  []
 
-<img/pol3/6.png, id=2654, 421.575pt x 316.18124pt>
+<img/pol3/6.png, id=2684, 421.575pt x 316.18124pt>
 File: img/pol3/6.png Graphic file (type png)
 <use img/pol3/6.png>
 Package pdftex.def Info: img/pol3/6.png  used on input line 2363. on input line
@@ -3925,7 +3954,7 @@ Overfull \hbox (30.25298pt too wide) in paragraph at lines 2363--2364
  [][] 
  []
 
-<img/pol3/7.png, id=2655, 485.56406pt x 371.88937pt>
+<img/pol3/7.png, id=2685, 485.56406pt x 371.88937pt>
 File: img/pol3/7.png Graphic file (type png)
 <use img/pol3/7.png>
 Package pdftex.def Info: img/pol3/7.png  used on input line 2369. on input line
@@ -3937,7 +3966,7 @@ Overfull \hbox (30.2408pt too wide) in paragraph at lines 2369--2370
  [][] 
  []
 
-<img/pol3/8.png, id=2656, 406.51875pt x 295.85532pt>
+<img/pol3/8.png, id=2686, 406.51875pt x 295.85532pt>
 File: img/pol3/8.png Graphic file (type png)
 <use img/pol3/8.png>
 Package pdftex.def Info: img/pol3/8.png  used on input line 2375. on input line
@@ -3949,7 +3978,7 @@ Overfull \hbox (30.2663pt too wide) in paragraph at lines 2375--2376
  [][] 
  []
 
-<img/pol3/9.png, id=2657, 421.575pt x 316.18124pt>
+<img/pol3/9.png, id=2687, 421.575pt x 316.18124pt>
 File: img/pol3/9.png Graphic file (type png)
 <use img/pol3/9.png>
 Package pdftex.def Info: img/pol3/9.png  used on input line 2381. on input line
@@ -4213,402 +4242,959 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 2384.
  [50 <./img/pol3/9.png (PNG copy)>]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 2385.
+(babel)             in language  on input line 2386.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 2385.
+(babel)             in language  on input line 2386.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 2385.
+(babel)             in language  on input line 2386.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 2385.
+(babel)             in language  on input line 2386.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 2385.
+(babel)             in language  on input line 2386.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 2385.
+(babel)             in language  on input line 2386.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 2394.
+(babel)             in language  on input line 2387.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 2394.
+(babel)             in language  on input line 2387.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 2394.
+(babel)             in language  on input line 2387.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 2394.
+(babel)             in language  on input line 2387.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 2394.
+(babel)             in language  on input line 2387.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 2394.
+(babel)             in language  on input line 2387.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 2396.
+(babel)             in language  on input line 2520.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 2396.
+(babel)             in language  on input line 2520.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 2396.
+(babel)             in language  on input line 2520.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 2396.
+(babel)             in language  on input line 2520.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 2396.
+(babel)             in language  on input line 2520.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 2396.
-LaTeX Font Info:    Try loading font information for T1+fvm on input line 2399.
+(babel)             in language  on input line 2520.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 2520.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 2520.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 2520.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 2520.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 2520.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 2520.
+ [51]
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 2646.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 2646.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 2646.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 2646.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 2646.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 2646.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 2646.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 2646.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 2646.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 2646.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 2646.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 2646.
+ [52]
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 2726.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 2726.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 2726.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 2726.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 2726.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 2726.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 2757.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 2757.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 2757.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 2757.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 2757.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 2757.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 2757.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 2757.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 2757.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 2757.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 2757.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 2757.
+ [53]
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 2893.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 2893.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 2893.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 2893.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 2893.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 2893.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 2893.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 2893.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 2893.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 2893.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 2893.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 2893.
+ [54]
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 3017.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 3017.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 3017.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 3017.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 3017.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 3017.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 3017.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 3017.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 3017.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 3017.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 3017.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 3017.
+ [55]
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 3065.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 3065.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 3065.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 3065.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 3065.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 3065.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 3081.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 3081.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 3081.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 3081.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 3081.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 3081.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 3082.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 3082.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 3082.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 3082.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 3082.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 3082.
+<img/mlp/1.png, id=3442, 674.52pt x 607.26875pt>
+File: img/mlp/1.png Graphic file (type png)
+<use img/mlp/1.png>
+Package pdftex.def Info: img/mlp/1.png  used on input line 3085. on input line 
+3085.
+Package pdftex.def Info: Requested size: 500.01184pt x 500.01143pt on input lin
+e 3085.
 
- (d:/Programs/texlive/2017/texmf-dist/tex/latex/bera/t1fvm.fd
+Overfull \hbox (30.25685pt too wide) in paragraph at lines 3085--3086
+ [][] 
+ []
+
+<img/mlp/2.png, id=3443, 674.52pt x 607.26875pt>
+File: img/mlp/2.png Graphic file (type png)
+<use img/mlp/2.png>
+Package pdftex.def Info: img/mlp/2.png  used on input line 3091. on input line 
+3091.
+Package pdftex.def Info: Requested size: 500.01184pt x 500.01143pt on input lin
+e 3091.
+
+Overfull \hbox (30.25685pt too wide) in paragraph at lines 3091--3092
+ [][] 
+ []
+
+<img/mlp/3.png, id=3444, 674.52pt x 607.26875pt>
+File: img/mlp/3.png Graphic file (type png)
+<use img/mlp/3.png>
+Package pdftex.def Info: img/mlp/3.png  used on input line 3097. on input line 
+3097.
+Package pdftex.def Info: Requested size: 500.01184pt x 500.01143pt on input lin
+e 3097.
+
+Overfull \hbox (30.25685pt too wide) in paragraph at lines 3097--3098
+ [][] 
+ []
+
+<img/mlp/4.png, id=3445, 674.52pt x 607.26875pt>
+File: img/mlp/4.png Graphic file (type png)
+<use img/mlp/4.png>
+Package pdftex.def Info: img/mlp/4.png  used on input line 3103. on input line 
+3103.
+Package pdftex.def Info: Requested size: 500.01184pt x 500.01143pt on input lin
+e 3103.
+
+Overfull \hbox (30.25685pt too wide) in paragraph at lines 3103--3104
+ [][] 
+ []
+
+<img/mlp/5.png, id=3446, 674.52pt x 607.26875pt>
+File: img/mlp/5.png Graphic file (type png)
+<use img/mlp/5.png>
+Package pdftex.def Info: img/mlp/5.png  used on input line 3109. on input line 
+3109.
+Package pdftex.def Info: Requested size: 500.01184pt x 500.01143pt on input lin
+e 3109.
+
+Overfull \hbox (30.25685pt too wide) in paragraph at lines 3109--3110
+ [][] 
+ []
+
+<img/mlp/6.png, id=3447, 674.52pt x 607.26875pt>
+File: img/mlp/6.png Graphic file (type png)
+<use img/mlp/6.png>
+Package pdftex.def Info: img/mlp/6.png  used on input line 3115. on input line 
+3115.
+Package pdftex.def Info: Requested size: 500.01184pt x 500.01143pt on input lin
+e 3115.
+
+Overfull \hbox (30.25685pt too wide) in paragraph at lines 3115--3116
+ [][] 
+ []
+
+<img/mlp/7.png, id=3448, 674.52pt x 607.26875pt>
+File: img/mlp/7.png Graphic file (type png)
+<use img/mlp/7.png>
+Package pdftex.def Info: img/mlp/7.png  used on input line 3121. on input line 
+3121.
+Package pdftex.def Info: Requested size: 500.01184pt x 500.01143pt on input lin
+e 3121.
+
+Overfull \hbox (30.25685pt too wide) in paragraph at lines 3121--3122
+ [][] 
+ []
+
+<img/mlp/8.png, id=3449, 674.52pt x 607.26875pt>
+File: img/mlp/8.png Graphic file (type png)
+<use img/mlp/8.png>
+Package pdftex.def Info: img/mlp/8.png  used on input line 3127. on input line 
+3127.
+Package pdftex.def Info: Requested size: 500.01184pt x 500.01143pt on input lin
+e 3127.
+
+Overfull \hbox (30.25685pt too wide) in paragraph at lines 3127--3128
+ [][] 
+ []
+
+<img/mlp/9.png, id=3450, 674.52pt x 607.26875pt>
+File: img/mlp/9.png Graphic file (type png)
+<use img/mlp/9.png>
+Package pdftex.def Info: img/mlp/9.png  used on input line 3133. on input line 
+3133.
+Package pdftex.def Info: Requested size: 500.01184pt x 500.01143pt on input lin
+e 3133.
+
+Overfull \hbox (30.25685pt too wide) in paragraph at lines 3133--3134
+ [][] 
+ []
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 3136.
+[56]
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 3136.
+ [57 <./img/mlp/1.png>]
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 3136.
+ [58 <./img/mlp/2.png>]
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 3136.
+ [59 <./img/mlp/3.png>]
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 3136.
+
+[60 <./img/mlp/4.png>]
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 3136.
+ [61 <./img/mlp/5.png>]
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 3136.
+ [62 <./img/mlp/6.png>]
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 3136.
+ [63 <./img/mlp/7.png>]
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 3136.
+ [64 <./img/mlp/8.png>]
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 3136.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 3136.
+ [65 <./img/mlp/9.png>]
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 3138.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 3138.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 3138.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 3138.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 3138.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 3138.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 3147.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 3147.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 3147.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 3147.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 3147.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 3147.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 3149.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 3149.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 3149.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 3149.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 3149.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 3149.
+LaTeX Font Info:    Try loading font information for T1+fvm on input line 3152.
+
+
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/bera/t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 2399.
+(Font)              scaled to size 8.99994pt on input line 3152.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 2401.
+(babel)             in language  on input line 3154.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 2401.
+(babel)             in language  on input line 3154.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 2401.
+(babel)             in language  on input line 3154.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 2401.
+(babel)             in language  on input line 3154.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 2401.
+(babel)             in language  on input line 3154.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 2401.
+(babel)             in language  on input line 3154.
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 2407.
-LaTeX Font Info:    Try loading font information for TS1+fvm on input line 2412
+nput line 3160.
+LaTeX Font Info:    Try loading font information for TS1+fvm on input line 3165
 .
 
 (d:/Programs/texlive/2017/texmf-dist/tex/latex/bera/ts1fvm.fd
 File: ts1fvm.fd 2004/09/07 scalable font definitions for TS1/fvm.
 )
 LaTeX Font Info:    Font shape `TS1/fvm/m/n' will be
-(Font)              scaled to size 8.50006pt on input line 2412.
+(Font)              scaled to size 8.50006pt on input line 3165.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 2423.
+(babel)             in language  on input line 3176.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 2423.
+(babel)             in language  on input line 3176.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 2423.
+(babel)             in language  on input line 3176.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 2423.
+(babel)             in language  on input line 3176.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 2423.
+(babel)             in language  on input line 3176.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 2423.
+(babel)             in language  on input line 3176.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 2423.
+(babel)             in language  on input line 3176.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 2423.
+(babel)             in language  on input line 3176.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 2423.
+(babel)             in language  on input line 3176.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 2423.
+(babel)             in language  on input line 3176.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 2423.
+(babel)             in language  on input line 3176.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 2423.
- [51]
+(babel)             in language  on input line 3176.
+ [66]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 2465.
+(babel)             in language  on input line 3218.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 2465.
+(babel)             in language  on input line 3218.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 2465.
+(babel)             in language  on input line 3218.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 2465.
+(babel)             in language  on input line 3218.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 2465.
+(babel)             in language  on input line 3218.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 2465.
+(babel)             in language  on input line 3218.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 2465.
+(babel)             in language  on input line 3218.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 2465.
+(babel)             in language  on input line 3218.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 2465.
+(babel)             in language  on input line 3218.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 2465.
+(babel)             in language  on input line 3218.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 2465.
+(babel)             in language  on input line 3218.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 2465.
- [52]
+(babel)             in language  on input line 3218.
+ [67]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 2514.
+(babel)             in language  on input line 3267.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 2514.
+(babel)             in language  on input line 3267.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 2514.
+(babel)             in language  on input line 3267.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 2514.
+(babel)             in language  on input line 3267.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 2514.
+(babel)             in language  on input line 3267.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 2514.
+(babel)             in language  on input line 3267.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 2514.
+(babel)             in language  on input line 3267.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 2514.
+(babel)             in language  on input line 3267.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 2514.
+(babel)             in language  on input line 3267.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 2514.
+(babel)             in language  on input line 3267.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 2514.
+(babel)             in language  on input line 3267.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 2514.
+(babel)             in language  on input line 3267.
 
-[53]
+[68]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 2563.
+(babel)             in language  on input line 3316.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 2563.
+(babel)             in language  on input line 3316.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 2563.
+(babel)             in language  on input line 3316.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 2563.
+(babel)             in language  on input line 3316.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 2563.
+(babel)             in language  on input line 3316.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 2563.
+(babel)             in language  on input line 3316.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 2563.
+(babel)             in language  on input line 3316.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 2563.
+(babel)             in language  on input line 3316.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 2563.
+(babel)             in language  on input line 3316.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 2563.
+(babel)             in language  on input line 3316.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 2563.
+(babel)             in language  on input line 3316.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 2563.
- [54]
+(babel)             in language  on input line 3316.
+ [69]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 2611.
+(babel)             in language  on input line 3364.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 2611.
+(babel)             in language  on input line 3364.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 2611.
+(babel)             in language  on input line 3364.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 2611.
+(babel)             in language  on input line 3364.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 2611.
+(babel)             in language  on input line 3364.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 2611.
+(babel)             in language  on input line 3364.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 2611.
+(babel)             in language  on input line 3364.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 2611.
+(babel)             in language  on input line 3364.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 2611.
+(babel)             in language  on input line 3364.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 2611.
+(babel)             in language  on input line 3364.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 2611.
+(babel)             in language  on input line 3364.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 2611.
- [55]
+(babel)             in language  on input line 3364.
+ [70]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 2660.
+(babel)             in language  on input line 3413.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 2660.
+(babel)             in language  on input line 3413.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 2660.
+(babel)             in language  on input line 3413.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 2660.
+(babel)             in language  on input line 3413.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 2660.
+(babel)             in language  on input line 3413.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 2660.
+(babel)             in language  on input line 3413.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 2660.
+(babel)             in language  on input line 3413.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 2660.
+(babel)             in language  on input line 3413.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 2660.
+(babel)             in language  on input line 3413.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 2660.
+(babel)             in language  on input line 3413.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 2660.
+(babel)             in language  on input line 3413.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 2660.
- [56]
+(babel)             in language  on input line 3413.
+ [71]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 2708.
+(babel)             in language  on input line 3461.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 2708.
+(babel)             in language  on input line 3461.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 2708.
+(babel)             in language  on input line 3461.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 2708.
+(babel)             in language  on input line 3461.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 2708.
+(babel)             in language  on input line 3461.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 2708.
+(babel)             in language  on input line 3461.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 2708.
+(babel)             in language  on input line 3461.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 2708.
+(babel)             in language  on input line 3461.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 2708.
+(babel)             in language  on input line 3461.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 2708.
+(babel)             in language  on input line 3461.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 2708.
+(babel)             in language  on input line 3461.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 2708.
- [57]
+(babel)             in language  on input line 3461.
+ [72]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 2756.
+(babel)             in language  on input line 3509.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 2756.
+(babel)             in language  on input line 3509.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 2756.
+(babel)             in language  on input line 3509.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 2756.
+(babel)             in language  on input line 3509.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 2756.
+(babel)             in language  on input line 3509.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 2756.
+(babel)             in language  on input line 3509.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 2756.
+(babel)             in language  on input line 3509.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 2756.
+(babel)             in language  on input line 3509.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 2756.
+(babel)             in language  on input line 3509.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 2756.
+(babel)             in language  on input line 3509.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 2756.
+(babel)             in language  on input line 3509.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 2756.
- [58]
+(babel)             in language  on input line 3509.
+ [73]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 2816.
+(babel)             in language  on input line 3569.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 2816.
+(babel)             in language  on input line 3569.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 2816.
+(babel)             in language  on input line 3569.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 2816.
+(babel)             in language  on input line 3569.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 2816.
+(babel)             in language  on input line 3569.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 2816.
+(babel)             in language  on input line 3569.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 2816.
+(babel)             in language  on input line 3569.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 2816.
+(babel)             in language  on input line 3569.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 2816.
+(babel)             in language  on input line 3569.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 2816.
+(babel)             in language  on input line 3569.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 2816.
+(babel)             in language  on input line 3569.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 2816.
- [59]
+(babel)             in language  on input line 3569.
+ [74]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 2864.
+(babel)             in language  on input line 3617.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 2864.
+(babel)             in language  on input line 3617.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 2864.
+(babel)             in language  on input line 3617.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 2864.
+(babel)             in language  on input line 3617.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 2864.
+(babel)             in language  on input line 3617.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 2864.
+(babel)             in language  on input line 3617.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 2864.
+(babel)             in language  on input line 3617.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 2864.
+(babel)             in language  on input line 3617.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 2864.
+(babel)             in language  on input line 3617.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 2864.
+(babel)             in language  on input line 3617.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 2864.
+(babel)             in language  on input line 3617.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 2864.
- [60]
+(babel)             in language  on input line 3617.
+ [75]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 2938.
+(babel)             in language  on input line 3691.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 2938.
+(babel)             in language  on input line 3691.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 2938.
+(babel)             in language  on input line 3691.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 2938.
+(babel)             in language  on input line 3691.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 2938.
+(babel)             in language  on input line 3691.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 2938.
+(babel)             in language  on input line 3691.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 2938.
+(babel)             in language  on input line 3691.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 2938.
+(babel)             in language  on input line 3691.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 2938.
+(babel)             in language  on input line 3691.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 2938.
+(babel)             in language  on input line 3691.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 2938.
+(babel)             in language  on input line 3691.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 2938.
- [61] 
+(babel)             in language  on input line 3691.
+ [76] 
 AED: lastpage setting LastPage
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 2986.
+(babel)             in language  on input line 3739.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 2986.
+(babel)             in language  on input line 3739.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 2986.
+(babel)             in language  on input line 3739.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 2986.
+(babel)             in language  on input line 3739.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 2986.
+(babel)             in language  on input line 3739.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 2986.
+(babel)             in language  on input line 3739.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 2986.
+(babel)             in language  on input line 3739.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 2986.
+(babel)             in language  on input line 3739.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 2986.
+(babel)             in language  on input line 3739.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 2986.
+(babel)             in language  on input line 3739.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 2986.
+(babel)             in language  on input line 3739.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 2986.
-[62]
+(babel)             in language  on input line 3739.
+[77]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 2986.
+(babel)             in language  on input line 3739.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 2986.
+(babel)             in language  on input line 3739.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 2986.
+(babel)             in language  on input line 3739.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 2986.
+(babel)             in language  on input line 3739.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 2986.
+(babel)             in language  on input line 3739.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 2986.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2986.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2986.
+(babel)             in language  on input line 3739.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3739.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 3739.
  (./p5.aux
 LaTeX Info: Redefining \. on input line 24.
 LaTeX Info: Redefining \% on input line 24.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2986.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2986.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3739.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3739.
 
 Package rerunfilecheck Info: File `p5.out' has not changed.
-(rerunfilecheck)             Checksum: 25B330F173D4854170381E256575D8C7;1642.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2986.
+(rerunfilecheck)             Checksum: FD7C02FA28A38BCD0C81B7A5AD6E393B;2010.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3739.
  ) 
 Here is how much of TeX's memory you used:
- 15837 strings out of 492990
- 222295 string characters out of 6132164
- 506514 words of memory out of 5000000
- 16365 multiletter control sequences out of 15000+600000
+ 16579 strings out of 492990
+ 229382 string characters out of 6132164
+ 507012 words of memory out of 5000000
+ 16407 multiletter control sequences out of 15000+600000
  39435 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,12n,56p,717b,2069s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -4622,10 +5208,10 @@ live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/Programs/tex
 live/2017/texmf-dist/fonts/type1/public/bera/fveb8a.pfb><d:/Programs/texlive/20
 17/texmf-dist/fonts/type1/public/bera/fver8a.pfb><d:/Programs/texlive/2017/texm
 f-dist/fonts/type1/public/bera/fvmr8a.pfb>
-Output written on p5.pdf (62 pages, 3482638 bytes).
+Output written on p5.pdf (77 pages, 5748595 bytes).
 PDF statistics:
- 3962 PDF objects out of 4296 (max. 8388607)
- 3689 compressed objects within 37 object streams
- 2738 named destinations out of 2984 (max. 500000)
- 840 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4912 PDF objects out of 5155 (max. 8388607)
+ 4597 compressed objects within 46 object streams
+ 3436 named destinations out of 3580 (max. 500000)
+ 933 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -263,7 +263,7 @@ El algoritmo es el siguiente:
 \subsubsection{Datos}
 \[V1=
 \begin{bmatrix}
-11\ 16\ 10\ 1
+1\ 16\ 10\ 1
 \end{bmatrix}\]
 
 \[V2=
@@ -2313,7 +2313,7 @@ Configuración: 80-10-10
 \subsubsection{Datos}
 \[V1=
 \begin{bmatrix}
-11\ 16\ 10\ 1
+1\ 16\ 10\ 1
 \end{bmatrix}\]
 
 \[V2=
@@ -2382,6 +2382,759 @@ Configuración: 80-10-10
 	\caption{Gráfica 3.9}
 \end{figure}
 \newpage
+
+\subsection{Polinomio MLP}
+\subsection{Inputs}
+\begin{multicols}{4}
+	\begin{enumerate}
+		\item -1.0000
+		\item -0.9940
+		\item -0.9880
+		\item -0.9820
+		\item -0.9760
+		\item -0.9700
+		\item -0.9640
+		\item -0.9580
+		\item -0.9520
+		\item -0.9460
+		\item -0.9400
+		\item -0.9340
+		\item -0.9280
+		\item -0.9220
+		\item -0.9160
+		\item -0.9100
+		\item -0.9040
+		\item -0.8980
+		\item -0.8920
+		\item -0.8860
+		\item -0.8800
+		\item -0.8740
+		\item -0.8680
+		\item -0.8620
+		\item -0.8560
+		\item -0.8500
+		\item -0.8440
+		\item -0.8380
+		\item -0.8320
+		\item -0.8260
+		\item -0.8200
+		\item -0.8140
+		\item -0.8080
+		\item -0.8020
+		\item -0.7960
+		\item -0.7900
+		\item -0.7840
+		\item -0.7780
+		\item -0.7720
+		\item -0.7660
+		\item -0.7600
+		\item -0.7540
+		\item -0.7480
+		\item -0.7420
+		\item -0.7360
+		\item -0.7300
+		\item -0.7240
+		\item -0.7180
+		\item -0.7120
+		\item -0.7060
+		\item -0.7000
+		\item -0.6940
+		\item -0.6880
+		\item -0.6820
+		\item -0.6760
+		\item -0.6700
+		\item -0.6640
+		\item -0.6580
+		\item -0.6520
+		\item -0.6460
+		\item -0.6400
+		\item -0.6340
+		\item -0.6280
+		\item -0.6220
+		\item -0.6160
+		\item -0.6100
+		\item -0.6040
+		\item -0.5980
+		\item -0.5920
+		\item -0.5860
+		\item -0.5800
+		\item -0.5740
+		\item -0.5680
+		\item -0.5620
+		\item -0.5560
+		\item -0.5500
+		\item -0.5440
+		\item -0.5380
+		\item -0.5320
+		\item -0.5260
+		\item -0.5200
+		\item -0.5140
+		\item -0.5080
+		\item -0.5020
+		\item -0.4960
+		\item -0.4900
+		\item -0.4840
+		\item -0.4780
+		\item -0.4720
+		\item -0.4660
+		\item -0.4600
+		\item -0.4540
+		\item -0.4480
+		\item -0.4420
+		\item -0.4360
+		\item -0.4300
+		\item -0.4240
+		\item -0.4180
+		\item -0.4120
+		\item -0.4060
+		\item -0.4000
+		\item -0.3940
+		\item -0.3880
+		\item -0.3820
+		\item -0.3760
+		\item -0.3700
+		\item -0.3640
+		\item -0.3580
+		\item -0.3520
+		\item -0.3460
+		\item -0.3400
+		\item -0.3340
+		\item -0.3280
+		\item -0.3220
+		\item -0.3160
+		\item -0.3100
+		\item -0.3040
+		\item -0.2980
+		\item -0.2920
+		\item -0.2860
+		\item -0.2800
+		\item -0.2740
+		\item -0.2680
+		\item -0.2620
+		\item -0.2560
+		\item -0.2500
+		\item -0.2440
+		\item -0.2380
+		\item -0.2320
+		\item -0.2260
+		\item -0.2200
+		\item -0.2140
+		\item -0.2080
+		\item -0.2020
+		\item -0.1960
+		\item -0.1900
+		\item -0.1840
+		\item -0.1780
+		\item -0.1720
+		\item -0.1660
+		\item -0.1600
+		\item -0.1540
+		\item -0.1480
+		\item -0.1420
+		\item -0.1360
+		\item -0.1300
+		\item -0.1240
+		\item -0.1180
+		\item -0.1120
+		\item -0.1060
+		\item -0.1000
+		\item -0.0940
+		\item -0.0880
+		\item -0.0820
+		\item -0.0760
+		\item -0.0700
+		\item -0.0640
+		\item -0.0580
+		\item -0.0520
+		\item -0.0460
+		\item -0.0400
+		\item -0.0340
+		\item -0.0280
+		\item -0.0220
+		\item -0.0160
+		\item -0.0100
+		\item -0.0040
+		\item  0.0020
+		\item  0.0080
+		\item  0.0140
+		\item  0.0200
+		\item  0.0260
+		\item  0.0320
+		\item  0.0380
+		\item  0.0440
+		\item  0.0500
+		\item  0.0560
+		\item  0.0620
+		\item  0.0680
+		\item  0.0740
+		\item  0.0800
+		\item  0.0860
+		\item  0.0920
+		\item  0.0980
+		\item  0.1040
+		\item  0.1100
+		\item  0.1160
+		\item  0.1220
+		\item  0.1280
+		\item  0.1340
+		\item  0.1400
+		\item  0.1460
+		\item  0.1520
+		\item  0.1580
+		\item  0.1640
+		\item  0.1700
+		\item  0.1760
+		\item  0.1820
+		\item  0.1880
+		\item  0.1940
+		\item  0.2000
+		\item  0.2060
+		\item  0.2120
+		\item  0.2180
+		\item  0.2240
+		\item  0.2300
+		\item  0.2360
+		\item  0.2420
+		\item  0.2480
+		\item  0.2540
+		\item  0.2600
+		\item  0.2660
+		\item  0.2720
+		\item  0.2780
+		\item  0.2840
+		\item  0.2900
+		\item  0.2960
+		\item  0.3020
+		\item  0.3080
+		\item  0.3140
+		\item  0.3200
+		\item  0.3260
+		\item  0.3320
+		\item  0.3380
+		\item  0.3440
+		\item  0.3500
+		\item  0.3560
+		\item  0.3620
+		\item  0.3680
+		\item  0.3740
+		\item  0.3800
+		\item  0.3860
+		\item  0.3920
+		\item  0.3980
+		\item  0.4040
+		\item  0.4100
+		\item  0.4160
+		\item  0.4220
+		\item  0.4280
+		\item  0.4340
+		\item  0.4400
+		\item  0.4460
+		\item  0.4520
+		\item  0.4580
+		\item  0.4640
+		\item  0.4700
+		\item  0.4760
+		\item  0.4820
+		\item  0.4880
+		\item  0.4940
+		\item  0.5000
+		\item  0.5060
+		\item  0.5120
+		\item  0.5180
+		\item  0.5240
+		\item  0.5300
+		\item  0.5360
+		\item  0.5420
+		\item  0.5480
+		\item  0.5540
+		\item  0.5600
+		\item  0.5660
+		\item  0.5720
+		\item  0.5780
+		\item  0.5840
+		\item  0.5900
+		\item  0.5960
+		\item  0.6020
+		\item  0.6080
+		\item  0.6140
+		\item  0.6200
+		\item  0.6260
+		\item  0.6320
+		\item  0.6380
+		\item  0.6440
+		\item  0.6500
+		\item  0.6560
+		\item  0.6620
+		\item  0.6680
+		\item  0.6740
+		\item  0.6800
+		\item  0.6860
+		\item  0.6920
+		\item  0.6980
+		\item  0.7040
+		\item  0.7100
+		\item  0.7160
+		\item  0.7220
+		\item  0.7280
+		\item  0.7340
+		\item  0.7400
+		\item  0.7460
+		\item  0.7520
+		\item  0.7580
+		\item  0.7640
+		\item  0.7700
+		\item  0.7760
+		\item  0.7820
+		\item  0.7880
+		\item  0.7940
+		\item  0.8000
+		\item  0.8060
+		\item  0.8120
+		\item  0.8180
+		\item  0.8240
+		\item  0.8300
+		\item  0.8360
+		\item  0.8420
+		\item  0.8480
+		\item  0.8540
+		\item  0.8600
+		\item  0.8660
+		\item  0.8720
+		\item  0.8780
+		\item  0.8840
+		\item  0.8900
+		\item  0.8960
+		\item  0.9020
+		\item  0.9080
+		\item  0.9140
+		\item  0.9200
+		\item  0.9260
+		\item  0.9320
+		\item  0.9380
+		\item  0.9440
+		\item  0.9500
+		\item  0.9560
+		\item  0.9620
+		\item  0.9680
+		\item  0.9740
+		\item  0.9800
+		\item  0.9860
+		\item  0.9920
+		\item  0.9980
+	\end{enumerate}
+\end{multicols}
+\subsection{Targets}
+\begin{multicols}{4}
+	\begin{enumerate}
+		   \item 0.0000
+		\item  0.6690
+		\item  1.3135
+		\item  1.9257
+		\item  2.4983
+		\item  3.0250
+		\item  3.4999
+		\item  3.9181
+		\item  4.2757
+		\item  4.5694
+		\item  4.7970
+		\item  4.9572
+		\item  5.0496
+		\item  5.0748
+		\item  5.0339
+		\item  4.9294
+		\item  4.7642
+		\item  4.5420
+		\item  4.2672
+		\item  3.9447
+		\item  3.5801
+		\item  3.1792
+		\item  2.7482
+		\item  2.2935
+		\item  1.8218
+		\item  1.3396
+		\item  0.8536
+		\item  0.3702
+		\item -0.1044
+		\item -0.5641
+		\item -1.0033
+		\item -1.4169
+		\item -1.8003
+		\item -2.1491
+		\item -2.4599
+		\item -2.7297
+		\item -2.9561
+		\item -3.1375
+		\item -3.2728
+		\item -3.3616
+		\item -3.4042
+		\item -3.4014
+		\item -3.3546
+		\item -3.2659
+		\item -3.1377
+		\item -2.9729
+		\item -2.7749
+		\item -2.5473
+		\item -2.2942
+		\item -2.0197
+		\item -1.7281
+		\item -1.4239
+		\item -1.1115
+		\item -0.7954
+		\item -0.4799
+		\item -0.1691
+		\item  0.1329
+		\item  0.4225
+		\item  0.6962
+		\item  0.9509
+		\item  1.1840
+		\item  1.3930
+		\item  1.5760
+		\item  1.7316
+		\item  1.8586
+		\item  1.9564
+		\item  2.0249
+		\item  2.0641
+		\item  2.0748
+		\item  2.0578
+		\item  2.0144
+		\item  1.9463
+		\item  1.8555
+		\item  1.7439
+		\item  1.6140
+		\item  1.4684
+		\item  1.3095
+		\item  1.1403
+		\item  0.9633
+		\item  0.7814
+		\item  0.5972
+		\item  0.4135
+		\item  0.2326
+		\item  0.0570
+		\item -0.1112
+		\item -0.2699
+		\item -0.4175
+		\item -0.5523
+		\item -0.6732
+		\item -0.7790
+		\item -0.8691
+		\item -0.9429
+		\item -1.0002
+		\item -1.0411
+		\item -1.0657
+		\item -1.0745
+		\item -1.0684
+		\item -1.0480
+		\item -1.0145
+		\item -0.9691
+		\item -0.9130
+		\item -0.8477
+		\item -0.7746
+		\item -0.6952
+		\item -0.6110
+		\item -0.5236
+		\item -0.4344
+		\item -0.3448
+		\item -0.2562
+		\item -0.1699
+		\item -0.0869
+		\item -0.0084
+		\item  0.0648
+		\item  0.1319
+		\item  0.1923
+		\item  0.2455
+		\item  0.2912
+		\item  0.3292
+		\item  0.3595
+		\item  0.3821
+		\item  0.3972
+		\item  0.4051
+		\item  0.4064
+		\item  0.4014
+		\item  0.3907
+		\item  0.3750
+		\item  0.3549
+		\item  0.3312
+		\item  0.3045
+		\item  0.2756
+		\item  0.2452
+		\item  0.2139
+		\item  0.1824
+		\item  0.1513
+		\item  0.1211
+		\item  0.0922
+		\item  0.0652
+		\item  0.0403
+		\item  0.0178
+		\item -0.0021
+		\item -0.0193
+		\item -0.0337
+		\item -0.0453
+		\item -0.0542
+		\item -0.0606
+		\item -0.0646
+		\item -0.0665
+		\item -0.0663
+		\item -0.0645
+		\item -0.0614
+		\item -0.0571
+		\item -0.0519
+		\item -0.0463
+		\item -0.0403
+		\item -0.0343
+		\item -0.0285
+		\item -0.0230
+		\item -0.0179
+		\item -0.0135
+		\item -0.0097
+		\item -0.0066
+		\item -0.0041
+		\item -0.0024
+		\item -0.0012
+		\item -0.0005
+		\item -0.0001
+		\item -0.0000
+		\item  0.0000
+		\item  0.0001
+		\item  0.0003
+		\item  0.0009
+		\item  0.0019
+		\item  0.0035
+		\item  0.0057
+		\item  0.0086
+		\item  0.0121
+		\item  0.0164
+		\item  0.0212
+		\item  0.0266
+		\item  0.0323
+		\item  0.0383
+		\item  0.0443
+		\item  0.0501
+		\item  0.0554
+		\item  0.0600
+		\item  0.0636
+		\item  0.0659
+		\item  0.0666
+		\item  0.0655
+		\item  0.0622
+		\item  0.0567
+		\item  0.0486
+		\item  0.0378
+		\item  0.0244
+		\item  0.0081
+		\item -0.0109
+		\item -0.0325
+		\item -0.0566
+		\item -0.0830
+		\item -0.1113
+		\item -0.1411
+		\item -0.1720
+		\item -0.2034
+		\item -0.2348
+		\item -0.2656
+		\item -0.2951
+		\item -0.3226
+		\item -0.3474
+		\item -0.3688
+		\item -0.3860
+		\item -0.3984
+		\item -0.4054
+		\item -0.4063
+		\item -0.4006
+		\item -0.3879
+		\item -0.3678
+		\item -0.3402
+		\item -0.3047
+		\item -0.2616
+		\item -0.2108
+		\item -0.1528
+		\item -0.0879
+		\item -0.0166
+		\item  0.0602
+		\item  0.1418
+		\item  0.2271
+		\item  0.3151
+		\item  0.4045
+		\item  0.4940
+		\item  0.5822
+		\item  0.6676
+		\item  0.7487
+		\item  0.8241
+		\item  0.8922
+		\item  0.9515
+		\item  1.0006
+		\item  1.0383
+		\item  1.0631
+		\item  1.0741
+		\item  1.0703
+		\item  1.0510
+		\item  1.0157
+		\item  0.9639
+		\item  0.8955
+		\item  0.8108
+		\item  0.7102
+		\item  0.5942
+		\item  0.4639
+		\item  0.3205
+		\item  0.1652
+		\item  0.0000
+		\item -0.1734
+		\item -0.3527
+		\item -0.5358
+		\item -0.7201
+		\item -0.9031
+		\item -1.0820
+		\item -1.2541
+		\item -1.4168
+		\item -1.5671
+		\item -1.7025
+		\item -1.8205
+		\item -1.9185
+		\item -1.9944
+		\item -2.0462
+		\item -2.0721
+		\item -2.0708
+		\item -2.0412
+		\item -1.9825
+		\item -1.8945
+		\item -1.7771
+		\item -1.6310
+		\item -1.4569
+		\item -1.2564
+		\item -1.0311
+		\item -0.7834
+		\item -0.5157
+		\item -0.2310
+		\item  0.0673
+		\item  0.3756
+		\item  0.6900
+		\item  1.0064
+		\item  1.3205
+		\item  1.6279
+		\item  1.9241
+		\item  2.2048
+		\item  2.4656
+		\item  2.7021
+		\item  2.9104
+		\item  3.0866
+		\item  3.2274
+		\item  3.3296
+		\item  3.3906
+		\item  3.4083
+		\item  3.3809
+		\item  3.3076
+		\item  3.1878
+		\item  3.0217
+		\item  2.8101
+		\item  2.5545
+		\item  2.2571
+		\item  1.9206
+		\item  1.5483
+		\item  1.1443
+		\item  0.7130
+		\item  0.2595
+		\item -0.2107
+		\item -0.6918
+		\item -1.1777
+		\item -1.6619
+		\item -2.1378
+		\item -2.5989
+		\item -3.0385
+		\item -3.4502
+		\item -3.8276
+		\item -4.1647
+		\item -4.4560
+		\item -4.6963
+		\item -4.8809
+		\item -5.0060
+		\item -5.0684
+		\item -5.0654
+		\item -4.9956
+		\item -4.8580
+		\item -4.6527
+		\item -4.3808
+		\item -4.0442
+		\item -3.6458
+		\item -3.1893
+		\item -2.6793
+		\item -2.1213
+		\item -1.5215
+		\item -0.8870
+		\item -0.2252
+	\end{enumerate}
+\end{multicols}
+\subsubsection{Datos}
+\[V1=
+\begin{bmatrix}
+1\ 10\ 12\ 1
+\end{bmatrix}\]
+
+\[V2=
+\begin{bmatrix}
+2\ 3\ 1
+\end{bmatrix}\]
+epochmax = 43200\\
+alpha=.003\\
+Múltiplo para las épocas de validación = 75\\
+numval = 7\\
+error de validación = .000000000001\\
+Configuración: 80-10-10
+\subsection{Resultado}
+\subsection{Imágenes}
+\begin{figure}[htpb]
+	\centering
+	\includegraphics[width = 500pt, height = 500pt]{mlp/1}
+	\caption{Gráfica 5.1}
+\end{figure}
+
+\begin{figure}[htpb]
+	\centering
+	\includegraphics[width = 500pt, height = 500pt]{mlp/2}
+	\caption{Gráfica 5.2}
+\end{figure}
+
+\begin{figure}[htpb]
+	\centering
+	\includegraphics[width = 500pt, height = 500pt]{mlp/3}
+	\caption{Gráfica 5.3}
+\end{figure}
+
+\begin{figure}[htpb]
+	\centering
+	\includegraphics[width = 500pt, height = 500pt]{mlp/4}
+	\caption{Gráfica 5.4}
+\end{figure}
+
+\begin{figure}[htpb]
+	\centering
+	\includegraphics[width = 500pt, height = 500pt]{mlp/5}
+	\caption{Gráfica 5.5}
+\end{figure}
+
+\begin{figure}[htpb]
+	\centering
+	\includegraphics[width = 500pt, height = 500pt]{mlp/6}
+	\caption{Gráfica 5.6}
+\end{figure}
+
+\begin{figure}[htpb]
+	\centering
+	\includegraphics[width = 500pt, height = 500pt]{mlp/7}
+	\caption{Gráfica 5.7}
+\end{figure}
+
+\begin{figure}[htpb]
+	\centering
+	\includegraphics[width = 500pt, height = 500pt]{mlp/8}
+	\caption{Gráfica 5.8}
+\end{figure}
+
+\begin{figure}[htpb]
+	\centering
+	\includegraphics[width = 500pt, height = 500pt]{mlp/9}
+	\caption{Gráfica 5.9}
+\end{figure}
+\newpage
+
 \section{Discusión de Resultados}
 Para cada uno de los resultados se muestra:
 \begin{enumerate}
