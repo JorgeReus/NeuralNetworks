@@ -1,0 +1,13 @@
+Arquitectura: 1 15 15 1
+Funciones: 2 3 1
+alpha: .03
+epochmax: 43200;
+validation_iter: 75;
+numval: 7;
+error_epoch_validation: .000000000001
+configuracion: 80-10-10
+
+Early stopping en la época:  7350
+Error de aprendizaje = 0.000000
+Error de validación = -0.169800
+Error de prueba = 0.067310
