@@ -1,14 +1,14 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.13)  4 DEC 2018 13:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.9.13)  4 DEC 2018 20:57
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
-**p5.tex
+**./p5.tex
 (./p5.tex
 LaTeX2e <2017-04-15>
-Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
-(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Babel <3.12> and hyphenation patterns for 84 language(s) loaded.
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -23,7 +23,7 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 ) (./style.sty
-(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
 s
 \f@nch@headwidth=\skip43
@@ -36,24 +36,24 @@ s
 \f@nch@O@olf=\skip50
 \f@nch@O@orf=\skip51
 )
-(/usr/share/texlive/texmf-dist/tex/latex/lastpage/lastpage.sty
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/lastpage/lastpage.sty
 Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/extramarks.sty
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/fancyhdr/extramarks.sty
 Package: extramarks 2017/06/30 v3.9a Extra marks for LaTeX
 \@temptokenb=\toks14
 )
-(/usr/share/texlive/texmf-dist/tex/latex/bera/bera.sty
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/bera/bera.sty
 Package: bera 2004/01/31 (WaS)
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/base/t1enc.def
 File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
@@ -68,7 +68,7 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/base/ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 )
 LaTeX Info: Redefining \oldstylenums on input line 334.
@@ -135,37 +135,37 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/bera/beraserif.sty
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/bera/beraserif.sty
 Package: beraserif 2004/01/30 (WaS)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
 )
 LaTeX Font Info:    Try loading font information for T1+fve on input line 30.
 
-(/usr/share/texlive/texmf-dist/tex/latex/bera/t1fve.fd
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/bera/t1fve.fd
 File: t1fve.fd 2004/09/07 scalable font definitions for T1/fve.
 )
 LaTeX Font Info:    Font shape `T1/fve/m/n' will be
 (Font)              scaled to size 8.99994pt on input line 30.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/bera/berasans.sty
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/bera/berasans.sty
 Package: berasans 2004/01/30 (WaS)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/bera/beramono.sty
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/bera/beramono.sty
 Package: beramono 2004/01/31 (WaS)
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2017/06/24 v1.0g Graphics/color driver for pdftex
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
@@ -177,19 +177,19 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks16
 \inpenc@posthook=\toks17
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/base/t1enc.dfu
 File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -430,7 +430,7 @@ File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/base/ot1enc.dfu
 File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -471,7 +471,7 @@ File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/base/omsenc.dfu
 File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -487,7 +487,7 @@ Now handling font encoding U ...
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/base/ts1enc.dfu
 File: ts1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A2 (decimal 162)
    defining Unicode char U+00A3 (decimal 163)
@@ -570,38 +570,39 @@ File: ts1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2018/02/14 3.18 The Babel package
+(d:/Programs/texlive/2017/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2017/06/29 3.12 The Babel package
 
-(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
-File: switch.def 2018/02/14 3.18 Babel switching mechanism
+(d:/Programs/texlive/2017/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2017/06/29 3.12 Babel switching mechanism
 )
-(/usr/share/texlive/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+(d:/Programs/texlive/2017/texmf-dist/tex/generic/babel-spanish/spanish.ldf
 Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
 
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2018/02/14 3.18 Babel common definitions
+(d:/Programs/texlive/2017/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2017/06/29 3.12 Babel common definitions
+
+(d:/Programs/texlive/2017/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2017/06/29 3.12 Babel switching mechanism
+)
 \babel@savecnt=\count87
 \U@D=\dimen103
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
-\bbl@dirlevel=\count88
 )
 \es@quottoks=\toks18
-\es@quotdepth=\count89
+\es@quotdepth=\count88
 Package babel Info: Making " an active character on input line 561.
 Package babel Info: Making . an active character on input line 662.
 Package babel Info: Making < an active character on input line 707.
 Package babel Info: Making > an active character on input line 707.
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(d:/Programs/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+(d:/Programs/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
@@ -619,7 +620,7 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -641,78 +642,79 @@ Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+(d:/Programs/texlive/2017/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen104
-\Hy@linkcounter=\count90
-\Hy@pagecounter=\count91
+\Hy@linkcounter=\count89
+\Hy@pagecounter=\count90
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count92
+\Hy@SavedSpaceFactor=\count91
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Hyper figures OFF on input line 4509.
-Package hyperref Info: Link nesting OFF on input line 4514.
-Package hyperref Info: Hyper index ON on input line 4517.
-Package hyperref Info: Plain pages OFF on input line 4524.
-Package hyperref Info: Backreferencing OFF on input line 4529.
+Package hyperref Info: Hyper figures OFF on input line 4498.
+Package hyperref Info: Link nesting OFF on input line 4503.
+Package hyperref Info: Hyper index ON on input line 4506.
+Package hyperref Info: Plain pages OFF on input line 4513.
+Package hyperref Info: Backreferencing OFF on input line 4518.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4762.
-\c@Hy@tempcnt=\count93
+Package hyperref Info: Bookmarks ON on input line 4751.
+\c@Hy@tempcnt=\count92
 
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5115.
+LaTeX Info: Redefining \url on input line 5104.
 \XeTeXLinkMargin=\dimen105
-\Fld@menulength=\count94
+\Fld@menulength=\count93
 \Field@Width=\dimen106
 \Fld@charsize=\dimen107
-Package hyperref Info: Hyper figures OFF on input line 6369.
-Package hyperref Info: Link nesting OFF on input line 6374.
-Package hyperref Info: Hyper index ON on input line 6377.
-Package hyperref Info: backreferencing OFF on input line 6384.
-Package hyperref Info: Link coloring OFF on input line 6389.
-Package hyperref Info: Link coloring with OCG OFF on input line 6394.
-Package hyperref Info: PDF/A mode OFF on input line 6399.
-LaTeX Info: Redefining \ref on input line 6439.
-LaTeX Info: Redefining \pageref on input line 6443.
-\Hy@abspage=\count95
-\c@Item=\count96
-\c@Hfootnote=\count97
+Package hyperref Info: Hyper figures OFF on input line 6358.
+Package hyperref Info: Link nesting OFF on input line 6363.
+Package hyperref Info: Hyper index ON on input line 6366.
+Package hyperref Info: backreferencing OFF on input line 6373.
+Package hyperref Info: Link coloring OFF on input line 6378.
+Package hyperref Info: Link coloring with OCG OFF on input line 6383.
+Package hyperref Info: PDF/A mode OFF on input line 6388.
+LaTeX Info: Redefining \ref on input line 6428.
+LaTeX Info: Redefining \pageref on input line 6432.
+\Hy@abspage=\count94
+\c@Item=\count95
+\c@Hfootnote=\count96
 )
-Package hyperref Info: Driver (autodetected): hpdftex.
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
-\Fld@listcount=\count98
-\c@bookmark@seq@number=\count99
+Package hyperref Message: Driver (autodetected): hpdftex.
 
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
+\Fld@listcount=\count97
+\c@bookmark@seq@number=\count98
+
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip52
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
 
-(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/tools/array.sty
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \col@sep=\dimen108
 \extrarowheight=\dimen109
@@ -725,43 +727,43 @@ Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \TX@old@col=\dimen112
 \TX@target=\dimen113
 \TX@delta=\dimen114
-\TX@cols=\count100
+\TX@cols=\count99
 \TX@ftn=\toks20
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LTleft=\skip55
 \LTright=\skip56
 \LTpre=\skip57
 \LTpost=\skip58
-\LTchunksize=\count101
+\LTchunksize=\count100
 \LTcapwidth=\dimen115
 \LT@head=\box26
 \LT@firsthead=\box27
 \LT@foot=\box28
 \LT@lastfoot=\box29
-\LT@cols=\count102
-\LT@rows=\count103
-\c@LT@tables=\count104
-\c@LT@chunks=\count105
+\LT@cols=\count101
+\LT@rows=\count102
+\c@LT@tables=\count103
+\c@LT@chunks=\count104
 \LT@p@ftn=\toks21
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tabu/tabu.sty
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/tabu/tabu.sty
 Package: tabu 2011/02/26 v2.8 - flexible LaTeX tabulars (FC)
 
-(/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box30
-\sift@deathcycles=\count106
+\sift@deathcycles=\count105
 \@vwid@loff=\dimen116
 \@vwid@roff=\dimen117
 )
-\c@taburow=\count107
-\tabu@nbcols=\count108
-\tabu@cnt=\count109
-\tabu@Xcol=\count110
-\tabu@alloc=\count111
-\tabu@nested=\count112
+\c@taburow=\count106
+\tabu@nbcols=\count107
+\tabu@cnt=\count108
+\tabu@Xcol=\count109
+\tabu@alloc=\count110
+\tabu@nested=\count111
 \tabu@target=\dimen118
 \tabu@spreadtarget=\dimen119
 \tabu@naturalX=\dimen120
@@ -779,16 +781,16 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \tabu@vleads=\box34
 \tabu@cellskip=\skip59
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
@@ -796,7 +798,7 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 \Gin@req@height=\dimen127
 \Gin@req@width=\dimen128
 )
-(/usr/share/texlive/texmf-dist/tex/generic/schemata/schemata.sty
+(d:/Programs/texlive/2017/texmf-dist/tex/generic/schemata/schemata.sty
 Package: schemata 2016/01/25 v0.8 generic package to aid construction of topica
 l categories
 \@rhs=\box35
@@ -804,44 +806,44 @@ l categories
 \@rheight=\dimen129
 \@lheight=\dimen130
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count113
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count112
 \lst@gtempboxa=\box37
 \lst@token=\toks24
-\lst@length=\count114
+\lst@length=\count113
 \lst@currlwidth=\dimen131
-\lst@column=\count115
-\lst@pos=\count116
+\lst@column=\count114
+\lst@pos=\count115
 \lst@lostspace=\dimen132
 \lst@width=\dimen133
-\lst@newlines=\count117
-\lst@lineno=\count118
+\lst@newlines=\count116
+\lst@lineno=\count117
 \lst@maxwidth=\dimen134
 
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count119
-\lst@skipnumbers=\count120
+\c@lstnumber=\count118
+\lst@skipnumbers=\count119
 \lst@framebox=\box38
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
-(/usr/share/texlive/texmf-dist/tex/latex/qtree/qtree.sty
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/qtree/qtree.sty
 Package: 2008/12/12 v.3.1bQtree: tree-drawing for linguistics
 Package: qtree 2008/12/12 v.3.1bQtree: tree-drawing for linguistics
-(/usr/share/texlive/texmf-dist/tex/latex/pict2e/pict2e.sty
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/pict2e/pict2e.sty
 Package: pict2e 2016/02/05 v0.3b Improved picture commands (HjG,RN,JT)
 
-(/usr/share/texlive/texmf-dist/tex/latex/pict2e/pict2e.cfg
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/pict2e/pict2e.cfg
 File: pict2e.cfg 2016/02/05 v0.1u pict2e configuration for teTeX/TeXLive
 )
 Package pict2e Info: Driver file: pdftex.def on input line 119.
 Package pict2e Info: Driver file for pict2e: p2e-pdftex.def on input line 121.
 
-(/usr/share/texlive/texmf-dist/tex/latex/pict2e/p2e-pdftex.def
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/pict2e/p2e-pdftex.def
 File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
 )
 \pIIe@GRAPH=\toks25
@@ -849,8 +851,8 @@ File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
 \@arcrad=\dimen136
 \@tempdimd=\dimen137
 )
-\c@treecount=\count121
-\c@branchcount=\count122
+\c@treecount=\count120
+\c@branchcount=\count121
 \parentbox=\box39
 \treebox=\box40
 \treeboxone=\box41
@@ -949,38 +951,38 @@ File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
 \treewidth=\skip133
 \qta=\toks26
 \qtb=\toks27
-\nbranches=\count123
-\qroofx=\count124
-\qroofy=\count125
+\nbranches=\count122
+\qroofx=\count123
+\qroofy=\count124
 \@qrscratchbox=\box61
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip134
 
 For additional information on amsmath, use the `?' option.
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks28
 \ex@=\dimen138
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen139
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count126
+\inf@bad=\count125
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count127
-\leftroot@=\count128
+\uproot@=\count126
+\leftroot@=\count127
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count129
-\DOTSCASE@=\count130
+\classnum@=\count128
+\DOTSCASE@=\count129
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
@@ -989,15 +991,15 @@ LaTeX Info: Redefining \cdots on input line 596.
 \big@size=\dimen140
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count131
-\c@MaxMatrixCols=\count132
+\macc@depth=\count130
+\c@MaxMatrixCols=\count131
 \dotsspace@=\muskip11
-\c@parentequation=\count133
-\dspbrk@lvl=\count134
+\c@parentequation=\count132
+\dspbrk@lvl=\count133
 \tag@help=\toks29
-\row@=\count135
-\column@=\count136
-\maxfields@=\count137
+\row@=\count134
+\column@=\count135
+\maxfields@=\count136
 \andhelp@=\toks30
 \eqnshift@=\dimen141
 \alignsep@=\dimen142
@@ -1012,15 +1014,15 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
-Package: amsthm 2017/10/31 v2.20.4
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2015/03/04 v2.20.2
 \thm@style=\toks33
 \thm@bodyfont=\toks34
 \thm@headfont=\toks35
@@ -1031,51 +1033,49 @@ Package: amsthm 2017/10/31 v2.20.4
 \thm@headsep=\skip139
 \dth@everypar=\toks38
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-(/usr/share/texlive/texmf-dist/tex/latex/svg/svg.sty
-Package: svg 2017/11/29 v2.01 (include SVG pictures)
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/svg/svg.sty
+Package: svg 2017/05/23 v2.00b (include SVG pictures)
 
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbase.sty
-Package: scrbase 2017/09/07 v3.24 KOMA-Script package (KOMA-Script-independent 
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2017/04/13 v3.23 KOMA-Script package (KOMA-Script-independent 
 basics and keyval usage)
 
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
-Package: scrlfile 2017/09/07 v3.24 KOMA-Script package (loading files)
-))
-(/usr/share/texlive/texmf-dist/tex/latex/tools/shellesc.sty
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2017/04/13 v3.23 KOMA-Script package (loading files)
+
+Package scrlfile, 2017/04/13 v3.23 KOMA-Script package (loading files)
+                  Copyright (C) Markus Kohm
+
+)) (d:/Programs/texlive/2017/texmf-dist/tex/latex/tools/shellesc.sty
 Package: shellesc 2016/06/07 v0.02a unified shell escape interface for LaTeX
 Package shellesc Info: Unrestricted shell escape enabled on input line 67.
 )
-\c@svg@param@lastpage=\count138
-\c@svg@param@currpage=\count139
+\c@svg@param@lastpage=\count137
+\c@svg@param@currpage=\count138
 
-(/usr/share/texlive/texmf-dist/tex/latex/ifplatform/ifplatform.sty
-Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/ifplatform/ifplatform.sty
+Package: ifplatform 2010/10/22 v0.4 Testing for the operating system
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/catchfile.sty
+(d:/Programs/texlive/2017/texmf-dist/tex/generic/oberdiek/catchfile.sty
 Package: catchfile 2016/05/16 v1.7 Catch the contents of a file (HO)
-)
-runsystem(uname -s > "p5.w18")...executed.
-
- (./p5.w18)
-runsystem(rm -- "p5.w18")...executed.
-
-)) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/transparent.sty
+)))
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/oberdiek/transparent.sty
 Package: transparent 2016/05/16 v1.1 Transparency via pdfTeX's color stack (HO)
 
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
-\c@tracingmulticols=\count140
+\c@tracingmulticols=\count139
 \mult@box=\box64
 \multicol@leftmargin=\dimen147
-\c@unbalance=\count141
-\c@collectmore=\count142
-\doublecol@number=\count143
-\multicoltolerance=\count144
-\multicolpretolerance=\count145
+\c@unbalance=\count140
+\c@collectmore=\count141
+\doublecol@number=\count142
+\multicoltolerance=\count143
+\multicolpretolerance=\count144
 \full@width=\dimen148
 \page@free=\dimen149
 \premulticols=\dimen150
@@ -1106,22 +1106,22 @@ Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
 \@tempa=\box85
 \@tempa=\box86
 \@tempa=\box87
-\c@columnbadness=\count146
-\c@finalcolumnbadness=\count147
+\c@columnbadness=\count145
+\c@finalcolumnbadness=\count146
 \last@try=\dimen153
 \multicolovershoot=\dimen154
 \multicolundershoot=\dimen155
 \mult@nat@firstbox=\box88
 \colbreak@box=\box89
-\mc@col@check@num=\count148
+\mc@col@check@num=\count147
 )
-(/usr/share/texlive/texmf-dist/tex/latex/matlab-prettifier/matlab-prettifier.st
-y
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/matlab-prettifier/matlab-prettif
+ier.sty
 Package: matlab-prettifier 2014/06/19 v0.3 A package for prettyprinting Matlab 
 source code
-\netBracketCount@mlpr=\count149
-\blkLvl@mlpr=\count150
-\blkLvlAtClassdef@mlpr=\count151
+\netBracketCount@mlpr=\count148
+\blkLvl@mlpr=\count149
+\blkLvlAtClassdef@mlpr=\count150
 \emHeight@mlpr=\skip142
 \jayDepth@mlpr=\skip143
 \sectionRuleOffset@mlpr=\skip144
@@ -1151,7 +1151,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 5.
- (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+ (d:/Programs/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 5.
@@ -1161,23 +1161,23 @@ Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
 (lastpage)             ! on input line 5.
 
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(d:/Programs/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count152
+\scratchcounter=\count151
 \scratchdimen=\dimen156
 \scratchbox=\box90
-\nofMPsegments=\count153
-\nofMParguments=\count154
+\nofMPsegments=\count152
+\nofMParguments=\count153
 \everyMPshowfont=\toks40
-\MPscratchCnt=\count155
+\MPscratchCnt=\count154
 \MPscratchDim=\dimen157
-\MPnumerator=\count156
-\makeMPintoPDFobject=\count157
+\MPnumerator=\count155
+\makeMPintoPDFobject=\count156
 \everyMPtoPDFconversion=\toks41
-) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+) (d:/Programs/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1187,7 +1187,7 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
@@ -1196,13 +1196,13 @@ LaTeX Info: Redefining \% on input line 5.
 \AtBeginShipoutBox=\box91
 Package hyperref Info: Link coloring OFF on input line 5.
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+(d:/Programs/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count158
+\c@section@level=\count157
 )
 LaTeX Info: Redefining \ref on input line 5.
 LaTeX Info: Redefining \pageref on input line 5.
@@ -1212,7 +1212,7 @@ LaTeX Info: Redefining \nameref on input line 5.
 \@outlinefile=\write3
 \openout3 = `p5.out'.
 
-\c@lstlisting=\count159
+\c@lstlisting=\count158
 LaTeX Font Info:    Font shape `T1/fve/m/n' will be
 (Font)              scaled to size 15.55188pt on input line 7.
 LaTeX Font Info:    Font shape `T1/fve/b/n' will be
@@ -1220,11 +1220,13 @@ LaTeX Font Info:    Font shape `T1/fve/b/n' will be
 LaTeX Font Info:    Font shape `T1/fve/m/n' will be
 (Font)              scaled to size 10.79993pt on input line 7.
 LaTeX Font Info:    Try loading font information for U+msa on input line 7.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 7.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/fve/m/n' will be
@@ -1290,8 +1292,9 @@ Package babel Info: Redefining spanish shorthand "?
 <img/xor.png, id=144, 266.6763pt x 179.2296pt>
 File: img/xor.png Graphic file (type png)
 <use img/xor.png>
-Package pdftex.def Info: img/xor.png  used on input line 13.
-(pdftex.def)             Requested size: 266.67564pt x 179.22914pt.
+Package pdftex.def Info: img/xor.png  used on input line 13. on input line 13.
+Package pdftex.def Info: Requested size: 266.67564pt x 179.22914pt on input lin
+e 13.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1322,7 +1325,7 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 17.
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+{d:/Programs/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 17.
 Package babel Info: Redefining spanish shorthand >>
@@ -1347,7 +1350,8 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 17.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 17.
- [2 <./img/xor.png>]
+
+[2 <./img/xor.png>]
 LaTeX Font Info:    Font shape `T1/fve/b/n' will be
 (Font)              scaled to size 10.79993pt on input line 18.
 Package babel Info: Redefining spanish shorthand <<
@@ -1365,8 +1369,9 @@ Package babel Info: Redefining spanish shorthand "?
 <img/mlp.png, id=162, 335.00156pt x 176.91093pt>
 File: img/mlp.png Graphic file (type png)
 <use img/mlp.png>
-Package pdftex.def Info: img/mlp.png  used on input line 22.
-(pdftex.def)             Requested size: 335.00073pt x 176.91049pt.
+Package pdftex.def Info: img/mlp.png  used on input line 22. on input line 22.
+Package pdftex.def Info: Requested size: 335.00073pt x 176.91049pt on input lin
+e 22.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 24.
 Package babel Info: Redefining spanish shorthand >>
@@ -1440,12 +1445,14 @@ Package babel Info: Redefining spanish shorthand "?
 Package svg Info: Last page of `./svg-inkscape/diagram_svg-tex.pdf' is 1 on inp
 ut line 45.
  (./svg-inkscape/diagram_svg-tex.pdf_tex
-<./svg-inkscape/diagram_svg-tex.pdf, id=178, page=1, 1023.825pt x 1324.95pt>
+<./svg-inkscape/diagram_svg-tex.pdf, id=178, page=1, pagebox=cropbox, 1023.825p
+t x 1324.95pt>
 File: ./svg-inkscape/diagram_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/diagram_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/diagram_svg-tex.pdf , page1 used on inp
-ut line 52.
-(pdftex.def)             Requested size: 309.10034pt x 400.0152pt.
+ut line 52. on input line 52.
+Package pdftex.def Info: Requested size: 309.10034pt x 400.0152pt on input line
+ 52.
 )
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 48.
@@ -1609,42 +1616,54 @@ Package babel Info: Redefining spanish shorthand "?
 Package svg Info: Last page of `./svg-inkscape/1_svg-tex.pdf' is 6 on input lin
 e 283.
  (./svg-inkscape/1_svg-tex.pdf_tex
-<./svg-inkscape/1_svg-tex.pdf, id=455, page=1, 421.575pt x 316.18124pt>
+<./svg-inkscape/1_svg-tex.pdf, id=455, page=1, pagebox=cropbox, 421.575pt x 316
+.18124pt>
 File: ./svg-inkscape/1_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/1_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/1_svg-tex.pdf , page1 used on input lin
-e 52.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/1_svg-tex.pdf, id=456, page=2, 421.575pt x 316.18124pt>
+e 52. on input line 52.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 52
+.
+<./svg-inkscape/1_svg-tex.pdf, id=456, page=2, pagebox=cropbox, 421.575pt x 316
+.18124pt>
 File: ./svg-inkscape/1_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/1_svg-tex.pdf, page 2>
 Package pdftex.def Info: ./svg-inkscape/1_svg-tex.pdf , page2 used on input lin
-e 59.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/1_svg-tex.pdf, id=457, page=3, 421.575pt x 316.18124pt>
+e 59. on input line 59.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 59
+.
+<./svg-inkscape/1_svg-tex.pdf, id=457, page=3, pagebox=cropbox, 421.575pt x 316
+.18124pt>
 File: ./svg-inkscape/1_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/1_svg-tex.pdf, page 3>
 Package pdftex.def Info: ./svg-inkscape/1_svg-tex.pdf , page3 used on input lin
-e 68.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/1_svg-tex.pdf, id=458, page=4, 421.575pt x 316.18124pt>
+e 68. on input line 68.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 68
+.
+<./svg-inkscape/1_svg-tex.pdf, id=458, page=4, pagebox=cropbox, 421.575pt x 316
+.18124pt>
 File: ./svg-inkscape/1_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/1_svg-tex.pdf, page 4>
 Package pdftex.def Info: ./svg-inkscape/1_svg-tex.pdf , page4 used on input lin
-e 70.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/1_svg-tex.pdf, id=459, page=5, 421.575pt x 316.18124pt>
+e 70. on input line 70.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 70
+.
+<./svg-inkscape/1_svg-tex.pdf, id=459, page=5, pagebox=cropbox, 421.575pt x 316
+.18124pt>
 File: ./svg-inkscape/1_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/1_svg-tex.pdf, page 5>
 Package pdftex.def Info: ./svg-inkscape/1_svg-tex.pdf , page5 used on input lin
-e 72.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/1_svg-tex.pdf, id=460, page=6, 421.575pt x 316.18124pt>
+e 72. on input line 72.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 72
+.
+<./svg-inkscape/1_svg-tex.pdf, id=460, page=6, pagebox=cropbox, 421.575pt x 316
+.18124pt>
 File: ./svg-inkscape/1_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/1_svg-tex.pdf, page 6>
 Package pdftex.def Info: ./svg-inkscape/1_svg-tex.pdf , page6 used on input lin
-e 74.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
+e 74. on input line 74.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 74
+.
 )
 Overfull \hbox (30.24501pt too wide) in paragraph at lines 75--284
  [][] 
@@ -1653,42 +1672,54 @@ Overfull \hbox (30.24501pt too wide) in paragraph at lines 75--284
 Package svg Info: Last page of `./svg-inkscape/2_svg-tex.pdf' is 6 on input lin
 e 289.
 (./svg-inkscape/2_svg-tex.pdf_tex
-<./svg-inkscape/2_svg-tex.pdf, id=462, page=1, 450.00565pt x 316.18124pt>
+<./svg-inkscape/2_svg-tex.pdf, id=462, page=1, pagebox=cropbox, 450.00565pt x 3
+16.18124pt>
 File: ./svg-inkscape/2_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/2_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/2_svg-tex.pdf , page1 used on input lin
-e 52.
-(pdftex.def)             Requested size: 500.0pt x 351.30786pt.
-<./svg-inkscape/2_svg-tex.pdf, id=463, page=2, 450.00565pt x 316.18124pt>
+e 52. on input line 52.
+Package pdftex.def Info: Requested size: 500.0pt x 351.30786pt on input line 52
+.
+<./svg-inkscape/2_svg-tex.pdf, id=463, page=2, pagebox=cropbox, 450.00565pt x 3
+16.18124pt>
 File: ./svg-inkscape/2_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/2_svg-tex.pdf, page 2>
 Package pdftex.def Info: ./svg-inkscape/2_svg-tex.pdf , page2 used on input lin
-e 59.
-(pdftex.def)             Requested size: 500.0pt x 351.30786pt.
-<./svg-inkscape/2_svg-tex.pdf, id=464, page=3, 450.00565pt x 316.18124pt>
+e 59. on input line 59.
+Package pdftex.def Info: Requested size: 500.0pt x 351.30786pt on input line 59
+.
+<./svg-inkscape/2_svg-tex.pdf, id=464, page=3, pagebox=cropbox, 450.00565pt x 3
+16.18124pt>
 File: ./svg-inkscape/2_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/2_svg-tex.pdf, page 3>
 Package pdftex.def Info: ./svg-inkscape/2_svg-tex.pdf , page3 used on input lin
-e 68.
-(pdftex.def)             Requested size: 500.0pt x 351.30786pt.
-<./svg-inkscape/2_svg-tex.pdf, id=465, page=4, 450.00565pt x 316.18124pt>
+e 68. on input line 68.
+Package pdftex.def Info: Requested size: 500.0pt x 351.30786pt on input line 68
+.
+<./svg-inkscape/2_svg-tex.pdf, id=465, page=4, pagebox=cropbox, 450.00565pt x 3
+16.18124pt>
 File: ./svg-inkscape/2_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/2_svg-tex.pdf, page 4>
 Package pdftex.def Info: ./svg-inkscape/2_svg-tex.pdf , page4 used on input lin
-e 70.
-(pdftex.def)             Requested size: 500.0pt x 351.30786pt.
-<./svg-inkscape/2_svg-tex.pdf, id=466, page=5, 450.00565pt x 316.18124pt>
+e 70. on input line 70.
+Package pdftex.def Info: Requested size: 500.0pt x 351.30786pt on input line 70
+.
+<./svg-inkscape/2_svg-tex.pdf, id=466, page=5, pagebox=cropbox, 450.00565pt x 3
+16.18124pt>
 File: ./svg-inkscape/2_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/2_svg-tex.pdf, page 5>
 Package pdftex.def Info: ./svg-inkscape/2_svg-tex.pdf , page5 used on input lin
-e 72.
-(pdftex.def)             Requested size: 500.0pt x 351.30786pt.
-<./svg-inkscape/2_svg-tex.pdf, id=467, page=6, 450.00565pt x 316.18124pt>
+e 72. on input line 72.
+Package pdftex.def Info: Requested size: 500.0pt x 351.30786pt on input line 72
+.
+<./svg-inkscape/2_svg-tex.pdf, id=467, page=6, pagebox=cropbox, 450.00565pt x 3
+16.18124pt>
 File: ./svg-inkscape/2_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/2_svg-tex.pdf, page 6>
 Package pdftex.def Info: ./svg-inkscape/2_svg-tex.pdf , page6 used on input lin
-e 74.
-(pdftex.def)             Requested size: 500.0pt x 351.30786pt.
+e 74. on input line 74.
+Package pdftex.def Info: Requested size: 500.0pt x 351.30786pt on input line 74
+.
 )
 Overfull \hbox (30.24501pt too wide) in paragraph at lines 75--290
  [][] 
@@ -1697,42 +1728,54 @@ Overfull \hbox (30.24501pt too wide) in paragraph at lines 75--290
 Package svg Info: Last page of `./svg-inkscape/3_svg-tex.pdf' is 6 on input lin
 e 295.
 (./svg-inkscape/3_svg-tex.pdf_tex
-<./svg-inkscape/3_svg-tex.pdf, id=469, page=1, 480.53654pt x 316.18124pt>
+<./svg-inkscape/3_svg-tex.pdf, id=469, page=1, pagebox=cropbox, 480.53654pt x 3
+16.18124pt>
 File: ./svg-inkscape/3_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/3_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/3_svg-tex.pdf , page1 used on input lin
-e 52.
-(pdftex.def)             Requested size: 500.0pt x 328.9896pt.
-<./svg-inkscape/3_svg-tex.pdf, id=470, page=2, 480.53654pt x 316.18124pt>
+e 52. on input line 52.
+Package pdftex.def Info: Requested size: 500.0pt x 328.9896pt on input line 52.
+
+<./svg-inkscape/3_svg-tex.pdf, id=470, page=2, pagebox=cropbox, 480.53654pt x 3
+16.18124pt>
 File: ./svg-inkscape/3_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/3_svg-tex.pdf, page 2>
 Package pdftex.def Info: ./svg-inkscape/3_svg-tex.pdf , page2 used on input lin
-e 61.
-(pdftex.def)             Requested size: 500.0pt x 328.9896pt.
-<./svg-inkscape/3_svg-tex.pdf, id=471, page=3, 480.53654pt x 316.18124pt>
+e 61. on input line 61.
+Package pdftex.def Info: Requested size: 500.0pt x 328.9896pt on input line 61.
+
+<./svg-inkscape/3_svg-tex.pdf, id=471, page=3, pagebox=cropbox, 480.53654pt x 3
+16.18124pt>
 File: ./svg-inkscape/3_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/3_svg-tex.pdf, page 3>
 Package pdftex.def Info: ./svg-inkscape/3_svg-tex.pdf , page3 used on input lin
-e 75.
-(pdftex.def)             Requested size: 500.0pt x 328.9896pt.
-<./svg-inkscape/3_svg-tex.pdf, id=472, page=4, 480.53654pt x 316.18124pt>
+e 75. on input line 75.
+Package pdftex.def Info: Requested size: 500.0pt x 328.9896pt on input line 75.
+
+<./svg-inkscape/3_svg-tex.pdf, id=472, page=4, pagebox=cropbox, 480.53654pt x 3
+16.18124pt>
 File: ./svg-inkscape/3_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/3_svg-tex.pdf, page 4>
 Package pdftex.def Info: ./svg-inkscape/3_svg-tex.pdf , page4 used on input lin
-e 77.
-(pdftex.def)             Requested size: 500.0pt x 328.9896pt.
-<./svg-inkscape/3_svg-tex.pdf, id=473, page=5, 480.53654pt x 316.18124pt>
+e 77. on input line 77.
+Package pdftex.def Info: Requested size: 500.0pt x 328.9896pt on input line 77.
+
+<./svg-inkscape/3_svg-tex.pdf, id=473, page=5, pagebox=cropbox, 480.53654pt x 3
+16.18124pt>
 File: ./svg-inkscape/3_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/3_svg-tex.pdf, page 5>
 Package pdftex.def Info: ./svg-inkscape/3_svg-tex.pdf , page5 used on input lin
-e 79.
-(pdftex.def)             Requested size: 500.0pt x 328.9896pt.
-<./svg-inkscape/3_svg-tex.pdf, id=474, page=6, 480.53654pt x 316.18124pt>
+e 79. on input line 79.
+Package pdftex.def Info: Requested size: 500.0pt x 328.9896pt on input line 79.
+
+<./svg-inkscape/3_svg-tex.pdf, id=474, page=6, pagebox=cropbox, 480.53654pt x 3
+16.18124pt>
 File: ./svg-inkscape/3_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/3_svg-tex.pdf, page 6>
 Package pdftex.def Info: ./svg-inkscape/3_svg-tex.pdf , page6 used on input lin
-e 81.
-(pdftex.def)             Requested size: 500.0pt x 328.9896pt.
+e 81. on input line 81.
+Package pdftex.def Info: Requested size: 500.0pt x 328.9896pt on input line 81.
+
 )
 Overfull \hbox (30.24501pt too wide) in paragraph at lines 82--296
  [][] 
@@ -1741,126 +1784,166 @@ Overfull \hbox (30.24501pt too wide) in paragraph at lines 82--296
 Package svg Info: Last page of `./svg-inkscape/4_svg-tex.pdf' is 20 on input li
 ne 301.
 (./svg-inkscape/4_svg-tex.pdf_tex
-<./svg-inkscape/4_svg-tex.pdf, id=476, page=1, 421.575pt x 316.18124pt>
+<./svg-inkscape/4_svg-tex.pdf, id=476, page=1, pagebox=cropbox, 421.575pt x 316
+.18124pt>
 File: ./svg-inkscape/4_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/4_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/4_svg-tex.pdf , page1 used on input lin
-e 52.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/4_svg-tex.pdf, id=477, page=2, 421.575pt x 316.18124pt>
+e 52. on input line 52.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 52
+.
+<./svg-inkscape/4_svg-tex.pdf, id=477, page=2, pagebox=cropbox, 421.575pt x 316
+.18124pt>
 File: ./svg-inkscape/4_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/4_svg-tex.pdf, page 2>
 Package pdftex.def Info: ./svg-inkscape/4_svg-tex.pdf , page2 used on input lin
-e 61.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/4_svg-tex.pdf, id=478, page=3, 421.575pt x 316.18124pt>
+e 61. on input line 61.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 61
+.
+<./svg-inkscape/4_svg-tex.pdf, id=478, page=3, pagebox=cropbox, 421.575pt x 316
+.18124pt>
 File: ./svg-inkscape/4_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/4_svg-tex.pdf, page 3>
 Package pdftex.def Info: ./svg-inkscape/4_svg-tex.pdf , page3 used on input lin
-e 73.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/4_svg-tex.pdf, id=479, page=4, 421.575pt x 316.18124pt>
+e 73. on input line 73.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 73
+.
+<./svg-inkscape/4_svg-tex.pdf, id=479, page=4, pagebox=cropbox, 421.575pt x 316
+.18124pt>
 File: ./svg-inkscape/4_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/4_svg-tex.pdf, page 4>
 Package pdftex.def Info: ./svg-inkscape/4_svg-tex.pdf , page4 used on input lin
-e 75.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/4_svg-tex.pdf, id=480, page=5, 421.575pt x 316.18124pt>
+e 75. on input line 75.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 75
+.
+<./svg-inkscape/4_svg-tex.pdf, id=480, page=5, pagebox=cropbox, 421.575pt x 316
+.18124pt>
 File: ./svg-inkscape/4_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/4_svg-tex.pdf, page 5>
 Package pdftex.def Info: ./svg-inkscape/4_svg-tex.pdf , page5 used on input lin
-e 77.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/4_svg-tex.pdf, id=481, page=6, 421.575pt x 316.18124pt>
+e 77. on input line 77.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 77
+.
+<./svg-inkscape/4_svg-tex.pdf, id=481, page=6, pagebox=cropbox, 421.575pt x 316
+.18124pt>
 File: ./svg-inkscape/4_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/4_svg-tex.pdf, page 6>
 Package pdftex.def Info: ./svg-inkscape/4_svg-tex.pdf , page6 used on input lin
-e 79.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/4_svg-tex.pdf, id=482, page=7, 421.575pt x 316.18124pt>
+e 79. on input line 79.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 79
+.
+<./svg-inkscape/4_svg-tex.pdf, id=482, page=7, pagebox=cropbox, 421.575pt x 316
+.18124pt>
 File: ./svg-inkscape/4_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/4_svg-tex.pdf, page 7>
 Package pdftex.def Info: ./svg-inkscape/4_svg-tex.pdf , page7 used on input lin
-e 81.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/4_svg-tex.pdf, id=483, page=8, 421.575pt x 316.18124pt>
+e 81. on input line 81.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 81
+.
+<./svg-inkscape/4_svg-tex.pdf, id=483, page=8, pagebox=cropbox, 421.575pt x 316
+.18124pt>
 File: ./svg-inkscape/4_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/4_svg-tex.pdf, page 8>
 Package pdftex.def Info: ./svg-inkscape/4_svg-tex.pdf , page8 used on input lin
-e 83.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/4_svg-tex.pdf, id=484, page=9, 421.575pt x 316.18124pt>
+e 83. on input line 83.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 83
+.
+<./svg-inkscape/4_svg-tex.pdf, id=484, page=9, pagebox=cropbox, 421.575pt x 316
+.18124pt>
 File: ./svg-inkscape/4_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/4_svg-tex.pdf, page 9>
 Package pdftex.def Info: ./svg-inkscape/4_svg-tex.pdf , page9 used on input lin
-e 85.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/4_svg-tex.pdf, id=485, page=10, 421.575pt x 316.18124pt>
+e 85. on input line 85.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 85
+.
+<./svg-inkscape/4_svg-tex.pdf, id=485, page=10, pagebox=cropbox, 421.575pt x 31
+6.18124pt>
 File: ./svg-inkscape/4_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/4_svg-tex.pdf, page 10>
 Package pdftex.def Info: ./svg-inkscape/4_svg-tex.pdf , page10 used on input li
-ne 87.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/4_svg-tex.pdf, id=486, page=11, 421.575pt x 316.18124pt>
+ne 87. on input line 87.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 87
+.
+<./svg-inkscape/4_svg-tex.pdf, id=486, page=11, pagebox=cropbox, 421.575pt x 31
+6.18124pt>
 File: ./svg-inkscape/4_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/4_svg-tex.pdf, page 11>
 Package pdftex.def Info: ./svg-inkscape/4_svg-tex.pdf , page11 used on input li
-ne 89.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/4_svg-tex.pdf, id=487, page=12, 421.575pt x 316.18124pt>
+ne 89. on input line 89.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 89
+.
+<./svg-inkscape/4_svg-tex.pdf, id=487, page=12, pagebox=cropbox, 421.575pt x 31
+6.18124pt>
 File: ./svg-inkscape/4_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/4_svg-tex.pdf, page 12>
 Package pdftex.def Info: ./svg-inkscape/4_svg-tex.pdf , page12 used on input li
-ne 91.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/4_svg-tex.pdf, id=488, page=13, 421.575pt x 316.18124pt>
+ne 91. on input line 91.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 91
+.
+<./svg-inkscape/4_svg-tex.pdf, id=488, page=13, pagebox=cropbox, 421.575pt x 31
+6.18124pt>
 File: ./svg-inkscape/4_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/4_svg-tex.pdf, page 13>
 Package pdftex.def Info: ./svg-inkscape/4_svg-tex.pdf , page13 used on input li
-ne 93.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/4_svg-tex.pdf, id=489, page=14, 421.575pt x 316.18124pt>
+ne 93. on input line 93.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 93
+.
+<./svg-inkscape/4_svg-tex.pdf, id=489, page=14, pagebox=cropbox, 421.575pt x 31
+6.18124pt>
 File: ./svg-inkscape/4_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/4_svg-tex.pdf, page 14>
 Package pdftex.def Info: ./svg-inkscape/4_svg-tex.pdf , page14 used on input li
-ne 95.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/4_svg-tex.pdf, id=490, page=15, 421.575pt x 316.18124pt>
+ne 95. on input line 95.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 95
+.
+<./svg-inkscape/4_svg-tex.pdf, id=490, page=15, pagebox=cropbox, 421.575pt x 31
+6.18124pt>
 File: ./svg-inkscape/4_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/4_svg-tex.pdf, page 15>
 Package pdftex.def Info: ./svg-inkscape/4_svg-tex.pdf , page15 used on input li
-ne 97.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/4_svg-tex.pdf, id=491, page=16, 421.575pt x 316.18124pt>
+ne 97. on input line 97.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 97
+.
+<./svg-inkscape/4_svg-tex.pdf, id=491, page=16, pagebox=cropbox, 421.575pt x 31
+6.18124pt>
 File: ./svg-inkscape/4_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/4_svg-tex.pdf, page 16>
 Package pdftex.def Info: ./svg-inkscape/4_svg-tex.pdf , page16 used on input li
-ne 99.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/4_svg-tex.pdf, id=492, page=17, 421.575pt x 316.18124pt>
+ne 99. on input line 99.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 99
+.
+<./svg-inkscape/4_svg-tex.pdf, id=492, page=17, pagebox=cropbox, 421.575pt x 31
+6.18124pt>
 File: ./svg-inkscape/4_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/4_svg-tex.pdf, page 17>
 Package pdftex.def Info: ./svg-inkscape/4_svg-tex.pdf , page17 used on input li
-ne 101.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/4_svg-tex.pdf, id=493, page=18, 421.575pt x 316.18124pt>
+ne 101. on input line 101.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 10
+1.
+<./svg-inkscape/4_svg-tex.pdf, id=493, page=18, pagebox=cropbox, 421.575pt x 31
+6.18124pt>
 File: ./svg-inkscape/4_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/4_svg-tex.pdf, page 18>
 Package pdftex.def Info: ./svg-inkscape/4_svg-tex.pdf , page18 used on input li
-ne 103.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/4_svg-tex.pdf, id=494, page=19, 421.575pt x 316.18124pt>
+ne 103. on input line 103.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 10
+3.
+<./svg-inkscape/4_svg-tex.pdf, id=494, page=19, pagebox=cropbox, 421.575pt x 31
+6.18124pt>
 File: ./svg-inkscape/4_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/4_svg-tex.pdf, page 19>
 Package pdftex.def Info: ./svg-inkscape/4_svg-tex.pdf , page19 used on input li
-ne 105.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/4_svg-tex.pdf, id=495, page=20, 421.575pt x 316.18124pt>
+ne 105. on input line 105.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 10
+5.
+<./svg-inkscape/4_svg-tex.pdf, id=495, page=20, pagebox=cropbox, 421.575pt x 31
+6.18124pt>
 File: ./svg-inkscape/4_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/4_svg-tex.pdf, page 20>
 Package pdftex.def Info: ./svg-inkscape/4_svg-tex.pdf , page20 used on input li
-ne 107.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
+ne 107. on input line 107.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 10
+7.
 )
 Overfull \hbox (30.24501pt too wide) in paragraph at lines 108--302
  [][] 
@@ -1869,12 +1952,14 @@ Overfull \hbox (30.24501pt too wide) in paragraph at lines 108--302
 Package svg Info: Last page of `./svg-inkscape/5_svg-tex.pdf' is 1 on input lin
 e 307.
 (./svg-inkscape/5_svg-tex.pdf_tex
-<./svg-inkscape/5_svg-tex.pdf, id=497, page=1, 421.575pt x 316.18124pt>
+<./svg-inkscape/5_svg-tex.pdf, id=497, page=1, pagebox=cropbox, 421.575pt x 316
+.18124pt>
 File: ./svg-inkscape/5_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/5_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/5_svg-tex.pdf , page1 used on input lin
-e 52.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
+e 52. on input line 52.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 52
+.
 )
 Overfull \hbox (30.24501pt too wide) in paragraph at lines 53--308
  [][] 
@@ -1883,90 +1968,118 @@ Overfull \hbox (30.24501pt too wide) in paragraph at lines 53--308
 Package svg Info: Last page of `./svg-inkscape/6_svg-tex.pdf' is 14 on input li
 ne 313.
 (./svg-inkscape/6_svg-tex.pdf_tex
-<./svg-inkscape/6_svg-tex.pdf, id=499, page=1, 421.575pt x 316.18124pt>
+<./svg-inkscape/6_svg-tex.pdf, id=499, page=1, pagebox=cropbox, 421.575pt x 316
+.18124pt>
 File: ./svg-inkscape/6_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/6_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/6_svg-tex.pdf , page1 used on input lin
-e 52.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/6_svg-tex.pdf, id=500, page=2, 421.575pt x 316.18124pt>
+e 52. on input line 52.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 52
+.
+<./svg-inkscape/6_svg-tex.pdf, id=500, page=2, pagebox=cropbox, 421.575pt x 316
+.18124pt>
 File: ./svg-inkscape/6_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/6_svg-tex.pdf, page 2>
 Package pdftex.def Info: ./svg-inkscape/6_svg-tex.pdf , page2 used on input lin
-e 61.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/6_svg-tex.pdf, id=501, page=3, 421.575pt x 316.18124pt>
+e 61. on input line 61.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 61
+.
+<./svg-inkscape/6_svg-tex.pdf, id=501, page=3, pagebox=cropbox, 421.575pt x 316
+.18124pt>
 File: ./svg-inkscape/6_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/6_svg-tex.pdf, page 3>
 Package pdftex.def Info: ./svg-inkscape/6_svg-tex.pdf , page3 used on input lin
-e 72.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/6_svg-tex.pdf, id=502, page=4, 421.575pt x 316.18124pt>
+e 72. on input line 72.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 72
+.
+<./svg-inkscape/6_svg-tex.pdf, id=502, page=4, pagebox=cropbox, 421.575pt x 316
+.18124pt>
 File: ./svg-inkscape/6_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/6_svg-tex.pdf, page 4>
 Package pdftex.def Info: ./svg-inkscape/6_svg-tex.pdf , page4 used on input lin
-e 74.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/6_svg-tex.pdf, id=503, page=5, 421.575pt x 316.18124pt>
+e 74. on input line 74.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 74
+.
+<./svg-inkscape/6_svg-tex.pdf, id=503, page=5, pagebox=cropbox, 421.575pt x 316
+.18124pt>
 File: ./svg-inkscape/6_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/6_svg-tex.pdf, page 5>
 Package pdftex.def Info: ./svg-inkscape/6_svg-tex.pdf , page5 used on input lin
-e 76.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/6_svg-tex.pdf, id=504, page=6, 421.575pt x 316.18124pt>
+e 76. on input line 76.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 76
+.
+<./svg-inkscape/6_svg-tex.pdf, id=504, page=6, pagebox=cropbox, 421.575pt x 316
+.18124pt>
 File: ./svg-inkscape/6_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/6_svg-tex.pdf, page 6>
 Package pdftex.def Info: ./svg-inkscape/6_svg-tex.pdf , page6 used on input lin
-e 78.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/6_svg-tex.pdf, id=505, page=7, 421.575pt x 316.18124pt>
+e 78. on input line 78.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 78
+.
+<./svg-inkscape/6_svg-tex.pdf, id=505, page=7, pagebox=cropbox, 421.575pt x 316
+.18124pt>
 File: ./svg-inkscape/6_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/6_svg-tex.pdf, page 7>
 Package pdftex.def Info: ./svg-inkscape/6_svg-tex.pdf , page7 used on input lin
-e 80.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/6_svg-tex.pdf, id=506, page=8, 421.575pt x 316.18124pt>
+e 80. on input line 80.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 80
+.
+<./svg-inkscape/6_svg-tex.pdf, id=506, page=8, pagebox=cropbox, 421.575pt x 316
+.18124pt>
 File: ./svg-inkscape/6_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/6_svg-tex.pdf, page 8>
 Package pdftex.def Info: ./svg-inkscape/6_svg-tex.pdf , page8 used on input lin
-e 82.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/6_svg-tex.pdf, id=507, page=9, 421.575pt x 316.18124pt>
+e 82. on input line 82.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 82
+.
+<./svg-inkscape/6_svg-tex.pdf, id=507, page=9, pagebox=cropbox, 421.575pt x 316
+.18124pt>
 File: ./svg-inkscape/6_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/6_svg-tex.pdf, page 9>
 Package pdftex.def Info: ./svg-inkscape/6_svg-tex.pdf , page9 used on input lin
-e 84.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/6_svg-tex.pdf, id=508, page=10, 421.575pt x 316.18124pt>
+e 84. on input line 84.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 84
+.
+<./svg-inkscape/6_svg-tex.pdf, id=508, page=10, pagebox=cropbox, 421.575pt x 31
+6.18124pt>
 File: ./svg-inkscape/6_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/6_svg-tex.pdf, page 10>
 Package pdftex.def Info: ./svg-inkscape/6_svg-tex.pdf , page10 used on input li
-ne 86.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/6_svg-tex.pdf, id=509, page=11, 421.575pt x 316.18124pt>
+ne 86. on input line 86.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 86
+.
+<./svg-inkscape/6_svg-tex.pdf, id=509, page=11, pagebox=cropbox, 421.575pt x 31
+6.18124pt>
 File: ./svg-inkscape/6_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/6_svg-tex.pdf, page 11>
 Package pdftex.def Info: ./svg-inkscape/6_svg-tex.pdf , page11 used on input li
-ne 88.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/6_svg-tex.pdf, id=510, page=12, 421.575pt x 316.18124pt>
+ne 88. on input line 88.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 88
+.
+<./svg-inkscape/6_svg-tex.pdf, id=510, page=12, pagebox=cropbox, 421.575pt x 31
+6.18124pt>
 File: ./svg-inkscape/6_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/6_svg-tex.pdf, page 12>
 Package pdftex.def Info: ./svg-inkscape/6_svg-tex.pdf , page12 used on input li
-ne 90.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/6_svg-tex.pdf, id=511, page=13, 421.575pt x 316.18124pt>
+ne 90. on input line 90.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 90
+.
+<./svg-inkscape/6_svg-tex.pdf, id=511, page=13, pagebox=cropbox, 421.575pt x 31
+6.18124pt>
 File: ./svg-inkscape/6_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/6_svg-tex.pdf, page 13>
 Package pdftex.def Info: ./svg-inkscape/6_svg-tex.pdf , page13 used on input li
-ne 92.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/6_svg-tex.pdf, id=512, page=14, 421.575pt x 316.18124pt>
+ne 92. on input line 92.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 92
+.
+<./svg-inkscape/6_svg-tex.pdf, id=512, page=14, pagebox=cropbox, 421.575pt x 31
+6.18124pt>
 File: ./svg-inkscape/6_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/6_svg-tex.pdf, page 14>
 Package pdftex.def Info: ./svg-inkscape/6_svg-tex.pdf , page14 used on input li
-ne 94.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
+ne 94. on input line 94.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 94
+.
 )
 Overfull \hbox (30.24501pt too wide) in paragraph at lines 95--314
  [][] 
@@ -1975,126 +2088,166 @@ Overfull \hbox (30.24501pt too wide) in paragraph at lines 95--314
 Package svg Info: Last page of `./svg-inkscape/7_svg-tex.pdf' is 20 on input li
 ne 319.
 (./svg-inkscape/7_svg-tex.pdf_tex
-<./svg-inkscape/7_svg-tex.pdf, id=514, page=1, 421.575pt x 316.18124pt>
+<./svg-inkscape/7_svg-tex.pdf, id=514, page=1, pagebox=cropbox, 421.575pt x 316
+.18124pt>
 File: ./svg-inkscape/7_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/7_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/7_svg-tex.pdf , page1 used on input lin
-e 52.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/7_svg-tex.pdf, id=515, page=2, 421.575pt x 316.18124pt>
+e 52. on input line 52.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 52
+.
+<./svg-inkscape/7_svg-tex.pdf, id=515, page=2, pagebox=cropbox, 421.575pt x 316
+.18124pt>
 File: ./svg-inkscape/7_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/7_svg-tex.pdf, page 2>
 Package pdftex.def Info: ./svg-inkscape/7_svg-tex.pdf , page2 used on input lin
-e 61.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/7_svg-tex.pdf, id=516, page=3, 421.575pt x 316.18124pt>
+e 61. on input line 61.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 61
+.
+<./svg-inkscape/7_svg-tex.pdf, id=516, page=3, pagebox=cropbox, 421.575pt x 316
+.18124pt>
 File: ./svg-inkscape/7_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/7_svg-tex.pdf, page 3>
 Package pdftex.def Info: ./svg-inkscape/7_svg-tex.pdf , page3 used on input lin
-e 72.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/7_svg-tex.pdf, id=517, page=4, 421.575pt x 316.18124pt>
+e 72. on input line 72.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 72
+.
+<./svg-inkscape/7_svg-tex.pdf, id=517, page=4, pagebox=cropbox, 421.575pt x 316
+.18124pt>
 File: ./svg-inkscape/7_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/7_svg-tex.pdf, page 4>
 Package pdftex.def Info: ./svg-inkscape/7_svg-tex.pdf , page4 used on input lin
-e 74.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/7_svg-tex.pdf, id=518, page=5, 421.575pt x 316.18124pt>
+e 74. on input line 74.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 74
+.
+<./svg-inkscape/7_svg-tex.pdf, id=518, page=5, pagebox=cropbox, 421.575pt x 316
+.18124pt>
 File: ./svg-inkscape/7_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/7_svg-tex.pdf, page 5>
 Package pdftex.def Info: ./svg-inkscape/7_svg-tex.pdf , page5 used on input lin
-e 76.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/7_svg-tex.pdf, id=519, page=6, 421.575pt x 316.18124pt>
+e 76. on input line 76.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 76
+.
+<./svg-inkscape/7_svg-tex.pdf, id=519, page=6, pagebox=cropbox, 421.575pt x 316
+.18124pt>
 File: ./svg-inkscape/7_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/7_svg-tex.pdf, page 6>
 Package pdftex.def Info: ./svg-inkscape/7_svg-tex.pdf , page6 used on input lin
-e 78.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/7_svg-tex.pdf, id=520, page=7, 421.575pt x 316.18124pt>
+e 78. on input line 78.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 78
+.
+<./svg-inkscape/7_svg-tex.pdf, id=520, page=7, pagebox=cropbox, 421.575pt x 316
+.18124pt>
 File: ./svg-inkscape/7_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/7_svg-tex.pdf, page 7>
 Package pdftex.def Info: ./svg-inkscape/7_svg-tex.pdf , page7 used on input lin
-e 80.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/7_svg-tex.pdf, id=521, page=8, 421.575pt x 316.18124pt>
+e 80. on input line 80.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 80
+.
+<./svg-inkscape/7_svg-tex.pdf, id=521, page=8, pagebox=cropbox, 421.575pt x 316
+.18124pt>
 File: ./svg-inkscape/7_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/7_svg-tex.pdf, page 8>
 Package pdftex.def Info: ./svg-inkscape/7_svg-tex.pdf , page8 used on input lin
-e 82.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/7_svg-tex.pdf, id=522, page=9, 421.575pt x 316.18124pt>
+e 82. on input line 82.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 82
+.
+<./svg-inkscape/7_svg-tex.pdf, id=522, page=9, pagebox=cropbox, 421.575pt x 316
+.18124pt>
 File: ./svg-inkscape/7_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/7_svg-tex.pdf, page 9>
 Package pdftex.def Info: ./svg-inkscape/7_svg-tex.pdf , page9 used on input lin
-e 84.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/7_svg-tex.pdf, id=523, page=10, 421.575pt x 316.18124pt>
+e 84. on input line 84.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 84
+.
+<./svg-inkscape/7_svg-tex.pdf, id=523, page=10, pagebox=cropbox, 421.575pt x 31
+6.18124pt>
 File: ./svg-inkscape/7_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/7_svg-tex.pdf, page 10>
 Package pdftex.def Info: ./svg-inkscape/7_svg-tex.pdf , page10 used on input li
-ne 86.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/7_svg-tex.pdf, id=524, page=11, 421.575pt x 316.18124pt>
+ne 86. on input line 86.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 86
+.
+<./svg-inkscape/7_svg-tex.pdf, id=524, page=11, pagebox=cropbox, 421.575pt x 31
+6.18124pt>
 File: ./svg-inkscape/7_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/7_svg-tex.pdf, page 11>
 Package pdftex.def Info: ./svg-inkscape/7_svg-tex.pdf , page11 used on input li
-ne 88.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/7_svg-tex.pdf, id=525, page=12, 421.575pt x 316.18124pt>
+ne 88. on input line 88.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 88
+.
+<./svg-inkscape/7_svg-tex.pdf, id=525, page=12, pagebox=cropbox, 421.575pt x 31
+6.18124pt>
 File: ./svg-inkscape/7_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/7_svg-tex.pdf, page 12>
 Package pdftex.def Info: ./svg-inkscape/7_svg-tex.pdf , page12 used on input li
-ne 90.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/7_svg-tex.pdf, id=526, page=13, 421.575pt x 316.18124pt>
+ne 90. on input line 90.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 90
+.
+<./svg-inkscape/7_svg-tex.pdf, id=526, page=13, pagebox=cropbox, 421.575pt x 31
+6.18124pt>
 File: ./svg-inkscape/7_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/7_svg-tex.pdf, page 13>
 Package pdftex.def Info: ./svg-inkscape/7_svg-tex.pdf , page13 used on input li
-ne 92.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/7_svg-tex.pdf, id=527, page=14, 421.575pt x 316.18124pt>
+ne 92. on input line 92.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 92
+.
+<./svg-inkscape/7_svg-tex.pdf, id=527, page=14, pagebox=cropbox, 421.575pt x 31
+6.18124pt>
 File: ./svg-inkscape/7_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/7_svg-tex.pdf, page 14>
 Package pdftex.def Info: ./svg-inkscape/7_svg-tex.pdf , page14 used on input li
-ne 94.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/7_svg-tex.pdf, id=528, page=15, 421.575pt x 316.18124pt>
+ne 94. on input line 94.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 94
+.
+<./svg-inkscape/7_svg-tex.pdf, id=528, page=15, pagebox=cropbox, 421.575pt x 31
+6.18124pt>
 File: ./svg-inkscape/7_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/7_svg-tex.pdf, page 15>
 Package pdftex.def Info: ./svg-inkscape/7_svg-tex.pdf , page15 used on input li
-ne 96.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/7_svg-tex.pdf, id=529, page=16, 421.575pt x 316.18124pt>
+ne 96. on input line 96.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 96
+.
+<./svg-inkscape/7_svg-tex.pdf, id=529, page=16, pagebox=cropbox, 421.575pt x 31
+6.18124pt>
 File: ./svg-inkscape/7_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/7_svg-tex.pdf, page 16>
 Package pdftex.def Info: ./svg-inkscape/7_svg-tex.pdf , page16 used on input li
-ne 98.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/7_svg-tex.pdf, id=530, page=17, 421.575pt x 316.18124pt>
+ne 98. on input line 98.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 98
+.
+<./svg-inkscape/7_svg-tex.pdf, id=530, page=17, pagebox=cropbox, 421.575pt x 31
+6.18124pt>
 File: ./svg-inkscape/7_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/7_svg-tex.pdf, page 17>
 Package pdftex.def Info: ./svg-inkscape/7_svg-tex.pdf , page17 used on input li
-ne 100.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/7_svg-tex.pdf, id=531, page=18, 421.575pt x 316.18124pt>
+ne 100. on input line 100.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 10
+0.
+<./svg-inkscape/7_svg-tex.pdf, id=531, page=18, pagebox=cropbox, 421.575pt x 31
+6.18124pt>
 File: ./svg-inkscape/7_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/7_svg-tex.pdf, page 18>
 Package pdftex.def Info: ./svg-inkscape/7_svg-tex.pdf , page18 used on input li
-ne 102.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/7_svg-tex.pdf, id=532, page=19, 421.575pt x 316.18124pt>
+ne 102. on input line 102.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 10
+2.
+<./svg-inkscape/7_svg-tex.pdf, id=532, page=19, pagebox=cropbox, 421.575pt x 31
+6.18124pt>
 File: ./svg-inkscape/7_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/7_svg-tex.pdf, page 19>
 Package pdftex.def Info: ./svg-inkscape/7_svg-tex.pdf , page19 used on input li
-ne 104.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/7_svg-tex.pdf, id=533, page=20, 421.575pt x 316.18124pt>
+ne 104. on input line 104.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 10
+4.
+<./svg-inkscape/7_svg-tex.pdf, id=533, page=20, pagebox=cropbox, 421.575pt x 31
+6.18124pt>
 File: ./svg-inkscape/7_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/7_svg-tex.pdf, page 20>
 Package pdftex.def Info: ./svg-inkscape/7_svg-tex.pdf , page20 used on input li
-ne 106.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
+ne 106. on input line 106.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 10
+6.
 )
 Overfull \hbox (30.24501pt too wide) in paragraph at lines 107--320
  [][] 
@@ -2103,90 +2256,118 @@ Overfull \hbox (30.24501pt too wide) in paragraph at lines 107--320
 Package svg Info: Last page of `./svg-inkscape/8_svg-tex.pdf' is 14 on input li
 ne 325.
 (./svg-inkscape/8_svg-tex.pdf_tex
-<./svg-inkscape/8_svg-tex.pdf, id=535, page=1, 421.575pt x 316.18124pt>
+<./svg-inkscape/8_svg-tex.pdf, id=535, page=1, pagebox=cropbox, 421.575pt x 316
+.18124pt>
 File: ./svg-inkscape/8_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/8_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/8_svg-tex.pdf , page1 used on input lin
-e 52.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/8_svg-tex.pdf, id=536, page=2, 421.575pt x 316.18124pt>
+e 52. on input line 52.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 52
+.
+<./svg-inkscape/8_svg-tex.pdf, id=536, page=2, pagebox=cropbox, 421.575pt x 316
+.18124pt>
 File: ./svg-inkscape/8_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/8_svg-tex.pdf, page 2>
 Package pdftex.def Info: ./svg-inkscape/8_svg-tex.pdf , page2 used on input lin
-e 61.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/8_svg-tex.pdf, id=537, page=3, 421.575pt x 316.18124pt>
+e 61. on input line 61.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 61
+.
+<./svg-inkscape/8_svg-tex.pdf, id=537, page=3, pagebox=cropbox, 421.575pt x 316
+.18124pt>
 File: ./svg-inkscape/8_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/8_svg-tex.pdf, page 3>
 Package pdftex.def Info: ./svg-inkscape/8_svg-tex.pdf , page3 used on input lin
-e 74.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/8_svg-tex.pdf, id=538, page=4, 421.575pt x 316.18124pt>
+e 74. on input line 74.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 74
+.
+<./svg-inkscape/8_svg-tex.pdf, id=538, page=4, pagebox=cropbox, 421.575pt x 316
+.18124pt>
 File: ./svg-inkscape/8_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/8_svg-tex.pdf, page 4>
 Package pdftex.def Info: ./svg-inkscape/8_svg-tex.pdf , page4 used on input lin
-e 76.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/8_svg-tex.pdf, id=539, page=5, 421.575pt x 316.18124pt>
+e 76. on input line 76.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 76
+.
+<./svg-inkscape/8_svg-tex.pdf, id=539, page=5, pagebox=cropbox, 421.575pt x 316
+.18124pt>
 File: ./svg-inkscape/8_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/8_svg-tex.pdf, page 5>
 Package pdftex.def Info: ./svg-inkscape/8_svg-tex.pdf , page5 used on input lin
-e 78.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/8_svg-tex.pdf, id=540, page=6, 421.575pt x 316.18124pt>
+e 78. on input line 78.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 78
+.
+<./svg-inkscape/8_svg-tex.pdf, id=540, page=6, pagebox=cropbox, 421.575pt x 316
+.18124pt>
 File: ./svg-inkscape/8_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/8_svg-tex.pdf, page 6>
 Package pdftex.def Info: ./svg-inkscape/8_svg-tex.pdf , page6 used on input lin
-e 80.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/8_svg-tex.pdf, id=541, page=7, 421.575pt x 316.18124pt>
+e 80. on input line 80.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 80
+.
+<./svg-inkscape/8_svg-tex.pdf, id=541, page=7, pagebox=cropbox, 421.575pt x 316
+.18124pt>
 File: ./svg-inkscape/8_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/8_svg-tex.pdf, page 7>
 Package pdftex.def Info: ./svg-inkscape/8_svg-tex.pdf , page7 used on input lin
-e 82.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/8_svg-tex.pdf, id=542, page=8, 421.575pt x 316.18124pt>
+e 82. on input line 82.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 82
+.
+<./svg-inkscape/8_svg-tex.pdf, id=542, page=8, pagebox=cropbox, 421.575pt x 316
+.18124pt>
 File: ./svg-inkscape/8_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/8_svg-tex.pdf, page 8>
 Package pdftex.def Info: ./svg-inkscape/8_svg-tex.pdf , page8 used on input lin
-e 84.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/8_svg-tex.pdf, id=543, page=9, 421.575pt x 316.18124pt>
+e 84. on input line 84.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 84
+.
+<./svg-inkscape/8_svg-tex.pdf, id=543, page=9, pagebox=cropbox, 421.575pt x 316
+.18124pt>
 File: ./svg-inkscape/8_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/8_svg-tex.pdf, page 9>
 Package pdftex.def Info: ./svg-inkscape/8_svg-tex.pdf , page9 used on input lin
-e 86.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/8_svg-tex.pdf, id=544, page=10, 421.575pt x 316.18124pt>
+e 86. on input line 86.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 86
+.
+<./svg-inkscape/8_svg-tex.pdf, id=544, page=10, pagebox=cropbox, 421.575pt x 31
+6.18124pt>
 File: ./svg-inkscape/8_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/8_svg-tex.pdf, page 10>
 Package pdftex.def Info: ./svg-inkscape/8_svg-tex.pdf , page10 used on input li
-ne 88.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/8_svg-tex.pdf, id=545, page=11, 421.575pt x 316.18124pt>
+ne 88. on input line 88.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 88
+.
+<./svg-inkscape/8_svg-tex.pdf, id=545, page=11, pagebox=cropbox, 421.575pt x 31
+6.18124pt>
 File: ./svg-inkscape/8_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/8_svg-tex.pdf, page 11>
 Package pdftex.def Info: ./svg-inkscape/8_svg-tex.pdf , page11 used on input li
-ne 90.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/8_svg-tex.pdf, id=546, page=12, 421.575pt x 316.18124pt>
+ne 90. on input line 90.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 90
+.
+<./svg-inkscape/8_svg-tex.pdf, id=546, page=12, pagebox=cropbox, 421.575pt x 31
+6.18124pt>
 File: ./svg-inkscape/8_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/8_svg-tex.pdf, page 12>
 Package pdftex.def Info: ./svg-inkscape/8_svg-tex.pdf , page12 used on input li
-ne 92.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/8_svg-tex.pdf, id=547, page=13, 421.575pt x 316.18124pt>
+ne 92. on input line 92.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 92
+.
+<./svg-inkscape/8_svg-tex.pdf, id=547, page=13, pagebox=cropbox, 421.575pt x 31
+6.18124pt>
 File: ./svg-inkscape/8_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/8_svg-tex.pdf, page 13>
 Package pdftex.def Info: ./svg-inkscape/8_svg-tex.pdf , page13 used on input li
-ne 94.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/8_svg-tex.pdf, id=548, page=14, 421.575pt x 316.18124pt>
+ne 94. on input line 94.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 94
+.
+<./svg-inkscape/8_svg-tex.pdf, id=548, page=14, pagebox=cropbox, 421.575pt x 31
+6.18124pt>
 File: ./svg-inkscape/8_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/8_svg-tex.pdf, page 14>
 Package pdftex.def Info: ./svg-inkscape/8_svg-tex.pdf , page14 used on input li
-ne 96.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
+ne 96. on input line 96.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 96
+.
 )
 Overfull \hbox (30.24501pt too wide) in paragraph at lines 97--326
  [][] 
@@ -2195,36 +2376,46 @@ Overfull \hbox (30.24501pt too wide) in paragraph at lines 97--326
 Package svg Info: Last page of `./svg-inkscape/9_svg-tex.pdf' is 5 on input lin
 e 331.
 (./svg-inkscape/9_svg-tex.pdf_tex
-<./svg-inkscape/9_svg-tex.pdf, id=550, page=1, 421.575pt x 316.18124pt>
+<./svg-inkscape/9_svg-tex.pdf, id=550, page=1, pagebox=cropbox, 421.575pt x 316
+.18124pt>
 File: ./svg-inkscape/9_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/9_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/9_svg-tex.pdf , page1 used on input lin
-e 52.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/9_svg-tex.pdf, id=551, page=2, 421.575pt x 316.18124pt>
+e 52. on input line 52.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 52
+.
+<./svg-inkscape/9_svg-tex.pdf, id=551, page=2, pagebox=cropbox, 421.575pt x 316
+.18124pt>
 File: ./svg-inkscape/9_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/9_svg-tex.pdf, page 2>
 Package pdftex.def Info: ./svg-inkscape/9_svg-tex.pdf , page2 used on input lin
-e 61.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/9_svg-tex.pdf, id=552, page=3, 421.575pt x 316.18124pt>
+e 61. on input line 61.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 61
+.
+<./svg-inkscape/9_svg-tex.pdf, id=552, page=3, pagebox=cropbox, 421.575pt x 316
+.18124pt>
 File: ./svg-inkscape/9_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/9_svg-tex.pdf, page 3>
 Package pdftex.def Info: ./svg-inkscape/9_svg-tex.pdf , page3 used on input lin
-e 72.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/9_svg-tex.pdf, id=553, page=4, 421.575pt x 316.18124pt>
+e 72. on input line 72.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 72
+.
+<./svg-inkscape/9_svg-tex.pdf, id=553, page=4, pagebox=cropbox, 421.575pt x 316
+.18124pt>
 File: ./svg-inkscape/9_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/9_svg-tex.pdf, page 4>
 Package pdftex.def Info: ./svg-inkscape/9_svg-tex.pdf , page4 used on input lin
-e 74.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
-<./svg-inkscape/9_svg-tex.pdf, id=554, page=5, 421.575pt x 316.18124pt>
+e 74. on input line 74.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 74
+.
+<./svg-inkscape/9_svg-tex.pdf, id=554, page=5, pagebox=cropbox, 421.575pt x 316
+.18124pt>
 File: ./svg-inkscape/9_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/9_svg-tex.pdf, page 5>
 Package pdftex.def Info: ./svg-inkscape/9_svg-tex.pdf , page5 used on input lin
-e 76.
-(pdftex.def)             Requested size: 500.0pt x 375.00597pt.
+e 76. on input line 76.
+Package pdftex.def Info: Requested size: 500.0pt x 375.00597pt on input line 76
+.
 )
 Overfull \hbox (30.24501pt too wide) in paragraph at lines 77--332
  [][] 
@@ -2256,24 +2447,24 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 334.
 [7 <./svg-inkscape/1_svg-tex.pdf> <./svg-inkscape/1_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/1_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/1_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/1_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/1_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/1_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/1_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/1_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/1_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/1_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/1_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/1_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/1_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/1_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/1_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 >]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 334.
@@ -2301,24 +2492,24 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 334.
  [8 <./svg-inkscape/2_svg-tex.pdf> <./svg-inkscape/2_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/2_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/2_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/2_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/2_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/2_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/2_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/2_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/2_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/2_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/2_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/2_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/2_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/2_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/2_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 >]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 334.
@@ -2346,24 +2537,24 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 334.
  [9 <./svg-inkscape/3_svg-tex.pdf> <./svg-inkscape/3_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/3_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/3_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/3_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/3_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/3_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/3_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/3_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/3_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/3_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/3_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/3_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/3_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/3_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/3_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 >]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 334.
@@ -2391,80 +2582,80 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 334.
  [10 <./svg-inkscape/4_svg-tex.pdf> <./svg-inkscape/4_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/4_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/4_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/4_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/4_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/4_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/4_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/4_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/4_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/4_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/4_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/4_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/4_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/4_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/4_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/4_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/4_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/4_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/4_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/4_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/4_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/4_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/4_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/4_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/4_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/4_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/4_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/4_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/4_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/4_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/4_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/4_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/4_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/4_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/4_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/4_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/4_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/4_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/4_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/4_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/4_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/4_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/4_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/4_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/4_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/4_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/4_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/4_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/4_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/4_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/4_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/4_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/4_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/4_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/4_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/4_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/4_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 >]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 334.
@@ -2517,56 +2708,56 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 334.
  [12 <./svg-inkscape/6_svg-tex.pdf> <./svg-inkscape/6_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/6_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/6_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/6_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/6_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/6_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/6_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/6_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/6_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/6_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/6_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/6_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/6_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/6_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/6_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/6_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/6_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/6_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/6_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/6_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/6_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/6_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/6_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/6_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/6_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/6_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/6_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/6_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/6_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/6_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/6_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/6_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/6_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/6_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/6_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/6_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/6_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/6_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/6_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 >]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 334.
@@ -2594,80 +2785,80 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 334.
  [13 <./svg-inkscape/7_svg-tex.pdf> <./svg-inkscape/7_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/7_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/7_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/7_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/7_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/7_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/7_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/7_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/7_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/7_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/7_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/7_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/7_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/7_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/7_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/7_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/7_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/7_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/7_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/7_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/7_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/7_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/7_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/7_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/7_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/7_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/7_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/7_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/7_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/7_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/7_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/7_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/7_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/7_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/7_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/7_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/7_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/7_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/7_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/7_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/7_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/7_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/7_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/7_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/7_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/7_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/7_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/7_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/7_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/7_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/7_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/7_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/7_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/7_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/7_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/7_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/7_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 >]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 334.
@@ -2695,56 +2886,56 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 334.
  [14 <./svg-inkscape/8_svg-tex.pdf> <./svg-inkscape/8_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/8_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/8_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/8_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/8_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/8_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/8_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/8_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/8_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/8_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/8_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/8_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/8_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/8_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/8_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/8_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/8_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/8_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/8_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/8_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/8_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/8_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/8_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/8_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/8_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/8_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/8_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/8_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/8_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/8_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/8_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/8_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/8_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/8_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/8_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/8_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/8_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/8_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/8_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 >]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 334.
@@ -2772,20 +2963,20 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 334.
  [15 <./svg-inkscape/9_svg-tex.pdf> <./svg-inkscape/9_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/9_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/9_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/9_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/9_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/9_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/9_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/9_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/9_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 > <./svg-inkscape/9_svg-tex.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./svg-inkscape/9_svg-tex.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./svg-inkscape/9_svg-tex.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 >]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 335.
@@ -2962,8 +3153,10 @@ Package babel Info: Redefining spanish shorthand "?
 <img/pol2/1.png, id=1152, 674.52pt x 607.26875pt>
 File: img/pol2/1.png Graphic file (type png)
 <use img/pol2/1.png>
-Package pdftex.def Info: img/pol2/1.png  used on input line 848.
-(pdftex.def)             Requested size: 500.01184pt x 500.01143pt.
+Package pdftex.def Info: img/pol2/1.png  used on input line 848. on input line 
+848.
+Package pdftex.def Info: Requested size: 500.01184pt x 500.01143pt on input lin
+e 848.
 
 Overfull \hbox (30.25685pt too wide) in paragraph at lines 848--849
  [][] 
@@ -2972,8 +3165,10 @@ Overfull \hbox (30.25685pt too wide) in paragraph at lines 848--849
 <img/pol2/2.png, id=1153, 674.52pt x 607.26875pt>
 File: img/pol2/2.png Graphic file (type png)
 <use img/pol2/2.png>
-Package pdftex.def Info: img/pol2/2.png  used on input line 854.
-(pdftex.def)             Requested size: 500.01184pt x 500.01143pt.
+Package pdftex.def Info: img/pol2/2.png  used on input line 854. on input line 
+854.
+Package pdftex.def Info: Requested size: 500.01184pt x 500.01143pt on input lin
+e 854.
 
 Overfull \hbox (30.25685pt too wide) in paragraph at lines 854--855
  [][] 
@@ -2982,8 +3177,10 @@ Overfull \hbox (30.25685pt too wide) in paragraph at lines 854--855
 <img/pol2/3.png, id=1154, 674.52pt x 607.26875pt>
 File: img/pol2/3.png Graphic file (type png)
 <use img/pol2/3.png>
-Package pdftex.def Info: img/pol2/3.png  used on input line 860.
-(pdftex.def)             Requested size: 500.01184pt x 500.01143pt.
+Package pdftex.def Info: img/pol2/3.png  used on input line 860. on input line 
+860.
+Package pdftex.def Info: Requested size: 500.01184pt x 500.01143pt on input lin
+e 860.
 
 Overfull \hbox (30.25685pt too wide) in paragraph at lines 860--861
  [][] 
@@ -2992,8 +3189,10 @@ Overfull \hbox (30.25685pt too wide) in paragraph at lines 860--861
 <img/pol2/4.png, id=1155, 674.52pt x 607.26875pt>
 File: img/pol2/4.png Graphic file (type png)
 <use img/pol2/4.png>
-Package pdftex.def Info: img/pol2/4.png  used on input line 866.
-(pdftex.def)             Requested size: 500.01184pt x 500.01143pt.
+Package pdftex.def Info: img/pol2/4.png  used on input line 866. on input line 
+866.
+Package pdftex.def Info: Requested size: 500.01184pt x 500.01143pt on input lin
+e 866.
 
 Overfull \hbox (30.25685pt too wide) in paragraph at lines 866--867
  [][] 
@@ -3002,8 +3201,10 @@ Overfull \hbox (30.25685pt too wide) in paragraph at lines 866--867
 <img/pol2/5.png, id=1156, 674.52pt x 607.26875pt>
 File: img/pol2/5.png Graphic file (type png)
 <use img/pol2/5.png>
-Package pdftex.def Info: img/pol2/5.png  used on input line 872.
-(pdftex.def)             Requested size: 500.01184pt x 500.01143pt.
+Package pdftex.def Info: img/pol2/5.png  used on input line 872. on input line 
+872.
+Package pdftex.def Info: Requested size: 500.01184pt x 500.01143pt on input lin
+e 872.
 
 Overfull \hbox (30.25685pt too wide) in paragraph at lines 872--873
  [][] 
@@ -3012,8 +3213,10 @@ Overfull \hbox (30.25685pt too wide) in paragraph at lines 872--873
 <img/pol2/6.png, id=1157, 674.52pt x 607.26875pt>
 File: img/pol2/6.png Graphic file (type png)
 <use img/pol2/6.png>
-Package pdftex.def Info: img/pol2/6.png  used on input line 878.
-(pdftex.def)             Requested size: 500.01184pt x 500.01143pt.
+Package pdftex.def Info: img/pol2/6.png  used on input line 878. on input line 
+878.
+Package pdftex.def Info: Requested size: 500.01184pt x 500.01143pt on input lin
+e 878.
 
 Overfull \hbox (30.25685pt too wide) in paragraph at lines 878--879
  [][] 
@@ -3022,8 +3225,10 @@ Overfull \hbox (30.25685pt too wide) in paragraph at lines 878--879
 <img/pol2/7.png, id=1158, 674.52pt x 607.26875pt>
 File: img/pol2/7.png Graphic file (type png)
 <use img/pol2/7.png>
-Package pdftex.def Info: img/pol2/7.png  used on input line 884.
-(pdftex.def)             Requested size: 500.01184pt x 500.01143pt.
+Package pdftex.def Info: img/pol2/7.png  used on input line 884. on input line 
+884.
+Package pdftex.def Info: Requested size: 500.01184pt x 500.01143pt on input lin
+e 884.
 
 Overfull \hbox (30.25685pt too wide) in paragraph at lines 884--885
  [][] 
@@ -3032,8 +3237,10 @@ Overfull \hbox (30.25685pt too wide) in paragraph at lines 884--885
 <img/pol2/8.png, id=1159, 674.52pt x 607.26875pt>
 File: img/pol2/8.png Graphic file (type png)
 <use img/pol2/8.png>
-Package pdftex.def Info: img/pol2/8.png  used on input line 890.
-(pdftex.def)             Requested size: 500.01184pt x 500.01143pt.
+Package pdftex.def Info: img/pol2/8.png  used on input line 890. on input line 
+890.
+Package pdftex.def Info: Requested size: 500.01184pt x 500.01143pt on input lin
+e 890.
 
 Overfull \hbox (30.25685pt too wide) in paragraph at lines 890--891
  [][] 
@@ -3042,8 +3249,10 @@ Overfull \hbox (30.25685pt too wide) in paragraph at lines 890--891
 <img/pol1/9.png, id=1160, 421.575pt x 316.18124pt>
 File: img/pol1/9.png Graphic file (type png)
 <use img/pol1/9.png>
-Package pdftex.def Info: img/pol1/9.png  used on input line 896.
-(pdftex.def)             Requested size: 500.00797pt x 500.03369pt.
+Package pdftex.def Info: img/pol1/9.png  used on input line 896. on input line 
+896.
+Package pdftex.def Info: Requested size: 500.00797pt x 500.03369pt on input lin
+e 896.
 
 Overfull \hbox (30.25298pt too wide) in paragraph at lines 896--897
  [][] 
@@ -3648,82 +3857,109 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 2330.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 2330.
-File: img/pol2/1.png Graphic file (type png)
-<use img/pol2/1.png>
-Package pdftex.def Info: img/pol2/1.png  used on input line 2333.
-(pdftex.def)             Requested size: 500.01184pt x 500.01143pt.
+<img/pol3/1.png, id=2649, 421.575pt x 316.18124pt>
+File: img/pol3/1.png Graphic file (type png)
+<use img/pol3/1.png>
+Package pdftex.def Info: img/pol3/1.png  used on input line 2333. on input line
+ 2333.
+Package pdftex.def Info: Requested size: 500.00797pt x 500.03369pt on input lin
+e 2333.
 
-Overfull \hbox (30.25685pt too wide) in paragraph at lines 2333--2334
+Overfull \hbox (30.25298pt too wide) in paragraph at lines 2333--2334
  [][] 
  []
 
-File: img/pol2/2.png Graphic file (type png)
-<use img/pol2/2.png>
-Package pdftex.def Info: img/pol2/2.png  used on input line 2339.
-(pdftex.def)             Requested size: 500.01184pt x 500.01143pt.
+<img/pol3/2.png, id=2650, 1028.34187pt x 520.19344pt>
+File: img/pol3/2.png Graphic file (type png)
+<use img/pol3/2.png>
+Package pdftex.def Info: img/pol3/2.png  used on input line 2339. on input line
+ 2339.
+Package pdftex.def Info: Requested size: 500.00052pt x 499.99915pt on input lin
+e 2339.
 
-Overfull \hbox (30.25685pt too wide) in paragraph at lines 2339--2340
+Overfull \hbox (30.24553pt too wide) in paragraph at lines 2339--2340
  [][] 
  []
 
-File: img/pol2/3.png Graphic file (type png)
-<use img/pol2/3.png>
-Package pdftex.def Info: img/pol2/3.png  used on input line 2345.
-(pdftex.def)             Requested size: 500.01184pt x 500.01143pt.
+<img/pol3/3.png, id=2651, 421.575pt x 316.18124pt>
+File: img/pol3/3.png Graphic file (type png)
+<use img/pol3/3.png>
+Package pdftex.def Info: img/pol3/3.png  used on input line 2345. on input line
+ 2345.
+Package pdftex.def Info: Requested size: 500.00797pt x 500.03369pt on input lin
+e 2345.
 
-Overfull \hbox (30.25685pt too wide) in paragraph at lines 2345--2346
+Overfull \hbox (30.25298pt too wide) in paragraph at lines 2345--2346
  [][] 
  []
 
-File: img/pol2/4.png Graphic file (type png)
-<use img/pol2/4.png>
-Package pdftex.def Info: img/pol2/4.png  used on input line 2351.
-(pdftex.def)             Requested size: 500.01184pt x 500.01143pt.
+<img/pol3/4.png, id=2652, 421.575pt x 316.18124pt>
+File: img/pol3/4.png Graphic file (type png)
+<use img/pol3/4.png>
+Package pdftex.def Info: img/pol3/4.png  used on input line 2351. on input line
+ 2351.
+Package pdftex.def Info: Requested size: 500.00797pt x 500.03369pt on input lin
+e 2351.
 
-Overfull \hbox (30.25685pt too wide) in paragraph at lines 2351--2352
+Overfull \hbox (30.25298pt too wide) in paragraph at lines 2351--2352
  [][] 
  []
 
-File: img/pol2/5.png Graphic file (type png)
-<use img/pol2/5.png>
-Package pdftex.def Info: img/pol2/5.png  used on input line 2357.
-(pdftex.def)             Requested size: 500.01184pt x 500.01143pt.
+<img/pol3/5.png, id=2653, 421.575pt x 316.18124pt>
+File: img/pol3/5.png Graphic file (type png)
+<use img/pol3/5.png>
+Package pdftex.def Info: img/pol3/5.png  used on input line 2357. on input line
+ 2357.
+Package pdftex.def Info: Requested size: 500.00797pt x 500.03369pt on input lin
+e 2357.
 
-Overfull \hbox (30.25685pt too wide) in paragraph at lines 2357--2358
+Overfull \hbox (30.25298pt too wide) in paragraph at lines 2357--2358
  [][] 
  []
 
-File: img/pol2/6.png Graphic file (type png)
-<use img/pol2/6.png>
-Package pdftex.def Info: img/pol2/6.png  used on input line 2363.
-(pdftex.def)             Requested size: 500.01184pt x 500.01143pt.
+<img/pol3/6.png, id=2654, 421.575pt x 316.18124pt>
+File: img/pol3/6.png Graphic file (type png)
+<use img/pol3/6.png>
+Package pdftex.def Info: img/pol3/6.png  used on input line 2363. on input line
+ 2363.
+Package pdftex.def Info: Requested size: 500.00797pt x 500.03369pt on input lin
+e 2363.
 
-Overfull \hbox (30.25685pt too wide) in paragraph at lines 2363--2364
+Overfull \hbox (30.25298pt too wide) in paragraph at lines 2363--2364
  [][] 
  []
 
-File: img/pol2/7.png Graphic file (type png)
-<use img/pol2/7.png>
-Package pdftex.def Info: img/pol2/7.png  used on input line 2369.
-(pdftex.def)             Requested size: 500.01184pt x 500.01143pt.
+<img/pol3/7.png, id=2655, 485.56406pt x 371.88937pt>
+File: img/pol3/7.png Graphic file (type png)
+<use img/pol3/7.png>
+Package pdftex.def Info: img/pol3/7.png  used on input line 2369. on input line
+ 2369.
+Package pdftex.def Info: Requested size: 499.99579pt x 500.01451pt on input lin
+e 2369.
 
-Overfull \hbox (30.25685pt too wide) in paragraph at lines 2369--2370
+Overfull \hbox (30.2408pt too wide) in paragraph at lines 2369--2370
  [][] 
  []
 
-File: img/pol2/8.png Graphic file (type png)
-<use img/pol2/8.png>
-Package pdftex.def Info: img/pol2/8.png  used on input line 2375.
-(pdftex.def)             Requested size: 500.01184pt x 500.01143pt.
+<img/pol3/8.png, id=2656, 406.51875pt x 295.85532pt>
+File: img/pol3/8.png Graphic file (type png)
+<use img/pol3/8.png>
+Package pdftex.def Info: img/pol3/8.png  used on input line 2375. on input line
+ 2375.
+Package pdftex.def Info: Requested size: 500.02129pt x 500.01753pt on input lin
+e 2375.
 
-Overfull \hbox (30.25685pt too wide) in paragraph at lines 2375--2376
+Overfull \hbox (30.2663pt too wide) in paragraph at lines 2375--2376
  [][] 
  []
 
-File: img/pol1/9.png Graphic file (type png)
-<use img/pol1/9.png>
-Package pdftex.def Info: img/pol1/9.png  used on input line 2381.
-(pdftex.def)             Requested size: 500.00797pt x 500.03369pt.
+<img/pol3/9.png, id=2657, 421.575pt x 316.18124pt>
+File: img/pol3/9.png Graphic file (type png)
+<use img/pol3/9.png>
+Package pdftex.def Info: img/pol3/9.png  used on input line 2381. on input line
+ 2381.
+Package pdftex.def Info: Requested size: 500.00797pt x 500.03369pt on input lin
+e 2381.
 
 Overfull \hbox (30.25298pt too wide) in paragraph at lines 2381--2382
  [][] 
@@ -3778,7 +4014,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 2384.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 2384.
- [42]
+ [42 <./img/pol3/1.png (PNG copy)>]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 2384.
 Package babel Info: Redefining spanish shorthand >>
@@ -3803,7 +4039,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 2384.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 2384.
- [43]
+ [43 <./img/pol3/2.png (PNG copy)>]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 2384.
 Package babel Info: Redefining spanish shorthand >>
@@ -3828,7 +4064,8 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 2384.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 2384.
- [44]
+
+[44 <./img/pol3/3.png (PNG copy)>]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 2384.
 Package babel Info: Redefining spanish shorthand >>
@@ -3853,7 +4090,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 2384.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 2384.
- [45]
+ [45 <./img/pol3/4.png (PNG copy)>]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 2384.
 Package babel Info: Redefining spanish shorthand >>
@@ -3878,7 +4115,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 2384.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 2384.
- [46]
+ [46 <./img/pol3/5.png (PNG copy)>]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 2384.
 Package babel Info: Redefining spanish shorthand >>
@@ -3903,7 +4140,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 2384.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 2384.
- [47]
+ [47 <./img/pol3/6.png (PNG copy)>]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 2384.
 Package babel Info: Redefining spanish shorthand >>
@@ -3928,7 +4165,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 2384.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 2384.
- [48]
+ [48 <./img/pol3/7.png (PNG copy)>]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 2384.
 Package babel Info: Redefining spanish shorthand >>
@@ -3953,7 +4190,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 2384.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 2384.
- [49]
+ [49 <./img/pol3/8.png (PNG copy)>]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 2384.
 Package babel Info: Redefining spanish shorthand >>
@@ -3978,7 +4215,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 2384.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 2384.
- [50]
+ [50 <./img/pol3/9.png (PNG copy)>]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 2385.
 Package babel Info: Redefining spanish shorthand >>
@@ -4004,326 +4241,395 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 2393.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 2396.
+(babel)             in language  on input line 2395.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 2396.
+(babel)             in language  on input line 2395.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 2396.
+(babel)             in language  on input line 2395.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 2396.
+(babel)             in language  on input line 2395.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 2396.
+(babel)             in language  on input line 2395.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 2396.
+(babel)             in language  on input line 2395.
 LaTeX Font Info:    Try loading font information for T1+fvm on input line 2398.
 
-
-(/usr/share/texlive/texmf-dist/tex/latex/bera/t1fvm.fd
+ (d:/Programs/texlive/2017/texmf-dist/tex/latex/bera/t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
 (Font)              scaled to size 8.99994pt on input line 2398.
-
-Overfull \hbox (250.91487pt too wide) in paragraph at lines 2397--2399
-[]$\T1/fvm/m/n/10 https : / / medium . com / @thomascountz / calculate-[]the-[]
-decision-[]boundary-[]of-[]a-[]single-[]perceptron-[]visualizing-[]linear-[]sep
-arability-[]c4d77099ef38$[] 
- []
-
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 2399.
+(babel)             in language  on input line 2400.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 2399.
+(babel)             in language  on input line 2400.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 2399.
+(babel)             in language  on input line 2400.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 2399.
+(babel)             in language  on input line 2400.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 2399.
+(babel)             in language  on input line 2400.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 2399.
+(babel)             in language  on input line 2400.
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 2405.
-LaTeX Font Info:    Try loading font information for TS1+fvm on input line 2410
+nput line 2406.
+LaTeX Font Info:    Try loading font information for TS1+fvm on input line 2411
 .
-(/usr/share/texlive/texmf-dist/tex/latex/bera/ts1fvm.fd
+
+(d:/Programs/texlive/2017/texmf-dist/tex/latex/bera/ts1fvm.fd
 File: ts1fvm.fd 2004/09/07 scalable font definitions for TS1/fvm.
 )
 LaTeX Font Info:    Font shape `TS1/fvm/m/n' will be
-(Font)              scaled to size 8.50006pt on input line 2410.
+(Font)              scaled to size 8.50006pt on input line 2411.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 2428.
+(babel)             in language  on input line 2423.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 2428.
+(babel)             in language  on input line 2423.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 2428.
+(babel)             in language  on input line 2423.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 2428.
+(babel)             in language  on input line 2423.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 2428.
+(babel)             in language  on input line 2423.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 2428.
+(babel)             in language  on input line 2423.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 2428.
+(babel)             in language  on input line 2423.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 2428.
+(babel)             in language  on input line 2423.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 2428.
+(babel)             in language  on input line 2423.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 2428.
+(babel)             in language  on input line 2423.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 2428.
+(babel)             in language  on input line 2423.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 2428.
+(babel)             in language  on input line 2423.
  [51]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 2470.
+(babel)             in language  on input line 2465.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 2470.
+(babel)             in language  on input line 2465.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 2470.
+(babel)             in language  on input line 2465.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 2470.
+(babel)             in language  on input line 2465.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 2470.
+(babel)             in language  on input line 2465.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 2470.
+(babel)             in language  on input line 2465.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 2470.
+(babel)             in language  on input line 2465.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 2470.
+(babel)             in language  on input line 2465.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 2470.
+(babel)             in language  on input line 2465.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 2470.
+(babel)             in language  on input line 2465.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 2470.
+(babel)             in language  on input line 2465.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 2470.
+(babel)             in language  on input line 2465.
  [52]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 2519.
+(babel)             in language  on input line 2514.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 2519.
+(babel)             in language  on input line 2514.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 2519.
+(babel)             in language  on input line 2514.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 2519.
+(babel)             in language  on input line 2514.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 2519.
+(babel)             in language  on input line 2514.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 2519.
+(babel)             in language  on input line 2514.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 2519.
+(babel)             in language  on input line 2514.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 2519.
+(babel)             in language  on input line 2514.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 2519.
+(babel)             in language  on input line 2514.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 2519.
+(babel)             in language  on input line 2514.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 2519.
+(babel)             in language  on input line 2514.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 2519.
- [53]
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 2568.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 2568.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 2568.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 2568.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 2568.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 2568.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 2568.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 2568.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 2568.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 2568.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 2568.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 2568.
+(babel)             in language  on input line 2514.
 
-[54]
+[53]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 2616.
+(babel)             in language  on input line 2563.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 2616.
+(babel)             in language  on input line 2563.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 2616.
+(babel)             in language  on input line 2563.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 2616.
+(babel)             in language  on input line 2563.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 2616.
+(babel)             in language  on input line 2563.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 2616.
+(babel)             in language  on input line 2563.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 2616.
+(babel)             in language  on input line 2563.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 2616.
+(babel)             in language  on input line 2563.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 2616.
+(babel)             in language  on input line 2563.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 2616.
+(babel)             in language  on input line 2563.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 2616.
+(babel)             in language  on input line 2563.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 2616.
+(babel)             in language  on input line 2563.
+ [54]
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 2611.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 2611.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 2611.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 2611.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 2611.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 2611.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 2611.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 2611.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 2611.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 2611.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 2611.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 2611.
  [55]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 2664.
+(babel)             in language  on input line 2660.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 2664.
+(babel)             in language  on input line 2660.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 2664.
+(babel)             in language  on input line 2660.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 2664.
+(babel)             in language  on input line 2660.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 2664.
+(babel)             in language  on input line 2660.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 2664.
+(babel)             in language  on input line 2660.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 2664.
+(babel)             in language  on input line 2660.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 2664.
+(babel)             in language  on input line 2660.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 2664.
+(babel)             in language  on input line 2660.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 2664.
+(babel)             in language  on input line 2660.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 2664.
+(babel)             in language  on input line 2660.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 2664.
+(babel)             in language  on input line 2660.
  [56]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 2713.
+(babel)             in language  on input line 2708.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 2713.
+(babel)             in language  on input line 2708.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 2713.
+(babel)             in language  on input line 2708.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 2713.
+(babel)             in language  on input line 2708.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 2713.
+(babel)             in language  on input line 2708.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 2713.
+(babel)             in language  on input line 2708.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 2713.
+(babel)             in language  on input line 2708.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 2713.
+(babel)             in language  on input line 2708.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 2713.
+(babel)             in language  on input line 2708.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 2713.
+(babel)             in language  on input line 2708.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 2713.
+(babel)             in language  on input line 2708.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 2713.
+(babel)             in language  on input line 2708.
  [57]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 2761.
+(babel)             in language  on input line 2756.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 2761.
+(babel)             in language  on input line 2756.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 2761.
+(babel)             in language  on input line 2756.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 2761.
+(babel)             in language  on input line 2756.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 2761.
+(babel)             in language  on input line 2756.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 2761.
+(babel)             in language  on input line 2756.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 2761.
+(babel)             in language  on input line 2756.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 2761.
+(babel)             in language  on input line 2756.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 2761.
+(babel)             in language  on input line 2756.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 2761.
+(babel)             in language  on input line 2756.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 2761.
+(babel)             in language  on input line 2756.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 2761.
- [58] 
+(babel)             in language  on input line 2756.
+ [58]
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 2816.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 2816.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 2816.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 2816.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 2816.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 2816.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 2816.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 2816.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 2816.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 2816.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 2816.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 2816.
+ [59]
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 2863.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 2863.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 2863.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 2863.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 2863.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 2863.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 2863.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 2863.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 2863.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 2863.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 2863.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 2863.
+ [60]
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 2937.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 2937.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 2937.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 2937.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 2937.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 2937.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 2937.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 2937.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 2937.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 2937.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 2937.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 2937.
+ [61] 
 AED: lastpage setting LastPage
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 2778.
+(babel)             in language  on input line 2985.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 2778.
+(babel)             in language  on input line 2985.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 2778.
+(babel)             in language  on input line 2985.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 2778.
+(babel)             in language  on input line 2985.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 2778.
+(babel)             in language  on input line 2985.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 2778.
+(babel)             in language  on input line 2985.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 2778.
+(babel)             in language  on input line 2985.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 2778.
+(babel)             in language  on input line 2985.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 2778.
+(babel)             in language  on input line 2985.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 2778.
+(babel)             in language  on input line 2985.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 2778.
+(babel)             in language  on input line 2985.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 2778.
-[59]
+(babel)             in language  on input line 2985.
+[62]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 2778.
+(babel)             in language  on input line 2985.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 2778.
+(babel)             in language  on input line 2985.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 2778.
+(babel)             in language  on input line 2985.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 2778.
+(babel)             in language  on input line 2985.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 2778.
+(babel)             in language  on input line 2985.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 2778.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2778.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2778.
+(babel)             in language  on input line 2985.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2985.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2985.
  (./p5.aux
 LaTeX Info: Redefining \. on input line 24.
 LaTeX Info: Redefining \% on input line 24.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2778.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2778.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2985.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2985.
 
 Package rerunfilecheck Info: File `p5.out' has not changed.
 (rerunfilecheck)             Checksum: 25B330F173D4854170381E256575D8C7;1642.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2778.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2985.
  ) 
 Here is how much of TeX's memory you used:
- 15653 strings out of 492982
- 218770 string characters out of 6134895
- 498450 words of memory out of 5000000
- 16345 multiletter control sequences out of 15000+600000
+ 15836 strings out of 492990
+ 222286 string characters out of 6132164
+ 506537 words of memory out of 5000000
+ 16365 multiletter control sequences out of 15000+600000
  39435 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,12n,56p,576b,2069s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/bera/fve
-b8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/bera/fver8a.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb>
-Output written on p5.pdf (59 pages, 3200723 bytes).
+ 41i,12n,56p,717b,2069s stack positions out of 5000i,500n,10000p,200000b,80000s
+{d:/Programs/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}<d:/Programs
+/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/Programs
+/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/Programs
+/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><d:/Programs/
+texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/Programs/t
+exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><d:/Programs/tex
+live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/Programs/tex
+live/2017/texmf-dist/fonts/type1/public/bera/fveb8a.pfb><d:/Programs/texlive/20
+17/texmf-dist/fonts/type1/public/bera/fver8a.pfb><d:/Programs/texlive/2017/texm
+f-dist/fonts/type1/public/bera/fvmr8a.pfb>
+Output written on p5.pdf (62 pages, 3482575 bytes).
 PDF statistics:
- 3746 PDF objects out of 4296 (max. 8388607)
- 3487 compressed objects within 35 object streams
- 2580 named destinations out of 2984 (max. 500000)
- 795 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3961 PDF objects out of 4296 (max. 8388607)
+ 3688 compressed objects within 37 object streams
+ 2737 named destinations out of 2984 (max. 500000)
+ 840 words of extra memory for PDF output out of 10000 (max. 10000000)
 

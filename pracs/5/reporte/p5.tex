@@ -2330,55 +2330,55 @@ Configuración: 80-10-10
 \subsection{Imágenes}
 \begin{figure}[htpb]
 	\centering
-	\includegraphics[width = 500pt, height = 500pt]{pol2/1}
+	\includegraphics[width = 500pt, height = 500pt]{pol3/1}
 	\caption{Gráfica 3.1}
 \end{figure}
 
 \begin{figure}[htpb]
 	\centering
-	\includegraphics[width = 500pt, height = 500pt]{pol2/2}
+	\includegraphics[width = 500pt, height = 500pt]{pol3/2}
 	\caption{Gráfica 3.2}
 \end{figure}
 
 \begin{figure}[htpb]
 	\centering
-	\includegraphics[width = 500pt, height = 500pt]{pol2/3}
+	\includegraphics[width = 500pt, height = 500pt]{pol3/3}
 	\caption{Gráfica 3.3}
 \end{figure}
 
 \begin{figure}[htpb]
 	\centering
-	\includegraphics[width = 500pt, height = 500pt]{pol2/4}
+	\includegraphics[width = 500pt, height = 500pt]{pol3/4}
 	\caption{Gráfica 3.4}
 \end{figure}
 
 \begin{figure}[htpb]
 	\centering
-	\includegraphics[width = 500pt, height = 500pt]{pol2/5}
+	\includegraphics[width = 500pt, height = 500pt]{pol3/5}
 	\caption{Gráfica 3.5}
 \end{figure}
 
 \begin{figure}[htpb]
 	\centering
-	\includegraphics[width = 500pt, height = 500pt]{pol2/6}
+	\includegraphics[width = 500pt, height = 500pt]{pol3/6}
 	\caption{Gráfica 3.6}
 \end{figure}
 
 \begin{figure}[htpb]
 	\centering
-	\includegraphics[width = 500pt, height = 500pt]{pol2/7}
+	\includegraphics[width = 500pt, height = 500pt]{pol3/7}
 	\caption{Gráfica 3.7}
 \end{figure}
 
 \begin{figure}[htpb]
 	\centering
-	\includegraphics[width = 500pt, height = 500pt]{pol2/8}
+	\includegraphics[width = 500pt, height = 500pt]{pol3/8}
 	\caption{Gráfica 3.8}
 \end{figure}
 
 \begin{figure}[htpb]
 	\centering
-	\includegraphics[width = 500pt, height = 500pt]{pol1/9}
+	\includegraphics[width = 500pt, height = 500pt]{pol3/9}
 	\caption{Gráfica 3.9}
 \end{figure}
 \newpage
@@ -2391,17 +2391,18 @@ Para cada uno de los resultados se muestra:
 	\item La gráfica de los vectores de entrada con su target y la frontera de desición final.
 \end{enumerate}
 \section{Conclusiones}
-El perceptrón es la unidad básico de las redes neuronales que se usan hoy en día, su creador,  Frank Rosenblatt,  hizp una muy importante aportación para el campo de las redes neuronales artificiales. 
-La práctica estuvo mucho más corta de lo que esperaba, la regla de aprendizaje es ``magia''. 
+El arte de diseñar y entrenar redes neuronales radica en las pruebas con distintas arquitecturas/configuraciones para resolver un problema en específico, realizar la implementación del programa fue bastante complicado, ya que todos en nuestro equipo teníamos diferentes ideas a implementar, pero al final con un sistema de votos se solucionó, aprendimos a usar el tipo de dato cell, para prealocar espacio. El MLP es la base de las redes neuronales artificales modernas, este sigue siendo usado para resolver muchos problemas, pudimos observar como se comporta con diferentes arquitecturas, funciones de transferencia y configuraciones, una práctica muy interesante y muy difícil de probar.
 \section{Referencias}
-Martin T Hagan. Machine Learning, Neural Network Design (2nd Edition), 2014.\\
-\url{https://medium.com/@thomascountz/calculate-the-decision-boundary-of-a-single-perceptron-visualizing-linear-separability-c4d77099ef38}
+[1] Martin T Hagan. Machine Learning, Neural Network Design (2nd Edition), 2014.\newline
+[2] ``Perceptrón Multicapa'', notas de clase de Neural Networks, Department of Engineering in Computer Systems, Escuela Superior de Cómputo, 2017.\newline
+[3] Math Works, “MATLAB”. Disponible en: \url{https://es.mathworks.com/products/matlab}.
+
 \section{Apéndice}
 \begin{lstlisting}[
 style=Matlab-editor,
 basicstyle=\mlttfamily,
 escapechar=`,
-caption={Código},
+caption={mlp.m},
 ]
 clc
 clear
@@ -2412,7 +2413,7 @@ inputs_path = strcat(input('Ingrese el nombre del archivo de inputs sin la exten
 inputs = importdata(inputs_path);
 
 % Read the targets
-targets_file = strcat(input('Ingrese el nombre del archivo de targets sin la extensión: ','s'), '.txt');
+targets_path = strcat(input('Ingrese el nombre del archivo de targets sin la extensión: ','s'), '.txt');
 %targets_path = 'targets.txt';
 targets = importdata(targets_path);
 
@@ -2538,6 +2539,9 @@ fprintf(b_files(num_b_files), '%f\r\n', b_r_value(j));
 num_b_files = num_b_files + 1;
 end
 end
+
+
+
 
 % Learning algorithm
 num_validation_epoch = 0;
@@ -2771,8 +2775,211 @@ b_aux = cell2mat(b(i));
 res_bias = strcat(path, '/bias.txt');
 dlmwrite(res_bias, b_aux, ';');
 end
+\end{lstlisting}
 
+\begin{lstlisting}[
+style=Matlab-editor,
+basicstyle=\mlttfamily,
+escapechar=`,
+caption={bias\_evolution\_plot.m},
+]
+function bias_evolution_plot(architecture, num_layers, epoch)
+num_epochs = 0:1:epoch;
+for i=1:num_layers
+figure('Name', sprintf('Evolución de bias capa %d', i), 'NumberTitle', 'off')
+path = strcat(pwd, '/historico/capa_', num2str(i), '/bias/');
+for j=1:architecture(i+1)
+file = strcat(path,'/bias',num2str(j),'.txt');
+identifier = strcat('b(',num2str(j),')');
+evolution = importdata(file);
+plot(num_epochs, evolution', 'DisplayName', identifier);
+hold on
+grid on
+end
+title(sprintf('Evolución de bias capa %d', i));
+ylabel('Valor');
+xlabel('Epoch');
+title(legend('show', 'Location', 'northwestoutside'), 'Leyenda');
+hold off
+end
+end
+\end{lstlisting}
+
+\begin{lstlisting}[
+style=Matlab-editor,
+basicstyle=\mlttfamily,
+escapechar=`,
+caption={dataset\_slices.m},
+]
+function [training_ds, test_ds, validation_ds] = dataset_slices (opcion, inputs, targets)
+% Get the data size
+num_data = size (inputs, 1)
+% COnfiguration options
+if opcion == 1
+training_num = ceil (num_data * .8);
+test_num = floor (num_data * 0.1 );
+validation_num =  floor (num_data * 0.1);
+else
+training_num = ceil (num_data * 0.7)
+test_num = floor (num_data * 0.15)
+validation_num =  floor (num_data * 0.15)
+end
+% Initialize the datasets
+training_ds = zeros (training_num, 2);
+test_ds = zeros (test_num, 2);
+validation_ds = zeros (validation_num, 2);
+a1 = 2:ceil(num_data / validation_num):num_data-1
+aux = setdiff(1:num_data, a1);
+j = 2;
+a2 = [];
+increment = ceil(size(aux, 2) / test_num);
+for i=1:test_num
+if (j < size(aux, 2))
+a2 = [a2, aux(j)];
+else
+a2 = [a2, aux(end - 1)];
+end
+j = j + increment;
+end
+a2
+a3 = setdiff(aux, a2)
+
+% Validation Slice
+for i = 1:size(a1, 2)
+validation_ds (i, 1) = inputs(a1(i));
+validation_ds (i, 2) = targets(a1(i));
+end    
+
+% test Slice
+for i = 1:size(a2, 2)
+test_ds (i, 1) = inputs(a2(i));
+test_ds (i, 2) = targets(a2(i));
+end   
+
+
+% training Slice
+for i = 1:size(a3, 2)
+training_ds(i, 1) = inputs(a3(i));
+training_ds(i, 2) = targets(a3(i));
+end  
+end
+
+\end{lstlisting}
+
+\begin{lstlisting}[
+style=Matlab-editor,
+basicstyle=\mlttfamily,
+escapechar=`,
+caption={get\_activation\_function.m},
+]
+function a = get_activation_function(n, config)
+if (config == 1)
+a = purelin(n);
+elseif (config == 2)
+a = logsig(n);
+else
+a = tansig(n);
+end
+end
+\end{lstlisting}
+
+
+\begin{lstlisting}[
+style=Matlab-editor,
+basicstyle=\mlttfamily,
+escapechar=`,
+caption={get\_F\_matrix.m},
+]
+function F = get_F_matrix(option, total_neurons, a)
+if (option == 1)
+F = diag(ones(1, total_neurons));
+elseif (option == 2)
+F = diag(logsig('dn', a, a));
+else
+F = diag(tansig('dn', a, a));
+end
+end
+
+\end{lstlisting}
+
+\begin{lstlisting}[
+style=Matlab-editor,
+basicstyle=\mlttfamily,
+escapechar=`,
+caption={scatter\_output\_vs\_test.m},
+]
+function scatter_output_vs_test(test_ds, output)
+% Targets vs MLP output PLOT
+figure('Name','Targets del dataset de prueba vs Output', 'NumberTitle', 'off')
+grid on
+hold on
+title('Targets del dataset de prueba vs Output');
+ylabel('G(p)');
+xlabel('rango de la señal');
+signal_range = test_ds(:, 1);
+% targets
+scatter(signal_range,test_ds(:,2), 'd', 'MarkerEdgeColor', 'black');
+% outputs
+scatter(signal_range, output, 5, 'MarkerFaceColor', 'blue', 'MarkerEdgeColor', 'blue' ); 
+title(legend('Target', 'Output', 'Location', 'northwestoutside'),'Leyenda');
+hold off
+end
+\end{lstlisting}
+
+\begin{lstlisting}[
+style=Matlab-editor,
+basicstyle=\mlttfamily,
+escapechar=`,
+caption={scatter\_output\_vs\_training.m},
+]
+function scatter_output_vs_training(training_ds, output)
+% Targets vs MLP output PLOT
+figure('Name','Targets del dataset de entrenamiento vs Output', 'NumberTitle', 'off')
+grid on
+hold on
+title('Targets del dataset de entrenamiento vs Output');
+ylabel('G(p)');
+xlabel('rango de la señal');
+signal_range = training_ds(:, 1);
+% targets
+scatter(signal_range, training_ds(:,2), 'd', 'MarkerEdgeColor', 'black');
+% outputs
+scatter(signal_range, output, 5, 'MarkerFaceColor', 'blue', 'MarkerEdgeColor', 'blue' ); 
+title(legend('Target', 'Output', 'Location', 'northwestoutside'),'Leyenda');
+hold off
+end
 
 
 \end{lstlisting}
+
+\begin{lstlisting}[
+style=Matlab-editor,
+basicstyle=\mlttfamily,
+escapechar=`,
+caption={weight\_evolution\_plot.m},
+]
+function weight_evolution_plot(architecture, num_layers, epoch)
+num_epochs = 0:1:epoch;
+for i=1:num_layers
+figure('Name',sprintf('Evolución de pesos capa %d', i), 'NumberTitle', 'off')
+path = strcat(pwd, '/historico/capa_', num2str(i), '/pesos/');
+for j = 1:architecture(i + 1)
+for k = 1:architecture(i)
+W_file = strcat(path, '/pesos',num2str(j), '_', num2str(k), '.txt');
+identifier = strcat('W(',num2str(j),',',num2str(k),')');
+evolution = importdata(W_file);
+plot(num_epochs, evolution', 'DisplayName', identifier);
+hold on
+grid on
+end
+end
+title(sprintf('Evolución de pesos capa %d', i));
+xlabel('Epoch');
+ylabel('Valor');
+title(legend('show', 'Location', 'northwestoutside'), 'Leyenda');
+hold off
+end
+end
+\end{lstlisting}
+
 \end{document}

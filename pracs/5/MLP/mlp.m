@@ -134,6 +134,9 @@ for i=1:num_layers
     end
 end
 
+
+
+
 % Learning algorithm
 num_validation_epoch = 0;
 early_stopping_increment = 0;
